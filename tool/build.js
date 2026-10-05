@@ -35,10 +35,13 @@ body{margin:0;background:#888;font-family:"NKR",sans-serif;color:var(--ink);font
 @page{size:A4;margin:0}
 @media print{body{background:none}.page{margin:0;page-break-after:always;break-after:page}}
 .hdr{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px solid var(--blue);padding-bottom:5px;margin-bottom:10px}
-.hdr .l{font-size:9.5pt;color:#5a6b85}.hdr .t{font-size:16pt;font-weight:700;line-height:1.25;color:#1d3f7a}
+.hdr .hl{display:flex;align-items:center;gap:4mm}
+.hdr .logo{width:45mm;height:13mm;overflow:hidden;flex:none}
+.hdr .logo img{width:56mm;margin:-6.2mm 0 0 -5.6mm;display:block}
+.hdr .l{font-size:9.5pt;color:#5a6b85}.hdr .t{font-size:15pt;font-weight:700;line-height:1.25;color:#1d3f7a;word-break:keep-all}
 .hdr .r{font-size:10.5pt;text-align:right;color:#3a4a66;white-space:nowrap}
 .hdr .r span{display:inline-block;border-bottom:1px solid #3a4a66;min-width:34mm;margin-left:4px}
-.box{border:1.5px solid #e2c98a;background:var(--cream);border-radius:6px;padding:8px 12px;margin-bottom:12px;font-size:11.5pt;line-height:1.7}
+.box{word-break:keep-all;border:1.5px solid #e2c98a;background:var(--cream);border-radius:6px;padding:8px 12px;margin-bottom:12px;font-size:11.5pt;line-height:1.7}
 .box .cap{font-size:9pt;color:#8a6d2b;margin-bottom:4px}
 .box .ttl{font-weight:700;text-align:center;margin-bottom:3px;color:#5c4511}
 .box .ref{font-weight:700;color:#5c4511}
@@ -50,7 +53,7 @@ h2{font-size:13pt;margin:var(--h2);padding:3px 12px;color:#fff;display:inline-bl
 .c-violet .flow .c,.c-violet .flow .a{border-color:var(--violet);color:var(--violet)}.c-orange .flow .c,.c-orange .flow .a{border-color:var(--orange);color:var(--orange)}
 .c-green .flow .c,.c-green .flow .a{border-color:var(--green);color:var(--green)}.c-rose .flow .c,.c-rose .flow .a{border-color:var(--rose);color:var(--rose)}
 .c-teal .tip{background:var(--teal-l)}.c-blue .tip{background:var(--blue-l)}.c-violet .tip{background:var(--violet-l)}.c-orange .tip{background:var(--orange-l)}.c-green .tip{background:var(--green-l)}.c-rose .tip{background:var(--rose-l)}
-.q{margin:0 0 var(--qm) 0;padding-left:1.8em;text-indent:-1.8em}
+.q{margin:0 0 var(--qm) 0;padding-left:1.8em;text-indent:-1.8em;word-break:keep-all}
 .q .n{font-weight:700;display:inline-block;width:1.8em;text-indent:0}
 .ch{margin:2px 0 0 1.8em;text-indent:0;display:flex;flex-wrap:wrap;gap:2px 18px}
 .bl{display:inline-block;border-bottom:1px solid var(--ink);min-width:28mm;height:1.1em;vertical-align:bottom}
@@ -157,7 +160,10 @@ function renderWriting(w) {
 function build(spec) {
   qn = 0;
   const total = spec.pages.length;
-  const hdr = (i) => `<div class="hdr"><div><div class="l">${esc(spec.academy||'[학원명]')} ${esc(spec.course||'초등논술')} · ${esc(spec.grade||'')}</div><div class="t">${esc(spec.title)}</div></div>
+  const logoSrc = spec.logo === false ? null : (spec.logo || (fs.existsSync(path.join(__dirname,'logo.jpg')) ? 'logo.jpg' : null));
+  const logo = logoSrc ? `<div class="logo"><img src="logo.jpg"></div>` : '';
+  const acad = logoSrc ? '' : esc(spec.academy||'[학원명]')+' ';
+  const hdr = (i) => `<div class="hdr"><div class="hl">${logo}<div><div class="l">${acad}${esc(spec.course||'초등논술')} · ${esc(spec.grade||'')}</div><div class="t">${esc(spec.title)}</div></div></div>
    <div class="r">이름<span></span>${i===0?'<br>날짜 <span style="min-width:40mm"></span>':''}</div></div>`;
   const pages = spec.pages.map((pg, i) => {
     const sp = SPACING[pg.spacing||'normal'] || SPACING.normal;
@@ -179,6 +185,7 @@ async function main() {
   const out = path.join(ROOT, 'output', slug);
   fs.mkdirSync(out, { recursive: true });
   for (const f of ['kr400.woff2','kr700.woff2']) fs.copyFileSync(path.join(__dirname, f), path.join(out, f));
+  if (spec.logo !== false) { const lp = spec.logo ? path.resolve(ROOT, spec.logo) : path.join(__dirname,'logo.jpg'); if (fs.existsSync(lp)) fs.copyFileSync(lp, path.join(out,'logo.jpg')); }
   const html = build(spec);
   const htmlPath = path.join(out, 'worksheet.html');
   fs.writeFileSync(htmlPath, html);
