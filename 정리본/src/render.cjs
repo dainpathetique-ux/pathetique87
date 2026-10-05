@@ -52,6 +52,10 @@ doc = doc.replace(/\{\{W:([a-z0-9]+)\}\}/g, (m,id) => { if(!html[id]){ missing.p
 const unused = [...ids].filter(id => !doc.includes(html[id]));
 if (missing.length) console.log('MISSING tokens:', missing.join(','));
 if (unused.length) console.log('UNUSED items:', unused.join(','));
+// 가독성 후처리: 어법/어휘/빈칸 블록을 줄 단위로 나누고, 오답 표시 ×와 ★을 강조
+doc = doc.replace(/<div class="mc">([\s\S]*?)<\/div>/g, (m, inner) =>
+  '<div class="mc">' + inner.split('<span class="sep">|</span>').map(s => '<div class="mcl">' + s.trim() + '</div>').join('') + '</div>');
+doc = doc.replace(/×/g, '<span class="x">×</span>').replace(/★/g, '<span class="st">★</span>');
 fs.writeFileSync('main.html', doc);
 console.log('main.html written', doc.length);
 

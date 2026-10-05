@@ -1,13 +1,13 @@
 # 경화여고 2학년 2학기 중간고사 영어 대비 통합 정리본
 
-- `경화여고_2-2_중간_영어_통합정리본.pdf` — A4 13쪽, 2단, Noto Sans KR 내장. 학원 내부 수업용(외부 배포 금지).
+- `경화여고_2-2_중간_영어_통합정리본.pdf` — A4 14쪽, 2단, Noto Sans KR 내장. 학원 내부 수업용(외부 배포 금지).
 - `src/` — 조판 원본(HTML)과 서술형 문항 데이터·검증 스크립트.
 
 ## 다시 만들기
 
 ```
 cd src
-# 글꼴: fonts/NotoSansKR-Regular.otf, fonts/NotoSansKR-Bold.otf 를 넣는다
+# 글꼴: fonts/NotoSansKR-Regular.otf, -Medium.otf, -Bold.otf 를 넣는다
 #   (https://github.com/notofonts/noto-cjk → Sans/SubsetOTF/KR/).
 #   Windows에서는 head.html의 @font-face 두 줄을 지우고 font-family를 "Malgun Gothic"으로 바꿔도 된다.
 node render.cjs          # 서술형 문항 검증(verify_report.txt) + main.html 조립
