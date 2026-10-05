@@ -98,6 +98,13 @@ def build(P, guides=True, scale_px=15):
     ry=P['tag_y']-P['tag_em']*0.33
     L.append(f'<line x1="{P["word_x"]+0.4+w+2.2:.3f}" y1="{ry:.3f}" x2="{P["rule_x2"]}" y2="{ry:.3f}" stroke="{SAGE2}" stroke-width="0.4" stroke-linecap="round"/>')
     t,_=text_path('English & Korean Academy',F_MED,P['eng_em'],P['word_x']+0.5,P['eng_y'],SAGE2); L.append(t)
+    # course pills
+    px=P['pill_x']; py=P['pill_y']; ph=P['pill_h']; pad=P['pill_pad']
+    for label in P['pills']:
+        tw=text_width(label,F_BOLD,P['pill_em'])
+        L.append(f'<rect x="{px:.3f}" y="{py:.3f}" width="{tw+2*pad:.3f}" height="{ph}" rx="{ph/2}" fill="{ORANGE}"/>')
+        t,_=text_path(label,F_BOLD,P['pill_em'],px+pad,py+ph/2+P['pill_em']*0.36,BG_HEX); L.append(t)
+        px+=tw+2*pad+P['pill_gap']
     # contact block
     L.append(icon(ICON_CALL,P['c_x'],P['ph_y']-P['ph_em']*0.78,P['ph_em']*0.8,ORANGE))
     t,w=text_path('0507-1362-0003',F_XB,P['ph_em'],P['c_x']+P['ph_em']*1.05,P['ph_y'],WHITE,tracking=0.0); L.append(t)
@@ -124,11 +131,12 @@ def build(P, guides=True, scale_px=15):
     svg=svg.replace('href=','xlink:href=')
     return svg
 
-P=dict(sym_x=4.3, sym_y=3.0, sym_h=21.5,
-       word_x=28.8, word_y=5.4, word_w=34.5,
-       tag_em=3.9, tag_y=20.9, rule_x2=75.5, eng_em=2.5, eng_y=24.6,
-       c_x=5.0, ph_em=4.9, ph_y=35.6, loc_em=3.6, loc_y=43.2,
-       qr_w=17.5, qr_x=59.3, qr_y=27.9, qr_quiet=1.0, lab_em=2.25, lab_gap=0.35)
+P=dict(sym_x=4.3, sym_y=3.0, sym_h=20.5,
+       word_x=28.0, word_y=4.8, word_w=34.0,
+       tag_em=3.8, tag_y=20.0, rule_x2=75.5, eng_em=2.4, eng_y=23.5,
+       pills=['초등 논술','중고등 내신·수능 대비'], pill_x=5.0, pill_y=25.9, pill_h=3.6, pill_pad=1.7, pill_gap=1.6, pill_em=2.45,
+       c_x=5.0, ph_em=4.9, ph_y=37.3, loc_em=3.6, loc_y=44.6,
+       qr_w=16.4, qr_x=60.5, qr_y=29.5, qr_quiet=1.0, lab_em=2.2, lab_gap=0.3)
 if __name__=='__main__':
     out=sys.argv[1] if len(sys.argv)>1 else 'preview'
     svg=build(P,guides=True); open(f'{out}_guides.svg','w').write(svg)
