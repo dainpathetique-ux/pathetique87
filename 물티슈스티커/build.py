@@ -54,7 +54,8 @@ def font(path):
     return _fonts[path]
 F_ROUND='fonts/nanum/usr/share/fonts/truetype/nanum/NanumSquareRoundB.ttf'
 F_ROUNDR='fonts/nanum/usr/share/fonts/truetype/nanum/NanumSquareRoundR.ttf'
-F_BOLD='fonts/nkr700.ttf'; F_LIGHT='fonts/nkr350.ttf'
+F_BOLD='fonts/nkr700.ttf'; F_LIGHT='fonts/nkr350.ttf'; F_MED='fonts/nkr500.ttf'; F_XB='fonts/nkr800.ttf'; F_BLK='fonts/nkr900.ttf'
+TAG='#EAF0E0'; SAGE2='#BFCDAB'
 def text_width(s, fp, em):
     f,gs,cmap,upm,hmtx=font(fp); return sum(hmtx[cmap.get(ord(c),'.notdef')][0] for c in s)/upm*em
 def text_path(s, fp, em, x, y, fill, anchor='start', tracking=0.0):
@@ -93,21 +94,21 @@ def build(P, guides=True, scale_px=15):
     wh=P['word_w']*WORD_SZ[1]/WORD_SZ[0]
     L.append(f'<image x="{P["word_x"]}" y="{P["word_y"]}" width="{P["word_w"]}" height="{wh:.3f}" href="{WORD}"/>')
     # tagline + rule + english
-    t,w=text_path('영어 국어 학원',F_ROUND,P['tag_em'],P['word_x']+0.4,P['tag_y'],SAGE,tracking=0.25); L.append(t)
+    t,w=text_path('영어 국어 학원',F_ROUND,P['tag_em'],P['word_x']+0.4,P['tag_y'],TAG,tracking=0.3); L.append(t)
     ry=P['tag_y']-P['tag_em']*0.33
-    L.append(f'<line x1="{P["word_x"]+0.4+w+2.2:.3f}" y1="{ry:.3f}" x2="{P["rule_x2"]}" y2="{ry:.3f}" stroke="{SAGE}" stroke-width="0.35" stroke-linecap="round"/>')
-    t,_=text_path('English & Korean Academy',F_LIGHT,P['eng_em'],P['word_x']+0.5,P['eng_y'],SAGE); L.append(t)
+    L.append(f'<line x1="{P["word_x"]+0.4+w+2.2:.3f}" y1="{ry:.3f}" x2="{P["rule_x2"]}" y2="{ry:.3f}" stroke="{SAGE2}" stroke-width="0.4" stroke-linecap="round"/>')
+    t,_=text_path('English & Korean Academy',F_MED,P['eng_em'],P['word_x']+0.5,P['eng_y'],SAGE2); L.append(t)
     # contact block
     L.append(icon(ICON_CALL,P['c_x'],P['ph_y']-P['ph_em']*0.78,P['ph_em']*0.8,ORANGE))
-    t,w=text_path('0507-1362-0003',F_BOLD,P['ph_em'],P['c_x']+P['ph_em']*1.05,P['ph_y'],WHITE,tracking=0.05); L.append(t)
+    t,w=text_path('0507-1362-0003',F_XB,P['ph_em'],P['c_x']+P['ph_em']*1.05,P['ph_y'],WHITE,tracking=0.0); L.append(t)
     L.append(icon(ICON_PIN,P['c_x']+0.1,P['loc_y']-P['loc_em']*0.86,P['loc_em']*0.95,ORANGE))
-    t,w2=text_path('SK · 땅스부대찌개 건물 3층',F_ROUND,P['loc_em'],P['c_x']+P['ph_em']*1.05,P['loc_y'],WHITE); L.append(t)
+    t,w2=text_path('SK · 땅스부대찌개 건물 3층',F_BOLD,P['loc_em'],P['c_x']+P['ph_em']*1.05,P['loc_y'],WHITE); L.append(t)
     # QR box with integrated label
     qw=P['qr_w']; qx=P['qr_x']; qy=P['qr_y']; qq=P['qr_quiet']; inner=qw-2*qq
-    qh=qq+inner+P['lab_gap']+P['lab_em']*0.95+qq*0.9
+    qh=qq+inner+P['lab_gap']+P['lab_em']*0.95+qq*0.8
     L.append(f'<rect x="{qx}" y="{qy}" width="{qw}" height="{qh:.3f}" rx="1.3" fill="{WHITE}"/>')
     q,n=qr_svg('https://m.site.naver.com/2hV5o',qx+qq,qy+qq,inner,BG_HEX); L.append(q)
-    t,_=text_path('카카오톡 상담',F_ROUND,P['lab_em'],qx+qw/2,qy+qq+inner+P['lab_gap']+P['lab_em']*0.78,BG_HEX,anchor='middle',tracking=0.05); L.append(t)
+    t,_=text_path('카카오톡 상담',F_BOLD,P['lab_em'],qx+qw/2,qy+qq+inner+P['lab_gap']+P['lab_em']*0.78,BG_HEX,anchor='middle',tracking=0.05); L.append(t)
     design='<g id="design">'+''.join(L)+'</g>'
     G=''
     if guides:
@@ -123,15 +124,15 @@ def build(P, guides=True, scale_px=15):
     svg=svg.replace('href=','xlink:href=')
     return svg
 
-P=dict(sym_x=4.3, sym_y=3.3, sym_h=23.0,
-       word_x=30.0, word_y=6.4, word_w=36.0,
-       tag_em=3.6, tag_y=22.4, rule_x2=75.5, eng_em=2.45, eng_y=26.2,
-       c_x=5.0, ph_em=4.8, ph_y=35.8, loc_em=3.5, loc_y=42.9,
-       qr_w=15.4, qr_x=61.2, qr_y=29.9, qr_quiet=1.1, lab_em=2.3, lab_gap=0.5)
+P=dict(sym_x=4.3, sym_y=3.0, sym_h=21.5,
+       word_x=28.8, word_y=5.4, word_w=34.5,
+       tag_em=3.9, tag_y=20.9, rule_x2=75.5, eng_em=2.5, eng_y=24.6,
+       c_x=5.0, ph_em=4.9, ph_y=35.6, loc_em=3.6, loc_y=43.2,
+       qr_w=17.5, qr_x=59.3, qr_y=27.9, qr_quiet=1.0, lab_em=2.25, lab_gap=0.35)
 if __name__=='__main__':
     out=sys.argv[1] if len(sys.argv)>1 else 'preview'
     svg=build(P,guides=True); open(f'{out}_guides.svg','w').write(svg)
-    cairosvg.svg2png(bytestring=svg.encode(), write_to=f'{out}_guides.png', dpi=96*15/3.7795)  # 15 px/mm
+    cairosvg.svg2png(bytestring=svg.encode(), write_to=f'{out}_guides.png', dpi=96*20/3.7795)
     svg2=build(P,guides=False); open(f'{out}_clean.svg','w').write(svg2)
-    cairosvg.svg2png(bytestring=svg2.encode(), write_to=f'{out}_clean.png', dpi=96*15/3.7795)
+    cairosvg.svg2png(bytestring=svg2.encode(), write_to=f'{out}_clean.png', dpi=96*20/3.7795)
     print('done')
