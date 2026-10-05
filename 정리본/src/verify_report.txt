@@ -1,0 +1,60 @@
+OK l1p1  | The two women went from home to home (collect) samples from the sick children by lamplight. => collecting
+OK l1p2  | Although the cause of pertussis had been identified in 1906, every vaccine developed over the next 20 years proved ineffective.
+OK l1p3  | Although funding was scarce, the hardships they faced never kept them from pursuing their goal.
+OK l1p4  | To make sure the vaccine was safe, they tested it on themselves before any clinical trial.
+OK l1p5  | A: How did they finally run a large-scale trial? — B: Thanks to the First Lady, the two scientists obtained enough funds to run a large-scale trial.
+OK l1p6  | Soon after the vaccine was added to the list of recommended immunizations, there was a dramatic (d______) in whooping cough infections. => decline
+OK l1p7  | Had they taken out a patent, the two could have made a fortune, but they chose not to.
+OK l2p1  | Contrary to common perception, ordinary people are able to contribute to scientific progress.
+OK l2p2  | It took Schawinski a whole week (classify) just 50,000 galaxies. => to classify
+OK l2p3  | Lintott suggested that Schawinski (turn) to the Internet for help. => turn
+OK l2p4  | Without the help of those participants, it would have taken Schawinski decades to finish the job.
+OK l2p5  | Not knowing what the lights were, the group named the phenomenon after a movie scene.
+OK l2p6  | Experts agree that it is the aurora chasers that deserve the credit for the discovery.
+OK l2p7  | Even without a science degree, anyone who is curious can contribute to science.
+OK b111  | What researchers want to know is how the two abilities complement each other.
+OK b112  | Intimacy fails to develop when only one person reveals personal information.
+OK b113  | Hotter summers make it harder for young spruce to take root after a fire.
+OK b114  | Doctors never expected him to survive the accident, yet he lived for several more years.
+OK b121  | Only by boat or seaplane can visitors reach the remote park.
+OK b122  | When threatened, the toad turns its body so that the venom glands behind its eyes directly face the enemy.
+OK b123  | Her father’s belief in equality allowed her to grow up free from traditional expectations.
+OK b124  | Because they get most of the moisture they need from their food, steenboks seldom drink.
+OK b141  | Once content went digital, it could be delivered in thousands of ways.
+OK b142  | Sarcasm lets people express displeasure without being criticized for it.
+OK b143  | Rising demand for dairy in China could cause prices in other countries to rise.
+OK b144  | To shrink demand, marketers may move a product to a shelf where it is less visible.
+OK b151  | The host family felt insulted because knives stand for ending a relationship rather than beginning one.
+OK b152  | Sharks have survived because their brains are perfectly suited to how they live.
+OK b153  | Not until 1500 BCE did most of their food come from farming.
+OK b154  | The membrane acts as a gateway through which only selected molecules can pass.
+OK m20   | Only when you are satisfied with your story should you show it to others.
+OK m21   | What seemed urgent last week is not necessarily the priority now.
+OK m22   | Texting while eating can lead to a misunderstood message and an upset stomach.
+OK m23   | In a prelude, tension is created by the ambiguity of the rhythm.
+OK m24   | Attention literacy helps students turn from passive consumers into critical users.
+OK m29   | In the end, inequality leads to crises of the kind we have seen cause populist protests.
+OK m30   | People who feel eco-guilt seek green actions to make up for their guilt.
+OK m31   | The complexity of modern life makes it hard for people to settle down permanently.
+OK m32   | Hotel residents feel uncertain because they are not part of a stable group of neighbors.
+OK m33   | Grieving for what is lost clears the way for a stronger commitment to what remains.
+OK m34   | The obvious convenience of the microwave made it easy to overlook its long-term effects on family life.
+OK m35   | Sensor data can be used to keep the digital twin continuously updated.
+OK m36   | Not only do animals seek out the best locations, but they also anticipate their future needs.
+OK m37   | Collectivist cultures require that speakers limit themselves to indirect expressions.
+OK m38   | If someone is dreading an event, crowding will make the experience even worse.
+OK m39   | Unaddressed exclusion has a strongly negative effect on performance.
+OK m40   | seeing ourselves as people who do good motivates us to do more good later.
+OK m41   | The way choices are presented can strongly influence the decisions people make.
+OK f1a   | In 1932, two bacteriologists, Kendrick and Eldering, (A) began developing a vaccine for whooping cough
+OK f1b   | although (B) funding was extremely limited due to the Depression, and after large-scale trials their vaccine started (C) (distribute) nationwide in 1940.
+OK f1c   | (C) distribute => being distributed
+OK f2a   | A birdwatching app asked ordinary users to (A) upload photos and locations of local birds,
+OK f2b   | and the data they collected (B) allowed scientists to track migration patterns.
+OK f3    | Had it not been for the aurora chasers, STEVE might have remained unnoticed.
+OK f4a   | A: Why did the two scientists refuse to patent their vaccine? — B: They said it (A) had not been created by them alone but with the help of others.
+OK f4b   | A: Then what was their reward? — B: Simply (B) knowing that many lives were being saved.
+OK f5    | Kendrick and Eldering faced a severe lack of (A) f______ for their research, and before the first field test they confirmed that the vaccine had no negative (B) s___ e______. / Galaxy Zoo was a (C) c__________ online project, and visitors were asked to click buttons that described the (D) f_______ of each galaxy. => (A) funding (B) side effects (C) crowdsourced (D) features
+OK f6    | Not until 1500 BCE (A) did most of their food come from farming.
+OK f7    | The short-term convenience of the microwave (A) made it easy to overlook the long-term implications.
+OK f8    | Many studies have shown that not only (A) do animals have a remarkable ability to find the best locations, but that they can anticipate their future needs.
