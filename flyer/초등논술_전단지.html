@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>ON글터 초등부 논술반 전단지 (216x303mm, 재단 210x297mm)</title>
+<link rel="stylesheet" href="assets/nkr.css">
+<style>
+/* ---- 인쇄 규격: 작업 216x303mm / 재단 210x297mm / 재단여백 3mm, 안전 여백은 재단선 안쪽 5mm 이상 ---- */
+:root{
+  --cream:#f7f2e6; --green:#1f3b10; --green-2:#2f5a1e; --green-3:#3f7a2a;
+  --mint:#e3ecd8; --mint-2:#eef3e6; --yellow:#f4cb36; --ink:#1c2217; --ink-2:#3d4637; --ink-3:#5c6655;
+  --line:#dfe4d6;
+}
+@page{size:216mm 303mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:216mm;height:303mm;background:var(--cream)}
+body{font-family:"Noto Sans KR",sans-serif;color:var(--ink);line-height:1.35;word-break:keep-all;-webkit-font-smoothing:antialiased}
+.page{width:216mm;height:303mm;position:relative;overflow:hidden;padding:13mm 15mm 11mm;display:flex;flex-direction:column}
+.page>*{flex:none}
+
+/* 머리글 */
+.top{display:flex;justify-content:space-between;align-items:center;height:16mm;margin-bottom:5mm}
+.top .logo{height:16mm;width:36mm;overflow:hidden;display:flex;align-items:center}
+.top .logo img{width:44mm;margin-left:-4.5mm;display:block}
+.pill{display:inline-flex;align-items:center;gap:2.2mm;background:var(--green);color:#fff;border-radius:99px;padding:0 5.2mm;height:9.4mm;font-size:11.5pt;font-weight:700;letter-spacing:-0.01em}
+.pill i{width:2.6mm;height:2.6mm;border-radius:50%;background:var(--yellow);display:block}
+
+/* 히어로 */
+.hero{background:var(--green);border-radius:7mm;height:93mm;position:relative;overflow:hidden;color:#fff;padding:9mm 0 0 11mm;margin-bottom:6mm}
+.hero .eyebrow{font-size:10pt;letter-spacing:0.32em;color:#d9d1a8;font-weight:500;margin-bottom:5mm}
+.hero h1{font-weight:900;font-size:32pt;line-height:1.16;letter-spacing:-0.015em}
+.hero h1 .y{color:var(--yellow);font-size:37pt;display:inline-block;margin-top:0.5mm}
+.hero .sub{margin-top:5mm;font-size:12.5pt;line-height:1.6;color:#eef0e4;font-weight:400}
+.mock{position:absolute;right:12mm;top:9mm;width:62mm;height:76mm}
+.mock .sheet{position:absolute;width:52mm;height:72mm;background:#fff;border-radius:1.2mm;box-shadow:0 2.5mm 7mm rgba(0,0,0,.35);overflow:hidden}
+.mock .sheet img{width:100%;display:block}
+.mock .s2{right:10mm;top:-2mm;transform:rotate(-8deg);opacity:.92}
+.mock .s1{right:0;top:3mm;transform:rotate(5deg)}
+.badge{position:absolute;left:-5mm;bottom:0;width:22mm;height:22mm;border-radius:50%;background:var(--yellow);color:var(--green);display:flex;align-items:center;justify-content:center;text-align:center;font-weight:900;font-size:12pt;line-height:1.2;box-shadow:0 1.5mm 4mm rgba(0,0,0,.25)}
+
+/* 4단계 */
+.sec-h{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:3mm}
+.sec-h .eb{font-size:8.5pt;letter-spacing:0.28em;color:var(--green-3);font-weight:700;margin-bottom:1.2mm}
+.sec-h h2{font-size:19pt;font-weight:900;letter-spacing:-0.02em;color:var(--ink);line-height:1.2}
+.sec-h .note{font-size:9.5pt;color:var(--ink-3);font-weight:500}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:3.5mm;margin-bottom:5mm}
+.step{background:var(--mint);border-radius:4.5mm;padding:4mm 5mm 4mm;height:28mm;display:flex;flex-direction:column;justify-content:space-between}
+.step .n{font-size:18pt;font-weight:900;color:var(--green-3);line-height:1;letter-spacing:-0.02em}
+.step .t{font-size:12.5pt;font-weight:700;line-height:1.35;color:var(--ink)}
+.step.dark{background:var(--green)}
+.step.dark .n{color:var(--yellow)}
+.step.dark .t{color:#fff}
+
+/* 수업 안내 */
+.info{background:#fff;border-radius:5.5mm;margin-bottom:5mm;overflow:hidden;box-shadow:0 1mm 4mm rgba(31,59,16,.06)}
+.info .row1{display:grid;grid-template-columns:1fr 1.25fr;border-bottom:1.5px solid var(--line)}
+.info .row1>div{padding:4mm 7mm;display:flex;align-items:baseline;gap:3.5mm}
+.info .row1>div+div{border-left:1.5px solid var(--line)}
+.lab{font-size:10pt;font-weight:700;color:var(--green-3);letter-spacing:-0.01em;white-space:nowrap}
+.big{font-size:17pt;font-weight:900;color:var(--ink);letter-spacing:-0.02em;line-height:1}
+.small{font-size:10.5pt;color:var(--ink-2);font-weight:500}
+.info .row2{padding:4mm 7mm 4.5mm}
+.info .row2 .lab{display:block;margin-bottom:2.5mm}
+.sched{display:grid;grid-template-columns:1fr 1fr;gap:4.5mm}
+.sc{background:var(--mint-2);border-radius:3.5mm;padding:3.5mm 5.5mm 4mm;min-height:20mm}
+.sc .d{display:flex;align-items:center;gap:3mm;margin-bottom:2.5mm}
+.sc .day{font-size:15pt;font-weight:900;color:var(--ink);letter-spacing:-0.01em;line-height:1}
+.tag{display:inline-block;background:var(--yellow);color:var(--green);font-size:9.5pt;font-weight:700;border-radius:99px;padding:0 3.2mm;height:6.3mm;line-height:6.3mm;white-space:nowrap}
+.sc .time{font-size:16pt;font-weight:900;color:var(--green-2);letter-spacing:-0.02em;line-height:1.15}
+.sc .time b{color:var(--green-3)}
+.sc .memo{margin-top:2.2mm;font-size:10pt;color:var(--ink-2);font-weight:500}
+
+/* 상담 */
+.contact{display:flex;justify-content:space-between;align-items:center;margin-bottom:auto}
+.contact .lab{font-size:11pt;display:block;margin-bottom:2mm}
+.phone{display:flex;align-items:center;gap:4mm;font-size:27pt;font-weight:900;color:var(--green);letter-spacing:-0.02em;line-height:1}
+.phone svg{width:9mm;height:9mm;flex:none}
+.addr{display:flex;align-items:center;gap:2.5mm;margin-top:3mm;font-size:12.5pt;font-weight:500;color:var(--ink-2)}
+.addr svg{width:5.5mm;height:5.5mm;flex:none}
+.kakao{display:flex;align-items:center;gap:4.5mm}
+.kakao .k{font-size:12pt;font-weight:700;color:var(--ink);line-height:1.4;text-align:right}
+.kakao .k small{display:block;font-size:9pt;color:var(--ink-3);font-weight:500;margin-top:1mm}
+.qr{width:28mm;height:28mm;background:#fff;border-radius:3mm;padding:2.2mm;box-shadow:0 1mm 4mm rgba(31,59,16,.08)}
+.qr img{width:100%;height:100%;display:block}
+
+/* 바닥글 */
+.foot{border-top:1px solid #d7d2c3;padding-top:2.5mm;margin-top:4mm;font-size:8.5pt;line-height:1.55;color:#6a6f62;font-weight:400}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="top">
+    <div class="logo"><img src="assets/logo.png" alt="ON글터 영어 국어 전문학원"></div>
+    <div class="pill"><i></i>초등부 논술반 원생 모집</div>
+  </div>
+
+  <section class="hero">
+    <div class="eyebrow">READ · THINK · WRITE</div>
+    <h1>좋아하는 책이<br>논술이 되는<br><span class="y">90분</span></h1>
+    <p class="sub">읽고 싶은 책을 골라 오면,<br>생각을 나누고 글을 씁니다.</p>
+    <div class="mock">
+      <div class="sheet s2"><img src="assets/ws2.png" alt=""></div>
+      <div class="sheet s1"><img src="assets/ws1.png" alt="ON글터 독서 논술 보고서"></div>
+      <div class="badge">수업<br>교재</div>
+    </div>
+  </section>
+
+  <div class="sec-h">
+    <div><div class="eb">HOW WE LEARN</div><h2>책 한 권, 4단계로 완성</h2></div>
+    <div class="note">교재 · ON글터 독서 논술 보고서</div>
+  </div>
+  <div class="steps">
+    <div class="step"><div class="n">01</div><div class="t">책 읽기<br>내용 이해</div></div>
+    <div class="step"><div class="n">02</div><div class="t">생각<br>넓히기</div></div>
+    <div class="step"><div class="n">03</div><div class="t">글쓰기<br>설계도</div></div>
+    <div class="step dark"><div class="n">04</div><div class="t">논술문 쓰기<br>스스로 점검</div></div>
+  </div>
+
+  <section class="info">
+    <div class="row1">
+      <div><span class="lab">대상</span><span class="big">초등부 전체</span></div>
+      <div><span class="lab">교습비 (월)</span><span class="big">76,800원</span><span class="small">주 1회 · 90분</span></div>
+    </div>
+    <div class="row2">
+      <span class="lab">수업 시간</span>
+      <div class="sched">
+        <div class="sc">
+          <div class="d"><span class="day">수 · 토</span><span class="tag">10월 개강</span></div>
+          <div class="time">오후 1:00 – 4:00 <b>중 90분</b></div>
+        </div>
+        <div class="sc">
+          <div class="d"><span class="day">평일</span><span class="tag">11월 개강</span></div>
+          <div class="time">오후 4:30 – 6:00</div>
+          <div class="memo">요일은 추후 안내</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div>
+      <span class="lab">상담 · 문의</span>
+      <div class="phone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#1f3b10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg>
+        0507-1362-0003
+      </div>
+      <div class="addr">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#3d4637" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        대구 달서구 당산로 90, 3층 (SK·땅스부대찌개 건물)
+      </div>
+    </div>
+    <div class="kakao">
+      <div class="k">카카오톡<br>상담하기<small>QR을 찍어 주세요</small></div>
+      <div class="qr"><img src="assets/qr.png" alt="카카오톡 상담 QR"></div>
+    </div>
+  </section>
+
+  <div class="foot">
+    온(ON)글터영어국어학원 · 학원등록번호 남교입 제2009-115호 · 학교교과교습학원 / 교습과정 보습<br>
+    교습비 월 76,800원 (초등논술, 주 1회 90분)
+  </div>
+
+</div>
+</body>
+</html>
