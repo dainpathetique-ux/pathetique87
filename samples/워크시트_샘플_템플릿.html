@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>초등논술 워크시트 샘플</title>
+<style>
+@font-face{font-family:"NKR";src:url(kr400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"NKR";src:url(kr700.woff2) format("woff2");font-weight:700}
+*{box-sizing:border-box}
+body{margin:0;background:#888;font-family:"NKR",sans-serif;color:#111;font-size:11.5pt;line-height:1.5}
+.page{width:210mm;height:297mm;background:#fff;padding:14mm 15mm 12mm;margin:0 auto 10px;position:relative;overflow:hidden}
+.hdr{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2.5px solid #222;padding-bottom:4px;margin-bottom:8px}
+.hdr .l{font-size:9.5pt;color:#444}.hdr .t{font-size:16pt;font-weight:700;line-height:1.2}
+.hdr .r{font-size:10.5pt;text-align:right}
+.hdr .r span{display:inline-block;border-bottom:1px solid #333;min-width:34mm;margin-left:4px}
+.sum{border:1px dashed #777;background:#f6f6f6;font-size:9.2pt;padding:5px 8px;margin-bottom:8px;line-height:1.45;color:#333}
+.sum b{color:#000}
+.box{border:1.5px solid #333;padding:7px 10px;margin-bottom:9px;font-size:11pt;line-height:1.65}
+.box .cap{font-size:9pt;color:#555;margin-bottom:3px}
+.box .ttl{font-weight:700;text-align:center;margin-bottom:2px}
+h2{font-size:12.5pt;margin:9px 0 5px;padding:2px 8px;background:#222;color:#fff;display:inline-block;border-radius:3px}
+.q{margin:0 0 6px 0;padding-left:1.6em;text-indent:-1.6em}
+.q .n{font-weight:700;display:inline-block;width:1.6em;text-indent:0}
+.ch{margin:1px 0 0 1.6em;text-indent:0;display:flex;flex-wrap:wrap;gap:2px 16px}
+.bl{display:inline-block;border-bottom:1px solid #333;min-width:28mm;height:1.1em;vertical-align:bottom}
+.ln{border-bottom:1px solid #999;height:7.5mm;margin:0 0 0 1.6em}
+.ln.s{height:6.5mm}
+table{border-collapse:collapse;width:100%;margin:3px 0 6px;font-size:10.5pt}
+td,th{border:1px solid #444;padding:3px 6px;vertical-align:top}
+th{background:#eee;font-weight:700;text-align:center}
+.wr{margin-left:1.6em}
+.grid{display:grid;grid-template-columns:repeat(20,1fr);margin:4px 0 0 1.6em;border:1.5px solid #333}
+.grid i{display:block;border-right:1px solid #aaa;border-bottom:1px solid #aaa;height:7.6mm}
+.grid i:nth-child(20n){border-right:none}
+.grid i:nth-last-child(-n+20){border-bottom:none}
+.chk{list-style:none;padding:0;margin:0 0 0 1.6em;columns:2}
+.chk li::before{content:"☐ ";font-size:12pt}
+.pg{position:absolute;bottom:7mm;left:0;right:0;text-align:center;font-size:8.5pt;color:#666}
+.t .hdr{border-color:#7a1f1f}.t h2{background:#7a1f1f}
+.t{font-size:10.2pt}
+.t table{font-size:9.5pt}
+.t ul{margin:2px 0 6px 1.2em;padding:0}
+.t li{margin-bottom:2px}
+.tag{font-size:8.5pt;background:#7a1f1f;color:#fff;padding:1px 6px;border-radius:3px;vertical-align:middle}
+
+/* 2쪽·교사용 압축 */
+.page:nth-of-type(2){font-size:10.8pt;line-height:1.4}
+.page:nth-of-type(2) .ln{height:5.6mm}
+.page:nth-of-type(2) .grid i{height:5.7mm}
+.page:nth-of-type(2) h2{margin:5px 0 3px;font-size:12pt}
+.page:nth-of-type(2) .q{margin-bottom:3px}
+.page:nth-of-type(2) td{height:5.6mm!important;padding:1px 6px}
+.page:nth-of-type(2) .chk{columns:4;font-size:9.8pt}
+.page.t{font-size:9.3pt;line-height:1.35}
+.page.t td,.page.t th{padding:1.5px 5px}
+.page.t table{font-size:8.9pt;margin:2px 0 4px}
+.page.t h2{margin:5px 0 3px;font-size:11.5pt}
+.page.t ul{margin:1px 0 3px 1.2em}
+</style></head><body>
+
+<!-- ===================== 학생용 1쪽 ===================== -->
+<div class="page">
+ <div class="hdr">
+  <div><div class="l">[학원명] 초등논술 · 4학년 기본</div><div class="t">주장하는 글 읽기 — 급식 잔반을 줄여야 하는 까닭</div></div>
+  <div class="r">이름<span></span><br>날짜 <span style="min-width:40mm"></span></div>
+ </div>
+ <div class="sum"><b>분석 요약(교사 참고)</b> 학년군 3~4(추정) · 갈래 논설문 · 주제 급식 잔반을 줄이자 ·
+ 핵심 어휘 잔반, 조사, 수고, 처리, 환경, 습관, 변화 · 관련 성취기준 읽기 영역 "글쓴이의 주장과 근거 파악", 쓰기 영역 "이유를 들어 주장하는 글 쓰기" ·
+ 집중 사고 기능 ① 주장과 근거 구분하기 ② 근거 들어 주장하기</div>
+
+ <div class="box">
+  <div class="cap">※ 샘플용 창작 지문입니다. 실제 워크시트에서는 이 자리에 "교재 24~25쪽을 읽고"가 들어가고, 필요한 1~2문장만 인용합니다.</div>
+  <div class="ttl">급식 잔반을 줄여야 하는 까닭</div>
+  우리 학교 급식실에는 날마다 많은 음식이 버려진다. 지난달 조사에 따르면 하루에 버려지는 잔반이 커다란 통으로 세 통이나 되었다.
+  잔반이 많아지면 세 가지 문제가 생긴다. 첫째, 음식을 만드는 데 든 농부와 조리사의 수고가 헛되이 된다. 둘째, 버려진 음식을 처리하는 데 돈이 든다.
+  셋째, 음식물 쓰레기가 썩으면서 나쁜 냄새와 가스가 나와 환경을 더럽힌다. 그러므로 우리는 먹을 만큼만 받고, 싫어하는 반찬도 한 입은 먹어 보려고 노력해야 한다.
+  작은 습관이 모이면 큰 변화가 된다.
+ </div>
+
+ <h2>1. 어휘 다지기</h2>
+ <p class="q"><span class="n">1</span>'잔반'의 뜻으로 알맞은 것을 고르세요.</p>
+ <div class="ch"><span>① 새로 지은 밥</span><span>② 먹고 남은 음식</span><span>③ 반찬을 담는 그릇</span><span>④ 급식을 나누어 주는 사람</span></div>
+ <p class="q" style="margin-top:6px"><span class="n">2</span>빈칸에 알맞은 낱말을 〈보기〉에서 골라 쓰세요. &nbsp;〈보기〉 수고 · 습관 · 환경</p>
+ <div class="wr">농부와 조리사의 ( <span class="bl" style="min-width:18mm"></span> )가 헛되이 된다. &nbsp;/&nbsp; 작은 ( <span class="bl" style="min-width:18mm"></span> )이 모이면 큰 변화가 된다.</div>
+ <p class="q" style="margin-top:6px"><span class="n">3</span>'처리하다'와 뜻이 가장 비슷한 말을 고르세요.</p>
+ <div class="ch"><span>① 만들다</span><span>② 모으다</span><span>③ 치우다</span><span>④ 받다</span></div>
+ <p class="q" style="margin-top:6px"><span class="n">4</span>'더럽히다'의 반대말을 쓰고, 그 말을 넣어 짧은 문장을 만들어 보세요.</p>
+ <div class="wr">반대말: <span class="bl"></span></div>
+ <div class="ln s"></div>
+
+ <h2>2. 내용 확인</h2>
+ <p class="q"><span class="n">5</span>글쓴이의 주장으로 알맞은 것을 고르세요.</p>
+ <div class="ch"><span>① 급식을 더 많이 받자</span><span>② 급식 잔반을 줄이자</span><span>③ 급식실을 넓히자</span><span>④ 반찬 종류를 늘리자</span></div>
+ <p class="q" style="margin-top:6px"><span class="n">6</span>지난달 조사에서 하루에 버려진 잔반은 얼마나 되었나요? &nbsp;<span class="bl" style="min-width:45mm"></span></p>
+ <p class="q"><span class="n">7</span>잔반이 많아지면 생기는 문제 세 가지를 글에서 찾아 표에 정리해 보세요.</p>
+ <table style="margin-left:1.6em;width:calc(100% - 1.6em)"><tr><th style="width:14%">첫째</th><td style="height:8mm"></td></tr><tr><th>둘째</th><td style="height:8mm"></td></tr><tr><th>셋째</th><td style="height:8mm"></td></tr></table>
+ <p class="q"><span class="n">8</span>글쓴이가 제안한 실천 방법 두 가지를 쓰세요.</p>
+ <div class="wr">① <span class="bl" style="min-width:70mm"></span> &nbsp; ② <span class="bl" style="min-width:70mm"></span></div>
+ <p class="q" style="margin-top:6px"><span class="n">9</span>이 글의 갈래로 알맞은 것을 고르세요.</p>
+ <div class="ch"><span>① 동화</span><span>② 설명문</span><span>③ 주장하는 글(논설문)</span><span>④ 일기</span></div>
+ <div class="pg">학생용 1 / 2</div>
+</div>
+
+<!-- ===================== 학생용 2쪽 ===================== -->
+<div class="page">
+ <div class="hdr">
+  <div><div class="l">[학원명] 초등논술 · 4학년 기본</div><div class="t">주장하는 글 읽기 — 급식 잔반을 줄여야 하는 까닭</div></div>
+  <div class="r">이름<span></span></div>
+ </div>
+
+ <h2>3. 생각 넓히기</h2>
+ <p class="q"><span class="n">10</span>글쓴이는 왜 '지난달 조사' 결과를 글에 넣었을까요? 그렇게 생각한 까닭도 쓰세요.</p>
+ <div class="ln"></div><div class="ln"></div>
+ <p class="q" style="margin-top:6px"><span class="n">11</span>"작은 습관이 모이면 큰 변화가 된다."는 무슨 뜻인지 내 말로 풀어 쓰세요.</p>
+ <div class="ln"></div><div class="ln"></div>
+ <p class="q" style="margin-top:6px"><span class="n">12</span>세 가지 문제 가운데 가장 심각하다고 생각하는 것은 무엇인가요? 까닭을 들어 쓰세요.</p>
+ <div class="wr">가장 심각한 문제: <span class="bl" style="min-width:50mm"></span></div>
+ <div class="ln"></div><div class="ln"></div>
+
+ <h2>4. 나의 생각</h2>
+ <p class="q"><span class="n">13</span>"싫어하는 반찬도 한 입은 먹어 보자."는 의견에 찬성하나요, 반대하나요? 이유를 두 가지 쓰세요.</p>
+ <div class="wr">☐ 찬성 &nbsp; ☐ 반대</div>
+ <div class="ln"></div><div class="ln"></div>
+ <p class="q" style="margin-top:6px"><span class="n">14</span>우리 반(또는 우리 집)에서 음식을 덜 버리기 위해 할 수 있는 일을 한 가지 쓰고, 내 경험과 연결해 설명해 보세요.</p>
+ <div class="ln"></div><div class="ln"></div>
+
+ <h2>5. 글쓰기 — "급식 잔반을 줄이자"</h2>
+ <p class="q"><span class="n">15</span>먼저 개요표를 채운 뒤, 한 문단(150~200자)으로 주장하는 글을 쓰세요.</p>
+ <table style="margin-left:1.6em;width:calc(100% - 1.6em)">
+  <tr><th style="width:16%">주장</th><td style="height:7mm">급식 잔반을 줄이자. 왜냐하면 …</td></tr>
+  <tr><th>이유 ①</th><td style="height:7mm"></td></tr>
+  <tr><th>이유 ②</th><td style="height:7mm"></td></tr>
+  <tr><th>예시·경험</th><td style="height:7mm"></td></tr>
+  <tr><th>마무리</th><td style="height:7mm"></td></tr>
+ </table>
+ <div class="grid" id="g"></div>
+
+ <h2>6. 스스로 점검</h2>
+ <ul class="chk">
+  <li>주장이 첫 문장에 분명하게 드러난다.</li>
+  <li>이유를 두 가지 이상 들었다.</li>
+  <li>이유를 뒷받침하는 예시나 경험이 있다.</li>
+  <li>문장 끝마다 마침표를 찍었다.</li>
+ </ul>
+ <div class="pg">학생용 2 / 2</div>
+</div>
+
+<!-- ===================== 교사용 ===================== -->
+<div class="page t">
+ <div class="hdr">
+  <div><div class="l">[학원명] 초등논술 · 4학년 기본 · 교사용</div><div class="t">정답 · 채점 기준 · 수업 운영 <span class="tag">학생 배부 금지</span></div></div>
+  <div class="r">수업 60분</div>
+ </div>
+
+ <h2>정답 및 예시 답안</h2>
+ <table>
+  <tr><th style="width:9%">번호</th><th style="width:38%">정답 / 필수 포함 요소</th><th>예시 답안 · 채점 메모</th></tr>
+  <tr><td>1</td><td>②</td><td>'잔'(남을 잔)을 짚어 주면 '잔돈'과 연결해 기억함</td></tr>
+  <tr><td>2</td><td>수고 / 습관</td><td>'환경'을 쓴 학생은 2번째 빈칸 문맥 다시 읽기</td></tr>
+  <tr><td>3</td><td>③</td><td>①을 고른 학생은 '처리'를 '요리'로 오해한 경우</td></tr>
+  <tr><td>4</td><td>깨끗이 하다(깨끗하게 하다, 청소하다 인정)</td><td>문장에 반대말이 자연스럽게 쓰였으면 정답</td></tr>
+  <tr><td>5</td><td>②</td><td></td></tr>
+  <tr><td>6</td><td>커다란 통으로 세 통</td><td>'세 통'만 써도 정답</td></tr>
+  <tr><td>7</td><td>① 농부·조리사의 수고가 헛됨 ② 처리 비용 ③ 냄새·가스로 환경 오염</td><td>순서가 바뀌어도 세 가지 모두 있으면 만점</td></tr>
+  <tr><td>8</td><td>먹을 만큼만 받기 / 싫어하는 반찬도 한 입 먹어 보기</td><td></td></tr>
+  <tr><td>9</td><td>③</td><td></td></tr>
+  <tr><td>10</td><td>필수: 숫자(조사 결과)가 주장을 믿게 만드는 근거라는 내용</td><td>예) "말로만 많다고 하면 믿기 어려우니 실제로 조사한 숫자를 보여 주려고"</td></tr>
+  <tr><td>11</td><td>필수: 작은 행동의 반복 → 큰 결과</td><td>예) "한 사람이 조금씩 덜 남기면 학교 전체 잔반이 크게 줄어든다는 뜻"</td></tr>
+  <tr><td>12</td><td>선택 자유. 까닭이 글 내용이나 경험과 연결되면 정답</td><td>"그냥 나쁘니까" 같은 까닭은 되묻기</td></tr>
+  <tr><td>13</td><td>찬·반 자유. 이유 2개, 서로 다른 내용일 것</td><td>같은 이유를 말만 바꿔 쓴 경우 1개로 처리</td></tr>
+  <tr><td>14</td><td>실천 방법 1개 + 자기 경험</td><td>경험이 빠지면 "언제 그런 적 있었니?" 되묻기</td></tr>
+ </table>
+
+ <h2>15번 글쓰기 채점 기준표</h2>
+ <table>
+  <tr><th style="width:12%">영역</th><th>잘함</th><th>보통</th><th>노력 필요</th></tr>
+  <tr><td>내용</td><td>주장이 분명하고 이유 2개 + 예시가 있다</td><td>주장과 이유 1~2개, 예시 없음</td><td>주장이 흐리거나 이유가 없다</td></tr>
+  <tr><td>조직</td><td>개요표 순서(주장-이유-예시-마무리)대로 썼다</td><td>순서가 일부 섞였다</td><td>문장이 나열되어 흐름이 없다</td></tr>
+  <tr><td>표현</td><td>'왜냐하면, 그러므로' 등 이음말을 알맞게 썼다</td><td>이음말이 어색하거나 반복된다</td><td>문장이 끊기거나 뜻이 통하지 않는다</td></tr>
+  <tr><td>맞춤법</td><td>틀린 글자 0~1개, 분량 150~200자</td><td>틀린 글자 2~4개 또는 분량 부족</td><td>틀린 글자 5개 이상</td></tr>
+ </table>
+
+ <h2>예상 오답과 지도 포인트</h2>
+ <ul>
+  <li><b>주장과 근거 혼동</b>(5·7번): "잔반이 세 통"을 주장으로 쓰는 학생 → "글쓴이가 우리에게 하라고 하는 말은?"으로 되묻기.</li>
+  <li><b>이유 중복</b>(13·15번): "아깝다 / 낭비다"를 두 개로 세는 경우 → "두 번째 이유는 첫 번째와 무엇이 다르지?"</li>
+  <li><b>개요표 건너뛰기</b>: 바로 원고지에 쓰려는 학생은 개요표 확인 뒤 쓰기 시작하도록 순서 고정.</li>
+ </ul>
+
+ <h2>수업 흐름 (60분)</h2>
+ <table>
+  <tr><th style="width:14%">시간</th><th style="width:22%">단계</th><th>활동</th></tr>
+  <tr><td>0~8분</td><td>도입</td><td>"오늘 급식에서 남긴 것 있니?" 짝 대화 → 지문 소리 내어 읽기</td></tr>
+  <tr><td>8~25분</td><td>1·2 영역</td><td>개별 풀이 후 짝 점검, 7번 표는 칠판에 함께 정리</td></tr>
+  <tr><td>25~38분</td><td>3·4 영역</td><td>12·13번은 손들어 의견 나누기 → 근거 말하기 연습</td></tr>
+  <tr><td>38~55분</td><td>5 영역 글쓰기</td><td>개요표 5분 → 원고지 12분, 교사는 순회하며 이유 2개 확인</td></tr>
+  <tr><td>55~60분</td><td>마무리</td><td>스스로 점검 → 2명 발표 → 과제 안내</td></tr>
+ </table>
+ <p style="margin:4px 0 0"><b>심화 과제</b> 우리 학원 간식 시간을 관찰해 "버려지는 간식 줄이기" 주장 글 2문단(300자). &nbsp;
+ <b>보충 과제</b> 7번 표를 보고 "첫째·둘째·셋째"를 넣어 세 문장으로 다시 쓰기.</p>
+ <div class="pg">교사용 1 / 1</div>
+</div>
+<script>document.getElementById('g').innerHTML='<i></i>'.repeat(200)</script>
+</body></html>
