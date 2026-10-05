@@ -102,14 +102,12 @@ def build(P, guides=True, scale_px=15):
     t,w=text_path('0507-1362-0003',F_BOLD,P['ph_em'],P['c_x']+P['ph_em']*1.05,P['ph_y'],WHITE,tracking=0.05); L.append(t)
     L.append(icon(ICON_PIN,P['c_x']+0.1,P['loc_y']-P['loc_em']*0.86,P['loc_em']*0.95,ORANGE))
     t,w2=text_path('SK · 땅스부대찌개 건물 3층',F_ROUND,P['loc_em'],P['c_x']+P['ph_em']*1.05,P['loc_y'],WHITE); L.append(t)
-    # QR box + caption
-    qs=P['qr_box']; qx=P['qr_x']; qy=P['qr_y']
-    L.append(f'<rect x="{qx}" y="{qy}" width="{qs}" height="{qs}" rx="1.2" fill="{WHITE}"/>')
-    inner=qs-2*P['qr_quiet']; q,n=qr_svg('https://m.site.naver.com/2hV5o',qx+P['qr_quiet'],qy+P['qr_quiet'],inner,BG_HEX); L.append(q)
-    cx=qx-P['cap_gap']
-    L.append(icon(ICON_CHAT,cx-P['cap_em']*2.75,P['cap_y1']-P['cap_em']*2.45,P['cap_em']*1.7,ORANGE))
-    t,_=text_path('카카오톡',F_ROUND,P['cap_em'],cx,P['cap_y1'],WHITE,anchor='end'); L.append(t)
-    t,_=text_path('상담하기',F_ROUND,P['cap_em'],cx,P['cap_y2'],WHITE,anchor='end'); L.append(t)
+    # QR box with integrated label
+    qw=P['qr_w']; qx=P['qr_x']; qy=P['qr_y']; qq=P['qr_quiet']; inner=qw-2*qq
+    qh=qq+inner+P['lab_gap']+P['lab_em']*0.95+qq*0.9
+    L.append(f'<rect x="{qx}" y="{qy}" width="{qw}" height="{qh:.3f}" rx="1.3" fill="{WHITE}"/>')
+    q,n=qr_svg('https://m.site.naver.com/2hV5o',qx+qq,qy+qq,inner,BG_HEX); L.append(q)
+    t,_=text_path('카카오톡 상담',F_ROUND,P['lab_em'],qx+qw/2,qy+qq+inner+P['lab_gap']+P['lab_em']*0.78,BG_HEX,anchor='middle',tracking=0.05); L.append(t)
     design='<g id="design">'+''.join(L)+'</g>'
     G=''
     if guides:
@@ -128,9 +126,8 @@ def build(P, guides=True, scale_px=15):
 P=dict(sym_x=4.3, sym_y=3.3, sym_h=23.0,
        word_x=30.0, word_y=6.4, word_w=36.0,
        tag_em=3.6, tag_y=22.4, rule_x2=75.5, eng_em=2.45, eng_y=26.2,
-       c_x=5.0, ph_em=4.5, ph_y=35.4, loc_em=3.5, loc_y=42.6,
-       qr_box=16.0, qr_x=60.6, qr_y=30.2, qr_quiet=1.2,
-       cap_em=2.5, cap_gap=2.2, cap_y1=36.3, cap_y2=39.7)
+       c_x=5.0, ph_em=4.8, ph_y=35.8, loc_em=3.5, loc_y=42.9,
+       qr_w=15.4, qr_x=61.2, qr_y=29.9, qr_quiet=1.1, lab_em=2.3, lab_gap=0.5)
 if __name__=='__main__':
     out=sys.argv[1] if len(sys.argv)>1 else 'preview'
     svg=build(P,guides=True); open(f'{out}_guides.svg','w').write(svg)
