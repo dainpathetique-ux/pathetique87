@@ -15,7 +15,7 @@ const PAD = 5; // mm: 작업 사이즈 바깥 여백
 const W = 216 + PAD * 2, H = 303 + PAD * 2; // 226 x 313
 const marksCSS = `
 html,body{width:${W}mm!important;height:${H}mm!important;background:#fff!important;position:relative}
-.page{position:absolute!important;left:${PAD}mm;top:${PAD}mm}
+.page{position:absolute!important;left:${PAD}mm;top:${PAD}mm;background:#f7f2e6!important}
 .mk{position:absolute;background:#000}
 .mk.h{height:0.25pt;width:${MARK_LEN}mm}.mk.v{width:0.25pt;height:${MARK_LEN}mm}
 `;
