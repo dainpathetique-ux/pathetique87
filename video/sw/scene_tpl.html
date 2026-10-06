@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>파닉스 숏폼 템플릿</title>
+<style>
+@font-face{font-family:KR;src:url(../../tool/kr400.woff2) format('woff2');font-weight:400}
+@font-face{font-family:KR;src:url(../../tool/kr700.woff2) format('woff2');font-weight:700}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#dff3ea;font-family:KR,sans-serif}
+#stage{position:relative;width:1080px;height:1920px}
+.scene{position:absolute;inset:0;opacity:0}
+svg.bg{position:absolute;inset:0}
+.sub{position:absolute;left:60px;right:60px;bottom:360px;background:rgba(255,255,255,.95);border-radius:36px;padding:30px 40px;box-shadow:0 10px 30px rgba(0,60,50,.12);text-align:center}
+.sub .l1{font-size:52px;font-weight:700;color:#0f6b5c;letter-spacing:-1px}
+.sub .l2{font-size:42px;color:#243b36;margin-top:10px}
+.ipa{font-family:"Noto Sans","DejaVu Sans",KR,sans-serif;color:#2b7ea1}
+.kw{color:#e2543c;font-weight:700}
+.tag{position:absolute;top:150px;left:70px;background:#0f6b5c;color:#fff;font-size:40px;font-weight:700;padding:16px 36px;border-radius:999px}
+.letter{position:absolute;top:290px;font-size:320px;font-weight:700;color:#0f6b5c;line-height:1;white-space:nowrap}
+.build,.word{position:absolute;top:290px;left:0;right:0;text-align:center;font-size:260px;font-weight:700;line-height:1;color:#243b36}
+.build .s{color:#e2543c}.build .w{color:#2b7ea1}.word{color:#0f6b5c}.word .sw{color:#e2543c}
+.hint{position:absolute;top:620px;left:0;right:0;text-align:center;font-size:48px;color:#243b36;opacity:.85}
+.ill{position:absolute;left:0;top:0}
+#outro{background:#fffdf7}
+#logo{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:900px;border-radius:24px}
+#slogan{position:absolute;left:0;right:0;top:60%;text-align:center;font-size:76px;font-weight:700;color:#0f6b5c}
+#slogan small{display:block;font-size:44px;font-weight:400;color:#243b36;margin-top:20px}
+</style></head><body>
+<div id="stage">
+<div class="scene" id="sA">
+ <svg class="bg" viewBox="0 0 1080 1920"><defs><linearGradient id="gA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" id="gA0"/><stop offset="1" id="gA1"/></linearGradient></defs>
+  <rect width="1080" height="1920" fill="url(#gA)"/><circle cx="900" cy="260" r="90" fill="#ffe59a"/>
+  <g id="cloudsA" fill="#fff" opacity=".9"><ellipse cx="200" cy="760" rx="120" ry="48"/><ellipse cx="280" cy="740" rx="90" ry="60"/><ellipse cx="760" cy="860" rx="140" ry="50"/><ellipse cx="840" cy="836" rx="90" ry="62"/></g>
+  <g id="groundA"></g><g id="illA"></g><g id="partA"></g></svg>
+ <div class="letter" id="lS"></div><div class="letter" id="lW"></div>
+ <div class="hint" id="hintA"></div><div class="tag" id="tagA">오늘의 소리</div>
+ <div class="sub" id="subA"><div class="l1" id="subA1"></div><div class="l2" id="subA2"></div></div>
+</div>
+<div class="scene" id="sB">
+ <svg class="bg" viewBox="0 0 1080 1920"><defs><linearGradient id="gB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" id="gB0"/><stop offset="1" id="gB1"/></linearGradient></defs>
+  <rect width="1080" height="1920" fill="url(#gB)"/><circle cx="160" cy="260" r="80" fill="#ffe59a"/>
+  <g id="groundB"></g><g id="illB"></g><g id="partB"></g></svg>
+ <div class="tag" id="tagB"></div><div class="build" id="buildB"></div><div class="hint" id="hintB"></div>
+ <div class="sub" id="subB"><div class="l1" id="subB1"></div><div class="l2" id="subB2"></div></div>
+</div>
+<div class="scene" id="sC">
+ <svg class="bg" viewBox="0 0 1080 1920"><defs><linearGradient id="gC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" id="gC0"/><stop offset="1" id="gC1"/></linearGradient></defs>
+  <rect width="1080" height="1920" fill="url(#gC)"/><circle cx="900" cy="260" r="90" fill="#ffe59a"/>
+  <g id="panC"><g id="groundC0"></g><g id="illC0"></g><g transform="translate(1080,0)"><g id="groundC1"></g><g id="illC1"></g></g></g><g id="partC"></g></svg>
+ <div class="tag" id="tagC"></div><div class="word" id="wordC"></div><div class="hint" id="hintC">따라 말해 보세요</div>
+ <div class="sub" id="subC"><div class="l1" id="subC1"></div><div class="l2" id="subC2"></div></div>
+</div>
+<div class="scene" id="outro">
+ <img id="logo" src="../../tool/logo.jpg" alt="ON글터 영어 국어 전문학원">
+ <div id="slogan">언어는 깊이다<small>ON글터 영어 국어 전문학원</small></div>
+</div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const ease=x=>x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2;
+const seg=(t,a,b)=>clamp((t-a)/(b-a),0,1);
+const fade=(t,a,b,d=.45)=>Math.min(seg(t,a,a+d),1-seg(t,b-d,b));
+const hl=(w,[a,b],cls='kw')=>w.slice(0,a)+`<span class="${cls}">${w.slice(a,b)}</span>`+w.slice(b);
+let S, lw={};
+function setup(spec){
+  S=spec;
+  $('gA0').setAttribute('stop-color',S.A.bg[0]); $('gA1').setAttribute('stop-color',S.A.bg[1]);
+  $('gB0').setAttribute('stop-color',S.B.bg[0]); $('gB1').setAttribute('stop-color',S.B.bg[1]);
+  $('groundA').innerHTML=S.A.ground||''; $('illA').innerHTML=`<g transform="translate(540,1090)">${S.A.svg}</g>`;
+  $('lS').textContent=S.letters[0]; $('lW').textContent=S.letters[1];
+  $('hintA').textContent=S.A.hint; $('subA1').innerHTML=S.A.l1; $('subA2').innerHTML=hl(S.A.word,S.A.hl)+` <span class="ipa">${S.A.ipa}</span> &nbsp;${S.A.ko}`;
+  $('groundB').innerHTML=S.B.ground||''; $('illB').innerHTML=S.B.stages.map((st,i)=>`<g id="stB${i}" transform="translate(540,1090)" opacity="0">${st.svg}</g>`).join('');
+  $('tagB').textContent=S.B.tag; $('hintB').textContent=S.B.hint; $('subB1').innerHTML=S.B.l1; $('subB2').innerHTML=S.B.l2;
+  $('tagC').textContent=S.C.tag;
+  S.C.words.forEach((w,i)=>{ $('groundC'+i).innerHTML=w.ground||''; $('illC'+i).innerHTML=`<g transform="translate(540,1090)">${w.svg}</g>`; });
+  lw.s=$('lS').offsetWidth; lw.w=$('lW').offsetWidth;
+}
+function particles(type,t,w=1080,h=1920){
+  let o=''; if(!type) return o;
+  for(let i=0;i<14;i++){ const ph=((t*0.25+i*0.071)%1), x=(i*197+ (type==='bubbles'?0:ph*60))%w;
+    if(type==='snow') o+=`<circle cx="${x}" cy="${700+ph*1100}" r="${8+(i%3)*4}" fill="#fff" opacity="${0.9-ph*0.4}"/>`;
+    else if(type==='sparkle') o+=`<path transform="translate(${x},${750+(i*131)%800}) scale(${0.6+0.4*Math.sin(t*5+i)})" d="M0,-22 l6,16 l16,6 l-16,6 l-6,16 l-6,-16 l-16,-6 l16,-6z" fill="#ffd54a" opacity=".9"/>`;
+    else if(type==='notes') o+=`<text x="${x}" y="${1500-ph*800}" font-size="${50+(i%3)*14}" fill="${['#e2543c','#2b7ea1','#f5a623'][i%3]}" opacity="${1-ph}">${i%2?'♪':'♫'}</text>`;
+    else if(type==='bubbles') o+=`<circle cx="${x}" cy="${1700-ph*900}" r="${6+(i%4)*5}" fill="none" stroke="#fff" stroke-width="3" opacity="${1-ph}"/>`;
+    else if(type==='leaves') o+=`<ellipse transform="translate(${x},${600+ph*1200}) rotate(${t*90+i*40})" rx="18" ry="9" fill="#6fc47a" opacity="${0.9-ph*0.5}"/>`;
+  } return o;
+}
+function anim(root,t){
+  root.querySelectorAll('[data-anim]').forEach(el=>{
+    const k=el.dataset.anim, o=(el.dataset.origin||'0 0'), a=+(el.dataset.amp||1), sp=+(el.dataset.speed||1); let tr='';
+    if(k==='flap') tr=`rotate(${Math.sin(t*6*sp)*25*a} ${o})`;
+    else if(k==='sway') tr=`rotate(${Math.sin(t*2*sp)*8*a} ${o})`;
+    else if(k==='bob') tr=`translate(0,${Math.sin(t*2.5*sp)*12*a})`;
+    else if(k==='spin') tr=`rotate(${t*120*sp} ${o})`;
+    else if(k==='slide') tr=`translate(${Math.sin(t*1.5*sp)*40*a},0)`;
+    else if(k==='blink') { el.setAttribute('opacity', ((t*sp)%2.4)<0.15?0:1); return; }
+    else if(k==='wink') { el.setAttribute('opacity', ((t*sp)%2.0)<0.6?1:0); return; }
+    else if(k==='drip') tr=`translate(0,${((t*80*sp)%160)*a})`;
+    el.setAttribute('transform',tr);
+  });
+}
+function render(t){
+  const A=fade(t,0,5.2); $('sA').style.opacity=A;
+  if(A>0){
+    $('cloudsA').setAttribute('transform',`translate(${t*10},0)`);
+    const g=$('illA').firstElementChild; g.setAttribute('transform',`translate(540,${1090+Math.sin(t*2.2)*8}) scale(${0.9+0.1*ease(seg(t,0.2,0.9))})`); g.setAttribute('opacity',seg(t,0.2,0.7)); anim($('illA'),t);
+    $('partA').innerHTML=particles(S.A.particles,t);
+    const s1=ease(seg(t,0.1,1.4)), s2=ease(seg(t,1.4,2.2)); const total=lw.s+lw.w, finalS=540-total/2, finalW=finalS+lw.s;
+    const sx=-lw.s+s1*(finalS-60+lw.s)+s2*60, wx=1080+s1*(finalW+60-1080)-s2*60;
+    $('lS').style.left=sx+'px'; $('lW').style.left=wx+'px';
+    const pop=1+0.08*Math.sin(Math.PI*seg(t,2.2,2.7));
+    $('lS').style.transform=$('lW').style.transform=`scale(${pop})`;
+    $('lS').style.color=$('lW').style.color = s2>.99 ? '#e2543c':'#0f6b5c';
+    $('hintA').style.opacity=seg(t,2.3,2.8)*0.85; $('tagA').style.opacity=seg(t,0,0.5);
+    $('subA').style.opacity=seg(t,0.6,1.1); $('subA').style.transform=`translateY(${(1-ease(seg(t,0.6,1.1)))*40}px)`;
+  }
+  const B=fade(t,4.8,15.2); $('sB').style.opacity=B;
+  if(B>0){
+    const tb=t-5; let idx=0, start=0; for(let i=0;i<S.B.stages.length;i++){ if(tb>=S.B.stages[i].at){idx=i; start=S.B.stages[i].at;} }
+    const st=S.B.stages[idx]; const o=seg(tb,start+0.2,start+0.7);
+    $('buildB').innerHTML=st.text; $('buildB').style.opacity=o; $('buildB').style.transform=`scale(${0.9+0.1*ease(o)})`;
+    S.B.stages.forEach((s,i)=>{ const g=$('stB'+i); g.setAttribute('opacity', i===idx?o:0); if(i===idx) g.setAttribute('transform',`translate(540,${1090+Math.sin(tb*2.2)*8})`); });
+    anim($('illB'),tb); $('partB').innerHTML=particles(st.particles||S.B.particles,tb);
+    $('hintB').style.opacity=seg(tb,start+0.6,start+1.1)*0.85*(idx===S.B.stages.length-1?1:0);
+    $('subB').style.opacity=seg(tb,0.4,0.9);
+  }
+  const C=fade(t,14.8,25.2); $('sC').style.opacity=C;
+  if(C>0){
+    const tc=t-15; const pan=ease(seg(tc,4.6,5.4)); const i=tc<5?0:1; const w=S.C.words[i];
+    $('panC').setAttribute('transform',`translate(${-1080*pan},0)`);
+    $('gC0').setAttribute('stop-color',w.bg[0]); $('gC1').setAttribute('stop-color',w.bg[1]);
+    S.C.words.forEach((ww,k)=>{ const g=$('illC'+k).firstElementChild; g.setAttribute('transform',`translate(540,${1090+Math.sin(tc*2)*10}) rotate(${Math.sin(tc*1.3)*2})`); });
+    anim($('panC'),tc); $('partC').innerHTML=particles(w.particles,tc);
+    $('wordC').innerHTML=hl(w.text,w.hl,'sw'); $('subC1').innerHTML=hl(w.text,w.hl)+` <span class="ipa">${w.ipa}</span>`; $('subC2').textContent=w.ko;
+    const o = tc<5 ? seg(tc,0.3,0.8) : seg(tc,5.3,5.8);
+    $('wordC').style.opacity=o; $('subC').style.opacity=o; $('hintC').style.opacity=o*0.85; $('wordC').style.transform=`scale(${0.9+0.1*ease(o)})`;
+  }
+  const D=seg(t,24.8,25.4); $('outro').style.opacity=D;
+  if(D>0){ const td=t-25; $('logo').style.opacity=seg(td,0,0.6); $('logo').style.transform=`translate(-50%,-50%) scale(${0.94+0.06*ease(seg(td,0,0.8))})`;
+    $('slogan').style.opacity=seg(td,0.6,1.3); $('slogan').style.transform=`translateY(${(1-ease(seg(td,0.6,1.3)))*30}px)`; }
+}
+window.setup=setup; window.render=render;
+</script></body></html>
