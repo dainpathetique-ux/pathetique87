@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>SW 자음군 영상</title>
+<style>
+@font-face{font-family:KR;src:url(../../tool/kr400.woff2) format('woff2');font-weight:400}
+@font-face{font-family:KR;src:url(../../tool/kr700.woff2) format('woff2');font-weight:700}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#dff3ea;font-family:KR,sans-serif}
+#stage{position:relative;width:1920px;height:1080px}
+.scene{position:absolute;inset:0;opacity:0}
+svg{position:absolute;inset:0}
+.sub{position:absolute;left:120px;right:120px;bottom:70px;background:rgba(255,255,255,.95);border-radius:36px;padding:28px 56px;box-shadow:0 10px 30px rgba(0,60,50,.12);text-align:center}
+.sub .l1{font-size:56px;font-weight:700;color:#0f6b5c;letter-spacing:-1px}
+.sub .l2{font-size:46px;color:#243b36;margin-top:8px}
+.ipa{font-family:"Noto Sans","DejaVu Sans",KR,sans-serif;color:#2b7ea1}
+.kw{color:#e2543c;font-weight:700}
+.tag{position:absolute;top:60px;left:120px;background:#0f6b5c;color:#fff;font-size:38px;font-weight:700;padding:14px 34px;border-radius:999px}
+.big{position:absolute;top:150px;left:0;right:0;text-align:center;font-size:260px;font-weight:700;color:#0f6b5c;line-height:1}
+.letter{position:absolute;top:150px;font-size:260px;font-weight:700;color:#0f6b5c;line-height:1}
+.build{position:absolute;top:120px;left:80px;width:1000px;text-align:center;font-size:230px;font-weight:700;line-height:1;color:#243b36}
+.build .s{color:#e2543c}.build .w{color:#2b7ea1}
+.word{position:absolute;top:140px;left:0;right:0;text-align:center;font-size:220px;font-weight:700;color:#0f6b5c;line-height:1}
+.word .sw{color:#e2543c}
+#outro{background:#fffdf7}
+#logo{position:absolute;left:50%;top:40%;transform:translate(-50%,-50%);max-width:1100px;max-height:520px;border-radius:24px}
+#slogan{position:absolute;left:0;right:0;top:66%;text-align:center;font-size:72px;font-weight:700;color:#0f6b5c}
+#slogan small{display:block;font-size:44px;font-weight:400;color:#243b36;margin-top:18px}
+</style></head><body>
+<div id="stage">
+
+<!-- Scene A: swan -->
+<div class="scene" id="sA">
+ <svg viewBox="0 0 1920 1080">
+  <defs><linearGradient id="skyA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3f6ee"/><stop offset="1" stop-color="#bfe8da"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd3f0"/><stop offset="1" stop-color="#5cb8e0"/></linearGradient></defs>
+  <rect width="1920" height="1080" fill="url(#skyA)"/>
+  <circle cx="1620" cy="200" r="90" fill="#ffe59a"/>
+  <g id="cloudsA" fill="#fff" opacity=".9"><ellipse cx="300" cy="200" rx="120" ry="48"/><ellipse cx="380" cy="180" rx="90" ry="60"/><ellipse cx="1200" cy="260" rx="140" ry="50"/><ellipse cx="1280" cy="236" rx="90" ry="62"/></g>
+  <ellipse cx="960" cy="1000" rx="1300" ry="330" fill="url(#water)"/>
+  <g id="ripples" fill="none" stroke="#fff" stroke-width="5" opacity=".6"></g>
+  <g id="swan">
+   <ellipse cx="0" cy="0" rx="130" ry="70" fill="#fff"/>
+   <path d="M-60,-30 Q-40,-100 20,-60 Q60,-30 90,-70 Q130,-120 60,-130 Q10,-135 10,-80" fill="#fff" stroke="#fff" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+   <path d="M-110,-20 Q-150,-120 -60,-80 Q0,-40 -20,20" fill="#f4f4f4"/>
+   <ellipse cx="92" cy="-120" rx="40" ry="34" fill="#fff"/>
+   <path d="M125,-118 L175,-108 L125,-98 Z" fill="#f5a623"/>
+   <circle cx="105" cy="-124" r="6" fill="#243b36"/>
+   <ellipse cx="0" cy="72" rx="150" ry="14" fill="#3f9fcb" opacity=".5"/>
+  </g>
+ </svg>
+ <div class="letter" id="lS" style="left:0">S</div>
+ <div class="letter" id="lW" style="left:0">W</div>
+ <div class="tag" id="tagA">오늘의 소리</div>
+ <div class="sub" id="subA"><div class="l1">자음군(블렌드) SW <span class="ipa">/sw/</span></div>
+ <div class="l2"><span class="kw">Sw</span>an <span class="ipa">/swɑːn/</span> &nbsp;스완 (백조)</div></div>
+</div>
+
+<!-- Scene B: swing -->
+<div class="scene" id="sB">
+ <svg viewBox="0 0 1920 1080">
+  <defs><linearGradient id="skyB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9f1ff"/><stop offset="1" stop-color="#eef9f3"/></linearGradient></defs>
+  <rect width="1920" height="1080" fill="url(#skyB)"/>
+  <circle cx="300" cy="180" r="80" fill="#ffe59a"/>
+  <ellipse cx="960" cy="1080" rx="1400" ry="260" fill="#9ad97f"/>
+  <ellipse cx="500" cy="1060" rx="700" ry="120" fill="#86cc6b"/>
+  <!-- tree -->
+  <rect x="1380" y="420" width="90" height="560" rx="30" fill="#9a6b4a"/>
+  <path d="M1425,520 Q1250,470 1000,380" stroke="#9a6b4a" stroke-width="44" fill="none" stroke-linecap="round"/>
+  <circle cx="1440" cy="330" r="220" fill="#5fb86a"/><circle cx="1280" cy="380" r="170" fill="#6fc47a"/><circle cx="1600" cy="400" r="170" fill="#55ad60"/><circle cx="1100" cy="360" r="120" fill="#79cc85"/>
+  <!-- swing pivot at (1060, 400) -->
+  <g id="swing">
+   <line x1="-70" y1="0" x2="-70" y2="440" stroke="#8a6a52" stroke-width="10"/>
+   <line x1="70" y1="0" x2="70" y2="440" stroke="#8a6a52" stroke-width="10"/>
+   <rect x="-95" y="440" width="190" height="26" rx="8" fill="#c48a5a"/>
+   <!-- child -->
+   <circle cx="0" cy="300" r="48" fill="#ffd9b8"/>
+   <path d="M-50,290 Q0,230 50,290 Q30,255 0,250 Q-30,255 -50,290Z" fill="#4a3324"/>
+   <rect x="-45" y="345" width="90" height="100" rx="26" fill="#ff8c69"/>
+   <line x1="-40" y1="370" x2="-70" y2="300" stroke="#ffd9b8" stroke-width="20" stroke-linecap="round"/>
+   <line x1="40" y1="370" x2="70" y2="300" stroke="#ffd9b8" stroke-width="20" stroke-linecap="round"/>
+   <line x1="-25" y1="445" x2="-45" y2="540" stroke="#4d7fd1" stroke-width="26" stroke-linecap="round"/>
+   <line x1="25" y1="445" x2="45" y2="540" stroke="#4d7fd1" stroke-width="26" stroke-linecap="round"/>
+   <circle cx="8" cy="310" r="5" fill="#243b36"/><circle cx="-14" cy="310" r="5" fill="#243b36"/>
+   <path d="M-12,328 Q0,338 12,328" stroke="#243b36" stroke-width="4" fill="none"/>
+  </g>
+  <g id="grassB" fill="#4f9f5a"><path d="M100,1000 q10,-60 20,0 M150,1010 q10,-70 20,0 M700,1010 q10,-60 20,0 M760,1000 q10,-70 20,0 M1800,1010 q10,-60 20,0" stroke="#4f9f5a" stroke-width="8" fill="none" stroke-linecap="round"/></g>
+ </svg>
+ <div class="tag">자음군 만들기</div>
+ <div class="build" id="buildB"></div>
+ <div class="sub" id="subB"><div class="l1">sing → wing → <span class="kw">swing</span> <span class="ipa">/swɪŋ/</span></div>
+ <div class="l2">스윙 (그네) &nbsp;·&nbsp; <b>s</b>와 <b>w</b> 두 소리가 모두 들려요</div></div>
+</div>
+
+<!-- Scene C: sweet & swim -->
+<div class="scene" id="sC">
+ <svg viewBox="0 0 1920 1080">
+  <defs><linearGradient id="skyC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3e6" id="skyCtop"/><stop offset="1" stop-color="#ffe4d6" id="skyCbot"/></linearGradient>
+  <linearGradient id="pool" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fd0f2"/><stop offset="1" stop-color="#3fa9dd"/></linearGradient></defs>
+  <rect width="1920" height="1080" fill="url(#skyC)"/>
+  <g id="panC">
+   <!-- cupcake panel at x 0..1920 -->
+   <g id="cup" transform="translate(960,560)">
+    <ellipse cx="0" cy="260" rx="420" ry="40" fill="#f3c9a8" opacity=".6"/>
+    <path d="M-180,0 L-130,250 L130,250 L180,0 Z" fill="#f0a868"/>
+    <g stroke="#d98a4a" stroke-width="10"><line x1="-120" y1="20" x2="-90" y2="240"/><line x1="-40" y1="20" x2="-30" y2="245"/><line x1="40" y1="20" x2="30" y2="245"/><line x1="120" y1="20" x2="90" y2="240"/></g>
+    <path d="M-220,10 Q-240,-80 -150,-90 Q-170,-180 -70,-170 Q-40,-260 40,-200 Q130,-250 150,-150 Q250,-150 220,-60 Q260,10 200,20 Z" fill="#ff9ec4"/>
+    <path d="M-210,10 Q-120,-40 -40,0 Q40,-40 120,0 Q190,-30 210,20 Z" fill="#ff86b6"/>
+    <circle cx="20" cy="-230" r="40" fill="#e8384f"/><path d="M20,-270 Q40,-320 70,-330" stroke="#5c8a3a" stroke-width="8" fill="none"/>
+    <g fill="#fff"><circle cx="-120" cy="-110" r="9"/><circle cx="60" cy="-130" r="9"/><circle cx="-20" cy="-60" r="9"/><circle cx="150" cy="-70" r="9"/></g>
+    <g id="sparkle" fill="#ffd54a"><path d="M-300,-220 l10,30 l30,10 l-30,10 l-10,30 l-10,-30 l-30,-10 l30,-10z"/><path d="M300,-260 l8,24 l24,8 l-24,8 l-8,24 l-8,-24 l-24,-8 l24,-8z"/></g>
+   </g>
+   <!-- pool panel at x 1920..3840 -->
+   <g transform="translate(1920,0)">
+    <rect x="0" y="0" width="1920" height="1080" fill="#e4f6ff"/>
+    <circle cx="1650" cy="170" r="90" fill="#ffe59a"/>
+    <rect x="0" y="520" width="1920" height="560" fill="url(#pool)"/>
+    <g id="waves" fill="none" stroke="#fff" stroke-width="8" opacity=".7" stroke-linecap="round"></g>
+    <g id="swimmer">
+     <ellipse cx="0" cy="0" rx="170" ry="48" fill="#ff8c69"/>
+     <circle cx="200" cy="-30" r="62" fill="#ffd9b8"/>
+     <path d="M140,-50 Q200,-110 262,-50 Q230,-90 200,-92 Q170,-90 140,-50Z" fill="#4a3324"/>
+     <circle cx="220" cy="-40" r="7" fill="#243b36"/><path d="M212,-14 Q226,-4 240,-14" stroke="#243b36" stroke-width="5" fill="none"/>
+     <line x1="60" y1="-30" x2="140" y2="-130" stroke="#ffd9b8" stroke-width="30" stroke-linecap="round" id="arm"/>
+     <line x1="-150" y1="0" x2="-240" y2="-30" stroke="#ffd9b8" stroke-width="28" stroke-linecap="round" id="leg"/>
+    </g>
+    <g id="splash" fill="#fff" opacity=".9"></g>
+   </g>
+  </g>
+ </svg>
+ <div class="tag" id="tagC">SW 단어 더 알아보기</div>
+ <div class="word" id="wordC"></div>
+ <div class="sub" id="subC"><div class="l1" id="subC1"></div><div class="l2" id="subC2"></div></div>
+</div>
+
+<!-- Scene D: outro -->
+<div class="scene" id="outro">
+ <img id="logo" src="../../tool/logo.jpg" alt="ON글터 영어 국어 전문학원">
+ <div id="slogan">언어는 깊이다<small>ON글터 영어 국어 전문학원</small></div>
+</div>
+
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const ease=x=>x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2;
+const seg=(t,a,b)=>clamp((t-a)/(b-a),0,1);           // 0..1 between a..b
+const fade=(t,a,b,d=.45)=>Math.min(seg(t,a,a+d),1-seg(t,b-d,b)); // in/out
+
+function render(t){
+  // ---------- Scene A 0-5 ----------
+  const A=fade(t,0,5.2); $('sA').style.opacity=A;
+  if(A>0){
+    const p=ease(seg(t,0.2,4.8)); const x=380+p*1150, y=690+Math.sin(t*2.2)*8;
+    $('swan').setAttribute('transform',`translate(${x},${y})`);
+    let r=''; for(let i=0;i<5;i++){const ph=((t*0.9+i*0.2)%1); const rx=80+ph*220; r+=`<ellipse cx="${x-60-i*120}" cy="${y+72}" rx="${rx*0.9}" ry="${rx*0.18}" opacity="${(1-ph)*0.6}"/>`;}
+    $('ripples').innerHTML=r;
+    $('cloudsA').setAttribute('transform',`translate(${t*12},0)`);
+    // letters: slide in 0-1.4, merge 1.4-2.2
+    const s1=ease(seg(t,0.1,1.4)), s2=ease(seg(t,1.4,2.2));
+    const sx=-300+s1*(760+300) + s2*(880-760), wx=1920+s1*(1000-1920)+s2*(1040-1000);
+    $('lS').style.left=sx+'px'; $('lW').style.left=wx+'px';
+    const pop=1+0.08*Math.sin(Math.PI*seg(t,2.2,2.7));
+    $('lS').style.transform=$('lW').style.transform=`scale(${pop})`;
+    $('lS').style.color=$('lW').style.color = s2>.99 ? '#e2543c':'#0f6b5c';
+    $('tagA').style.opacity=seg(t,0,0.5);
+    $('subA').style.opacity=seg(t,0.6,1.1); $('subA').style.transform=`translateY(${(1-ease(seg(t,0.6,1.1)))*40}px)`;
+  }
+  // ---------- Scene B 5-15 ----------
+  const B=fade(t,4.8,15.2); $('sB').style.opacity=B;
+  if(B>0){
+    const tb=t-5; const ang=28*Math.sin(tb*2.0);
+    $('swing').setAttribute('transform',`translate(1060,400) rotate(${ang})`);
+    $('grassB').setAttribute('transform',`skewX(${4*Math.sin(tb*3)})`);
+    let html='';
+    if(tb<2.5) html='<span class="s">s</span>ing';
+    else if(tb<5) html='<span class="w">w</span>ing';
+    else html='<span class="s">s</span><span class="w">w</span>ing';
+    const stage=tb<2.5?seg(tb,0.2,0.7):tb<5?seg(tb,2.5,3.0):seg(tb,5,5.5);
+    $('buildB').innerHTML=html; $('buildB').style.opacity=stage; $('buildB').style.transform=`scale(${0.9+0.1*ease(stage)})`;
+    $('subB').style.opacity=seg(tb,0.4,0.9);
+  }
+  // ---------- Scene C 15-25 ----------
+  const C=fade(t,14.8,25.2); $('sC').style.opacity=C;
+  if(C>0){
+    const tc=t-15; const pan=ease(seg(tc,4.6,5.4));
+    $('panC').setAttribute('transform',`translate(${-1920*pan},0)`);
+    $('skyCtop').setAttribute('stop-color', pan<.5?'#fff3e6':'#e4f6ff'); $('skyCbot').setAttribute('stop-color', pan<.5?'#ffe4d6':'#e4f6ff');
+    $('cup').setAttribute('transform',`translate(960,${560+Math.sin(tc*2)*10}) rotate(${Math.sin(tc*1.3)*2})`);
+    $('sparkle').setAttribute('opacity', 0.6+0.4*Math.sin(tc*6));
+    const sx=200+((tc-5)*180), sy=640+Math.sin(tc*3)*14;
+    $('swimmer').setAttribute('transform',`translate(${clamp(sx,200,1500)},${sy})`);
+    $('arm').setAttribute('transform',`rotate(${Math.sin(tc*5)*40} 60 -30)`);
+    $('leg').setAttribute('transform',`rotate(${Math.sin(tc*7)*18} -150 0)`);
+    let w=''; for(let i=0;i<6;i++){const ph=((tc*0.6+i*0.17)%1); w+=`<path d="M${100+i*300+ph*120},${600+i*70} q40,-25 80,0 q40,25 80,0" opacity="${0.8-ph*0.5}"/>`;} $('waves').innerHTML=w;
+    let sp=''; for(let i=0;i<5;i++){const ph=((tc*2+i*0.2)%1); sp+=`<circle cx="${clamp(sx,200,1500)-200-i*20+ph*30}" cy="${sy-ph*120}" r="${(1-ph)*12}"/>`;} $('splash').innerHTML=sp;
+    if(tc<5){ $('wordC').innerHTML='<span class="sw">Sw</span>eet'; $('subC1').innerHTML='<span class="kw">Sw</span>eet <span class="ipa">/swiːt/</span>'; $('subC2').textContent='스위트 (달콤한)'; }
+    else { $('wordC').innerHTML='<span class="sw">Sw</span>im'; $('subC1').innerHTML='<span class="kw">Sw</span>im <span class="ipa">/swɪm/</span>'; $('subC2').textContent='스윔 (수영하다)'; }
+    const o = tc<5 ? seg(tc,0.3,0.8) : seg(tc,5.3,5.8);
+    $('wordC').style.opacity=o; $('subC').style.opacity=o; $('wordC').style.transform=`scale(${0.9+0.1*ease(o)})`;
+  }
+  // ---------- Outro 25-30 ----------
+  const D=seg(t,24.8,25.4); $('outro').style.opacity=D;
+  if(D>0){ const td=t-25; $('logo').style.opacity=seg(td,0,0.6); $('logo').style.transform=`translate(-50%,-50%) scale(${0.94+0.06*ease(seg(td,0,0.8))})`;
+    $('slogan').style.opacity=seg(td,0.6,1.3); $('slogan').style.transform=`translateY(${(1-ease(seg(td,0.6,1.3)))*30}px)`; }
+}
+window.render=render; render(0);
+</script>
+</body></html>
