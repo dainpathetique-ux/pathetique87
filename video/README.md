@@ -1,7 +1,16 @@
 # ON글터 숏폼 영상 (Remotion)
 
-이중자음 `sm` 교육용 30초 세로형 숏폼(1080x1920, 30fps, 900프레임).
+한 프로젝트에 두 개의 컴포지션이 있다. 모두 1080x1920 세로형, 30fps.
+
+| 컴포지션 | 내용 | 렌더 명령 | 결과 |
+|---|---|---|---|
+| `SmShorts` | 이중자음 `sm` 교육 숏폼 30초 (내레이션 + BGM) | `npm run render` | `output.mp4` |
+| `GiftTeaser` | '빙그레의 영역 / 김소연' 북 티저 23초 (수채화 창가 책상 일러스트, 돌리인·팬 카메라, 피아노·첼로 왈츠 BGM, 로고 아웃트로) | `npm run render:gift` | `output-gift.mp4` |
+
 모든 그래픽은 SVG + Remotion spring/interpolate 모션으로 그렸다.
+`GiftTeaser` 의 장면은 `src/gift/DeskScene.tsx` 에 있고, 카메라는 `useCamera`(0~10초 돌리인, 10~20초 팬),
+수채화 질감은 SVG `feTurbulence`+`feDisplacementMap` 필터와 종이 그레인 오버레이로 낸다.
+BGM은 `audio-gen/gift_bgm_gen.py` 가 합성한다 (`public/gift/bgm.mp3`).
 
 ## 실행
 

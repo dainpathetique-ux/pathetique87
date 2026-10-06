@@ -2,6 +2,8 @@ import React from 'react';
 import {Composition, staticFile} from 'remotion';
 import {FPS, HEIGHT, TOTAL_FRAMES, WIDTH} from './constants';
 import {SmShorts, type SmShortsProps} from './SmShorts';
+import {GiftTeaser, type GiftTeaserProps} from './gift/GiftTeaser';
+import {GIFT_FRAMES} from './gift/constants';
 
 // public/ 폴더에 선택 파일(bgm.mp3, 로고.jpg)이 있는지 확인한다.
 const exists = async (file: string): Promise<boolean> => {
@@ -19,6 +21,7 @@ const exists = async (file: string): Promise<boolean> => {
 
 export const Root: React.FC = () => {
   return (
+    <>
     <Composition
       id="SmShorts"
       component={SmShorts}
@@ -32,5 +35,19 @@ export const Root: React.FC = () => {
         return {props: {hasBgm, hasLogo}};
       }}
     />
+    <Composition
+      id="GiftTeaser"
+      component={GiftTeaser}
+      durationInFrames={GIFT_FRAMES}
+      fps={FPS}
+      width={WIDTH}
+      height={HEIGHT}
+      defaultProps={{hasLogo: true, hasBgm: true} as GiftTeaserProps}
+      calculateMetadata={async () => {
+        const [hasBgm, hasLogo] = await Promise.all([exists('gift/bgm.mp3'), exists('로고.jpg')]);
+        return {props: {hasBgm, hasLogo}};
+      }}
+    />
+    </>
   );
 };

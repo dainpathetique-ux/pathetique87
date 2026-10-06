@@ -6,4 +6,6 @@ export const loadFonts = () =>
   Promise.all([
     loadFont({family: 'Noto Sans KR', url: staticFile('fonts/kr400.woff2'), weight: '400'}),
     loadFont({family: 'Noto Sans KR', url: staticFile('fonts/kr700.woff2'), weight: '700'}),
+    loadFont({family: 'Noto Serif KR', url: staticFile('fonts/serif400.woff2'), weight: '400'}),
+    loadFont({family: 'Noto Serif KR', url: staticFile('fonts/serif600.woff2'), weight: '600'}),
   ]);
