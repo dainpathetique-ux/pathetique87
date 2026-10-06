@@ -117,7 +117,7 @@ function render(t){
   if(B>0){
     const tb=t-5; let idx=0, start=0; for(let i=0;i<S.B.stages.length;i++){ if(tb>=S.B.stages[i].at){idx=i; start=S.B.stages[i].at;} }
     const st=S.B.stages[idx]; const o=seg(tb,start+0.2,start+0.7);
-    $('buildB').innerHTML=st.text; $('buildB').style.opacity=o; $('buildB').style.transform=`scale(${0.9+0.1*ease(o)})`;
+    $('buildB').innerHTML=st.text; const bl=st.text.replace(/<[^>]+>/g,'').length; $('buildB').style.fontSize=(bl<=5?260:bl==6?220:190)+'px'; $('buildB').style.opacity=o; $('buildB').style.transform=`scale(${0.9+0.1*ease(o)})`;
     S.B.stages.forEach((s,i)=>{ const g=$('stB'+i); g.setAttribute('opacity', i===idx?o:0); if(i===idx) g.setAttribute('transform',`translate(540,${1090+Math.sin(tb*2.2)*8})`); });
     anim($('illB'),tb); $('partB').innerHTML=particles(st.particles||S.B.particles,tb);
     $('hintB').style.opacity=seg(tb,start+0.6,start+1.1)*0.85*(idx===S.B.stages.length-1?1:0);
@@ -130,7 +130,7 @@ function render(t){
     $('gC0').setAttribute('stop-color',w.bg[0]); $('gC1').setAttribute('stop-color',w.bg[1]);
     S.C.words.forEach((ww,k)=>{ const g=$('illC'+k).firstElementChild; g.setAttribute('transform',`translate(540,${1090+Math.sin(tc*2)*10}) rotate(${Math.sin(tc*1.3)*2})`); });
     anim($('panC'),tc); $('partC').innerHTML=particles(w.particles,tc);
-    $('wordC').innerHTML=hl(w.text,w.hl,'sw'); $('subC1').innerHTML=hl(w.text,w.hl)+` <span class="ipa">${w.ipa}</span>`; $('subC2').textContent=w.ko;
+    $('wordC').innerHTML=hl(w.text,w.hl,'sw'); $('wordC').style.fontSize=(w.text.length<=5?260:w.text.length==6?220:w.text.length==7?190:165)+'px'; $('subC1').innerHTML=hl(w.text,w.hl)+` <span class="ipa">${w.ipa}</span>`; $('subC2').textContent=w.ko;
     const o = tc<5 ? seg(tc,0.3,0.8) : seg(tc,5.3,5.8);
     $('wordC').style.opacity=o; $('subC').style.opacity=o; $('hintC').style.opacity=o*0.85; $('wordC').style.transform=`scale(${0.9+0.1*ease(o)})`;
   }
