@@ -1,0 +1,36 @@
+import React from 'react';
+import {Composition, staticFile} from 'remotion';
+import {FPS, HEIGHT, TOTAL_FRAMES, WIDTH} from './constants';
+import {SmShorts, type SmShortsProps} from './SmShorts';
+
+// public/ 폴더에 선택 파일(bgm.mp3, 로고.jpg)이 있는지 확인한다.
+const exists = async (file: string): Promise<boolean> => {
+  try {
+    const res = await fetch(staticFile(file), {method: 'HEAD'});
+    if (res.status === 405) {
+      const get = await fetch(staticFile(file));
+      return get.ok;
+    }
+    return res.ok;
+  } catch {
+    return false;
+  }
+};
+
+export const Root: React.FC = () => {
+  return (
+    <Composition
+      id="SmShorts"
+      component={SmShorts}
+      durationInFrames={TOTAL_FRAMES}
+      fps={FPS}
+      width={WIDTH}
+      height={HEIGHT}
+      defaultProps={{hasBgm: false, hasLogo: true}}
+      calculateMetadata={async () => {
+        const [hasBgm, hasLogo] = await Promise.all([exists('bgm.mp3'), exists('로고.jpg')]);
+        return {props: {hasBgm, hasLogo}};
+      }}
+    />
+  );
+};
