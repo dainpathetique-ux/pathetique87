@@ -1,0 +1,10 @@
+{
+  "slug": "A_phonics",
+  "letter": "A",
+  "sound": "/æ/",
+  "words": [
+    { "pos": "Beginning", "word": "Apple",  "ipa": "/ˈæpəl/",   "hl": 0, "icon": "apple" },
+    { "pos": "Middle",    "word": "Cat",    "ipa": "/kæt/",     "hl": 1, "icon": "cat" },
+    { "pos": "Ending",    "word": "Banana", "ipa": "/bəˈnænə/", "hl": 5, "icon": "banana" }
+  ]
+}

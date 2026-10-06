@@ -21,3 +21,12 @@
 - 한글 글꼴: `tool/kr400.woff2`, `tool/kr700.woff2` (Noto Sans KR). 빌드 시 output 폴더로 복사된다.
 - 실제 제작 예: `worksheets/4학년_1일차_색의무게감.json` (교재 10쪽, 설명문)
 - 참고 샘플: `worksheets/샘플_4학년_급식잔반.json` → `output/샘플_4학년_급식잔반/`
+
+## 파닉스 블로그 + 15초 영상 (원장이 "오늘은 A 소리"처럼 알파벳만 말하면 이 순서대로)
+1. `prompts/파닉스_블로그_루틴_프롬프트.md` 의 규칙을 따른다. 글이 먼저, 영상은 그 다음이다.
+2. 블로그 글을 `blog/<알파벳>_파닉스.md` 로 쓰고 바로 사용자에게 보낸다 (SendUserFile). 이 단계 전에 영상 작업을 시작하지 않는다.
+3. `video/<알파벳>_phonics.json` 을 쓰고 `node tool/video.js video/<알파벳>_phonics.json` 으로 빌드한다. 형식은 프롬프트 7-1 참고.
+4. `output/video/<slug>/` 의 미리보기 PNG 3장을 눈으로 확인한 뒤, MP4와 PNG를 사용자에게 보낸다.
+5. 영상 단계가 실패해도 글은 그대로 둔다. 오류를 한 줄로 보고하고 blog·video·output 을 커밋·푸시한다.
+- 영상은 영어 전용·무음이다. 한글 자막이나 한국어 음성을 넣지 않는다. 영어 내레이션 대본과 BGM 제안은 글 파일 끝에 텍스트로만 적는다.
+- 실제 제작 예: `blog/A_파닉스.md`, `video/A_phonics.json` → `output/video/A_phonics/`
