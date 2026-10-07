@@ -24,7 +24,6 @@ def load(dirname, model, lexicon=''):
     return sherpa_onnx.OfflineTts(cfg)
 
 EN = load('vits-piper-en_US-amy-medium', 'en_US-amy-medium.onnx')
-KO = load('vits-mimic3-ko_KO-kss_low', 'ko_KO-kss_low.onnx')
 
 def synth(tts, text, name, speed, pad=0.06):
     a = tts.generate(text, sid=0, speed=speed)
@@ -39,26 +38,28 @@ def synth(tts, text, name, speed, pad=0.06):
 
 # (그룹 시작 프레임, 그룹 마감 프레임, [(음성, 텍스트, 파일명, 속도)])
 GROUPS = [
-    (25, 140,  [(KO, '오늘의 소리는 이중자음 에스엠이에요.', 'ko_intro', 0.98)]),
-    (152, 250, [(KO, '첫소리.', 'ko_first', 1.05), (EN, 'Small. Small.', 'en_small', 0.95), (KO, '작은.', 'ko_small', 1.05)]),
-    (258, 355, [(EN, 'Smile. Smile.', 'en_smile', 0.95), (KO, '미소.', 'ko_smile', 1.05)]),
-    (362, 480, [(KO, '중간소리.', 'ko_middle', 1.05), (EN, 'Cosmic. Cosmic.', 'en_cosmic', 0.95), (KO, '우주의.', 'ko_cosmic', 1.05)]),
-    (485, 568, [(EN, 'Jasmine. Jasmine.', 'en_jasmine', 0.95), (KO, '재스민.', 'ko_jasmine', 1.05)]),
-    (573, 650, [(KO, '끝소리.', 'ko_end', 1.05), (EN, 'Prism. Prism.', 'en_prism', 0.95)]),
-    (655, 750, [(EN, 'Small, Smile, Cosmic, Jasmine, Prism.', 'en_recap', 1.2)]),
-    (768, 888, [(KO, '언어의 깊이를 더하는 배움터, 온글터 영어 국어 학원.', 'ko_outro', 1.0)]),
+    (25, 140,  [(EN, "Today's sound is the blend S, M.", 'en_intro', 0.95)]),
+    (152, 250, [(EN, 'Beginning sound.', 'en_first', 1.0), (EN, 'Small. Small.', 'en_small', 0.95)]),
+    (258, 355, [(EN, 'Smile. Smile.', 'en_smile', 0.95)]),
+    (362, 480, [(EN, 'Middle sound.', 'en_middle', 1.0), (EN, 'Cosmic. Cosmic.', 'en_cosmic', 0.95)]),
+    (485, 568, [(EN, 'Jasmine. Jasmine.', 'en_jasmine', 0.95)]),
+    (573, 650, [(EN, 'Ending sound.', 'en_end', 1.0), (EN, 'Prism. Prism.', 'en_prism', 0.95)]),
+    (665, 760, [(EN, 'Small, Smile, Cosmic, Jasmine, Prism.', 'en_recap', 1.15)]),
+    (768, 888, [(EN, 'Great job! See you next time.', 'en_outro', 1.0)]),
 ]
 GAP = 4  # 클립 사이 간격(프레임)
 
 cues = []
+cursor = 0
 for start, deadline, items in GROUPS:
-    f = start
+    f = max(start, cursor)  # 앞 그룹이 길면 뒤로 민다
     for tts, text, name, speed in items:
         dur = synth(tts, text, name, speed)
         frames = int(np.ceil(dur * FPS))
         cues.append({'src': f'voice/{name}.wav', 'from': f, 'durationInFrames': frames, 'text': text})
         print(f'{name:12s} {dur:5.2f}s  from={f:4d}  to={f+frames:4d}  {"⚠ 넘침" if f+frames > deadline else ""}')
         f += frames + GAP
+    cursor = f
 
 with open(TS, 'w', encoding='utf-8') as fp:
     fp.write('// tts_gen.py 가 생성한 파일. 직접 수정하지 말 것.\n')

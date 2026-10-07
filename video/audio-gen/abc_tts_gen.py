@@ -1,4 +1,4 @@
-"""알파벳 A~Z 숏폼 내레이션 합성 + 타임라인. 사용:
+"""알파벳 A~Z 숏폼 내레이션 합성(영어 전용) + 타임라인. 사용:
 python3 abc_tts_gen.py <models> <data.json> <public/abc/voice> <src/abc/voiceCues.ts>"""
 import json, os, sys
 import numpy as np, soundfile as sf, sherpa_onnx
@@ -20,7 +20,6 @@ def load(dirname, model):
     return sherpa_onnx.OfflineTts(cfg)
 
 EN = load('vits-piper-en_US-amy-medium', 'en_US-amy-medium.onnx')
-KO = load('vits-mimic3-ko_KO-kss_low', 'ko_KO-kss_low.onnx')
 
 def synth(tts, text, name, speed, pad=0.06):
     a = tts.generate(text, sid=0, speed=speed)
@@ -32,27 +31,24 @@ def synth(tts, text, name, speed, pad=0.06):
     sf.write(os.path.join(OUT, name + '.wav'), x, sr)
     return len(x) / sr
 
-def copula(name):  # 받침 유무에 따라 이에요/예요
-    code = ord(name[-1]) - 0xAC00
-    return '이에요' if 0 <= code < 11172 and code % 28 != 0 else '예요'
-
 data = json.load(open(DATA, encoding='utf-8'))
 cues = {}
 for item in data:
     L = item['letter']; ws = item['words']
     groups = [
-        (20, 140, [(KO, f"오늘의 알파벳은 {item['nameKo']}{copula(item['nameKo'])}.", f'{L}_ko_intro', 1.0),
-                   (EN, f'Letter {L}.', f'{L}_en_intro', 0.95)]),
+        (12, 148, [(EN, f"Today's letter is {L}.", f'{L}_en_intro', 1.0),
+                   (EN, f'Capital {L}, small {L.lower()}.', f'{L}_en_intro2', 1.05)]),
     ]
     for i, w in enumerate(ws):
         start = [155, 365, 575][i]; end = [350, 560, 740][i]
-        groups.append((start, end, [(EN, f"{w['word']}. {w['word']}.", f'{L}_en_w{i+1}', 0.95),
-                                    (KO, f"{w['meaning'].split('(')[0]}.", f'{L}_ko_w{i+1}', 1.05)]))
-    groups.append((755, 890, [(EN, ', '.join(w['word'] for w in ws) + '.', f'{L}_en_recap', 1.1),
-                              (KO, '온글터 영어 국어 학원.', f'{L}_ko_outro', 1.1)]))
+        groups.append((start, end, [(EN, f"{L} is for {w['word']}.", f'{L}_en_w{i+1}a', 0.95),
+                                    (EN, f"{w['word']}.", f'{L}_en_w{i+1}b', 0.9)]))
+    groups.append((752, 892, [(EN, f"{L}: " + ', '.join(w['word'] for w in ws) + '.', f'{L}_en_recap', 1.1),
+                              (EN, 'Great job! See you soon.', f'{L}_en_outro', 1.1)]))
     lst = []
+    cursor = 0
     for start, deadline, items in groups:
-        f = start
+        f = max(start, cursor)  # 앞 그룹이 길면 뒤로 민다
         for tts, text, name, speed in items:
             dur = synth(tts, text, name, speed)
             frames = int(np.ceil(dur * FPS))
@@ -60,6 +56,7 @@ for item in data:
             if f + frames > deadline:
                 print(f'⚠ {name} 넘침: {f + frames} > {deadline}')
             f += frames + GAP
+        cursor = f
     cues[L] = lst
     print(L, 'done', flush=True)
 
