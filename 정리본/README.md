@@ -21,3 +21,5 @@ node build.cjs main.html out.pdf   # Playwright(Chromium)로 PDF 인쇄
 
 - `보충_Booster15강_2-4번_내용이해.pdf` — Booster 15강 2·3·4번(상어와 자연선택 / 아메리카 농경 지연 / 세포막)의 배경 지식·흐름·비유·오해·어법 연결·이해 점검. A4 2쪽.
   다시 만들기: `node build.cjs supp.html out.pdf "Booster 15강 2·3·4번 내용 이해 보충 · ON글터 내부용"` (세 번째 인자는 쪽 번호 옆 문구).
+- `시험전날_동그라미_점검지.pdf` — 범위 전체 222문항(괄호 고르기·O/X·단어 뜻 고르기), 문제 4쪽 + 정답 1쪽.
+  다시 만들기: `node quiz.cjs && node build.cjs quiz.html out.pdf "시험 전날 동그라미 점검지 · ON글터 내부용"`. 문항은 `quiz.cjs`에서 `[*정답 / 오답]` 표기로 고치면 보기 순서와 정답표가 자동으로 맞춰진다.
