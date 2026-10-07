@@ -21,3 +21,9 @@
 - 한글 글꼴: `tool/kr400.woff2`, `tool/kr700.woff2` (Noto Sans KR). 빌드 시 output 폴더로 복사된다.
 - 실제 제작 예: `worksheets/4학년_1일차_색의무게감.json` (교재 10쪽, 설명문)
 - 참고 샘플: `worksheets/샘플_4학년_급식잔반.json` → `output/샘플_4학년_급식잔반/`
+
+## 초등영어 게임 매뉴얼·머트리얼 (별도 흐름)
+- 데이터: `games/초등영어게임_데이터.js` (게임 95종, 챕터 A~G, 머트리얼 M01~M25). 게임을 고치거나 추가할 때는 이 파일만 편집한다.
+- 빌드: `node tool/game_build.js` (`--only manual` / `--only materials` / `--no-png`). 게임 블록은 높이를 재서 자동으로 쪽에 배치한다.
+- 결과: `output/초등영어게임_매뉴얼/` (교사용 매뉴얼 PDF+쪽별 PNG), `output/초등영어게임_머트리얼/` (인쇄용 교구 PDF+PNG).
+- 원본: 「Let's play a game!」 게임 룰 모음 PDF 53쪽(100건). 중복 통합·제목 오류 수정 내역은 매뉴얼 2쪽 '원본 자료 정리 메모'에 있다.
