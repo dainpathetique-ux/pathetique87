@@ -21,3 +21,10 @@
 - 한글 글꼴: `tool/kr400.woff2`, `tool/kr700.woff2` (Noto Sans KR). 빌드 시 output 폴더로 복사된다.
 - 실제 제작 예: `worksheets/4학년_1일차_색의무게감.json` (교재 10쪽, 설명문)
 - 참고 샘플: `worksheets/샘플_4학년_급식잔반.json` → `output/샘플_4학년_급식잔반/`
+
+## 초등영어 게임 패키지 (별도 흐름) — 게임 1개 = PDF 1개
+- 데이터: `games/초등영어게임_데이터.js`(게임 97종 기본 정보·진행·교실영어·팁) + `games/초등영어게임_보강.js`(게임별 예시 진행 시나리오, 관찰 포인트, 전용 머트리얼 사양). 영문명(en)으로 두 파일을 합친다.
+- 빌드: `node tool/game_pack_build.js` (`--only A-01,B-03`, `--png --png-dir <경로>` 로 미리보기 PNG). 매뉴얼은 섹션 높이를 재서 A4 1쪽에 맞추고(조금 넘치면 compact 모드) 그 뒤에 머트리얼 쪽을 붙인다.
+- 결과: `output/초등영어게임/<번호> <영문명> (<국문명>).pdf` 97개 + `00 게임 목록 (97종).pdf` + `_index.json`.
+- 머트리얼 사양(mats) 종류는 보강 파일 머리 주석 참고: cards·nums·clocks·bingo·board·dice·score·signs·scene·labels·slips·mask·poster20q·faces·menu·preps·days·apples·cue·dialog·roles·puzzle·truefalse·sounds·peek·house·faceposter·worksheet.
+- 원본: 「Let's play a game!」 게임 룰 모음 PDF 53쪽(100건). 같은 내용이 두 번 실린 3건을 제외해 97종. 제목·본문이 어긋난 2건(p.10 Information Gap, p.17 Action Chains)은 내용 기준으로 정리.

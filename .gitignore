@@ -1,0 +1,4 @@
+
+# 전달용 압축본·미리보기는 저장소에 넣지 않음
+output/**/*.zip
+output/**/_preview/
