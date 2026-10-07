@@ -1,0 +1,77 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"NSK";src:url("fonts/NotoSansKR-Regular.otf");font-weight:400;}
+@font-face{font-family:"NSK";src:url("fonts/NotoSansKR-Medium.otf");font-weight:500;}
+@font-face{font-family:"NSK";src:url("fonts/NotoSansKR-Bold.otf");font-weight:700;}
+:root{--ac:#7a2e5b;--ac2:#a8588a;--tint:#f8eff4;--ink:#1f1420;--gold:#d98a2b;}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{width:1920px;height:1080px;overflow:hidden;font-family:"NSK",sans-serif;color:var(--ink);}
+#stage{width:1920px;height:1080px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+ background:linear-gradient(135deg,#fdfafc 0%,#f6edf3 55%,#efe2ec 100%);position:relative;padding:90px 120px;text-align:center;}
+#stage::before{content:"";position:absolute;top:0;left:0;right:0;height:14px;background:var(--ac);}
+.kick{position:absolute;top:54px;left:72px;display:flex;align-items:center;gap:16px;font-weight:700;color:var(--ac);font-size:30px;}
+.kick .dot{width:40px;height:40px;border-radius:8px;background:var(--ac);color:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;}
+.pageno{position:absolute;bottom:46px;right:70px;color:#b39;opacity:.5;font-size:26px;}
+.brand{position:absolute;bottom:44px;left:72px;color:var(--ac2);font-size:26px;font-weight:500;}
+h1{font-size:118px;font-weight:700;color:var(--ac);line-height:1.08;letter-spacing:-2px;}
+h1 .en{color:var(--ink);}
+.sub{font-size:46px;color:#6a4d60;margin-top:30px;font-weight:500;}
+.big{font-size:150px;font-weight:700;color:var(--ac);letter-spacing:2px;}
+.row3{display:flex;gap:46px;margin-top:20px;}
+.chip{background:#fff;border:5px solid var(--ac);border-radius:28px;padding:34px 60px;font-size:104px;font-weight:700;color:var(--ac);box-shadow:0 14px 0 rgba(122,46,91,.14);}
+.mean{display:flex;flex-direction:column;gap:38px;margin-top:20px;}
+.mean .m{font-size:70px;font-weight:700;}
+.mean .m b{color:var(--ac);}
+.mean .m .t{display:inline-block;min-width:92px;height:92px;line-height:92px;border-radius:50%;background:var(--ac);color:#fff;font-size:52px;margin-right:30px;}
+.card{background:#fff;border-radius:30px;padding:60px 80px;box-shadow:0 22px 60px rgba(122,46,91,.16);border:3px solid #eacfe0;}
+.en-big{font-size:112px;font-weight:700;letter-spacing:-1px;}
+.en-big .hl{color:var(--ac);text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:12px;text-underline-offset:14px;}
+.ko-big{font-size:62px;color:#5c4256;margin-top:34px;font-weight:500;}
+.tag{display:inline-block;margin-top:30px;font-size:44px;font-weight:700;color:#fff;background:var(--gold);border-radius:999px;padding:12px 44px;}
+table.rev{border-collapse:separate;border-spacing:0;font-size:68px;margin-top:10px;box-shadow:0 18px 50px rgba(122,46,91,.14);border-radius:24px;overflow:hidden;}
+table.rev td,table.rev th{padding:30px 70px;border:2px solid #e7cfdf;}
+table.rev th{background:var(--ac);color:#fff;font-size:58px;}
+table.rev td:first-child{font-weight:700;color:#3a2a34;background:#fff;}
+table.rev td:last-child{font-weight:700;color:var(--ac);background:var(--tint);font-size:84px;}
+.blank{color:var(--gold);border-bottom:10px solid var(--gold);padding:0 40px;}
+.fill{color:var(--ac);}
+.qlabel{font-size:52px;font-weight:700;color:#fff;background:var(--ac);border-radius:999px;padding:14px 56px;margin-bottom:46px;}
+.think{margin-top:40px;font-size:50px;color:var(--ac2);font-weight:700;}
+.ansbadge{margin-top:40px;font-size:60px;font-weight:700;color:#fff;background:var(--gold);border-radius:20px;padding:18px 54px;}
+.shortrow{display:flex;gap:50px;margin-top:20px;}
+.scard{background:#fff;border:3px solid #eacfe0;border-radius:24px;padding:40px 54px;font-size:60px;box-shadow:0 14px 40px rgba(122,46,91,.12);}
+.scard b{color:var(--ac);}
+.wraplist{margin-top:40px;font-size:64px;line-height:1.7;color:#4a3344;}
+.wraplist b{color:var(--ac);}
+</style></head>
+<body><div id="stage"></div>
+<script>
+const AC='var(--ac)';
+const S={
+ intro:`<h1>영어의 기본<br><span class="en">be동사</span> 3분 완성</h1><div class="sub">딱 세 개, 두 가지 뜻이면 끝!</div>`,
+ why:`<h1>왜 중요할까?</h1><div class="sub" style="font-size:58px;margin-top:50px;">영어 문장의 <b style="color:var(--ac)">절반 이상</b>이<br>be동사로 만들어집니다</div>`,
+ three:`<div class="sub" style="margin-bottom:30px;font-size:52px;">be동사는 딱 세 개</div><div class="row3"><div class="chip">am</div><div class="chip">is</div><div class="chip">are</div></div>`,
+ meaning:`<div class="sub" style="margin-bottom:20px;font-size:52px;">뜻도 딱 두 가지</div><div class="mean"><div class="m"><span class="t">1</span>~이다 <b>(=이다)</b></div><div class="m"><span class="t">2</span>~에 있다 <b>(=있다)</b></div></div>`,
+ diff:`<h1 style="font-size:84px;">한국어 vs 영어</h1><div class="card" style="margin-top:46px;"><div style="font-size:66px;color:#777;">한국어: 나 학생. <span style="color:#2e8b57;">(OK)</span></div><div style="font-size:66px;margin-top:26px;">영어: I <span class="hl" style="color:var(--ac);text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:10px;text-underline-offset:10px;">am</span> a student.</div></div><div class="tag">be동사는 꼭 있어야 해요!</div>`,
+ rule:`<div class="sub" style="font-size:50px;margin-bottom:34px;">주어가 be동사를 정해요</div><table class="rev"><tr><td>I</td><td>am</td></tr><tr><td>He / She / It</td><td>is</td></tr><tr><td>You / We / They</td><td>are</td></tr></table>`,
+ ex1:`<div class="qlabel">예문 1</div><div class="card"><div class="en-big">I <span class="hl">am</span> a student.</div><div class="ko-big">나는 학생이다.</div></div><div class="tag">뜻: ~이다</div>`,
+ ex2:`<div class="qlabel">예문 2</div><div class="card"><div class="en-big">You <span class="hl">are</span> kind.</div><div class="ko-big">너는 친절하다.</div></div><div class="tag">주어 You → are</div>`,
+ ex3:`<div class="qlabel">예문 3</div><div class="card"><div class="en-big">She <span class="hl">is</span> at home.</div><div class="ko-big">그녀는 집에 있다.</div></div><div class="tag">뜻: ~에 있다</div>`,
+ plural:`<h1 style="font-size:80px;">주어가 복수면?</h1><div class="card" style="margin-top:40px;"><div class="en-big" style="font-size:88px;">We / They <span class="hl">are</span> …</div><div class="ko-big" style="font-size:52px;">We are friends. 우리는 친구다.<br>They are students. 그들은 학생이다.</div></div><div class="tag">복수 = 무조건 are</div>`,
+ neg:`<h1 style="font-size:84px;">부정문</h1><div class="sub" style="font-size:52px;margin:30px 0;">be동사 뒤에 <b style="color:var(--ac)">not</b>만 붙이면 끝!</div><div class="card"><div class="en-big" style="font-size:82px;">I am <span class="hl">not</span> &nbsp; You are <span class="hl">not</span> &nbsp; She is <span class="hl">not</span></div></div>`,
+ ques:`<h1 style="font-size:84px;">의문문</h1><div class="sub" style="font-size:50px;margin:28px 0;">be동사를 맨 앞으로!</div><div class="card"><div class="en-big"><span class="hl">Are</span> you ready?</div><div class="ko-big">너 준비 됐니?</div></div>`,
+ review:`<div class="qlabel" style="background:var(--gold)">한눈에 정리</div><table class="rev"><tr><th>주어</th><th>be동사</th></tr><tr><td>I</td><td>am</td></tr><tr><td>He / She / It</td><td>is</td></tr><tr><td>You / We / They</td><td>are</td></tr></table>`,
+ q1:`<div class="qlabel">연습 1</div><div class="card"><div class="en-big">I <span class="blank">&nbsp;?&nbsp;</span> happy.</div></div><div class="think">⏳ 빈칸에 뭐가 들어갈까요?</div>`,
+ q1a:`<div class="qlabel">연습 1 · 정답</div><div class="card"><div class="en-big">I <span class="fill">am</span> happy.</div><div class="ko-big">나는 행복하다.</div></div><div class="ansbadge">정답: am</div>`,
+ q2:`<div class="qlabel">연습 2</div><div class="card"><div class="en-big">They <span class="blank">&nbsp;?&nbsp;</span> my friends.</div></div><div class="think">⏳ 복수 주어예요!</div>`,
+ q2a:`<div class="qlabel">연습 2 · 정답</div><div class="card"><div class="en-big">They <span class="fill">are</span> my friends.</div><div class="ko-big">그들은 내 친구다.</div></div><div class="ansbadge">정답: are</div>`,
+ q3:`<div class="qlabel">연습 3</div><div class="card"><div class="en-big">He <span class="blank">&nbsp;?&nbsp;</span> a teacher.</div></div><div class="think">⏳ 생각해 보세요</div>`,
+ q3a:`<div class="qlabel">연습 3 · 정답</div><div class="card"><div class="en-big">He <span class="fill">is</span> a teacher.</div><div class="ko-big">그는 선생님이다.</div></div><div class="ansbadge">정답: is</div>`,
+ short:`<h1 style="font-size:84px;">줄임말</h1><div class="shortrow"><div class="scard">I am → <b>I'm</b></div><div class="scard">You are → <b>You're</b></div><div class="scard">She is → <b>She's</b></div></div>`,
+ wrap:`<h1>오늘의 정리</h1><div class="wraplist">① be동사 세 개 — <b>am · is · are</b><br>② 두 가지 뜻 — <b>~이다 / ~있다</b><br>③ 주어와의 짝만 외우기!</div><div class="tag" style="margin-top:50px;">수고했어요 👏</div>`
+};
+function show(id){const st=document.getElementById('stage');
+ st.innerHTML=`<div class="kick"><span class="dot">be</span> be동사 3분 완성</div>`+ (S[id]||('<h1>'+id+'</h1>')) +`<div class="brand">ON글터 영어</div>`;}
+window.__show=show;
+const h=location.hash.slice(1); if(h) show(h); else show('intro');
+</script></body></html>
