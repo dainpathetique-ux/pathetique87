@@ -6,6 +6,15 @@
 |---|---|---|---|
 | `SmShorts` | 이중자음 `sm` 교육 숏폼 30초 (내레이션 + BGM) | `npm run render` | `output.mp4` |
 | `GiftTeaser` | '빙그레의 영역 / 김소연' 북 티저 23초 (수채화 창가 책상 일러스트, 돌리인·팬 카메라, 피아노·첼로 왈츠 BGM, 로고 아웃트로) | `npm run render:gift` | `output-gift.mp4` |
+| `ABC-A` … `ABC-Z` | 알파벳 26편 숏폼 30초 (글자 그리기 인트로 → 단어 3개 이모지 카드 → 로고 아웃트로, 내레이션 + BGM) | `npm run render:abc` (`node scripts/render-abc.mjs A B` 로 일부만) | `output-abc/Aa_alphabet.mp4` … |
+
+### 알파벳 시리즈 (ABC-*)
+
+- 단어·IPA·한글 읽기·뜻·이모지 코드는 `src/abc/data.json` 한 곳에서 관리한다. 단어를 바꾸면
+  `audio-gen/abc_tts_gen.py` 로 내레이션(`public/abc/voice/`, `src/abc/voiceCues.ts`)을 다시 만들고 렌더한다.
+- 그림은 Twemoji SVG(`public/emoji/`, npm `@twemoji/svg`)를 쓴다. 그래픽 라이선스는 **CC-BY 4.0** 이므로
+  영상 설명란 등에 "Emoji graphics: Twemoji (CC-BY 4.0)" 한 줄을 적어 두는 것이 안전하다.
+- 템플릿은 `src/abc/AbcShort.tsx`, 글자별 컴포지션은 `src/Root.tsx` 에서 `LETTERS` 로 자동 등록된다.
 
 모든 그래픽은 SVG + Remotion spring/interpolate 모션으로 그렸다.
 `GiftTeaser` 의 장면은 `src/gift/DeskScene.tsx` 에 있고, 카메라는 `useCamera`(0~10초 돌리인, 10~20초 팬),

@@ -4,6 +4,7 @@ import {FPS, HEIGHT, TOTAL_FRAMES, WIDTH} from './constants';
 import {SmShorts, type SmShortsProps} from './SmShorts';
 import {GiftTeaser, type GiftTeaserProps} from './gift/GiftTeaser';
 import {GIFT_FRAMES} from './gift/constants';
+import {AbcShort, LETTERS, type AbcShortProps} from './abc/AbcShort';
 
 // public/ 폴더에 선택 파일(bgm.mp3, 로고.jpg)이 있는지 확인한다.
 const exists = async (file: string): Promise<boolean> => {
@@ -48,6 +49,18 @@ export const Root: React.FC = () => {
         return {props: {hasBgm, hasLogo}};
       }}
     />
+    {LETTERS.map((l) => (
+      <Composition
+        key={l.letter}
+        id={`ABC-${l.letter}`}
+        component={AbcShort}
+        durationInFrames={TOTAL_FRAMES}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{letter: l.letter} as AbcShortProps}
+      />
+    ))}
     </>
   );
 };
