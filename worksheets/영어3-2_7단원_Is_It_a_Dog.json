@@ -7,9 +7,9 @@
   "title": "Is It a Dog?",
   "subtitle": "(그것은 개니?) 단원 연습 워크시트",
   "plan": [
-    "단어 익히기 10분",
-    "문장 익히기 15분",
-    "문법·쓰기 10분",
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
     "받아쓰기·점검 5분"
   ],
   "pages": [
@@ -256,24 +256,25 @@
       ]
     },
     {
-      "spacing": "tight",
+      "spacing": "normal",
       "sections": [
         {
-          "title": "3. 문법 다지기",
+          "title": "3. 문법 다지기 ①",
           "color": "violet",
           "items": [
             {
               "type": "list",
               "q": "문법 정리의 빈칸을 채우세요.",
               "items": [
-                "어떤 동물인지 물을 때:  ________ it a + 동물 이름?",
-                "맞으면  Yes, it ______.    아니면  No, it ________.",
-                "It's 뒤에 big, small, cute 같은 말을 넣어요. 이런 말을 ( ______ )라고 해요."
+                "어떤 동물인지 물을 때:  ______ it a + 동물 이름?",
+                "맞으면  Yes, it ______.    아니면  No, it ______.",
+                "크기나 생김새를 말할 때:  ______ + big, small, cute.",
+                "big, cute, yellow처럼 크기·생김새·색을 나타내는 말을 ( _____ )라고 해요."
               ]
             },
             {
               "type": "select",
-              "q": "문장에서 크기·생김새를 나타내는 말(형용사)을 찾아 ○표 하세요.",
+              "q": "문장에서 크기·생김새·색을 나타내는 말(형용사)을 찾아 ○표 하세요.",
               "items": [
                 "It's big.",
                 "It's a cute cat.",
@@ -288,35 +289,126 @@
                 "( Is / Are ) it a dog?  그것은 개니?",
                 "Yes, it ( is / isn't ).  응, 그래.",
                 "( It's / Is ) small.  그것은 작다.",
-                "No, it ( is / isn't ).  아니, 그렇지 않아."
+                "No, it ( is / isn't ).  아니, 그렇지 않아.",
+                "Is ( it / its ) a bear?  그것은 곰이니?",
+                "( What's / What ) that?  저것은 무엇이니?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 동물로 '그것은 ~이니?' 하고 묻는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( zebra )  그것은 얼룩말이니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( bear )  그것은 곰이니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( fox )  그것은 여우니?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "대문자",
+                "is / isn't",
+                "It's"
+              ],
+              "items": [
+                {
+                  "text": "is it a cat?",
+                  "label": "→"
+                },
+                {
+                  "text": "Yes, it isn't.  (응, 그래.)",
+                  "label": "→"
+                },
+                {
+                  "text": "It big.  (그것은 크다.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 두 문장을 쓰세요.  보기: (bear, big) → It's a bear. It's big.",
+              "columns": [
+                "번호",
+                "동물",
+                "크기·생김새"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "bird",
+                  "small"
+                ],
+                [
+                  "⑵",
+                  "cat",
+                  "cute"
+                ],
+                [
+                  "⑶",
+                  "zebra",
+                  "big"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: Is it a bird?    B: ______, it ______.  It's a cat.",
+                "A: ______ it a bear?    B: Yes, it ______.  It's big.",
+                "A: ______ that?    B: It's a zebra.  It's very ______!"
               ]
             }
           ]
         },
         {
-          "title": "4. 나만의 문장 쓰기",
+          "title": "5. 나만의 문장 쓰기",
           "color": "orange",
           "items": [
             {
               "type": "fourlines",
-              "q": "좋아하는 동물 두 가지를 골라 묻고 답하는 문장을 쓰세요. 대답에는 크기·생김새를 나타내는 말을 넣으세요.",
-              "box": [
-                "Is it a ___?",
-                "Yes, it is.",
-                "It's ___."
-              ],
+              "q": "좋아하는 동물을 골라 묻고 답하는 문장을 쓰세요. 대답에는 형용사를 넣으세요.",
               "items": [
                 {
                   "pre": "Q:",
                   "label": "⑴"
-                },
-                {
-                  "pre": "A:",
-                  "label": ""
-                },
-                {
-                  "pre": "Q:",
-                  "label": "⑵"
                 },
                 {
                   "pre": "A:",
@@ -327,12 +419,12 @@
           ]
         },
         {
-          "title": "5. 받아쓰기",
+          "title": "6. 받아쓰기",
           "color": "green",
           "items": [
             {
               "type": "fourlines",
-              "q": "선생님이 읽어 주는 문장을 잘 듣고 쓰세요.",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
               "items": [
                 {
                   "label": "⑴"
@@ -348,7 +440,7 @@
           ]
         },
         {
-          "title": "6. 스스로 점검",
+          "title": "7. 스스로 점검",
           "color": "green",
           "checklist": [
             "단어 10개를 보지 않고 쓸 수 있다.",

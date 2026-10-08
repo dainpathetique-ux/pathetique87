@@ -93,7 +93,7 @@ td.c{text-align:center}
 .fl .four .pre{position:absolute;left:3mm;top:0;height:66%;display:flex;align-items:flex-end;font-size:12.5pt;color:var(--ink);line-height:1;padding-bottom:2px}
 .chk{list-style:none;padding:0;margin:0 0 0 1.8em;display:grid;grid-template-columns:1fr 1fr;gap:3px 12px;font-size:11pt}
 .chk li::before{content:"☐ ";font-size:12pt;color:var(--green)}
-.stamp{display:flex;gap:8px;margin:8px 0 0 1.8em}
+.stamp{display:flex;gap:8px;margin:6px 0 0 1.8em}
 .stamp .b{flex:1;border:1.5px dashed var(--green);border-radius:6px;padding:5px 10px;min-height:16mm;font-size:10.5pt;color:#3a4a66}
 .stamp .s{width:32mm;flex:none;border:1.5px solid var(--green);border-radius:6px;text-align:center;font-size:10pt;color:var(--green);padding-top:3px}
 .stamp b{color:var(--green)}
