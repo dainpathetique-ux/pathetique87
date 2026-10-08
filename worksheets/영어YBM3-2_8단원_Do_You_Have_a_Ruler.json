@@ -1,0 +1,477 @@
+{
+  "slug": "영어YBM3-2_8단원_Do_You_Have_a_Ruler",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 3-2 · 8단원",
+  "title": "Do You Have a Ruler?",
+  "subtitle": "(너는 자가 있니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "crayon",
+            "크레용"
+          ],
+          [
+            "eraser",
+            "지우개"
+          ],
+          [
+            "have",
+            "가지다"
+          ],
+          [
+            "long",
+            "긴"
+          ],
+          [
+            "love",
+            "사랑하다"
+          ],
+          [
+            "notebook",
+            "공책"
+          ],
+          [
+            "pen",
+            "펜"
+          ],
+          [
+            "ruler",
+            "자"
+          ],
+          [
+            "scissors",
+            "가위"
+          ],
+          [
+            "glue stick",
+            "막대 풀"
+          ],
+          [
+            "look",
+            "보다"
+          ],
+          [
+            "nice",
+            "멋진"
+          ],
+          [
+            "pretty",
+            "예쁜"
+          ],
+          [
+            "sit",
+            "앉다"
+          ]
+        ],
+        "sentences": [
+          [
+            "Do you have a pen?",
+            "너는 펜이 있니?"
+          ],
+          [
+            "Yes, I do. I have a pen.",
+            "응, 나는 있어. 나는 펜을 가지고 있어."
+          ],
+          [
+            "No, I don't.",
+            "아니, 나는 없어."
+          ],
+          [
+            "I don't have any crayons.",
+            "나는 크레용이 없어."
+          ],
+          [
+            "Here you are.",
+            "여기 있어."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "crayon",
+                  "",
+                  "가위",
+                  ""
+                ],
+                [
+                  "eraser",
+                  "",
+                  "막대 풀",
+                  ""
+                ],
+                [
+                  "have",
+                  "",
+                  "보다",
+                  ""
+                ],
+                [
+                  "long",
+                  "",
+                  "멋진",
+                  ""
+                ],
+                [
+                  "notebook",
+                  "",
+                  "예쁜",
+                  ""
+                ],
+                [
+                  "pen",
+                  "",
+                  "앉다",
+                  ""
+                ],
+                [
+                  "ruler",
+                  "",
+                  "사랑하다",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "cr _ yon  (크레용)",
+                "er _ ser  (지우개)",
+                "h _ ve  (가지다)",
+                "r _ ler  (자)",
+                "sc _ ssors  (가위)",
+                "n _ ce  (멋진)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '학용품 이름'과 '학용품이 아닌 말'로 나누어 쓰세요.",
+              "box": [
+                "crayon",
+                "have",
+                "eraser",
+                "long",
+                "ruler",
+                "love",
+                "scissors",
+                "look",
+                "pen",
+                "sit"
+              ],
+              "columns": [
+                "학용품 이름",
+                "학용품이 아닌 말"
+              ],
+              "rows": 2
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "scissors",
+                "notebook",
+                "eraser"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Do you have a pen?",
+                "Yes, I do.",
+                "No, I don't.",
+                "I don't have any crayons.",
+                "Here you are."
+              ],
+              "right": [
+                "여기 있어.",
+                "아니, 나는 없어.",
+                "너는 펜이 있니?",
+                "나는 크레용이 없어.",
+                "응, 나는 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 ○, ×를 보고 Yes, I do. 또는 No, I don't. 로 대답을 쓰세요.",
+              "items": [
+                "(펜 ○) Do you have a pen?  →  __________",
+                "(자 ×) Do you have a ruler?  →  __________",
+                "(지우개 ○) Do you have an eraser?  →  __________",
+                "(크레용 ×) Do you have any crayons?  →  __________"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "you / Do / have / a / pen / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "I / Yes, / do / .",
+                  "label": "→"
+                },
+                {
+                  "text": "you / Here / are / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "have",
+                "do",
+                "Here",
+                "don't"
+              ],
+              "items": [
+                "A: Do you __________ a ruler?",
+                "B: Yes, I __________.  __________ you are.",
+                "A: Do you have any crayons?",
+                "B: No, I __________."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "물건이 있는지 물을 때:  ______ you have a + 물건?",
+                "있으면  Yes, I ______.    없으면  No, I ______.",
+                "물건이 하나이면 앞에 a 또는 ______ 을 써요.  (예: an eraser)",
+                "물건이 여러 개이면 앞에 ______ 를 써요.  (예: any crayons)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "a 와 an 중에서 알맞은 것에 ○표 하세요.",
+              "items": [
+                "( a / an ) pen",
+                "( a / an ) eraser",
+                "( a / an ) ruler",
+                "( a / an ) notebook"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "( Do / Is ) you have a pen?",
+                "Yes, I ( do / don't ). 응, 있어.",
+                "No, I ( do / don't ). 아니, 없어.",
+                "I have ( a / any ) crayons.",
+                "( Here / Have ) you are.",
+                "I have ( a / an ) eraser."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 물건으로 '너는 ~이 있니?' 하고 묻는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( ruler )  너는 자가 있니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( eraser )  너는 지우개가 있니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( crayons )  너는 크레용이 있니?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "대문자",
+                "a / an",
+                "any"
+              ],
+              "items": [
+                {
+                  "text": "do you have a pen?",
+                  "label": "→"
+                },
+                {
+                  "text": "I have a eraser.  (나는 지우개가 있어.)",
+                  "label": "→"
+                },
+                {
+                  "text": "I don't have a crayons.  (나는 크레용이 없어.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기처럼 묻고 답하는 문장을 쓰세요.  보기: (pen, ○) → Do you have a pen? Yes, I do.",
+              "columns": [
+                "번호",
+                "물건",
+                "있다 ○ / 없다 ×"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "ruler",
+                  "○"
+                ],
+                [
+                  "⑵",
+                  "notebook",
+                  "×"
+                ],
+                [
+                  "⑶",
+                  "eraser",
+                  "○"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: Do you ______ a pen?    B: Yes, I ______.",
+                "A: Do you have ______ crayons?    B: No, I ______.",
+                "A: Do you have an eraser?    B: Yes, I ______.  ______ you are."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "내 필통 속 물건으로 묻고 답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "Yes, I do. / No, I don't. 로 대답할 수 있다.",
+            "a, an, any 를 알맞게 썼다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

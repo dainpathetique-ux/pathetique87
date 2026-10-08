@@ -1,0 +1,476 @@
+{
+  "slug": "영어YBM3-2_9단원_How_Old_Are_You",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 3-2 · 9단원",
+  "title": "How Old Are You?",
+  "subtitle": "(몇 살이니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "one",
+            "1, 하나"
+          ],
+          [
+            "two",
+            "2, 둘"
+          ],
+          [
+            "three",
+            "3, 셋"
+          ],
+          [
+            "four",
+            "4, 넷"
+          ],
+          [
+            "five",
+            "5, 다섯"
+          ],
+          [
+            "six",
+            "6, 여섯"
+          ],
+          [
+            "seven",
+            "7, 일곱"
+          ],
+          [
+            "eight",
+            "8, 여덟"
+          ],
+          [
+            "nine",
+            "9, 아홉"
+          ],
+          [
+            "ten",
+            "10, 열"
+          ],
+          [
+            "old",
+            "나이가 ~인"
+          ],
+          [
+            "year",
+            "해, 나이(~살)"
+          ],
+          [
+            "here",
+            "여기"
+          ],
+          [
+            "fun",
+            "재미있는"
+          ]
+        ],
+        "sentences": [
+          [
+            "How old are you?",
+            "몇 살이니?"
+          ],
+          [
+            "I'm nine years old.",
+            "나는 아홉 살이야."
+          ],
+          [
+            "I'm nine, too.",
+            "저도 아홉 살이에요."
+          ],
+          [
+            "Come in, please.",
+            "안으로 들어와 주세요."
+          ],
+          [
+            "Here's the menu.",
+            "여기 메뉴입니다."
+          ],
+          [
+            "Happy Birthday!",
+            "생일 축하해!"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻(숫자)을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "one",
+                  "",
+                  "2, 둘",
+                  ""
+                ],
+                [
+                  "three",
+                  "",
+                  "4, 넷",
+                  ""
+                ],
+                [
+                  "five",
+                  "",
+                  "6, 여섯",
+                  ""
+                ],
+                [
+                  "seven",
+                  "",
+                  "8, 여덟",
+                  ""
+                ],
+                [
+                  "nine",
+                  "",
+                  "10, 열",
+                  ""
+                ],
+                [
+                  "old",
+                  "",
+                  "해, 나이(~살)",
+                  ""
+                ],
+                [
+                  "here",
+                  "",
+                  "재미있는",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "tw _  (2)",
+                "thr _ _  (3)",
+                "f _ ur  (4)",
+                "s _ ven  (7)",
+                "_ ight  (8)",
+                "n _ ne  (9)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '숫자를 나타내는 말'과 '숫자가 아닌 말'로 나누어 쓰세요.",
+              "box": [
+                "one",
+                "old",
+                "two",
+                "year",
+                "five",
+                "here",
+                "eight",
+                "fun",
+                "ten"
+              ],
+              "columns": [
+                "숫자를 나타내는 말",
+                "숫자가 아닌 말"
+              ],
+              "rows": 1
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "three",
+                "eight",
+                "seven"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "How old are you?",
+                "I'm nine years old.",
+                "Come in, please.",
+                "Here's the menu.",
+                "Happy Birthday!"
+              ],
+              "right": [
+                "생일 축하해!",
+                "안으로 들어와 주세요.",
+                "몇 살이니?",
+                "여기 메뉴입니다.",
+                "나는 아홉 살이야."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 숫자를 보고 나이를 말하는 문장을 완성하세요.",
+              "items": [
+                "(9) How old are you?  →  I'm ______ years old.",
+                "(10) How old are you?  →  I'm ______ years old.",
+                "(1) How old are you?  →  I'm one ______ old.",
+                "(8) How old are you?  →  I'm __________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "old / How / you / are / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "nine / I'm / old / years / .",
+                  "label": "→"
+                },
+                {
+                  "text": "in, / Come / please / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "How",
+                "years",
+                "too",
+                "Birthday"
+              ],
+              "items": [
+                "A: __________ old are you?",
+                "B: I'm nine __________ old.",
+                "A: I'm nine, __________.",
+                "B: Happy __________!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "나이를 물을 때:  How ______ are you?",
+                "나이를 말할 때:  I'm + 숫자 + ______ old.",
+                "한 살일 때는:  I'm one ______ old.",
+                "Here is 는 줄여서 ______ 라고 써요."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 숫자를 나타내는 말을 찾아 ○표 하세요.",
+              "items": [
+                "I'm nine years old.",
+                "I'm ten, too.",
+                "I'm one year old.",
+                "I'm seven years old."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "( How / What ) old are you?",
+                "I'm nine ( year / years ) old.",
+                "I'm one ( year / years ) old.",
+                "I'm nine, ( too / two ). 나도",
+                "( Here's / Here ) the menu.",
+                "( Happy / Fun ) Birthday!"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 숫자로 '나는 ~살이야.' 하고 말하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( 8 )  나는 여덟 살이야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( 10 )  나는 열 살이야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( 1 )  나는 한 살이야.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "대문자",
+                "years",
+                "I'm"
+              ],
+              "items": [
+                {
+                  "text": "how old are you?",
+                  "label": "→"
+                },
+                {
+                  "text": "I'm nine year old.  (나는 아홉 살이야.)",
+                  "label": "→"
+                },
+                {
+                  "text": "I nine, too.  (나도 아홉 살이야.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기처럼 묻고 답하는 문장을 쓰세요.  보기: (9살) → How old are you? I'm nine years old.",
+              "columns": [
+                "번호",
+                "나이"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "7살"
+                ],
+                [
+                  "⑵",
+                  "10살"
+                ],
+                [
+                  "⑶",
+                  "1살"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: How ______ are you?    B: I'm ______ years old.  (6살)",
+                "A: I'm nine years old.    B: I'm nine, ______.",
+                "A: Come ______, please.    B: ______ Birthday!"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "친구에게 나이를 묻고, 내 나이로 대답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "숫자 1~10을 영어로 쓸 수 있다.",
+            "How old are you? 에 대답할 수 있다.",
+            "years old 를 바르게 썼다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

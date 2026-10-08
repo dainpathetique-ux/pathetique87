@@ -1,0 +1,480 @@
+{
+  "slug": "영어YBM3-2_11단원_Hows_the_Weather",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 3-2 · 11단원",
+  "title": "How's the Weather?",
+  "subtitle": "(날씨가 어때?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "cloudy",
+            "흐린, 구름 낀"
+          ],
+          [
+            "cold",
+            "추운, 차가운"
+          ],
+          [
+            "dance",
+            "춤추다"
+          ],
+          [
+            "go",
+            "가다"
+          ],
+          [
+            "home",
+            "집, 집에"
+          ],
+          [
+            "how",
+            "어떻게, 어떠하여"
+          ],
+          [
+            "music",
+            "음악"
+          ],
+          [
+            "rain",
+            "비가 오다"
+          ],
+          [
+            "see",
+            "보다, 만나다"
+          ],
+          [
+            "sunny",
+            "화창한, 맑은"
+          ],
+          [
+            "umbrella",
+            "우산"
+          ],
+          [
+            "weather",
+            "날씨"
+          ],
+          [
+            "work",
+            "일하다"
+          ],
+          [
+            "look at",
+            "~을 보다"
+          ],
+          [
+            "here",
+            "여기로"
+          ],
+          [
+            "come",
+            "오다"
+          ],
+          [
+            "snow",
+            "눈이 오다"
+          ]
+        ],
+        "sentences": [
+          [
+            "How's the weather?",
+            "날씨가 어때?"
+          ],
+          [
+            "It's sunny.",
+            "화창해."
+          ],
+          [
+            "You're welcome.",
+            "천만에."
+          ],
+          [
+            "Come here, please.",
+            "여기로 와 줘."
+          ],
+          [
+            "Watch out!",
+            "조심해!"
+          ],
+          [
+            "It's snowing.",
+            "눈이 와."
+          ],
+          [
+            "Let's go outside.",
+            "밖으로 나가자."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "cloudy",
+                  "",
+                  "화창한, 맑은",
+                  ""
+                ],
+                [
+                  "cold",
+                  "",
+                  "우산",
+                  ""
+                ],
+                [
+                  "dance",
+                  "",
+                  "날씨",
+                  ""
+                ],
+                [
+                  "go",
+                  "",
+                  "일하다",
+                  ""
+                ],
+                [
+                  "home",
+                  "",
+                  "~을 보다",
+                  ""
+                ],
+                [
+                  "music",
+                  "",
+                  "여기로",
+                  ""
+                ],
+                [
+                  "rain",
+                  "",
+                  "오다",
+                  ""
+                ],
+                [
+                  "see",
+                  "",
+                  "눈이 오다",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "cl _ udy  (흐린)",
+                "c _ ld  (추운)",
+                "r _ in  (비가 오다)",
+                "s _ nny  (화창한)",
+                "sn _ w  (눈이 오다)",
+                "w _ ather  (날씨)",
+                "umbr _ lla  (우산)",
+                "c _ me  (오다)"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "weather",
+                "umbrella",
+                "cloudy"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "How's the weather?",
+                "It's sunny.",
+                "Come here, please.",
+                "It's snowing.",
+                "Let's go outside."
+              ],
+              "right": [
+                "눈이 와.",
+                "밖으로 나가자.",
+                "날씨가 어때?",
+                "여기로 와 줘.",
+                "화창해."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 날씨를 보고 대답하는 문장을 완성하세요.",
+              "items": [
+                "(화창한) How's the weather?  →  It's ______.",
+                "(흐린) How's the weather?  →  It's ______.",
+                "(추운) How's the weather?  →  It's ______.",
+                "(눈이 오는) How's the weather?  →  It's __________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "the / How's / weather / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "sunny / It's / .",
+                  "label": "→"
+                },
+                {
+                  "text": "go / Let's / outside / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "Let's",
+                "snowing",
+                "Watch",
+                "weather"
+              ],
+              "items": [
+                "A: How's the __________?",
+                "B: It's __________.  (눈)",
+                "A: __________ go outside.",
+                "B: __________ out!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "날씨를 물을 때:  ______ the weather?",
+                "날씨를 말할 때:  ______ + 날씨를 나타내는 말.  (예: It's sunny.)",
+                "'~하자'라고 말할 때:  ______ + 동작을 나타내는 말.",
+                "How's 는 How ______, Let's 는 Let ______ 를 줄인 말이에요."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 날씨를 나타내는 말을 찾아 ○표 하세요.",
+              "items": [
+                "It's sunny.",
+                "It's cloudy.",
+                "It's snowing.",
+                "It's cold."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "( How's / What ) the weather?",
+                "( It's / It ) sunny. 화창해.",
+                "It's ( snow / snowing ). 눈이 와.",
+                "( Let's / Let ) go outside.",
+                "Come ( here / home ), please.",
+                "( Watch / Look ) out! 조심해!"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 날씨로 '~해.' 하고 대답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( cloudy )  흐려.",
+                  "label": "→"
+                },
+                {
+                  "text": "( cold )  추워.",
+                  "label": "→"
+                },
+                {
+                  "text": "( sunny )  화창해.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "대문자",
+                "It's",
+                "Let's"
+              ],
+              "items": [
+                {
+                  "text": "how's the weather?",
+                  "label": "→"
+                },
+                {
+                  "text": "It cloudy.  (흐려.)",
+                  "label": "→"
+                },
+                {
+                  "text": "Let go outside.  (밖으로 나가자.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기처럼 묻고 답하는 문장을 쓰세요.  보기: (화창한) → How's the weather? It's sunny.",
+              "columns": [
+                "번호",
+                "날씨"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "흐린"
+                ],
+                [
+                  "⑵",
+                  "추운"
+                ],
+                [
+                  "⑶",
+                  "눈이 오는"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: ______ the weather?    B: It's ______.  (화창한)",
+                "A: It's ______.  (추운)    B: Let's go ______.  (집에)",
+                "A: Come ______, please.    B: ______ out!"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "오늘 날씨를 묻고 답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "날씨 단어 5개를 보지 않고 쓸 수 있다.",
+            "It's + 날씨로 대답할 수 있다.",
+            "문장 첫 글자를 대문자로 썼다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}
