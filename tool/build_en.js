@@ -43,7 +43,7 @@ body{margin:0;background:#888;font-family:"NKR",sans-serif;color:var(--ink);font
 .hdr .logo img{width:56mm;margin:-6.2mm 0 0 -5.6mm;display:block}
 .hdr .l{font-size:9.5pt;color:#5a6b85}.hdr .t{font-size:15pt;font-weight:700;line-height:1.25;color:#1d3f7a;word-break:keep-all}
 .hdr .t small{font-size:11pt;color:#5a6b85;font-weight:400;margin-left:6px}
-.hdr .r{font-size:10.5pt;text-align:right;color:#3a4a66;white-space:nowrap}
+.hdr .r{font-size:10.5pt;text-align:right;color:#3a4a66;white-space:nowrap;flex:none;margin-left:6px}
 .hdr .r span{display:inline-block;border-bottom:1px solid #3a4a66;min-width:34mm;margin-left:4px}
 .plan{display:flex;gap:6px;margin:0 0 6px;font-size:9.5pt;color:#3a4a66}
 .plan div{flex:1;border:1px solid var(--line);border-radius:14px;padding:2px 8px;text-align:center;background:#f5f8fc}
@@ -129,8 +129,10 @@ function renderItem(it) {
     }
     case 'list': // 문장 목록 (빈칸 ___ 포함), 선택: lines(각 문장 뒤 줄 수)
       return q + box + `<div class="list sp">${it.items.map((s,i)=>`<div>${circ(i)} ${txt(s)}</div>`+(it.lines?lines(it.lines).replace(/margin:0 0 0 1.8em/g,''):'')).join('')}</div>`;
-    case 'select': // ○표 고르기
-      return q + `<div class="sel sp">${it.items.map((s,i)=>`<div>${circ(i)} ${txt(s)}</div>`).join('')}</div>`;
+    case 'select': { // ○표 고르기. 긴 항목이 있으면 한 열로
+      const one = it.columns === 1 || it.items.some(s => s.length > 30);
+      return q + `<div class="sel sp"${one?' style="grid-template-columns:1fr"':''}>${it.items.map((s,i)=>`<div>${circ(i)} ${txt(s)}</div>`).join('')}</div>`;
+    }
     case 'fourlines': { // 영어 4선. items: 문자열(모델 글자) 또는 {label, model, pre}
       const rows = it.items.map((x,i)=>{
         const o = typeof x === 'string' ? { model: x } : x;
@@ -169,7 +171,11 @@ function build(spec) {
   const logo = logoSrc ? `<div class="logo"><img src="logo.jpg"></div>` : '';
   const acad = logoSrc ? '' : esc(spec.academy||'[학원명]')+' ';
   const plan = spec.plan ? `<div class="plan">${spec.plan.map((s,i)=>`<div><b>${i+1}</b> ${esc(s)}</div>`).join('')}</div>` : '';
-  const hdr = (i) => `<div class="hdr"><div class="hl">${logo}<div><div class="l">${acad}${esc(spec.course||'초등영어')} · ${esc(spec.grade||'')}</div><div class="t">${esc(spec.title)}${spec.subtitle?`<small>${esc(spec.subtitle)}</small>`:''}</div></div></div>
+  // 제목+부제가 길면 글자를 줄여 한 줄에 맞춘다 (머리글 높이 고정)
+  const tl = (spec.title||'').length + (spec.subtitle||'').length;
+  const tsz = tl > 44 ? 'font-size:12pt' : tl > 36 ? 'font-size:13pt' : '';
+  const ssz = tl > 36 ? 'font-size:9.5pt' : '';
+  const hdr = (i) => `<div class="hdr"><div class="hl">${logo}<div><div class="l">${acad}${esc(spec.course||'초등영어')} · ${esc(spec.grade||'')}</div><div class="t" style="${tsz}">${esc(spec.title)}${spec.subtitle?`<small style="${ssz}">${esc(spec.subtitle)}</small>`:''}</div></div></div>
    <div class="r">이름<span></span>${i===0?'<br>날짜 <span style="min-width:40mm"></span>':''}</div></div>`;
   const pages = spec.pages.map((pg, i) => {
     const sp = SPACING[pg.spacing||'normal'] || SPACING.normal;

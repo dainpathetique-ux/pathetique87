@@ -1,11 +1,11 @@
 {
-  "slug": "영어3-2_7단원_Is_It_a_Dog",
+  "slug": "영어3-2_9단원_Can_You_Swim",
   "logo": false,
   "academy": "윤선생 IGSE 성당어학원",
   "course": "초등영어 평가 대비",
-  "grade": "천재교육 3-2 · 7단원",
-  "title": "Is It a Dog?",
-  "subtitle": "(그것은 개니?) 단원 연습 워크시트",
+  "grade": "천재교육 3-2 · 9단원",
+  "title": "Can You Swim?",
+  "subtitle": "(너는 수영할 수 있니?) 단원 연습 워크시트",
   "plan": [
     "단어 익히기 8분",
     "문장 익히기 12분",
@@ -19,70 +19,78 @@
         "note": "이번 단원 단어와 문장",
         "words": [
           [
-            "dog",
-            "개"
+            "run",
+            "달리다"
           ],
           [
-            "cat",
-            "고양이"
+            "jump",
+            "점프하다"
           ],
           [
-            "bird",
-            "새"
+            "dance",
+            "춤추다"
           ],
           [
-            "fox",
-            "여우"
+            "swim",
+            "수영하다"
           ],
           [
-            "bear",
-            "곰"
+            "can",
+            "~할 수 있다"
           ],
           [
-            "zebra",
-            "얼룩말"
+            "sing",
+            "노래하다"
           ],
           [
-            "zoo",
-            "동물원"
+            "too",
+            "~도, 또한"
           ],
           [
-            "big",
-            "큰"
+            "skate",
+            "스케이트를 타다"
           ],
           [
-            "small",
-            "작은"
+            "ticket",
+            "표"
           ],
           [
-            "cute",
-            "귀여운"
+            "dive",
+            "다이빙하다"
+          ],
+          [
+            "look",
+            "보다"
+          ],
+          [
+            "shark",
+            "상어"
           ]
         ],
         "sentences": [
           [
-            "Is it a zebra?",
-            "그것은 얼룩말이니?"
+            "Can you run?",
+            "너는 달릴 수 있니?"
           ],
           [
-            "Yes, it is.",
-            "응, 그래."
+            "Yes, I can.",
+            "응, 할 수 있어."
           ],
           [
-            "No, it isn't. It's a cat.",
-            "아니, 그렇지 않아. 그것은 고양이야."
+            "Can you jump?",
+            "너는 점프할 수 있니?"
           ],
           [
-            "It's big.",
-            "그것은 크다."
+            "No, I can't.",
+            "아니, 못해."
           ],
           [
-            "What's that?",
-            "저것은 무엇이니?"
+            "I can swim.",
+            "나는 수영할 수 있어."
           ],
           [
-            "Wow, it's very small!",
-            "와, 그것은 매우 작아!"
+            "I can't dance.",
+            "나는 춤을 출 수 없어."
           ]
         ]
       },
@@ -102,33 +110,39 @@
               ],
               "rows": [
                 [
-                  "dog",
+                  "run",
                   "",
-                  "고양이",
+                  "점프하다",
                   ""
                 ],
                 [
-                  "bird",
+                  "dance",
                   "",
-                  "여우",
+                  "수영하다",
                   ""
                 ],
                 [
-                  "bear",
+                  "sing",
                   "",
-                  "얼룩말",
+                  "스케이트를 타다",
                   ""
                 ],
                 [
-                  "zoo",
+                  "ticket",
                   "",
-                  "큰",
+                  "다이빙하다",
                   ""
                 ],
                 [
-                  "small",
+                  "look",
                   "",
-                  "귀여운",
+                  "상어",
+                  ""
+                ],
+                [
+                  "can",
+                  "",
+                  "~도, 또한",
                   ""
                 ]
               ]
@@ -137,45 +151,43 @@
               "type": "spell",
               "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
               "items": [
-                "d _ g  (개)",
-                "c _ t  (고양이)",
-                "b _ rd  (새)",
-                "f _ x  (여우)",
-                "b _ _ r  (곰)",
-                "z _ bra  (얼룩말)",
-                "z _ _  (동물원)",
-                "b _ g  (큰)",
-                "sm _ ll  (작은)",
-                "c _ te  (귀여운)"
+                "r _ n  (달리다)",
+                "j _ mp  (점프하다)",
+                "d _ nce  (춤추다)",
+                "sw _ m  (수영하다)",
+                "s _ ng  (노래하다)",
+                "sk _ te  (스케이트를 타다)",
+                "t _ cket  (표)",
+                "d _ ve  (다이빙하다)",
+                "l _ _ k  (보다)",
+                "sh _ rk  (상어)"
               ]
             },
             {
               "type": "sort",
-              "q": "보기의 단어를 '동물 이름'과 '크기·생김새를 나타내는 말'로 나누어 쓰세요.",
+              "q": "보기의 단어를 '동작을 나타내는 말'과 '그렇지 않은 말'로 나누어 쓰세요.",
               "box": [
-                "dog",
-                "big",
-                "cat",
-                "small",
-                "bird",
-                "cute",
-                "fox",
-                "bear",
-                "zebra"
+                "run",
+                "ticket",
+                "jump",
+                "shark",
+                "swim",
+                "dance",
+                "too",
+                "sing"
               ],
               "columns": [
-                "동물 이름",
-                "크기·생김새를 나타내는 말 (형용사)"
+                "동작을 나타내는 말",
+                "그렇지 않은 말"
               ],
               "rows": 2
             },
             {
               "type": "fourlines",
-              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요.",
               "items": [
-                "zebra",
-                "bear",
-                "cute"
+                "swim",
+                "dance"
               ]
             }
           ]
@@ -193,28 +205,28 @@
               "type": "match",
               "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
               "left": [
-                "Is it a zebra?",
-                "Yes, it is.",
-                "What's that?",
-                "It's big.",
-                "No, it isn't."
+                "Can you run?",
+                "Yes, I can.",
+                "No, I can't.",
+                "I can swim.",
+                "I can't dance."
               ],
               "right": [
-                "저것은 무엇이니?",
-                "그것은 크다.",
-                "그것은 얼룩말이니?",
-                "아니, 그렇지 않아.",
-                "응, 그래."
+                "나는 춤을 출 수 없어.",
+                "너는 달릴 수 있니?",
+                "아니, 못해.",
+                "나는 수영할 수 있어.",
+                "응, 할 수 있어."
               ]
             },
             {
               "type": "list",
-              "q": "괄호 안의 동물을 보고, Yes, it is. 또는 No, it isn't. 로 대답을 쓰세요.",
+              "q": "괄호 안을 보고 Yes, I can. 또는 No, I can't. 로 대답을 쓰세요.",
               "items": [
-                "(개) Is it a dog?  →  __________",
-                "(고양이) Is it a bird?  →  __________",
-                "(얼룩말) Is it a zebra?  →  __________",
-                "(여우) Is it a bear?  →  __________  It's a ______."
+                "(수영 할 수 있음) Can you swim?  →  __________",
+                "(춤 못 춤) Can you dance?  →  __________",
+                "(점프 할 수 있음) Can you jump?  →  __________",
+                "(스케이트 못 탐) Can you skate?  →  __________"
               ]
             },
             {
@@ -222,15 +234,15 @@
               "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
               "items": [
                 {
-                  "text": "it / Is / zebra / a / ?",
+                  "text": "you / Can / jump / ?",
                   "label": "→"
                 },
                 {
-                  "text": "big / It's / .",
+                  "text": "can / I / sing / .",
                   "label": "→"
                 },
                 {
-                  "text": "that / What's / ?",
+                  "text": "can't / I / dive / .",
                   "label": "→"
                 }
               ]
@@ -239,16 +251,15 @@
               "type": "list",
               "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
               "box": [
-                "What's",
-                "Is",
-                "isn't",
-                "cute"
+                "Can",
+                "can",
+                "can't",
+                "too"
               ],
               "items": [
-                "A: __________ that?",
-                "B: __________ it a cat?",
-                "A: No, it __________.  It's a fox.",
-                "B: Wow, it's very __________!"
+                "A: ________ you run?",
+                "B: Yes, I ________.  I can swim, ________.",
+                "A: I ________ swim.  Can you dance?"
               ]
             }
           ]
@@ -266,48 +277,48 @@
               "type": "list",
               "q": "문법 정리의 빈칸을 채우세요.",
               "items": [
-                "어떤 동물인지 물을 때:  ______ it a + 동물 이름?",
-                "맞으면  Yes, it ______.    아니면  No, it ______.",
-                "크기나 생김새를 말할 때:  ______ + big, small, cute.",
-                "big, cute, yellow처럼 크기·생김새·색을 나타내는 말을 ( _____ )라고 해요."
+                "할 수 있는지 물을 때:  ______ you + 동작을 나타내는 말?",
+                "할 수 있으면  Yes, I ______.    할 수 없으면  No, I ________.",
+                "할 수 있다고 말할 때:  I ______ + 동작.   can은 '~할 수 있다'는 뜻이에요.",
+                "can't 는 ________ 의 줄임말로, '~할 수 없다'는 뜻이에요."
               ]
             },
             {
               "type": "select",
-              "q": "문장에서 크기·생김새·색을 나타내는 말(형용사)을 찾아 ○표 하세요.",
+              "q": "문장에서 동작을 나타내는 말에 ○표 하세요.",
               "items": [
-                "It's big.",
-                "It's a cute cat.",
-                "Wow, it's very small!",
-                "It's a yellow bird."
+                "I can swim.",
+                "Can you jump?",
+                "I can't dance.",
+                "Can you skate?"
               ]
             },
             {
               "type": "select",
               "q": "우리말에 맞는 것을 골라 ○표 하세요.",
               "items": [
-                "( Is / Are ) it a dog?  그것은 개니?",
-                "Yes, it ( is / isn't ).  응, 그래.",
-                "( It's / Is ) small.  그것은 작다.",
-                "No, it ( is / isn't ).  아니, 그렇지 않아.",
-                "Is ( it / its ) a bear?  그것은 곰이니?",
-                "( What's / What ) that?  저것은 무엇이니?"
+                "( Can / Do ) you run?  너는 달릴 수 있니?",
+                "Yes, I ( can / can't ).  응, 할 수 있어.",
+                "No, I ( can / can't ).  아니, 못해.",
+                "I ( can / am ) sing.  나는 노래할 수 있어.",
+                "I ( can't / not ) dive.  나는 다이빙할 수 없어.",
+                "Can ( you / your ) dance?  너는 춤출 수 있니?"
               ]
             },
             {
               "type": "fourlines",
-              "q": "괄호 안의 동물로 '그것은 ~이니?' 하고 묻는 문장을 쓰세요.",
+              "q": "괄호 안의 동작으로 '너는 ~할 수 있니?' 하고 묻는 문장을 쓰세요.",
               "items": [
                 {
-                  "text": "( zebra )  그것은 얼룩말이니?",
+                  "text": "( swim )  너는 수영할 수 있니?",
                   "label": "→"
                 },
                 {
-                  "text": "( bear )  그것은 곰이니?",
+                  "text": "( dance )  너는 춤출 수 있니?",
                   "label": "→"
                 },
                 {
-                  "text": "( fox )  그것은 여우니?",
+                  "text": "( skate )  너는 스케이트를 탈 수 있니?",
                   "label": "→"
                 }
               ]
@@ -316,21 +327,21 @@
               "type": "fourlines",
               "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
               "box": [
+                "can / can't",
                 "대문자",
-                "is / isn't",
-                "It's"
+                "낱말 순서"
               ],
               "items": [
                 {
-                  "text": "is it a cat?",
+                  "text": "can you jump?",
                   "label": "→"
                 },
                 {
-                  "text": "Yes, it isn't.  (응, 그래.)",
+                  "text": "I can swim not.  (나는 수영할 수 없어.)",
                   "label": "→"
                 },
                 {
-                  "text": "It big.  (그것은 크다.)",
+                  "text": "No, I can.  (아니, 못해.)",
                   "label": "→"
                 }
               ]
@@ -348,27 +359,27 @@
           "items": [
             {
               "type": "table",
-              "q": "표를 보고 보기처럼 두 문장을 쓰세요.  보기: (bear, big) → It's a bear. It's big.",
+              "q": "표를 보고 보기처럼 문장을 쓰세요.  보기: (run, ○) → I can run.  (dive, ×) → I can't dive.",
               "columns": [
                 "번호",
-                "동물",
-                "크기·생김새"
+                "동작",
+                "할 수 있음(○) / 없음(×)"
               ],
               "rows": [
                 [
                   "⑴",
-                  "bird",
-                  "small"
+                  "swim",
+                  "○"
                 ],
                 [
                   "⑵",
-                  "cat",
-                  "cute"
+                  "dance",
+                  "×"
                 ],
                 [
                   "⑶",
-                  "zebra",
-                  "big"
+                  "skate",
+                  "○"
                 ]
               ]
             },
@@ -391,9 +402,9 @@
               "type": "list",
               "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
               "items": [
-                "A: Is it a bird?    B: ______, it ______.  It's a cat.",
-                "A: ______ it a bear?    B: Yes, it ______.  It's big.",
-                "A: ______ that?    B: It's a zebra.  It's very ______!"
+                "A: Can you sing?    B: ______, I ______.",
+                "A: ______ you dive?    B: No, I ________.",
+                "A: I can jump.    B: I can jump, ______!"
               ]
             }
           ]
@@ -404,15 +415,15 @@
           "items": [
             {
               "type": "fourlines",
-              "q": "좋아하는 동물을 골라 묻고 답하는 문장을 쓰세요. 대답에는 형용사를 넣으세요.",
+              "q": "내가 할 수 있는 것과 할 수 없는 것을 한 문장씩 쓰세요.",
               "items": [
                 {
-                  "pre": "Q:",
+                  "pre": "I can",
                   "label": "⑴"
                 },
                 {
-                  "pre": "A:",
-                  "label": ""
+                  "pre": "I can't",
+                  "label": "⑵"
                 }
               ]
             }
@@ -443,9 +454,9 @@
           "title": "7. 스스로 점검",
           "color": "green",
           "checklist": [
-            "단어 10개를 보지 않고 쓸 수 있다.",
-            "Is it a ~? 에 Yes / No 로 대답할 수 있다.",
-            "문장 첫 글자를 대문자로 썼다.",
+            "단어 12개를 보지 않고 쓸 수 있다.",
+            "Can you ~? 에 Yes / No 로 대답할 수 있다.",
+            "can 과 can't 를 구별해 썼다.",
             "문장 끝에 ? 나 . 를 붙였다."
           ],
           "stamp": "선생님 한마디"
