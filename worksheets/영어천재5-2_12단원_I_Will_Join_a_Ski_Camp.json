@@ -1,0 +1,495 @@
+{
+  "slug": "영어천재5-2_12단원_I_Will_Join_a_Ski_Camp",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 5-2 · 12단원",
+  "title": "I Will Join a Ski Camp.",
+  "subtitle": "(나는 스키 캠프에 참여할거야.) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "bus",
+            "버스"
+          ],
+          [
+            "careful",
+            "조심스러운"
+          ],
+          [
+            "clear",
+            "명확한"
+          ],
+          [
+            "coding",
+            "코딩"
+          ],
+          [
+            "dear",
+            "친애하는"
+          ],
+          [
+            "join",
+            "참여하다"
+          ],
+          [
+            "learn",
+            "배우다"
+          ],
+          [
+            "little",
+            "작은"
+          ],
+          [
+            "stay",
+            "머무르다"
+          ],
+          [
+            "will",
+            "~할 것이다"
+          ],
+          [
+            "winter",
+            "겨울"
+          ],
+          [
+            "snow",
+            "눈"
+          ],
+          [
+            "visit",
+            "방문하다"
+          ],
+          [
+            "museum",
+            "박물관"
+          ],
+          [
+            "class",
+            "수업"
+          ],
+          [
+            "Sunday",
+            "일요일"
+          ],
+          [
+            "camp",
+            "캠프"
+          ],
+          [
+            "trip",
+            "여행"
+          ]
+        ],
+        "sentences": [
+          [
+            "What will you do this winter?",
+            "너는 이번 겨울에 무엇을 할 예정이니?"
+          ],
+          [
+            "I will join a ski camp.",
+            "나는 스키 캠프에 참여 할거야."
+          ],
+          [
+            "Do you like skiing?",
+            "너 스키타는 거 좋아하니?"
+          ],
+          [
+            "I will take a coding class.",
+            "나는 코딩 수업을 들을거야."
+          ],
+          [
+            "That sounds fun.",
+            "재밌겠다."
+          ],
+          [
+            "I want to join the ski camp, too.",
+            "나도 스키 캠프에 참여하고 싶어."
+          ],
+          [
+            "What will you do this Sunday?",
+            "이번 주 일요일에 무엇을 할 예정이니?"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "bus",
+                  "",
+                  "머무르다",
+                  ""
+                ],
+                [
+                  "careful",
+                  "",
+                  "~할 것이다",
+                  ""
+                ],
+                [
+                  "clear",
+                  "",
+                  "겨울",
+                  ""
+                ],
+                [
+                  "coding",
+                  "",
+                  "눈",
+                  ""
+                ],
+                [
+                  "dear",
+                  "",
+                  "방문하다",
+                  ""
+                ],
+                [
+                  "join",
+                  "",
+                  "박물관",
+                  ""
+                ],
+                [
+                  "learn",
+                  "",
+                  "수업",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "c _ mp  (캠프)",
+                "tr _ p  (여행)",
+                "l _ ttle  (작은)",
+                "Sund _ y  (일요일)",
+                "w _ nter  (겨울)",
+                "mus _ um  (박물관)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 움직임을 나타내는 말(동사)에 ○표 하세요.",
+              "items": [
+                "( join / bus )",
+                "( winter / learn )",
+                "( stay / snow )",
+                "( museum / visit )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "careful",
+                "museum",
+                "Sunday"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What will you do this winter?",
+                "I will join a ski camp.",
+                "I want to join the ski camp, too.",
+                "That sounds fun.",
+                "Do you like skiing?"
+              ],
+              "right": [
+                "재밌겠다.",
+                "나도 스키 캠프에 참여하고 싶어.",
+                "너 스키타는 거 좋아하니?",
+                "이번 겨울에 무엇을 할 예정이니?",
+                "나는 스키 캠프에 참여 할거야."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 동사를 써서 앞으로 할 일을 말하는 대답을 완성하세요.",
+              "items": [
+                "(join) A: What will you do?    B: I will ______ a ski camp.",
+                "(take) B: I will ______ a coding class this Sunday.",
+                "(visit) B: I will ______ the museum this winter.",
+                "(learn) B: I will ______ coding."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "will / What / you / do / this winter / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "will / I / join / a ski camp / .",
+                  "label": "→"
+                },
+                {
+                  "text": "like / Do / you / skiing / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "will",
+                "too",
+                "sounds",
+                "Do"
+              ],
+              "items": [
+                "A: What ______ you do this winter?",
+                "B: I will join a ski camp.    A: That ________ fun.",
+                "A: I want to join the ski camp, ______.",
+                "B: ______ you like skiing?    A: Yes, I do."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "앞으로 할 일을 말할 때: 조동사 ______ + 동사원형",
+                "앞으로 할 일 묻기: What ______ you do this winter?",
+                "'~하고 싶다': want to 뒤에는 동사______ 이 와요.",
+                "문장 끝의 ______ 는 '~도'라는 뜻이에요.",
+                "좋아하는 것 묻기: ______ you like skiing?"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 will 뒤에 오는 동사원형을 찾아 ○표 하세요.",
+              "items": [
+                "I will join a ski camp.",
+                "I will take a coding class.",
+                "I will visit the museum.",
+                "I will learn coding."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "I ( will / wills ) join it.",
+                "I will ( take / takes ) it.",
+                "What ( will / are ) you do?",
+                "I want ( join / to join ) it.",
+                "I want to join, ( to / too ).",
+                "( Do / Are ) you like skiing?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 이용하여 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( I, will, join, a ski camp )  나는 스키 캠프에 참여할 거야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( I, will, take, a coding class )  나는 코딩 수업을 들을 거야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( what, will, you, do, this winter )  너는 이번 겨울에 무엇을 할 거니?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "will + 동사원형",
+                "want to + 동사원형",
+                "will 뒤에는 to가 없어요"
+              ],
+              "items": [
+                {
+                  "text": "I will joined a ski camp.",
+                  "label": "→"
+                },
+                {
+                  "text": "I want join the ski camp, too.",
+                  "label": "→"
+                },
+                {
+                  "text": "I will to take a coding class.",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표의 will 칸을 채우고, 보기처럼 문장을 쓰세요.  보기: (learn coding) → I will learn coding.",
+              "columns": [
+                "번호",
+                "언제",
+                "할 일 (동사 원형)",
+                "will + 동사원형"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "this winter",
+                  "join a ski camp",
+                  ""
+                ],
+                [
+                  "⑵",
+                  "this Sunday",
+                  "take a coding class",
+                  ""
+                ],
+                [
+                  "⑶",
+                  "this winter",
+                  "visit the museum",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 'I will ~.' 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What ______ you do this winter?    B: I will join a ski camp.",
+                "A: I will join a ski camp.    B: That ________ fun.",
+                "A: ____ you like skiing?    B: Yes, I ____."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "이번 겨울에 할 일을 묻고 답하는 대화를 쓰세요. 대답에는 will을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 18개를 보지 않고 쓸 수 있다.",
+            "이번 겨울에 할 일을 묻고 답할 수 있다.",
+            "will 뒤에 동사원형을 쓸 수 있다.",
+            "want to 뒤에 동사원형을 쓸 수 있다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

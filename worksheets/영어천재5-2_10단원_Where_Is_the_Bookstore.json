@@ -1,0 +1,481 @@
+{
+  "slug": "영어천재5-2_10단원_Where_Is_the_Bookstore",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 5-2 · 10단원",
+  "title": "Where Is the Bookstore?",
+  "subtitle": "(서점은 어디에 있니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "bank",
+            "은행"
+          ],
+          [
+            "block",
+            "블럭"
+          ],
+          [
+            "bridge",
+            "다리"
+          ],
+          [
+            "by",
+            "~옆에"
+          ],
+          [
+            "living room",
+            "거실"
+          ],
+          [
+            "cross",
+            "건너다"
+          ],
+          [
+            "festival",
+            "페스티벌"
+          ],
+          [
+            "in front of",
+            "~앞에"
+          ],
+          [
+            "next to",
+            "~옆에"
+          ],
+          [
+            "store",
+            "상점"
+          ],
+          [
+            "straight",
+            "직진하다"
+          ],
+          [
+            "ticket",
+            "티켓"
+          ],
+          [
+            "office",
+            "사무실"
+          ],
+          [
+            "turn",
+            "돌다"
+          ],
+          [
+            "left",
+            "왼쪽"
+          ],
+          [
+            "library",
+            "도서관"
+          ]
+        ],
+        "sentences": [
+          [
+            "Where is the bookstore?",
+            "서점은 어디에 있니?"
+          ],
+          [
+            "It's on your left.",
+            "너의 좌측에 있을거야."
+          ],
+          [
+            "It's next to the bank.",
+            "그것은 은행 옆에 있어."
+          ],
+          [
+            "Where is the restroom?",
+            "화장실은 어디에 있니?"
+          ],
+          [
+            "Go straight and turn left. It's on your right.",
+            "직진하다가 왼쪽으로 돌아. 너의 오른쪽에 있을거야."
+          ],
+          [
+            "Go straight two blocks and turn right at the park.",
+            "2블록 직진 후, 공원에서 오른쪽으로 돌아."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "bank",
+                  "",
+                  "~옆에 (n으로 시작)",
+                  ""
+                ],
+                [
+                  "block",
+                  "",
+                  "상점",
+                  ""
+                ],
+                [
+                  "bridge",
+                  "",
+                  "직진하다",
+                  ""
+                ],
+                [
+                  "by",
+                  "",
+                  "티켓",
+                  ""
+                ],
+                [
+                  "cross",
+                  "",
+                  "돌다",
+                  ""
+                ],
+                [
+                  "festival",
+                  "",
+                  "왼쪽",
+                  ""
+                ],
+                [
+                  "in front of",
+                  "",
+                  "도서관",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "b _ nk  (은행)",
+                "br _ dge  (다리)",
+                "cr _ ss  (건너다)",
+                "st _ re  (상점)",
+                "off _ ce  (사무실)",
+                "t _ rn  (돌다)",
+                "l _ ft  (왼쪽)",
+                "libr _ ry  (도서관)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 장소(건물)를 나타내는 말에 ○표 하세요.",
+              "items": [
+                "( bank / cross )",
+                "( turn / library )",
+                "( office / by )",
+                "( straight / store )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "straight",
+                "library",
+                "bridge"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Where is the bookstore?",
+                "It's on your left.",
+                "It's next to the bank.",
+                "Go straight and turn left.",
+                "Where is the restroom?"
+              ],
+              "right": [
+                "화장실은 어디에 있니?",
+                "직진하다가 왼쪽으로 돌아.",
+                "서점은 어디에 있니?",
+                "그것은 은행 옆에 있어.",
+                "너의 좌측에 있을거야."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호의 위치에 맞게 빈칸을 채워 대답을 완성하세요.",
+              "items": [
+                "(은행 옆) A: Where is the bookstore?    B: It's ______ the bank.",
+                "(왼쪽) A: Where is the restroom?    B: It's on your ______.",
+                "(오른쪽) A: Where is the library?    B: It's on your ______.",
+                "(직진, 왼쪽으로) B: Go ________ and turn ______."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "is / Where / the bookstore / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "next to / It's / the bank / .",
+                  "label": "→"
+                },
+                {
+                  "text": "straight / Go / and / turn left / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "Where",
+                "next to",
+                "left",
+                "straight"
+              ],
+              "items": [
+                "A: ________ is the bookstore?",
+                "B: Go ________ and turn ______.",
+                "B: It's ________ the bank.",
+                "A: Where is the restroom?    B: It's on your ______."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "위치 묻기: ______ is the bank?  (~은 어디에 있니?)",
+                "'~옆에'라는 뜻: ______  (It's ______ the bank.)",
+                "'네 왼쪽에': on your _____   '네 오른쪽에': on your _____",
+                "명령문은 동사 ______ 으로 시작하고, 주어 ______ 는 생략해요.",
+                "It's 는 ____ ____ 의 축약형이에요."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "다음 중 명령문(지시하는 문장)에 ○표 하세요.",
+              "items": [
+                "Go straight.",
+                "It's on your left.",
+                "Turn left at the park.",
+                "Where is the bank?"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "( Where / What ) is the bank?",
+                "It's ( on / next ) your left.",
+                "It's ( next / next to ) me.",
+                "( Go / Goes ) straight.",
+                "( Turn / You turn ) left.",
+                "( It's / Its ) on your right."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 이용하여 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( where, the bookstore )  서점은 어디에 있니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( it, next to, the bank )  그것은 은행 옆에 있어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( go straight, turn left )  직진하다가 왼쪽으로 돌아.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "Where + is + 주어",
+                "next to",
+                "명령문은 동사로 시작"
+              ],
+              "items": [
+                {
+                  "text": "Where the bookstore is?",
+                  "label": "→"
+                },
+                {
+                  "text": "It's next the bank.",
+                  "label": "→"
+                },
+                {
+                  "text": "You go straight and turn left.",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 쓰세요.  보기: (bank, 도서관 옆) → It's next to the library.",
+              "columns": [
+                "번호",
+                "장소",
+                "위치"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "the bookstore",
+                  "은행 옆"
+                ],
+                [
+                  "⑵",
+                  "the library",
+                  "네 왼쪽"
+                ],
+                [
+                  "⑶",
+                  "the ticket office",
+                  "네 오른쪽"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 'It's ~.' 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: ______ is the bookstore?    B: It's ______ the bank.",
+                "A: Where is the restroom?    B: Go ________ and turn left.",
+                "A: Where is the library?    B: It's ____ your right."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "장소가 어디에 있는지 묻고 답하는 대화를 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "장소의 위치를 묻고 답할 수 있다.",
+            "next to, on your left 를 쓸 수 있다.",
+            "Go, Turn 으로 길을 알려 줄 수 있다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

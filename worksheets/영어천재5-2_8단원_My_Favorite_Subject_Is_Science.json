@@ -1,0 +1,473 @@
+{
+  "slug": "영어천재5-2_8단원_My_Favorite_Subject_Is_Science",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 5-2 · 8단원",
+  "title": "My Favorite Subject Is Science.",
+  "subtitle": "(좋아하는 과목 말하기) 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "fall",
+            "가을"
+          ],
+          [
+            "favorite",
+            "가장 좋아하는"
+          ],
+          [
+            "fruit",
+            "과일"
+          ],
+          [
+            "kiwi",
+            "키위"
+          ],
+          [
+            "listen",
+            "듣다"
+          ],
+          [
+            "science",
+            "과학"
+          ],
+          [
+            "season",
+            "계절"
+          ],
+          [
+            "subject",
+            "과목"
+          ],
+          [
+            "tree",
+            "나무"
+          ],
+          [
+            "warm",
+            "따듯한"
+          ],
+          [
+            "P.E.",
+            "체육"
+          ],
+          [
+            "speak",
+            "말하다"
+          ],
+          [
+            "sport",
+            "스포츠"
+          ],
+          [
+            "spring",
+            "봄"
+          ]
+        ],
+        "sentences": [
+          [
+            "What's your favorite subject?",
+            "네가 가장 좋아하는 과목은 무엇이니?"
+          ],
+          [
+            "My favorite subject is science.",
+            "내가 가장 좋아하는 과목은 과학이야."
+          ],
+          [
+            "I like reading science books.",
+            "나는 과학 책 읽는 것을 좋아해."
+          ],
+          [
+            "Do you like P.E.?",
+            "너 체육 좋아하니?"
+          ],
+          [
+            "Yes, I do. / No, I don't.",
+            "응, 좋아해. / 아니, 좋아하지 않아."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "fall",
+                  "",
+                  "키위",
+                  ""
+                ],
+                [
+                  "favorite",
+                  "",
+                  "과학",
+                  ""
+                ],
+                [
+                  "fruit",
+                  "",
+                  "나무",
+                  ""
+                ],
+                [
+                  "listen",
+                  "",
+                  "체육",
+                  ""
+                ],
+                [
+                  "season",
+                  "",
+                  "말하다",
+                  ""
+                ],
+                [
+                  "subject",
+                  "",
+                  "스포츠",
+                  ""
+                ],
+                [
+                  "warm",
+                  "",
+                  "봄",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "f _ ll  (가을)",
+                "fr _ it  (과일)",
+                "sci _ nce  (과학)",
+                "s _ ason  (계절)",
+                "subj _ ct  (과목)",
+                "sp _ ak  (말하다)",
+                "sp _ rt  (스포츠)",
+                "spr _ ng  (봄)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 움직임을 나타내는 말(동사)에 ○표 하세요.",
+              "items": [
+                "( listen / season )",
+                "( tree / speak )",
+                "( fruit / read )",
+                "( like / kiwi )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "favorite",
+                "science",
+                "subject"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What's your favorite subject?",
+                "My favorite subject is science.",
+                "I like reading science books.",
+                "Do you like P.E.?",
+                "No, I don't."
+              ],
+              "right": [
+                "너 체육 좋아하니?",
+                "나는 과학 책 읽는 것을 좋아해.",
+                "아니, 좋아하지 않아.",
+                "가장 좋아하는 과목은 무엇이니?",
+                "가장 좋아하는 과목은 과학이야."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호의 뜻에 맞게 빈칸을 채워 대답을 완성하세요.",
+              "items": [
+                "(과학) B: My favorite subject is __________.",
+                "(체육) A: Do you like P.E.?    B: Yes, I ______.",
+                "(과학 책 읽기) B: I like __________ science books.",
+                "(키위) A: What's your favorite fruit?    B: My favorite fruit is ______."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "favorite / your / What's / subject / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "favorite / My / is / subject / science / .",
+                  "label": "→"
+                },
+                {
+                  "text": "like / Do / P.E. / you / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "favorite",
+                "reading",
+                "do",
+                "don't"
+              ],
+              "items": [
+                "A: What's your __________ subject?",
+                "B: My favorite subject is science. I like __________ books.",
+                "A: Do you like P.E.?    B: Yes, I ______.",
+                "A: Do you like science?    B: No, I ______."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "'~하는 것을 좋아하다': like + 동사-______  (like read______)",
+                "동사에 -ing를 붙여 명사처럼 쓰는 말을 ______사라고 해요.",
+                "'너 ~ 좋아하니?' 묻기: ______ you like P.E.?  (Do + 주어 + 동사원형)",
+                "대답: Yes, I ______. / No, I ________.",
+                "'무엇, 무슨'을 뜻하는 의문사는 ________ 이고, 문장 맨 앞에 와요."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "'~하니?'라고 묻고 답하는 말 Do / do / don't 에 모두 ○표 하세요.",
+              "items": [
+                "Do you like P.E.? Yes, I do.",
+                "Do you like kiwi? No, I don't.",
+                "Do you like fall? Yes, I do.",
+                "Do you like P.E.? No, I don't."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "I like ( read / reading ).",
+                "I like ( listen / listening ).",
+                "( Do / Does ) you like P.E.?",
+                "Yes, I ( do / does ).",
+                "No, I ( don't / doesn't ).",
+                "( Do / Does ) she like P.E.?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 이용하여 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( what, your favorite subject )  네가 가장 좋아하는 과목은 무엇이니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( my favorite subject, science )  내가 가장 좋아하는 과목은 과학이야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( I, like, read, science books )  나는 과학 책 읽는 것을 좋아해.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "like + 동사-ing",
+                "Do + 주어 + 동사원형",
+                "Do로 물으면 do로 답하기"
+              ],
+              "items": [
+                {
+                  "text": "I like read science books.",
+                  "label": "→"
+                },
+                {
+                  "text": "Do you likes P.E.?",
+                  "label": "→"
+                },
+                {
+                  "text": "A: Do you like P.E.?  B: Yes, I am.",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 묻고 답하는 문장을 쓰세요.  보기: (fruit, ○) → Do you like fruit? Yes, I do.",
+              "columns": [
+                "번호",
+                "무엇을",
+                "좋아하나?",
+                "대답 (do / don't)"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "P.E.",
+                  "○ (Yes)",
+                  ""
+                ],
+                [
+                  "⑵",
+                  "science",
+                  "× (No)",
+                  ""
+                ],
+                [
+                  "⑶",
+                  "kiwi",
+                  "○ (Yes)",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 묻고 답하는 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What's your favorite ______?    B: My favorite subject is P.E.",
+                "A: Do you like P.E.?    B: ______, I do.",
+                "A: Do you like reading?    B: No, I ________."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "가장 좋아하는 과목을 묻고 답하는 대화를 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "가장 좋아하는 과목을 묻고 답할 수 있다.",
+            "like 뒤에 동사-ing를 쓸 수 있다.",
+            "Do you ~? 에 do로 답할 수 있다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

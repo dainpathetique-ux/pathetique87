@@ -1,0 +1,477 @@
+{
+  "slug": "영어천재5-2_7단원_I_Went_to_the_Beach",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 5-2 · 7단원",
+  "title": "I Went to the Beach.",
+  "subtitle": "(나는 바닷가에 갔다왔어.) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "during",
+            "~동안"
+          ],
+          [
+            "beach",
+            "바다, 해변"
+          ],
+          [
+            "boring",
+            "지루한"
+          ],
+          [
+            "yesterday",
+            "어제"
+          ],
+          [
+            "free",
+            "자유로운"
+          ],
+          [
+            "house",
+            "집"
+          ],
+          [
+            "last",
+            "지난"
+          ],
+          [
+            "vacation",
+            "방학"
+          ],
+          [
+            "visit",
+            "방문하다"
+          ],
+          [
+            "fun",
+            "재밌는"
+          ],
+          [
+            "grandparents",
+            "조부모님"
+          ],
+          [
+            "movie",
+            "영화"
+          ],
+          [
+            "seafood",
+            "해산물"
+          ],
+          [
+            "talk",
+            "말하다"
+          ]
+        ],
+        "sentences": [
+          [
+            "What did you do during the vacation?",
+            "너는 방학 동안 뭐 했니?"
+          ],
+          [
+            "I visited my grandparents in Vietnam.",
+            "나는 베트남에 있는 조부모님 댁에 방문했었어."
+          ],
+          [
+            "I went to the beach.",
+            "나는 바닷가에 갔었어."
+          ],
+          [
+            "How was it?",
+            "어땠어?"
+          ],
+          [
+            "I ate seafood.",
+            "나는 해산물을 먹었어."
+          ],
+          [
+            "It was fun.",
+            "재밌었어."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "during",
+                  "",
+                  "어제",
+                  ""
+                ],
+                [
+                  "boring",
+                  "",
+                  "방학",
+                  ""
+                ],
+                [
+                  "free",
+                  "",
+                  "방문하다",
+                  ""
+                ],
+                [
+                  "house",
+                  "",
+                  "재밌는",
+                  ""
+                ],
+                [
+                  "last",
+                  "",
+                  "영화",
+                  ""
+                ],
+                [
+                  "grandparents",
+                  "",
+                  "말하다",
+                  ""
+                ],
+                [
+                  "seafood",
+                  "",
+                  "바다, 해변",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "b _ ach  (바다, 해변)",
+                "bor _ ng  (지루한)",
+                "yest _ rday  (어제)",
+                "vac _ tion  (방학)",
+                "v _ sit  (방문하다)",
+                "m _ vie  (영화)",
+                "seaf _ _ d  (해산물)",
+                "t _ lk  (말하다)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 움직임을 나타내는 말(동사)에 ○표 하세요.",
+              "items": [
+                "( beach / visit )",
+                "( talk / movie )",
+                "( house / go )",
+                "( eat / seafood )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "grandparents",
+                "vacation",
+                "yesterday"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What did you do during the vacation?",
+                "I visited my grandparents in Vietnam.",
+                "I went to the beach.",
+                "How was it?",
+                "It was fun."
+              ],
+              "right": [
+                "재밌었어.",
+                "나는 바닷가에 갔었어.",
+                "너는 방학 동안 뭐 했니?",
+                "어땠어?",
+                "나는 베트남에 있는 조부모님 댁에 방문했었어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 동사를 과거형으로 바꾸어 대답을 완성하세요.",
+              "items": [
+                "(visit) A: What did you do?    B: I __________ my grandparents.",
+                "(go) A: What did you do during the vacation?    B: I ______ to the beach.",
+                "(eat) A: What did you do?    B: I ______ seafood.",
+                "(be) A: How was it?    B: It ______ fun."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "did / What / you / do / during the vacation / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "visited / I / my grandparents / in Vietnam / .",
+                  "label": "→"
+                },
+                {
+                  "text": "was / How / it / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "did",
+                "went",
+                "ate",
+                "was"
+              ],
+              "items": [
+                "A: What ______ you do during the vacation?",
+                "B: I ______ to the beach.",
+                "B: I ______ seafood.",
+                "A: How ______ it?    B: It was fun."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "규칙 동사의 과거형: 뒤에 -(e)d  (visit → ______, play → ______)",
+                "불규칙 동사: go → _____   eat → _____   take → _____",
+                "be동사의 과거형: I am → I ______   He is → He ______",
+                "You are → You ______   They are → They ______",
+                "'~동안'이라는 뜻으로 뒤에 명사가 오는 말: ________ the vacation"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 과거형 동사를 찾아 ○표 하세요.",
+              "items": [
+                "I visited my grandparents.",
+                "I went to the beach.",
+                "I ate seafood.",
+                "It was fun."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "I ( go / went ) to the beach.",
+                "I ( eat / ate ) seafood.",
+                "It ( is / was ) fun.",
+                "I ( see / saw ) a movie.",
+                "They ( was / were ) free.",
+                "I ( play / played ) yesterday."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 과거형으로 써서 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( I, go, the beach )  나는 바닷가에 갔었어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( I, eat, seafood )  나는 해산물을 먹었어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( I, visit, my grandparents )  나는 조부모님 댁에 방문했었어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "과거형 동사",
+                "불규칙 동사는 -ed를 붙이지 않아요",
+                "was / were"
+              ],
+              "items": [
+                {
+                  "text": "I go to the beach yesterday.",
+                  "label": "→"
+                },
+                {
+                  "text": "I eated seafood.",
+                  "label": "→"
+                },
+                {
+                  "text": "A: How is it?  B: It was fun.",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표의 과거형 칸을 채우고, 보기처럼 문장을 쓰세요.  보기: (I, eat seafood) → I ate seafood.",
+              "columns": [
+                "번호",
+                "누가",
+                "무엇을 했나 (동사 원형)",
+                "과거형"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "I",
+                  "visit my grandparents",
+                  ""
+                ],
+                [
+                  "⑵",
+                  "I",
+                  "eat seafood",
+                  ""
+                ],
+                [
+                  "⑶",
+                  "I",
+                  "see a movie",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What did you do during the vacation?    B: I ______ to the beach.",
+                "A: How ______ it?    B: It ______ fun.",
+                "A: What did you do yesterday?    B: I ________ my grandparents."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "방학 동안 한 일을 묻고 답하는 대화를 쓰세요. 대답에는 과거형 동사를 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "방학 동안 한 일을 묻고 답할 수 있다.",
+            "visit, go, eat 의 과거형을 쓸 수 있다.",
+            "was 와 were 를 구별해 쓸 수 있다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

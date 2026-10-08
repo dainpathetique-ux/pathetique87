@@ -1,0 +1,474 @@
+{
+  "slug": "영어천재5-2_11단원_I_Want_to_Be_a_Cook",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 5-2 · 11단원",
+  "title": "I Want to Be a Cook.",
+  "subtitle": "(나는 요리사가 되고 싶어.) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "actor",
+            "배우"
+          ],
+          [
+            "change",
+            "바꾸다"
+          ],
+          [
+            "design",
+            "디자인"
+          ],
+          [
+            "doctor",
+            "의사"
+          ],
+          [
+            "dream",
+            "꿈"
+          ],
+          [
+            "exercise",
+            "운동하다"
+          ],
+          [
+            "first",
+            "첫 번째의"
+          ],
+          [
+            "sick",
+            "아픈"
+          ],
+          [
+            "woman",
+            "여성"
+          ],
+          [
+            "get up",
+            "일어나다"
+          ],
+          [
+            "animal doctor",
+            "수의사"
+          ],
+          [
+            "fly",
+            "날다"
+          ],
+          [
+            "hour",
+            "시간"
+          ],
+          [
+            "pilot",
+            "조종사"
+          ]
+        ],
+        "sentences": [
+          [
+            "What do you want to be?",
+            "너는 무엇이 되고 싶니?"
+          ],
+          [
+            "I want to be a cook.",
+            "나는 요리사가 되고 싶어."
+          ],
+          [
+            "I want to play in the World Cup.",
+            "나는 월드컵에서 경기하고 싶어."
+          ],
+          [
+            "You can be a great car designer.",
+            "너는 멋진 차량 디자이너가 될 수 있을거야."
+          ],
+          [
+            "I want to be a car designer.",
+            "나는 자동차 디자이너가 되고 싶어."
+          ],
+          [
+            "I want to make food.",
+            "나는 음식을 만들고 싶어."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "actor",
+                  "",
+                  "의사",
+                  ""
+                ],
+                [
+                  "change",
+                  "",
+                  "여성",
+                  ""
+                ],
+                [
+                  "design",
+                  "",
+                  "일어나다",
+                  ""
+                ],
+                [
+                  "dream",
+                  "",
+                  "수의사",
+                  ""
+                ],
+                [
+                  "exercise",
+                  "",
+                  "날다",
+                  ""
+                ],
+                [
+                  "first",
+                  "",
+                  "시간",
+                  ""
+                ],
+                [
+                  "sick",
+                  "",
+                  "조종사",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "act _ r  (배우)",
+                "d _ ctor  (의사)",
+                "dr _ am  (꿈)",
+                "w _ man  (여성)",
+                "p _ lot  (조종사)",
+                "h _ ur  (시간)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 직업을 나타내는 말에 ○표 하세요.",
+              "items": [
+                "( actor / dream )",
+                "( sick / doctor )",
+                "( pilot / hour )",
+                "( change / cook )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "exercise",
+                "animal doctor",
+                "pilot"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What do you want to be?",
+                "I want to be a cook.",
+                "I want to play in the World Cup.",
+                "You can be a great car designer.",
+                "I want to make food."
+              ],
+              "right": [
+                "나는 음식을 만들고 싶어.",
+                "멋진 차량 디자이너가 될 수 있어.",
+                "너는 무엇이 되고 싶니?",
+                "나는 월드컵에서 경기하고 싶어.",
+                "나는 요리사가 되고 싶어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호의 직업에 맞게 빈칸을 채워 대답을 완성하세요.",
+              "items": [
+                "(요리사) A: What do you want to be?    B: I want to be a ______.",
+                "(조종사) A: What do you want to be?    B: I want to be a ______.",
+                "(배우) A: What do you want to be?    B: I want to be ___ ______.",
+                "(수의사) B: I want to be an __________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "do / What / you / want to be / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "want / I / to be / a cook / .",
+                  "label": "→"
+                },
+                {
+                  "text": "can / You / be / a great car designer / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "want",
+                "be",
+                "can",
+                "an"
+              ],
+              "items": [
+                "A: What do you ______ to be?",
+                "B: I want to ______ a car designer.",
+                "A: You ______ be a great car designer.",
+                "B: I want to be ______ actor."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "장래 희망 말하기: I ______ to be + a(n) + 직업 이름",
+                "자음 소리 앞 ___ / 모음 소리 앞 ___  (___ cook, ___ actor)",
+                "장래 희망 묻기: What do you want to ______?",
+                "'너는 ~이 될 수 있을 거야': You ______ be a ~."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "a 와 an 중 알맞은 것에 ○표 하세요.",
+              "items": [
+                "( a / an ) cook",
+                "( a / an ) actor",
+                "( a / an ) pilot",
+                "( a / an ) animal doctor"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "I want ( be / to be ) a cook.",
+                "I want to ( be / am ) a pilot.",
+                "What do you ( want / wants )?",
+                "You ( can / cans ) be a cook.",
+                "I want ( make / to make ) it.",
+                "I want to be ( a / an ) actor."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 이용하여 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( I, want to be, a cook )  나는 요리사가 되고 싶어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( I, want to be, actor )  나는 배우가 되고 싶어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( you, can be, a great pilot )  너는 멋진 조종사가 될 수 있을 거야.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "want to + 동사원형",
+                "모음 소리 앞에는 an",
+                "What do you want to be?"
+              ],
+              "items": [
+                {
+                  "text": "I want be a cook.",
+                  "label": "→"
+                },
+                {
+                  "text": "I want to be a animal doctor.",
+                  "label": "→"
+                },
+                {
+                  "text": "What do you want be?",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표의 a / an 칸을 채우고, 보기처럼 문장을 쓰세요.  보기: (doctor) → I want to be a doctor.",
+              "columns": [
+                "번호",
+                "누가",
+                "되고 싶은 것",
+                "a / an"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "I",
+                  "cook",
+                  ""
+                ],
+                [
+                  "⑵",
+                  "I",
+                  "actor",
+                  ""
+                ],
+                [
+                  "⑶",
+                  "I",
+                  "animal doctor",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 'I want to be ~.' 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What do you ______ to be?    B: I want to be a doctor.",
+                "A: I want to be a pilot.    B: You ______ be a great pilot.",
+                "A: What do you want to be?    B: I want to be ____ actor."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "장래 희망을 묻고 답하는 대화를 쓰세요. 대답에는 want to be 를 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "장래 희망을 묻고 답할 수 있다.",
+            "a 와 an 을 구별해 쓸 수 있다.",
+            "You can be a ~. 를 쓸 수 있다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

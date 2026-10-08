@@ -1,0 +1,492 @@
+{
+  "slug": "영어천재5-2_9단원_Whats_in_the_Bedroom",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 5-2 · 9단원",
+  "title": "What's in the Bedroom?",
+  "subtitle": "(침실에는 무엇이 있니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "bathtub",
+            "욕조"
+          ],
+          [
+            "bedroom",
+            "침실"
+          ],
+          [
+            "living room",
+            "거실"
+          ],
+          [
+            "place",
+            "장소"
+          ],
+          [
+            "sink",
+            "싱크대"
+          ],
+          [
+            "stove",
+            "가스레인지"
+          ],
+          [
+            "thing",
+            "~것"
+          ],
+          [
+            "bathroom",
+            "화장실"
+          ],
+          [
+            "garden",
+            "정원"
+          ],
+          [
+            "guitar",
+            "기타"
+          ],
+          [
+            "kitchen",
+            "주방"
+          ],
+          [
+            "bookshelf",
+            "책장"
+          ],
+          [
+            "chair",
+            "의자"
+          ],
+          [
+            "item",
+            "물품, 물건"
+          ],
+          [
+            "sofa",
+            "소파"
+          ],
+          [
+            "same",
+            "같은"
+          ]
+        ],
+        "sentences": [
+          [
+            "What's in the bedroom?",
+            "침실에 무엇이 있니?"
+          ],
+          [
+            "There is a bookshelf.",
+            "책장이 있어."
+          ],
+          [
+            "There are two chairs.",
+            "2개의 의자가 있어."
+          ],
+          [
+            "This is the kitchen.",
+            "이곳은 주방이야."
+          ],
+          [
+            "This is my new house.",
+            "이곳은 나의 새로운 집이야."
+          ],
+          [
+            "Where is the bed?",
+            "침대는 어디에 있어?"
+          ],
+          [
+            "Here. Look at this.",
+            "자, 이것 좀 봐."
+          ],
+          [
+            "They are beautiful.",
+            "그들은 아름다워."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "bathtub",
+                  "",
+                  "정원",
+                  ""
+                ],
+                [
+                  "bedroom",
+                  "",
+                  "기타",
+                  ""
+                ],
+                [
+                  "living room",
+                  "",
+                  "주방",
+                  ""
+                ],
+                [
+                  "place",
+                  "",
+                  "책장",
+                  ""
+                ],
+                [
+                  "sink",
+                  "",
+                  "의자",
+                  ""
+                ],
+                [
+                  "stove",
+                  "",
+                  "물품, 물건",
+                  ""
+                ],
+                [
+                  "thing",
+                  "",
+                  "소파",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "b _ throom  (화장실)",
+                "s _ me  (같은)",
+                "g _ rden  (정원)",
+                "kit _ hen  (주방)",
+                "ch _ ir  (의자)",
+                "s _ fa  (소파)",
+                "s _ nk  (싱크대)",
+                "st _ ve  (가스레인지)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 집 안의 장소(방)를 나타내는 말에 ○표 하세요.",
+              "items": [
+                "( bedroom / chair )",
+                "( sofa / kitchen )",
+                "( bathroom / guitar )",
+                "( stove / garden )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "bookshelf",
+                "bathroom",
+                "kitchen"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What's in the bedroom?",
+                "There is a bookshelf.",
+                "There are two chairs.",
+                "This is my new house.",
+                "They are beautiful."
+              ],
+              "right": [
+                "2개의 의자가 있어.",
+                "그들은 아름다워.",
+                "침실에 무엇이 있니?",
+                "이곳은 나의 새로운 집이야.",
+                "책장이 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 물건을 보고 There is / There are 로 대답을 완성하세요.",
+              "items": [
+                "(a sofa) A: What's in the living room?    B: There ______ a sofa.",
+                "(two chairs) A: What's in the garden?    B: There ______ two chairs.",
+                "(a bathtub) A: What's in the bathroom?    B: ______ is a bathtub.",
+                "(a guitar) A: What's in the bedroom?    B: There ______ a guitar."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "in / What's / the bedroom / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "is / There / a bookshelf / .",
+                  "label": "→"
+                },
+                {
+                  "text": "are / There / two chairs / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "is",
+                "are",
+                "Look",
+                "Where"
+              ],
+              "items": [
+                "A: This ______ my new house. This is the kitchen.",
+                "B: ________ is the bed?    A: Here. ______ at this.",
+                "B: What's in the bedroom?    A: There ______ a bookshelf.",
+                "A: There ______ two chairs.    B: They are beautiful."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "장소에 있는 것 묻기: ________ in the bedroom?  (What + be동사)",
+                "'~이 있다': 하나일 때 There _____, 둘 이상일 때 There _____",
+                "'이것 좀 봐'처럼 시키는 문장은 동사로 시작해요.  (______ at this.)",
+                "가까운 한 가지는 ______ (이것), 여럿은 ______ (그것들)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 be동사(is, are)를 찾아 ○표 하세요.",
+              "items": [
+                "There is a bookshelf.",
+                "There are two chairs.",
+                "This is the kitchen.",
+                "They are beautiful."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "There ( is / are ) a sofa.",
+                "There ( is / are ) two chairs.",
+                "( This / They ) is my house.",
+                "( This / They ) are beautiful.",
+                "( Look / Looks ) at this.",
+                "( What / Where ) is the bed?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 이용하여 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( what, in, the bedroom )  침실에 무엇이 있니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( there, a bookshelf )  책장이 있어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( there, two chairs )  2개의 의자가 있어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "하나 → is",
+                "둘 이상 → are",
+                "여럿 → They"
+              ],
+              "items": [
+                {
+                  "text": "There are a sofa.",
+                  "label": "→"
+                },
+                {
+                  "text": "There is two chairs.",
+                  "label": "→"
+                },
+                {
+                  "text": "This are beautiful.",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표의 is / are 칸을 채우고, 보기처럼 문장을 쓰세요.  보기: (a bathtub) → There is a bathtub.",
+              "columns": [
+                "번호",
+                "장소",
+                "있는 것",
+                "is / are"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "bedroom",
+                  "a guitar",
+                  ""
+                ],
+                [
+                  "⑵",
+                  "living room",
+                  "two sofas",
+                  ""
+                ],
+                [
+                  "⑶",
+                  "kitchen",
+                  "a stove",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 There is / There are 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What's ____ the kitchen?    B: There ______ a stove.",
+                "A: ________ is the bed?    B: Here. Look at this.",
+                "A: What's in the garden?    B: There ______ two chairs."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "우리 집의 방에 무엇이 있는지 묻고 답하는 대화를 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "방에 무엇이 있는지 묻고 답할 수 있다.",
+            "There is 와 There are 를 구별할 수 있다.",
+            "This 와 They 를 바르게 쓸 수 있다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}
