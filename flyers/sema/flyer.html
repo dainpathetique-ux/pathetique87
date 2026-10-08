@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>세마멘토링스쿨 전단</title>
+<style>
+@font-face{font-family:"NKR";src:url(kr400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"NKR";src:url(kr700.woff2) format("woff2");font-weight:700}
+:root{--navy:#1e2b4d;--navy2:#2a3a66;--orange:#e8622a;--orange-d:#c94e1b;--teal:#2f9c96;--cream:#fbf4e6;--sand:#f3e7cf;--ink:#232838;--mute:#6b7384}
+*{box-sizing:border-box}
+body{margin:0;background:#888;font-family:"NKR",sans-serif;color:var(--ink);word-break:keep-all;line-height:1.45}
+.page{width:210mm;height:297mm;background:#fff;margin:0 auto;position:relative;overflow:hidden;display:flex;flex-direction:column}
+@page{size:A4;margin:0}
+@media print{body{background:none}.page{margin:0}}
+
+/* 상단 */
+.top{display:flex;align-items:center;justify-content:space-between;padding:9mm 13mm 0}
+.top .brand{display:flex;align-items:center;gap:4mm}
+.top .brand img{height:17mm;display:block}
+.top .brand .nm{font-weight:700;font-size:15pt;color:var(--navy);letter-spacing:.02em}
+.top .brand .nm small{display:block;font-weight:400;font-size:9pt;color:var(--mute);letter-spacing:.08em}
+.top .tag{font-size:9.5pt;color:var(--navy);border:1.5px solid var(--navy);border-radius:999px;padding:3px 12px;font-weight:700}
+
+/* 히어로 */
+.hero{margin:6mm 13mm 0;background:var(--navy);color:#fff;border-radius:14px;padding:10mm 10mm 9mm;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-26mm;top:-34mm;width:70mm;height:70mm;border-radius:50%;background:var(--navy2);opacity:.9}
+.hero>*{position:relative}
+.hero .kick{display:inline-block;background:var(--orange);color:#fff;font-weight:700;font-size:10.5pt;padding:3px 12px;border-radius:999px;margin-bottom:5mm}
+.hero h1{margin:0;font-size:25.5pt;line-height:1.28;font-weight:700;letter-spacing:-.01em}
+.hero h1 em{font-style:normal;color:#ffb98a}
+.hero .sub{margin:4mm 0 0;font-size:13pt;color:#dfe5f3}
+.hero .sub b{color:#fff;border-bottom:2px solid var(--orange)}
+
+/* 2단 */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:6mm;margin:7mm 13mm 0}
+.card{border:1.5px solid #e3e6ee;border-radius:12px;padding:6mm 6mm 5mm}
+.card h2{margin:0 0 3.5mm;font-size:12.5pt;color:var(--navy);display:flex;align-items:center;gap:6px}
+.card h2::before{content:"";width:5px;height:14pt;background:var(--orange);border-radius:3px}
+.chk{list-style:none;margin:0;padding:0;font-size:11pt}
+.chk li{display:flex;gap:6px;margin-bottom:3.2mm;line-height:1.4}
+.chk li::before{content:"✔";flex:none;width:17px;height:17px;border-radius:4px;background:var(--teal);color:#fff;font-size:8.5pt;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.steps{list-style:none;margin:0;padding:0;font-size:11pt}
+.steps li{display:flex;gap:7px;margin-bottom:3.2mm;line-height:1.4}
+.steps .n{flex:none;width:19px;height:19px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:9pt;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.steps b{color:var(--navy)}
+
+/* 혜택 */
+.offer{margin:7mm 13mm 0;background:var(--cream);border:2px solid var(--orange);border-radius:14px;padding:6mm 7mm 6mm;display:grid;grid-template-columns:auto 1fr;gap:7mm;align-items:center}
+.offer .big{text-align:center}
+.offer .big .l{display:inline-block;background:var(--orange);color:#fff;font-size:9.5pt;font-weight:700;padding:2px 10px;border-radius:999px;margin-bottom:2mm}
+.offer .big h3{margin:0;font-size:22pt;line-height:1.2;color:var(--orange-d)}
+.offer .big h3 small{display:block;font-size:11pt;color:var(--navy);font-weight:700;margin-top:1mm}
+.offer ul{list-style:none;margin:0;padding:0 0 0 6mm;border-left:1.5px dashed #d9b98e;font-size:11pt}
+.offer li{margin-bottom:1.6mm;display:flex;gap:6px}
+.offer li::before{content:"→";color:var(--orange);font-weight:700}
+.offer .note{font-size:8.5pt;color:var(--mute);margin-top:2mm;padding-left:6mm}
+
+/* 연락 */
+.cta{margin:7mm 13mm 0;background:var(--navy);color:#fff;border-radius:14px;padding:6mm 8mm;display:flex;align-items:center;justify-content:space-between;gap:6mm}
+.cta .l1{font-size:11pt;color:#cfd7ea}
+.cta .tel{font-size:30pt;font-weight:700;line-height:1.1;letter-spacing:.01em;margin:1mm 0}
+.cta .l2{font-size:10pt;color:#ffb98a;font-weight:700}
+.cta .qr{display:flex;align-items:center;gap:4mm}
+.cta .qr img{width:26mm;height:26mm;background:#fff;padding:2mm;border-radius:8px;display:block}
+.cta .qr p{margin:0;font-size:10pt;line-height:1.4;color:#eef1f8;text-align:center}
+.cta .qr p b{display:block;font-size:11.5pt;color:#fff}
+
+/* 하단 */
+.foot{margin-top:auto;padding:3.5mm 13mm 7mm;font-size:8pt;color:var(--mute);display:flex;justify-content:space-between}
+</style></head><body>
+<div class="page">
+
+  <div class="top">
+    <div class="brand"><img src="logo.png" alt="SEMA"><div class="nm">세마멘토링스쿨<small>SEMA MENTORING SCHOOL</small></div></div>
+    <div class="tag">중등 전과목 · 1:1 밀착 학습케어</div>
+  </div>
+
+  <div class="hero">
+    <span class="kick">단순 학원을 넘어, 1:1 밀착 학습케어</span>
+    <h1>학원을 다녀도 성적이 그대로라면<br>문제는 머리가 아니라 <em>‘공부 습관’</em>입니다</h1>
+    <p class="sub">세마는 중등 전과목 <b>성적향상</b>과 <b>학습습관 완성</b>, 두 가지를 한 번에 잡습니다.</p>
+  </div>
+
+  <div class="cols">
+    <div class="card">
+      <h2>이런 학생에게 꼭 필요합니다</h2>
+      <ul class="chk">
+        <li>국·영·수·과·사 성적이 시험마다 들쑥날쑥한 학생</li>
+        <li>학습 계획을 혼자 세우고 지키기 어려운 학생</li>
+        <li>여러 학원 숙제에 쫓겨 정작 복습은 못 하는 학생</li>
+        <li>고등학교 입학 전, 공부 습관을 완성하고 싶은 학생</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>세마는 이렇게 다릅니다</h2>
+      <ol class="steps">
+        <li><span class="n">1</span><span><b>진단</b> · 시험지 분석으로 감점 원인과 취약 단원을 찾습니다</span></li>
+        <li><span class="n">2</span><span><b>계획</b> · 학생별 주간 학습 플랜을 함께 세웁니다</span></li>
+        <li><span class="n">3</span><span><b>실천</b> · 1:1 멘토가 학원 숙제와 복습을 매일 밀착 관리합니다</span></li>
+        <li><span class="n">4</span><span><b>점검</b> · 실천 결과를 확인하고 다음 주 계획을 조정합니다</span></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="offer">
+    <div class="big">
+      <span class="l">10월 한정 · 중등 전 학년</span>
+      <h3>2학기 중간고사<br>시험지 무료분석<small>틀린 문제에서 다음 시험 전략이 나옵니다</small></h3>
+    </div>
+    <div>
+      <ul>
+        <li>감점 원인 분석 — 실수형 · 개념형 · 시간부족형 구분</li>
+        <li>과목별 취약 단원 진단 — 기말고사 우선 보완 순서</li>
+        <li>맞춤 학습 플랜 제안 — 분석 결과를 상담에서 직접 설명</li>
+      </ul>
+      <p class="note">시험지(또는 사진)를 가져오시면 상담 당일 분석해 드립니다.</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <div>
+      <div class="l1">상담 예약 필수 · 전화 한 통이면 됩니다</div>
+      <div class="tel">☎ 053-325-5888</div>
+      <div class="l2">통화가 어려우면 QR로 10초 예약</div>
+    </div>
+    <div class="qr"><p><b>QR 상담 예약</b>카메라를 대면<br>바로 연결됩니다</p><img src="qr.png" alt="상담 예약 QR"></div>
+  </div>
+
+  <div class="foot">
+    <span>세마멘토링스쿨 · 대구○○교육지원청 등록 제 ○○○○호 · 대구시 ○○구 ○○로 ○○, ○층</span>
+    <span>교습비는 교육지원청 등록 기준에 따릅니다</span>
+  </div>
+
+</div>
+</body></html>
