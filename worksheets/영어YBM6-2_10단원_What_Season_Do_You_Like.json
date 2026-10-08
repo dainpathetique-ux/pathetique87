@@ -1,0 +1,477 @@
+{
+  "slug": "영어YBM6-2_10단원_What_Season_Do_You_Like",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 6-2 · 10단원",
+  "title": "What Season Do You Like?",
+  "subtitle": "(넌 무슨 계절을 좋아하니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "answer",
+            "대답하다"
+          ],
+          [
+            "because",
+            "~때문에"
+          ],
+          [
+            "leaf",
+            "나뭇잎"
+          ],
+          [
+            "season",
+            "계절"
+          ],
+          [
+            "arrive",
+            "도착하다"
+          ],
+          [
+            "clear",
+            "맑은"
+          ],
+          [
+            "memory",
+            "기억"
+          ],
+          [
+            "smile",
+            "웃음, 미소"
+          ],
+          [
+            "autumn",
+            "가을"
+          ],
+          [
+            "coat",
+            "코트"
+          ],
+          [
+            "queen",
+            "여왕"
+          ],
+          [
+            "spring",
+            "봄"
+          ],
+          [
+            "winter",
+            "겨울"
+          ],
+          [
+            "take",
+            "잡다"
+          ],
+          [
+            "join",
+            "가입하다"
+          ],
+          [
+            "basket",
+            "바구니"
+          ],
+          [
+            "full",
+            "가득 찬"
+          ],
+          [
+            "heavy",
+            "무거운"
+          ]
+        ],
+        "sentences": [
+          [
+            "What season do you like, Ian?",
+            "너는 어떤 계절을 좋아해, 이안?"
+          ],
+          [
+            "I like autumn because I can go camping.",
+            "나는 캠핑을 갈 수 있어서 가을을 좋아해."
+          ],
+          [
+            "That's right. Autumn is a great season.",
+            "맞아. 가을은 멋진 계절이야."
+          ],
+          [
+            "Thanks for helping me.",
+            "도와줘서 고마워."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "answer",
+                  "",
+                  "가을",
+                  ""
+                ],
+                [
+                  "because",
+                  "",
+                  "코트",
+                  ""
+                ],
+                [
+                  "leaf",
+                  "",
+                  "여왕",
+                  ""
+                ],
+                [
+                  "season",
+                  "",
+                  "봄",
+                  ""
+                ],
+                [
+                  "arrive",
+                  "",
+                  "겨울",
+                  ""
+                ],
+                [
+                  "clear",
+                  "",
+                  "가입하다",
+                  ""
+                ],
+                [
+                  "memory",
+                  "",
+                  "바구니",
+                  ""
+                ],
+                [
+                  "smile",
+                  "",
+                  "가득 찬",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "t _ ke  (잡다)",
+                "h _ avy  (무거운)",
+                "aut _ mn  (가을)",
+                "w _ nter  (겨울)",
+                "spr _ ng  (봄)",
+                "s _ ason  (계절)",
+                "l _ af  (나뭇잎)",
+                "b _ sket  (바구니)",
+                "qu _ en  (여왕)",
+                "cl _ ar  (맑은)"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "autumn",
+                "because",
+                "season"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What season do you like?",
+                "I like autumn because I can go camping.",
+                "That's right.",
+                "Autumn is a great season.",
+                "Thanks for helping me."
+              ],
+              "right": [
+                "가을은 멋진 계절이야.",
+                "너는 어떤 계절을 좋아해?",
+                "도와줘서 고마워.",
+                "맞아.",
+                "나는 캠핑을 갈 수 있어서 가을을 좋아해."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(봄) What season do you like?  →  I like ______.",
+                "(겨울) What season do you like?  →  I ______ winter.",
+                "(가을, 캠핑) → I like autumn ______ I can go camping.",
+                "(도와줘서) Thanks ____ ________ me."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "season / What / you / do / like / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "a / Autumn / great / is / season / .",
+                  "label": "→"
+                },
+                {
+                  "text": "for / Thanks / me / helping / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "season",
+                "because",
+                "right",
+                "Thanks"
+              ],
+              "items": [
+                "A: What ______ do you like, Ian?",
+                "B: I like autumn ______ I can go camping.",
+                "A: That's ______. Autumn is a great season.",
+                "B: ______ for helping me."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "좋아하는 계절을 물을 때:  What ______ do you like?",
+                "계절과 이유를 함께 말할 때:  I like + 계절 + ______ + 이유",
+                "동의할 때:  That's ______.    고마움:  Thanks for + 동사-______"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '계절'을 나타내는 말을 찾아 ○표 하세요.",
+              "items": [
+                "I like autumn because I can go camping.",
+                "Autumn is a great season.",
+                "I like spring.",
+                "Winter is a great season."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "( What / How ) season do you like?",
+                "I like autumn ( because / but ) I can go camping.",
+                "( That's / This ) right.",
+                "Thanks for ( help / helping ) me.",
+                "Autumn is a great ( season / seasons ).",
+                "What season do you ( like / likes )?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 넣어 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( spring )  나는 봄을 좋아해.",
+                  "label": "→"
+                },
+                {
+                  "text": "( season )  너는 무슨 계절을 좋아하니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( help )  도와줘서 고마워.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "season",
+                "because",
+                "-ing"
+              ],
+              "items": [
+                {
+                  "text": "What do you like season?",
+                  "label": "→"
+                },
+                {
+                  "text": "I like autumn so I can go camping.",
+                  "label": "→"
+                },
+                {
+                  "text": "Thanks for help me.",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 쓰세요.  보기: I like autumn because I can go camping.",
+              "columns": [
+                "번호",
+                "계절",
+                "할 수 있는 것 (이유)"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "spring",
+                  "see leaves"
+                ],
+                [
+                  "⑵",
+                  "winter",
+                  "wear a coat"
+                ],
+                [
+                  "⑶",
+                  "autumn",
+                  "take a basket and go camping"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What ______ do you like?    B: I like winter.",
+                "A: Why?    B: ______ I can see leaves.",
+                "A: Autumn is a great season.    B: That's ______."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "좋아하는 계절을 묻고 답하는 문장을 쓰세요. 대답에는 because 로 이유를 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 18개를 보지 않고 쓸 수 있다.",
+            "What season do you like? 에 대답할 수 있다.",
+            "because 뒤에 이유를 썼다.",
+            "Thanks for 뒤에 -ing 를 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

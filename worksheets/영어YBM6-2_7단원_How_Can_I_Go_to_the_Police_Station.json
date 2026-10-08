@@ -1,0 +1,473 @@
+{
+  "slug": "영어YBM6-2_7단원_How_Can_I_Go_to_the_Police_Station",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 6-2 · 7단원",
+  "title": "How Can I Go to the Police Station?",
+  "subtitle": "(경찰서에 어떻게 가?) 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "airplane",
+            "비행기"
+          ],
+          [
+            "building",
+            "건물"
+          ],
+          [
+            "gallery",
+            "미술관"
+          ],
+          [
+            "miss",
+            "놓치다"
+          ],
+          [
+            "ask",
+            "묻다, 요청하다"
+          ],
+          [
+            "bus",
+            "버스"
+          ],
+          [
+            "hospital",
+            "병원"
+          ],
+          [
+            "station",
+            "역"
+          ],
+          [
+            "behind",
+            "~뒤에"
+          ],
+          [
+            "by",
+            "~를 타고"
+          ],
+          [
+            "line",
+            "선"
+          ],
+          [
+            "subway",
+            "지하철"
+          ],
+          [
+            "how",
+            "어떻게"
+          ],
+          [
+            "trip",
+            "여행"
+          ],
+          [
+            "get off",
+            "내리다"
+          ],
+          [
+            "bus stop",
+            "버스 정거장"
+          ]
+        ],
+        "sentences": [
+          [
+            "How can I get to the police station?",
+            "경찰서에 어떻게 갈 수 있어?"
+          ],
+          [
+            "You can get there by subway.",
+            "지하철을 타고 갈 수 있어."
+          ],
+          [
+            "Take Bus Number 38 and get off at Haeundae.",
+            "38번 버스를 타고 해운대에서 내리세요."
+          ],
+          [
+            "It's behind the bank.",
+            "그것은 은행 뒤에 있어."
+          ],
+          [
+            "You can't miss it.",
+            "꼭 찾을 수 있을 거예요."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "airplane",
+                  "",
+                  "놓치다",
+                  ""
+                ],
+                [
+                  "building",
+                  "",
+                  "묻다, 요청하다",
+                  ""
+                ],
+                [
+                  "gallery",
+                  "",
+                  "버스",
+                  ""
+                ],
+                [
+                  "hospital",
+                  "",
+                  "~를 타고",
+                  ""
+                ],
+                [
+                  "station",
+                  "",
+                  "지하철",
+                  ""
+                ],
+                [
+                  "behind",
+                  "",
+                  "어떻게",
+                  ""
+                ],
+                [
+                  "line",
+                  "",
+                  "여행",
+                  ""
+                ],
+                [
+                  "get off",
+                  "",
+                  "버스 정거장",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "airpl _ ne  (비행기)",
+                "b _ ilding  (건물)",
+                "g _ llery  (미술관)",
+                "h _ spital  (병원)",
+                "st _ tion  (역)",
+                "s _ bway  (지하철)",
+                "beh _ nd  (~뒤에)",
+                "tr _ p  (여행)",
+                "get _ ff  (내리다)",
+                "bus st _ p  (버스 정거장)"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "airplane",
+                "hospital",
+                "building"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "How can I get to the police station?",
+                "You can get there by subway.",
+                "Take Bus Number 38.",
+                "It's behind the bank.",
+                "You can't miss it."
+              ],
+              "right": [
+                "그것은 은행 뒤에 있어.",
+                "꼭 찾을 수 있을 거예요.",
+                "경찰서에 어떻게 갈 수 있어?",
+                "38번 버스를 타세요.",
+                "지하철을 타고 갈 수 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(지하철) How can I get to the hospital?  →  You can get there by ______.",
+                "(버스) How can I get to the bank?  →  You can get there ________.",
+                "(은행 뒤) Where is the police station?  →  It's ______ the bank.",
+                "(38번, 해운대) Take Bus Number ____ and get off at ________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "can / How / get / I / to / the / station / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "there / You / get / can / by / subway / .",
+                  "label": "→"
+                },
+                {
+                  "text": "behind / It's / bank / the / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "How",
+                "by",
+                "get off",
+                "miss"
+              ],
+              "items": [
+                "A: __________ can I get to the police station?",
+                "B: You can get there ______ bus.",
+                "B: Take Bus Number 38 and __________ at Haeundae.",
+                "B: It's behind the bank.  You can't ______ it."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "교통수단을 말할 때:  전치사 ______ + 교통수단  (a / the 같은 관사 없이)",
+                "가는 방법을 물을 때:  ______ can I ______ to + 장소?",
+                "대답할 때:  You can get ______ by + 교통수단."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '교통수단'을 나타내는 말을 찾아 ○표 하세요.",
+              "items": [
+                "You can get there by subway.",
+                "You can get there by bus.",
+                "Take Bus Number 38 and get off.",
+                "You can get there by airplane."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "You can get there ( by / on ) subway.",
+                "You can get there by ( a bus / bus ).",
+                "( How / What ) can I get to the gallery?",
+                "How can I get ( to / at ) the station?",
+                "It's ( behind / by ) the bank.  은행 뒤에 있어.",
+                "Get ( off / on ) at Haeundae.  해운대에서 내리세요."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 넣어 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( the hospital )  병원에 어떻게 갈 수 있어?",
+                  "label": "→"
+                },
+                {
+                  "text": "( subway )  지하철을 타고 갈 수 있어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( the gallery )  미술관에 어떻게 갈 수 있어?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "관사",
+                "by",
+                "How"
+              ],
+              "items": [
+                {
+                  "text": "You can get there by a bus.",
+                  "label": "→"
+                },
+                {
+                  "text": "You can get there on subway.",
+                  "label": "→"
+                },
+                {
+                  "text": "What can I get to the station?  (역에 어떻게 갈 수 있어?)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 대답을 쓰세요.  보기: (bus) → You can get there by bus.",
+              "columns": [
+                "번호",
+                "질문",
+                "교통수단"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "How can I get to the hospital?",
+                  "subway"
+                ],
+                [
+                  "⑵",
+                  "How can I get to the gallery?",
+                  "bus"
+                ],
+                [
+                  "⑶",
+                  "How can I get to the station?",
+                  "airplane"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶ 질문에 대한 대답을 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: How can I get there?    B: You can get there ____ subway.",
+                "A: How can I ____ to the gallery?    B: Take Bus Number 38.",
+                "A: Where is it?    B: It's ______ the bank. You can't ____ it."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "가고 싶은 장소를 골라 가는 방법을 묻고 답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "How can I get to ~? 로 길을 물을 수 있다.",
+            "by 뒤에 관사 없이 교통수단을 썼다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

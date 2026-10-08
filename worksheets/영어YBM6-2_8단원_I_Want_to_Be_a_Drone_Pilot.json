@@ -1,0 +1,471 @@
+{
+  "slug": "영어YBM6-2_8단원_I_Want_to_Be_a_Drone_Pilot",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 6-2 · 8단원",
+  "title": "I Want to Be a Drone Pilot.",
+  "subtitle": "(나는 드론 조종사가 되고 싶어.) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "area",
+            "공간, 구역"
+          ],
+          [
+            "end",
+            "끝, 마지막"
+          ],
+          [
+            "printer",
+            "프린터"
+          ],
+          [
+            "story",
+            "이야기"
+          ],
+          [
+            "dinosaur",
+            "공룡"
+          ],
+          [
+            "movie director",
+            "영화감독"
+          ],
+          [
+            "programmer",
+            "프로그래머"
+          ],
+          [
+            "first",
+            "첫 번째의"
+          ],
+          [
+            "traveler",
+            "여행가"
+          ],
+          [
+            "drone pilot",
+            "드론 조종사"
+          ],
+          [
+            "newspaper",
+            "신문"
+          ],
+          [
+            "safe",
+            "안전한"
+          ],
+          [
+            "writer",
+            "작가"
+          ],
+          [
+            "try",
+            "시도하다"
+          ],
+          [
+            "job",
+            "직업"
+          ],
+          [
+            "center",
+            "센터"
+          ]
+        ],
+        "sentences": [
+          [
+            "Where do you want to go first?",
+            "어디를 먼저 가고 싶니?"
+          ],
+          [
+            "I'm interested in design.",
+            "나는 디자인에 관심이 있어."
+          ],
+          [
+            "What do you want to be, Kate?",
+            "너는 무엇이 되고 싶니, 케이트?"
+          ],
+          [
+            "I'm watching a video about drones.",
+            "나는 드론에 관한 영상을 보고 있어."
+          ],
+          [
+            "I want to be a drone pilot.",
+            "나는 드론 조종사가 되기를 원해."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "area",
+                  "",
+                  "끝, 마지막",
+                  ""
+                ],
+                [
+                  "printer",
+                  "",
+                  "이야기",
+                  ""
+                ],
+                [
+                  "dinosaur",
+                  "",
+                  "첫 번째의",
+                  ""
+                ],
+                [
+                  "movie director",
+                  "",
+                  "드론 조종사",
+                  ""
+                ],
+                [
+                  "programmer",
+                  "",
+                  "안전한",
+                  ""
+                ],
+                [
+                  "traveler",
+                  "",
+                  "작가",
+                  ""
+                ],
+                [
+                  "newspaper",
+                  "",
+                  "시도하다",
+                  ""
+                ],
+                [
+                  "center",
+                  "",
+                  "직업",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "pr _ nter  (프린터)",
+                "st _ ry  (이야기)",
+                "din _ saur  (공룡)",
+                "f _ rst  (첫 번째의)",
+                "n _ wspaper  (신문)",
+                "s _ fe  (안전한)",
+                "wr _ ter  (작가)",
+                "j _ b  (직업)"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "dinosaur",
+                "programmer",
+                "newspaper"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Where do you want to go first?",
+                "I'm interested in design.",
+                "What do you want to be?",
+                "I'm watching a video about drones.",
+                "I want to be a drone pilot."
+              ],
+              "right": [
+                "나는 드론 조종사가 되고 싶어.",
+                "너는 무엇이 되고 싶니?",
+                "나는 디자인에 관심이 있어.",
+                "어디를 먼저 가고 싶니?",
+                "나는 드론에 관한 영상을 보고 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(작가) What do you want to be?  →  I want to be ____ ______.",
+                "(영화감독) What do you want to be?  →  I want to be __________.",
+                "(프로그래머) → I ______ to ______ a programmer.",
+                "(디자인에 관심) → I'm __________ in design."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "want / What / you / do / to / be / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "be / I / to / want / a / writer / .",
+                  "label": "→"
+                },
+                {
+                  "text": "interested / I'm / design / in / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "want",
+                "interested",
+                "be",
+                "first"
+              ],
+              "items": [
+                "A: Where do you want to go ______?    B: The dinosaur area!",
+                "A: What do you ______ to be, Kate?",
+                "B: I want to ______ a drone pilot.",
+                "A: I'm ______ in design. I want to be a programmer."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "'~이 되고 싶다':  want ______ ______ + 직업  (미래의 직업·모습)",
+                "'~에 관심이 있다':  be ______ ______ + 관심의 대상",
+                "직업 이름이 모음(a, e, i, o, u) 소리로 시작하면 a 대신 ______ 을 써요."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '직업'을 나타내는 말을 찾아 ○표 하세요.",
+              "items": [
+                "I want to be a drone pilot.",
+                "I want to be a writer.",
+                "Do you want to be a programmer?",
+                "She wants to be a traveler."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "I want ( to be / be ) a writer.",
+                "I'm interested ( in / on ) design.",
+                "( What / Where ) do you want to be?",
+                "( What / Where ) do you want to go first?",
+                "I want to be ( a / an ) actor.",
+                "I want to be ( a / an ) programmer."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 넣어 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( writer )  나는 작가가 되고 싶어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( traveler )  나는 여행가가 되고 싶어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( drones )  나는 드론에 관심이 있어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "want to be",
+                "in",
+                "an"
+              ],
+              "items": [
+                {
+                  "text": "I want be a programmer.",
+                  "label": "→"
+                },
+                {
+                  "text": "I'm interested on design.",
+                  "label": "→"
+                },
+                {
+                  "text": "I want to be a actor.",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 두 문장을 쓰세요.  보기: I'm interested in ~. I want to be a ~.",
+              "columns": [
+                "번호",
+                "관심 있는 것",
+                "되고 싶은 직업"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "design",
+                  "programmer"
+                ],
+                [
+                  "⑵",
+                  "stories",
+                  "writer"
+                ],
+                [
+                  "⑶",
+                  "movies",
+                  "movie director"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: ______ do you want to be?    B: I want to be a writer.",
+                "A: Where do you want to go ______?    B: The dinosaur area.",
+                "A: What are you watching?    B: I'm watching a ______ about drones."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "장래 희망을 묻고 답하는 문장을 쓰세요. 대답에는 관심 있는 것도 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "want to be 로 장래 희망을 말할 수 있다.",
+            "모음 소리로 시작하는 직업 앞에 an 을 썼다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

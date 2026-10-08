@@ -1,0 +1,475 @@
+{
+  "slug": "영어YBM6-2_12단원_Do_You_Know_Anything_About_Jige",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 6-2 · 12단원",
+  "title": "Do You Know Anything About Jige?",
+  "subtitle": "(지게를 알고 있니?) 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "afraid",
+            "두려워하는"
+          ],
+          [
+            "carry",
+            "실어 나르다"
+          ],
+          [
+            "Internet",
+            "인터넷"
+          ],
+          [
+            "soup",
+            "수프, 국"
+          ],
+          [
+            "bean",
+            "콩"
+          ],
+          [
+            "culture",
+            "문화"
+          ],
+          [
+            "public",
+            "공공의"
+          ],
+          [
+            "street",
+            "거리, 도로"
+          ],
+          [
+            "call",
+            "부르다"
+          ],
+          [
+            "holiday",
+            "휴일, 휴가"
+          ],
+          [
+            "puppy",
+            "강아지"
+          ],
+          [
+            "traditional",
+            "전통의, 전통적인"
+          ],
+          [
+            "find",
+            "찾다"
+          ],
+          [
+            "strong",
+            "강한"
+          ],
+          [
+            "idea",
+            "생각"
+          ],
+          [
+            "try",
+            "해보다"
+          ]
+        ],
+        "sentences": [
+          [
+            "Do you know anything about tteokguk?",
+            "너는 떡국에 관해 무엇인가 알고 있니?"
+          ],
+          [
+            "Yes, I do. It's a traditional Korean soup with rice cakes.",
+            "응, 알아. 떡이 들어간 한국 전통 국이야."
+          ],
+          [
+            "You look very strong.",
+            "너는 매우 힘세 보여."
+          ],
+          [
+            "Do you know anything about jige?",
+            "너는 지게에 관해 무엇인가 알고 있니?"
+          ],
+          [
+            "I have no idea.",
+            "나는 모르겠어."
+          ],
+          [
+            "Oh, I see.",
+            "오, 알았어."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "afraid",
+                  "",
+                  "수프, 국",
+                  ""
+                ],
+                [
+                  "carry",
+                  "",
+                  "콩",
+                  ""
+                ],
+                [
+                  "Internet",
+                  "",
+                  "부르다",
+                  ""
+                ],
+                [
+                  "culture",
+                  "",
+                  "강아지",
+                  ""
+                ],
+                [
+                  "public",
+                  "",
+                  "찾다",
+                  ""
+                ],
+                [
+                  "street",
+                  "",
+                  "강한",
+                  ""
+                ],
+                [
+                  "holiday",
+                  "",
+                  "생각",
+                  ""
+                ],
+                [
+                  "traditional",
+                  "",
+                  "해보다",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "afr _ id  (두려워하는)",
+                "c _ rry  (실어 나르다)",
+                "s _ up  (수프)",
+                "b _ an  (콩)",
+                "cult _ re  (문화)",
+                "p _ ppy  (강아지)",
+                "str _ ng  (강한)",
+                "id _ a  (생각)"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "traditional",
+                "culture",
+                "Internet"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Do you know anything about jige?",
+                "Yes, I do.",
+                "You look very strong.",
+                "I have no idea.",
+                "Oh, I see."
+              ],
+              "right": [
+                "나는 모르겠어.",
+                "오, 알았어.",
+                "너는 지게에 관해 알고 있니?",
+                "너는 매우 힘세 보여.",
+                "응, 알아."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(알고 있음) Do you know anything about jige?  →  ____, I ____.",
+                "(모름) Do you know anything about jige?  →  I have ____ ______.",
+                "(설명을 듣고 알게 됨) → Oh, I ______.",
+                "(힘세 보임) You ______ very ________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "know / Do / anything / you / about / jige / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "no / I / idea / have / .",
+                  "label": "→"
+                },
+                {
+                  "text": "look / You / strong / very / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "know",
+                "traditional",
+                "idea",
+                "see"
+              ],
+              "items": [
+                "A: Do you ______ anything about tteokguk?",
+                "B: Yes, I do. It's a __________ Korean soup.",
+                "A: Do you know anything about jige?    B: I have no ______.",
+                "A: It's a traditional Korean culture.    B: Oh, I ______."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "앞에 나온 명사를 반복하지 않고 대신 쓰는 말을 ( ______ )라고 해요. 예: it",
+                "알고 있는지 물을 때:  Do you ______ anything ______ + 명사?",
+                "대답에서 about 뒤의 명사는 ____ 으로 대신해요.",
+                "새로 알게 됐을 때:  I ____.    이미 알고 있을 때:  I ______."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "it이 가리키는 말을 찾아 ○표 하세요.",
+              "items": [
+                "Do you know anything about tteokguk?  –  It's a traditional Korean soup.",
+                "Do you know anything about jige?  –  It's a traditional Korean culture.",
+                "I have a puppy.  It's very strong."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "Do you ( know / knows ) anything about jige?",
+                "Do you know ( anything / any ) about tteokguk?",
+                "Yes, I ( do / am ).",
+                "( It's / Its ) a traditional Korean soup.",
+                "I have ( no / not ) idea.",
+                "You ( look / looks ) very strong."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 넣어 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( jige )  너는 지게에 관해 알고 있니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( idea )  나는 모르겠어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( strong )  너는 매우 힘세 보여.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "Do",
+                "it",
+                "idea"
+              ],
+              "items": [
+                {
+                  "text": "Are you know anything about jige?",
+                  "label": "→"
+                },
+                {
+                  "text": "Yes, I do. Tteokguk is a Korean soup.  (대명사로 바꾸기)",
+                  "label": "→"
+                },
+                {
+                  "text": "I have no ideas.  (나는 모르겠어.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 대답을 쓰세요.  보기: Yes, I do. It's a Korean soup.",
+              "columns": [
+                "번호",
+                "질문",
+                "설명"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "Do you know anything about tteokguk?",
+                  "a traditional Korean soup"
+                ],
+                [
+                  "⑵",
+                  "Do you know anything about jige?",
+                  "a traditional Korean culture"
+                ],
+                [
+                  "⑶",
+                  "Do you know anything about bean soup?",
+                  "a Korean soup with beans"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶ 질문에 대한 대답을 쓰세요. 명사는 it으로 바꾸세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: Do you ______ anything about tteokguk?    B: Yes, I ____.",
+                "A: Do you know anything about jige?    B: I have no ______.",
+                "A: It's a traditional Korean culture.    B: Oh, I ____."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "우리나라 전통 음식 하나를 골라 묻고 답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "Do you know ~? 로 물을 수 있다.",
+            "대답에서 명사를 it 으로 바꿔 썼다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

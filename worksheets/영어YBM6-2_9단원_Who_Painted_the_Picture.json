@@ -1,0 +1,479 @@
+{
+  "slug": "영어YBM6-2_9단원_Who_Painted_the_Picture",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 6-2 · 9단원",
+  "title": "Who Painted the Picture?",
+  "subtitle": "(누가 그 그림을 그렸니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "back",
+            "뒤, 뒷면"
+          ],
+          [
+            "hero",
+            "영웅"
+          ],
+          [
+            "letter",
+            "편지"
+          ],
+          [
+            "rabbit",
+            "토끼"
+          ],
+          [
+            "war",
+            "전쟁"
+          ],
+          [
+            "brave",
+            "용감한"
+          ],
+          [
+            "invent",
+            "발명하다"
+          ],
+          [
+            "map",
+            "지도"
+          ],
+          [
+            "say",
+            "말하다"
+          ],
+          [
+            "unbelievable",
+            "믿을 수 없는"
+          ],
+          [
+            "finish",
+            "끝내다, 완성하다"
+          ],
+          [
+            "king",
+            "왕"
+          ],
+          [
+            "nature",
+            "자연"
+          ],
+          [
+            "ship",
+            "배"
+          ]
+        ],
+        "sentences": [
+          [
+            "Who wrote the music?",
+            "누가 그 음악을 작곡했어?"
+          ],
+          [
+            "Mozart wrote it.",
+            "모차르트가 그것을 작곡했어."
+          ],
+          [
+            "Did you say Mozart?",
+            "모차르트라고 말했어?"
+          ],
+          [
+            "Who made the map?",
+            "누가 그 지도를 만들었어?"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "back",
+                  "",
+                  "편지",
+                  ""
+                ],
+                [
+                  "hero",
+                  "",
+                  "전쟁",
+                  ""
+                ],
+                [
+                  "rabbit",
+                  "",
+                  "지도",
+                  ""
+                ],
+                [
+                  "brave",
+                  "",
+                  "말하다",
+                  ""
+                ],
+                [
+                  "invent",
+                  "",
+                  "끝내다, 완성하다",
+                  ""
+                ],
+                [
+                  "unbelievable",
+                  "",
+                  "왕",
+                  ""
+                ],
+                [
+                  "nature",
+                  "",
+                  "배",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "h _ ro  (영웅)",
+                "l _ tter  (편지)",
+                "r _ bbit  (토끼)",
+                "br _ ve  (용감한)",
+                "inv _ nt  (발명하다)",
+                "f _ nish  (끝내다)",
+                "nat _ re  (자연)",
+                "sh _ p  (배)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '사람·사물 이름(명사)'과 '움직임을 나타내는 말(동사)'로 나누어 쓰세요.",
+              "box": [
+                "hero",
+                "invent",
+                "map",
+                "say",
+                "king",
+                "finish",
+                "ship"
+              ],
+              "columns": [
+                "사람·사물 이름 (명사)",
+                "움직임을 나타내는 말 (동사)"
+              ],
+              "rows": 1
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "unbelievable",
+                "invent",
+                "nature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Who wrote the music?",
+                "Mozart wrote it.",
+                "Did you say Mozart?",
+                "Who made the map?",
+                "Who painted the picture?"
+              ],
+              "right": [
+                "누가 그 지도를 만들었어?",
+                "모차르트라고 말했어?",
+                "누가 그 그림을 그렸니?",
+                "누가 그 음악을 작곡했어?",
+                "모차르트가 그것을 작곡했어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(Mozart) Who wrote the music?  →  ______ wrote ____.",
+                "(the king) Who made the map?  →  The king ______ it.",
+                "(the hero) Who built the ship?  →  The hero ______ it.",
+                "(맞음) Did you say Mozart?  →  ______, I ______."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "wrote / Who / music / the / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "it / Mozart / wrote / .",
+                  "label": "→"
+                },
+                {
+                  "text": "say / Did / Mozart / you / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "Who",
+                "wrote",
+                "say",
+                "it"
+              ],
+              "items": [
+                "A: ______ wrote the music?",
+                "B: Mozart ______ it.",
+                "A: Did you ______ Mozart?",
+                "B: Yes. Mozart wrote ______. Unbelievable!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "누가 했는지 물을 때:  ______ + 동사의 ( 과거형 / 현재형 ) + 대상?",
+                "대답할 때:  사람 이름 + 동사의 과거형 + ____  (질문에 나온 대상을 대신함)",
+                "다시 확인할 때:  ______ you say + 확인하고 싶은 말?"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '동사의 과거형'을 찾아 ○표 하세요.",
+              "items": [
+                "Who wrote the music?",
+                "Mozart wrote it.",
+                "Who made the map?",
+                "The king built the ship."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "Who ( write / wrote ) the music?",
+                "Who ( made / make ) the map?",
+                "Mozart wrote ( it / its ).",
+                "( Did / Do ) you say Mozart?",
+                "Who ( invented / invent ) the ship?",
+                "Who ( painted / paint ) the picture?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 동사를 과거형으로 바꾸어 '누가 ~했니?' 하고 묻는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( make, the map )  누가 그 지도를 만들었니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( write, the music )  누가 그 음악을 썼니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( build, the ship )  누가 그 배를 만들었니?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "과거형",
+                "it",
+                "Did"
+              ],
+              "items": [
+                {
+                  "text": "Who write the music?",
+                  "label": "→"
+                },
+                {
+                  "text": "Mozart wrote them.  (모차르트가 그것을 작곡했어.)",
+                  "label": "→"
+                },
+                {
+                  "text": "Do you say Mozart?  (모차르트라고 말했어?)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표의 빈칸에 동사의 과거형을 쓰세요.",
+              "columns": [
+                "번호",
+                "동사",
+                "과거형",
+                "대상",
+                "사람"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "make",
+                  "",
+                  "the map",
+                  "the king"
+                ],
+                [
+                  "⑵",
+                  "build",
+                  "",
+                  "the ship",
+                  "the hero"
+                ],
+                [
+                  "⑶",
+                  "paint",
+                  "",
+                  "the picture",
+                  "the king"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "보기처럼 두 문장을 쓰세요.  보기: Who wrote the music? Mozart wrote it.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: Who ______ the music?    B: Mozart ______ it.",
+                "A: Did you ______ Mozart?    B: Yes, I ____.",
+                "A: ______ made the map?    B: The king ______ it."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "'누가 ~했니?' 하고 묻고 답하는 문장을 쓰세요. 동사는 과거형으로 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "Who + 과거형 ~? 으로 물을 수 있다.",
+            "대답에서 대상을 it 으로 바꿔 썼다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

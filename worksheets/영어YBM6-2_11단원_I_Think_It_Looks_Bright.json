@@ -1,0 +1,463 @@
+{
+  "slug": "영어YBM6-2_11단원_I_Think_It_Looks_Bright",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 6-2 · 11단원",
+  "title": "I Think It Looks Bright.",
+  "subtitle": "(그것은 밝아 보여.) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "board game",
+            "보드게임"
+          ],
+          [
+            "cheap",
+            "(값이) 싼"
+          ],
+          [
+            "course",
+            "과정, 방향"
+          ],
+          [
+            "quiet",
+            "조용한"
+          ],
+          [
+            "boring",
+            "지루한"
+          ],
+          [
+            "clever",
+            "영리한, 똑똑한"
+          ],
+          [
+            "dangerous",
+            "위험한"
+          ],
+          [
+            "skirt",
+            "치마"
+          ],
+          [
+            "bright",
+            "밝은"
+          ],
+          [
+            "condition",
+            "상태"
+          ],
+          [
+            "dark",
+            "어두운"
+          ],
+          [
+            "soft",
+            "부드러운"
+          ],
+          [
+            "favorite",
+            "가장 좋아하는"
+          ],
+          [
+            "actor",
+            "배우"
+          ]
+        ],
+        "sentences": [
+          [
+            "I'm bored.",
+            "나는 지루해."
+          ],
+          [
+            "It looks interesting.",
+            "그것은 흥미로워 보여."
+          ],
+          [
+            "What do you think?",
+            "너는 어떻게 생각해?"
+          ],
+          [
+            "I can't wait.",
+            "정말 기대돼."
+          ],
+          [
+            "I think it looks dark.",
+            "나는 그것이 어두워 보인다고 생각해."
+          ],
+          [
+            "I think so, too.",
+            "나도 그렇게 생각해."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "board game",
+                  "",
+                  "치마",
+                  ""
+                ],
+                [
+                  "cheap",
+                  "",
+                  "밝은",
+                  ""
+                ],
+                [
+                  "course",
+                  "",
+                  "상태",
+                  ""
+                ],
+                [
+                  "quiet",
+                  "",
+                  "어두운",
+                  ""
+                ],
+                [
+                  "boring",
+                  "",
+                  "부드러운",
+                  ""
+                ],
+                [
+                  "clever",
+                  "",
+                  "가장 좋아하는",
+                  ""
+                ],
+                [
+                  "dangerous",
+                  "",
+                  "배우",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "ch _ ap  ((값이) 싼)",
+                "qu _ et  (조용한)",
+                "b _ ring  (지루한)",
+                "cl _ ver  (영리한)",
+                "dang _ rous  (위험한)",
+                "sk _ rt  (치마)",
+                "br _ ght  (밝은)",
+                "d _ rk  (어두운)",
+                "s _ ft  (부드러운)",
+                "act _ r  (배우)"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "dangerous",
+                "favorite",
+                "condition"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "I'm bored.",
+                "It looks interesting.",
+                "What do you think?",
+                "I can't wait.",
+                "I think so, too."
+              ],
+              "right": [
+                "너는 어떻게 생각해?",
+                "나도 그렇게 생각해.",
+                "나는 지루해.",
+                "정말 기대돼.",
+                "그것은 흥미로워 보여."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(밝은) What do you think?  →  I think it looks ______.",
+                "(어두운) What do you think?  →  I think it ______ ______.",
+                "(동의함) I think it looks soft.  →  I think ____, ____.",
+                "(동의하지 않음) I think it looks cheap.  →  I ______ think so."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "looks / It / interesting / .",
+                  "label": "→"
+                },
+                {
+                  "text": "think / What / you / do / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "think / I / so, / too / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "think",
+                "looks",
+                "so",
+                "bored"
+              ],
+              "items": [
+                "A: I'm ______.",
+                "B: This board game ______ interesting.",
+                "A: What do you ______?",
+                "B: I think ______, too. I can't wait!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "느낌을 나타낼 때 look, smell, sound 같은 ______동사를 써요.",
+                "감각동사 문장:  주어 + 감각동사 + ______    예) It ______ + 형용사",
+                "동의할 때:  I think ____, too.    동의하지 않을 때:  I ______ think so."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '형용사'를 찾아 ○표 하세요.",
+              "items": [
+                "It looks interesting.",
+                "I think it looks dark.",
+                "The skirt looks soft.",
+                "This board game looks boring."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "It ( looks / look ) bright.",
+                "( What / How ) do you think?",
+                "I think ( so / too ), too.",
+                "I ( don't / not ) think so.",
+                "It ( looks / is ) dark.  그것은 어두워 보여.",
+                "I'm ( bored / boring ).  나는 지루해."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 넣어 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( bright )  그것은 밝아 보여.",
+                  "label": "→"
+                },
+                {
+                  "text": "( dangerous )  나는 그것이 위험해 보인다고 생각해.",
+                  "label": "→"
+                },
+                {
+                  "text": "( cheap )  그것은 싸 보여.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "looks",
+                "so",
+                "don't"
+              ],
+              "items": [
+                {
+                  "text": "It look dark.",
+                  "label": "→"
+                },
+                {
+                  "text": "I think too, so.  (나도 그렇게 생각해.)",
+                  "label": "→"
+                },
+                {
+                  "text": "I not think so.  (나는 그렇게 생각하지 않아.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 쓰세요.  보기: (the skirt, cheap) → The skirt looks cheap.",
+              "columns": [
+                "번호",
+                "대상",
+                "느낌 (형용사)"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "the skirt",
+                  "soft"
+                ],
+                [
+                  "⑵",
+                  "the board game",
+                  "boring"
+                ],
+                [
+                  "⑶",
+                  "the course",
+                  "dangerous"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What do you ______?    B: I think it ______ bright.",
+                "A: It looks interesting.    B: I think ____, ____.",
+                "A: I think it looks dark.    B: I ______ think so. It looks ______."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "물건 하나를 골라 어떻게 보이는지 묻고 답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "It looks + 형용사 로 느낌을 말할 수 있다.",
+            "I think so, too. 로 동의할 수 있다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}
