@@ -1,0 +1,704 @@
+[
+ {
+  "letter": "A",
+  "nameKo": "에이",
+  "words": [
+   {
+    "word": "Apple",
+    "ipa": "/ˈæp.əl/",
+    "reading": "애플",
+    "meaning": "사과",
+    "emoji": "1f34e"
+   },
+   {
+    "word": "Ant",
+    "ipa": "/ænt/",
+    "reading": "앤트",
+    "meaning": "개미",
+    "emoji": "1f41c"
+   },
+   {
+    "word": "Airplane",
+    "ipa": "/ˈer.pleɪn/",
+    "reading": "에어플레인",
+    "meaning": "비행기",
+    "emoji": "2708"
+   }
+  ]
+ },
+ {
+  "letter": "B",
+  "nameKo": "비",
+  "words": [
+   {
+    "word": "Ball",
+    "ipa": "/bɔːl/",
+    "reading": "볼",
+    "meaning": "공",
+    "emoji": "26bd"
+   },
+   {
+    "word": "Bear",
+    "ipa": "/ber/",
+    "reading": "베어",
+    "meaning": "곰",
+    "emoji": "1f43b"
+   },
+   {
+    "word": "Banana",
+    "ipa": "/bəˈnæn.ə/",
+    "reading": "버내나",
+    "meaning": "바나나",
+    "emoji": "1f34c"
+   }
+  ]
+ },
+ {
+  "letter": "C",
+  "nameKo": "씨",
+  "words": [
+   {
+    "word": "Cat",
+    "ipa": "/kæt/",
+    "reading": "캣",
+    "meaning": "고양이",
+    "emoji": "1f431"
+   },
+   {
+    "word": "Cake",
+    "ipa": "/keɪk/",
+    "reading": "케이크",
+    "meaning": "케이크",
+    "emoji": "1f382"
+   },
+   {
+    "word": "Car",
+    "ipa": "/kɑːr/",
+    "reading": "카",
+    "meaning": "자동차",
+    "emoji": "1f697"
+   }
+  ]
+ },
+ {
+  "letter": "D",
+  "nameKo": "디",
+  "words": [
+   {
+    "word": "Dog",
+    "ipa": "/dɔːɡ/",
+    "reading": "도그",
+    "meaning": "개",
+    "emoji": "1f436"
+   },
+   {
+    "word": "Duck",
+    "ipa": "/dʌk/",
+    "reading": "덕",
+    "meaning": "오리",
+    "emoji": "1f986"
+   },
+   {
+    "word": "Donut",
+    "ipa": "/ˈdoʊ.nʌt/",
+    "reading": "도넛",
+    "meaning": "도넛",
+    "emoji": "1f369"
+   }
+  ]
+ },
+ {
+  "letter": "E",
+  "nameKo": "이",
+  "words": [
+   {
+    "word": "Egg",
+    "ipa": "/eɡ/",
+    "reading": "에그",
+    "meaning": "달걀",
+    "emoji": "1f95a"
+   },
+   {
+    "word": "Elephant",
+    "ipa": "/ˈel.ɪ.fənt/",
+    "reading": "엘리펀트",
+    "meaning": "코끼리",
+    "emoji": "1f418"
+   },
+   {
+    "word": "Envelope",
+    "ipa": "/ˈen.və.loʊp/",
+    "reading": "엔벌로프",
+    "meaning": "봉투",
+    "emoji": "2709"
+   }
+  ]
+ },
+ {
+  "letter": "F",
+  "nameKo": "에프",
+  "words": [
+   {
+    "word": "Fish",
+    "ipa": "/fɪʃ/",
+    "reading": "피시",
+    "meaning": "물고기",
+    "emoji": "1f41f"
+   },
+   {
+    "word": "Frog",
+    "ipa": "/frɔːɡ/",
+    "reading": "프로그",
+    "meaning": "개구리",
+    "emoji": "1f438"
+   },
+   {
+    "word": "Flower",
+    "ipa": "/ˈflaʊ.ər/",
+    "reading": "플라워",
+    "meaning": "꽃",
+    "emoji": "1f338"
+   }
+  ]
+ },
+ {
+  "letter": "G",
+  "nameKo": "지",
+  "words": [
+   {
+    "word": "Grapes",
+    "ipa": "/ɡreɪps/",
+    "reading": "그레이프스",
+    "meaning": "포도",
+    "emoji": "1f347"
+   },
+   {
+    "word": "Gift",
+    "ipa": "/ɡɪft/",
+    "reading": "기프트",
+    "meaning": "선물",
+    "emoji": "1f381"
+   },
+   {
+    "word": "Guitar",
+    "ipa": "/ɡɪˈtɑːr/",
+    "reading": "기타",
+    "meaning": "기타",
+    "emoji": "1f3b8"
+   }
+  ]
+ },
+ {
+  "letter": "H",
+  "nameKo": "에이치",
+  "words": [
+   {
+    "word": "Hat",
+    "ipa": "/hæt/",
+    "reading": "햇",
+    "meaning": "모자",
+    "emoji": "1f3a9"
+   },
+   {
+    "word": "Horse",
+    "ipa": "/hɔːrs/",
+    "reading": "호스",
+    "meaning": "말",
+    "emoji": "1f434"
+   },
+   {
+    "word": "House",
+    "ipa": "/haʊs/",
+    "reading": "하우스",
+    "meaning": "집",
+    "emoji": "1f3e0"
+   }
+  ]
+ },
+ {
+  "letter": "I",
+  "nameKo": "아이",
+  "words": [
+   {
+    "word": "Ice cream",
+    "ipa": "/ˈaɪs ˌkriːm/",
+    "reading": "아이스크림",
+    "meaning": "아이스크림",
+    "emoji": "1f366"
+   },
+   {
+    "word": "Insect",
+    "ipa": "/ˈɪn.sekt/",
+    "reading": "인섹트",
+    "meaning": "곤충",
+    "emoji": "1f41e"
+   },
+   {
+    "word": "Island",
+    "ipa": "/ˈaɪ.lənd/",
+    "reading": "아일랜드",
+    "meaning": "섬",
+    "emoji": "1f3dd"
+   }
+  ]
+ },
+ {
+  "letter": "J",
+  "nameKo": "제이",
+  "words": [
+   {
+    "word": "Juice",
+    "ipa": "/dʒuːs/",
+    "reading": "주스",
+    "meaning": "주스",
+    "emoji": "1f9c3"
+   },
+   {
+    "word": "Jacket",
+    "ipa": "/ˈdʒæk.ɪt/",
+    "reading": "재킷",
+    "meaning": "재킷",
+    "emoji": "1f9e5"
+   },
+   {
+    "word": "Jigsaw",
+    "ipa": "/ˈdʒɪɡ.sɔː/",
+    "reading": "직소",
+    "meaning": "퍼즐",
+    "emoji": "1f9e9"
+   }
+  ]
+ },
+ {
+  "letter": "K",
+  "nameKo": "케이",
+  "words": [
+   {
+    "word": "Kite",
+    "ipa": "/kaɪt/",
+    "reading": "카이트",
+    "meaning": "연",
+    "emoji": "1fa81"
+   },
+   {
+    "word": "Key",
+    "ipa": "/kiː/",
+    "reading": "키",
+    "meaning": "열쇠",
+    "emoji": "1f511"
+   },
+   {
+    "word": "Kangaroo",
+    "ipa": "/ˌkæŋ.ɡəˈruː/",
+    "reading": "캥거루",
+    "meaning": "캥거루",
+    "emoji": "1f998"
+   }
+  ]
+ },
+ {
+  "letter": "L",
+  "nameKo": "엘",
+  "words": [
+   {
+    "word": "Lion",
+    "ipa": "/ˈlaɪ.ən/",
+    "reading": "라이언",
+    "meaning": "사자",
+    "emoji": "1f981"
+   },
+   {
+    "word": "Lemon",
+    "ipa": "/ˈlem.ən/",
+    "reading": "레몬",
+    "meaning": "레몬",
+    "emoji": "1f34b"
+   },
+   {
+    "word": "Leaf",
+    "ipa": "/liːf/",
+    "reading": "리프",
+    "meaning": "나뭇잎",
+    "emoji": "1f343"
+   }
+  ]
+ },
+ {
+  "letter": "M",
+  "nameKo": "엠",
+  "words": [
+   {
+    "word": "Moon",
+    "ipa": "/muːn/",
+    "reading": "문",
+    "meaning": "달",
+    "emoji": "1f319"
+   },
+   {
+    "word": "Monkey",
+    "ipa": "/ˈmʌŋ.ki/",
+    "reading": "멍키",
+    "meaning": "원숭이",
+    "emoji": "1f435"
+   },
+   {
+    "word": "Milk",
+    "ipa": "/mɪlk/",
+    "reading": "밀크",
+    "meaning": "우유",
+    "emoji": "1f95b"
+   }
+  ]
+ },
+ {
+  "letter": "N",
+  "nameKo": "엔",
+  "words": [
+   {
+    "word": "Nose",
+    "ipa": "/noʊz/",
+    "reading": "노즈",
+    "meaning": "코",
+    "emoji": "1f443"
+   },
+   {
+    "word": "Notebook",
+    "ipa": "/ˈnoʊt.bʊk/",
+    "reading": "노트북",
+    "meaning": "공책",
+    "emoji": "1f4d3"
+   },
+   {
+    "word": "Nut",
+    "ipa": "/nʌt/",
+    "reading": "넛",
+    "meaning": "견과",
+    "emoji": "1f95c"
+   }
+  ]
+ },
+ {
+  "letter": "O",
+  "nameKo": "오",
+  "words": [
+   {
+    "word": "Orange",
+    "ipa": "/ˈɔːr.ɪndʒ/",
+    "reading": "오렌지",
+    "meaning": "오렌지",
+    "emoji": "1f34a"
+   },
+   {
+    "word": "Octopus",
+    "ipa": "/ˈɑːk.tə.pʊs/",
+    "reading": "옥토퍼스",
+    "meaning": "문어",
+    "emoji": "1f419"
+   },
+   {
+    "word": "Owl",
+    "ipa": "/aʊl/",
+    "reading": "아울",
+    "meaning": "올빼미",
+    "emoji": "1f989"
+   }
+  ]
+ },
+ {
+  "letter": "P",
+  "nameKo": "피",
+  "words": [
+   {
+    "word": "Pig",
+    "ipa": "/pɪɡ/",
+    "reading": "피그",
+    "meaning": "돼지",
+    "emoji": "1f437"
+   },
+   {
+    "word": "Pizza",
+    "ipa": "/ˈpiːt.sə/",
+    "reading": "피자",
+    "meaning": "피자",
+    "emoji": "1f355"
+   },
+   {
+    "word": "Pencil",
+    "ipa": "/ˈpen.səl/",
+    "reading": "펜슬",
+    "meaning": "연필",
+    "emoji": "270f"
+   }
+  ]
+ },
+ {
+  "letter": "Q",
+  "nameKo": "큐",
+  "words": [
+   {
+    "word": "Queen",
+    "ipa": "/kwiːn/",
+    "reading": "퀸",
+    "meaning": "여왕",
+    "emoji": "1f478"
+   },
+   {
+    "word": "Question",
+    "ipa": "/ˈkwes.tʃən/",
+    "reading": "퀘스천",
+    "meaning": "질문",
+    "emoji": "2753"
+   },
+   {
+    "word": "Quiet",
+    "ipa": "/ˈkwaɪ.ət/",
+    "reading": "콰이어트",
+    "meaning": "조용한",
+    "emoji": "1f92b"
+   }
+  ]
+ },
+ {
+  "letter": "R",
+  "nameKo": "알",
+  "words": [
+   {
+    "word": "Rabbit",
+    "ipa": "/ˈræb.ɪt/",
+    "reading": "래빗",
+    "meaning": "토끼",
+    "emoji": "1f430"
+   },
+   {
+    "word": "Rainbow",
+    "ipa": "/ˈreɪn.boʊ/",
+    "reading": "레인보우",
+    "meaning": "무지개",
+    "emoji": "1f308"
+   },
+   {
+    "word": "Rocket",
+    "ipa": "/ˈrɑː.kɪt/",
+    "reading": "로켓",
+    "meaning": "로켓",
+    "emoji": "1f680"
+   }
+  ]
+ },
+ {
+  "letter": "S",
+  "nameKo": "에스",
+  "words": [
+   {
+    "word": "Sun",
+    "ipa": "/sʌn/",
+    "reading": "선",
+    "meaning": "해",
+    "emoji": "2600"
+   },
+   {
+    "word": "Star",
+    "ipa": "/stɑːr/",
+    "reading": "스타",
+    "meaning": "별",
+    "emoji": "2b50"
+   },
+   {
+    "word": "Snake",
+    "ipa": "/sneɪk/",
+    "reading": "스네이크",
+    "meaning": "뱀",
+    "emoji": "1f40d"
+   }
+  ]
+ },
+ {
+  "letter": "T",
+  "nameKo": "티",
+  "words": [
+   {
+    "word": "Tiger",
+    "ipa": "/ˈtaɪ.ɡər/",
+    "reading": "타이거",
+    "meaning": "호랑이",
+    "emoji": "1f42f"
+   },
+   {
+    "word": "Tree",
+    "ipa": "/triː/",
+    "reading": "트리",
+    "meaning": "나무",
+    "emoji": "1f333"
+   },
+   {
+    "word": "Train",
+    "ipa": "/treɪn/",
+    "reading": "트레인",
+    "meaning": "기차",
+    "emoji": "1f682"
+   }
+  ]
+ },
+ {
+  "letter": "U",
+  "nameKo": "유",
+  "words": [
+   {
+    "word": "Umbrella",
+    "ipa": "/ʌmˈbrel.ə/",
+    "reading": "엄브렐라",
+    "meaning": "우산",
+    "emoji": "2602"
+   },
+   {
+    "word": "Unicorn",
+    "ipa": "/ˈjuː.nɪ.kɔːrn/",
+    "reading": "유니콘",
+    "meaning": "유니콘",
+    "emoji": "1f984"
+   },
+   {
+    "word": "Up",
+    "ipa": "/ʌp/",
+    "reading": "업",
+    "meaning": "위로",
+    "emoji": "2b06"
+   }
+  ]
+ },
+ {
+  "letter": "V",
+  "nameKo": "브이",
+  "words": [
+   {
+    "word": "Violin",
+    "ipa": "/ˌvaɪəˈlɪn/",
+    "reading": "바이올린",
+    "meaning": "바이올린",
+    "emoji": "1f3bb"
+   },
+   {
+    "word": "Volcano",
+    "ipa": "/vɑːlˈkeɪ.noʊ/",
+    "reading": "볼케이노",
+    "meaning": "화산",
+    "emoji": "1f30b"
+   },
+   {
+    "word": "Van",
+    "ipa": "/væn/",
+    "reading": "밴",
+    "meaning": "밴",
+    "emoji": "1f690"
+   }
+  ]
+ },
+ {
+  "letter": "W",
+  "nameKo": "더블유",
+  "words": [
+   {
+    "word": "Watermelon",
+    "ipa": "/ˈwɔː.t̬ɚ.mel.ən/",
+    "reading": "워터멜론",
+    "meaning": "수박",
+    "emoji": "1f349"
+   },
+   {
+    "word": "Whale",
+    "ipa": "/weɪl/",
+    "reading": "웨일",
+    "meaning": "고래",
+    "emoji": "1f433"
+   },
+   {
+    "word": "Watch",
+    "ipa": "/wɑːtʃ/",
+    "reading": "워치",
+    "meaning": "손목시계",
+    "emoji": "231a"
+   }
+  ]
+ },
+ {
+  "letter": "X",
+  "nameKo": "엑스",
+  "words": [
+   {
+    "word": "X-ray",
+    "ipa": "/ˈeks.reɪ/",
+    "reading": "엑스레이",
+    "meaning": "엑스레이",
+    "emoji": "1fa7b"
+   },
+   {
+    "word": "Fox",
+    "ipa": "/fɑːks/",
+    "reading": "폭스",
+    "meaning": "여우",
+    "emoji": "1f98a"
+   },
+   {
+    "word": "Box",
+    "ipa": "/bɑːks/",
+    "reading": "박스",
+    "meaning": "상자",
+    "emoji": "1f4e6"
+   }
+  ]
+ },
+ {
+  "letter": "Y",
+  "nameKo": "와이",
+  "words": [
+   {
+    "word": "Yo-yo",
+    "ipa": "/ˈjoʊ.joʊ/",
+    "reading": "요요",
+    "meaning": "요요",
+    "emoji": "1fa80"
+   },
+   {
+    "word": "Yarn",
+    "ipa": "/jɑːrn/",
+    "reading": "얀",
+    "meaning": "털실",
+    "emoji": "1f9f6"
+   },
+   {
+    "word": "Yacht",
+    "ipa": "/jɑːt/",
+    "reading": "요트",
+    "meaning": "요트",
+    "emoji": "26f5"
+   }
+  ]
+ },
+ {
+  "letter": "Z",
+  "nameKo": "제트",
+  "words": [
+   {
+    "word": "Zebra",
+    "ipa": "/ˈziː.brə/",
+    "reading": "지브라",
+    "meaning": "얼룩말",
+    "emoji": "1f993"
+   },
+   {
+    "word": "Zero",
+    "ipa": "/ˈzɪr.oʊ/",
+    "reading": "지로",
+    "meaning": "영(0)",
+    "emoji": "30-20e3"
+   },
+   {
+    "word": "Zap",
+    "ipa": "/zæp/",
+    "reading": "잽",
+    "meaning": "번쩍",
+    "emoji": "26a1"
+   }
+  ]
+ }
+]
