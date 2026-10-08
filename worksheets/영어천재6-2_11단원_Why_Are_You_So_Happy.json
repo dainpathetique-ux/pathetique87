@@ -1,0 +1,471 @@
+{
+  "slug": "영어천재6-2_11단원_Why_Are_You_So_Happy",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 6-2 · 11단원",
+  "title": "Why Are You So Happy?",
+  "subtitle": "(너는 왜 그렇게 행복해하니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "because",
+            "~때문에"
+          ],
+          [
+            "glad",
+            "기쁜"
+          ],
+          [
+            "lose",
+            "지다"
+          ],
+          [
+            "why",
+            "왜, 어째서"
+          ],
+          [
+            "should",
+            "~해야 한다"
+          ],
+          [
+            "stairs",
+            "계단"
+          ],
+          [
+            "shower",
+            "샤워"
+          ],
+          [
+            "way",
+            "방법"
+          ],
+          [
+            "bookstore",
+            "서점"
+          ],
+          [
+            "floor",
+            "층"
+          ],
+          [
+            "off",
+            "작동이 안 되는"
+          ],
+          [
+            "save",
+            "절약하다"
+          ]
+        ],
+        "sentences": [
+          [
+            "Why are you so happy?",
+            "너는 왜 그렇게 행복해하니?"
+          ],
+          [
+            "Because I won the game.",
+            "내가 게임에서 이겼기 때문이야."
+          ],
+          [
+            "That's great!",
+            "멋지다!"
+          ],
+          [
+            "Why are you so sad?",
+            "너는 왜 그렇게 슬퍼하니?"
+          ],
+          [
+            "Because I lost my bag.",
+            "내 가방을 잃어버렸기 때문이야."
+          ],
+          [
+            "That's too bad.",
+            "안됐네."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "because",
+                  "",
+                  "샤워",
+                  ""
+                ],
+                [
+                  "glad",
+                  "",
+                  "방법",
+                  ""
+                ],
+                [
+                  "lose",
+                  "",
+                  "서점",
+                  ""
+                ],
+                [
+                  "why",
+                  "",
+                  "층",
+                  ""
+                ],
+                [
+                  "should",
+                  "",
+                  "작동이 안 되는",
+                  ""
+                ],
+                [
+                  "stairs",
+                  "",
+                  "절약하다",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "bec _ use  (~때문에)",
+                "gl _ d  (기쁜)",
+                "l _ se  (지다)",
+                "sh _ uld  (~해야 한다)",
+                "st _ irs  (계단)",
+                "sh _ wer  (샤워)",
+                "bookst _ re  (서점)",
+                "fl _ or  (층)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '장소·사물 이름(명사)'과 '움직임을 나타내는 말(동사)'로 나누어 쓰세요.",
+              "box": [
+                "stairs",
+                "lose",
+                "bookstore",
+                "save",
+                "floor",
+                "shower",
+                "way"
+              ],
+              "columns": [
+                "장소·사물 이름 (명사)",
+                "움직임을 나타내는 말 (동사)"
+              ],
+              "rows": 1
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "because",
+                "bookstore",
+                "should"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Why are you so happy?",
+                "Because I won the game.",
+                "That's too bad.",
+                "Don't worry.",
+                "Because I lost my bag."
+              ],
+              "right": [
+                "걱정하지 마.",
+                "내 가방을 잃어버렸기 때문이야.",
+                "너는 왜 그렇게 행복해하니?",
+                "안됐네.",
+                "내가 게임에서 이겼기 때문이야."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(게임에서 이김) Why are you so happy?  →  ______ I won the game.",
+                "(가방을 잃어버림) Why are you so sad?  →  Because I ______ my bag.",
+                "(좋은 소식) I won the game!  →  That's ______!",
+                "(안 좋은 소식) I lost my bag.  →  That's ______ ______."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "are / Why / so / you / happy / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "I / Because / the game / won / .",
+                  "label": "→"
+                },
+                {
+                  "text": "do / How / feel / they / now / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "Why",
+                "Because",
+                "great",
+                "worry"
+              ],
+              "items": [
+                "A: ______ are you so happy?",
+                "B: ______ I won the game.",
+                "A: That's ______!",
+                "B: Why are you so sad?    A: I lost my bag.",
+                "B: That's too bad. Don't ______."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "이유를 물을 때:  ______ + are + 주어 + 형용사?  (왜 ~하니?)",
+                "이유를 답할 때:  ______ + 주어 + 동사.  (~때문이야)",
+                "기분을 물을 때:  How do + 주어 + ______?  (끝에 now 를 붙이면 '지금')",
+                "반응하기:  멋지다! = That's ______! / 안됐네. = That's ____ bad."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '감정·상태를 나타내는 말(형용사)'을 찾아 ○표 하세요.",
+              "items": [
+                "Why are you so happy?",
+                "Why are you so sad?",
+                "I'm so glad.",
+                "That's great!"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "( Why / What ) are you so happy?  (왜)",
+                "Why ( are / do ) you so sad?",
+                "( Because / Why ) I won the game.",
+                "Because I ( lost / lose ) my bag.  (과거)",
+                "How do they ( feel / feels ) now?",
+                "That's ( too / to ) bad."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 이용하여 우리말에 맞는 영어 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( happy )  너는 왜 그렇게 행복해하니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( won, the game )  내가 게임에서 이겼기 때문이야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( feel, now )  지금 그들의 기분은 어떻니?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "Why",
+                "Because",
+                "lost"
+              ],
+              "items": [
+                {
+                  "text": "What are you so happy?  (너는 왜 그렇게 행복해하니?)",
+                  "label": "→"
+                },
+                {
+                  "text": "Why I won the game.  (내가 게임에서 이겼기 때문이야.)",
+                  "label": "→"
+                },
+                {
+                  "text": "Because I lose my bag.  (내 가방을 잃어버렸기 때문이야.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표의 빈칸에 이유를 영어로 쓰세요. 동사는 과거형으로 쓰세요.",
+              "columns": [
+                "번호",
+                "감정",
+                "이유 (우리말)",
+                "이유 (영어)"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "happy",
+                  "게임에서 이김",
+                  ""
+                ],
+                [
+                  "⑵",
+                  "sad",
+                  "가방을 잃어버림",
+                  ""
+                ],
+                [
+                  "⑶",
+                  "sad",
+                  "게임에서 짐",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "표를 보고 두 문장을 쓰세요. (Why are you so ~? / Because I ~.)",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: Why are you so happy?    B: Because I ______ the game.",
+                "A: ______ are you so sad?    B: ______ I lost my bag.",
+                "A: I lost my bag.    B: That's ____ bad. Don't ______."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "'왜 그렇게 ~하니?' 하고 묻고, Because 로 이유를 답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 12개를 보지 않고 쓸 수 있다.",
+            "Why are you so ~? 로 이유를 물을 수 있다.",
+            "Because ~ 로 이유를 답할 수 있다.",
+            "That's great! / too bad. 를 구분해 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

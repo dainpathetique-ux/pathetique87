@@ -1,0 +1,478 @@
+{
+  "slug": "영어천재6-2_8단원_How_Often_Do_You_Exercise",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 6-2 · 8단원",
+  "title": "How Often Do You Exercise?",
+  "subtitle": "(너는 운동을 얼마나 자주 하니?) 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "any",
+            "어느"
+          ],
+          [
+            "brush",
+            "붓, 솔"
+          ],
+          [
+            "habit",
+            "습관"
+          ],
+          [
+            "month",
+            "달"
+          ],
+          [
+            "mouth",
+            "입"
+          ],
+          [
+            "often",
+            "자주"
+          ],
+          [
+            "once",
+            "한 번"
+          ],
+          [
+            "how",
+            "어떻게"
+          ],
+          [
+            "exercise",
+            "운동"
+          ],
+          [
+            "breakfast",
+            "아침 식사"
+          ],
+          [
+            "teeth",
+            "치아"
+          ],
+          [
+            "parent",
+            "부모님"
+          ],
+          [
+            "thing",
+            "~것"
+          ],
+          [
+            "vegetable",
+            "채소"
+          ]
+        ],
+        "sentences": [
+          [
+            "How often do you exercise?",
+            "너는 얼마나 자주 운동하니?"
+          ],
+          [
+            "I exercise three times a week.",
+            "나는 주에 3번 운동을 해."
+          ],
+          [
+            "That's good.",
+            "좋다."
+          ],
+          [
+            "How often do you brush your teeth?",
+            "너는 얼마나 자주 이를 닦니?"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "any",
+                  "",
+                  "어떻게",
+                  ""
+                ],
+                [
+                  "brush",
+                  "",
+                  "운동",
+                  ""
+                ],
+                [
+                  "habit",
+                  "",
+                  "아침 식사",
+                  ""
+                ],
+                [
+                  "month",
+                  "",
+                  "치아",
+                  ""
+                ],
+                [
+                  "mouth",
+                  "",
+                  "부모님",
+                  ""
+                ],
+                [
+                  "often",
+                  "",
+                  "~것",
+                  ""
+                ],
+                [
+                  "once",
+                  "",
+                  "채소",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "h _ bit  (습관)",
+                "m _ nth  (달)",
+                "m _ uth  (입)",
+                "oft _ n  (자주)",
+                "exerc _ se  (운동)",
+                "br _ akfast  (아침 식사)",
+                "t _ eth  (치아)",
+                "veg _ table  (채소)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '몸·음식과 관련된 말'과 '시간·횟수와 관련된 말'로 나누어 쓰세요.",
+              "box": [
+                "mouth",
+                "month",
+                "teeth",
+                "once",
+                "vegetable",
+                "often",
+                "breakfast"
+              ],
+              "columns": [
+                "몸·음식과 관련된 말",
+                "시간·횟수와 관련된 말"
+              ],
+              "rows": 1
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "exercise",
+                "breakfast",
+                "vegetable"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "How often do you exercise?",
+                "I exercise three times a week.",
+                "That's good.",
+                "That's not good.",
+                "I brush my teeth once a week."
+              ],
+              "right": [
+                "그건 좋지 않아.",
+                "나는 일주일에 한 번 이를 닦아.",
+                "나는 주에 3번 운동을 해.",
+                "너는 얼마나 자주 운동하니?",
+                "좋다."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(주에 3번) I exercise ______ ______ a week.",
+                "(한 달에 한 번) I exercise ______ a ______.",
+                "(좋음) Three times a week?  →  That's ______.",
+                "(좋지 않음) Once a month?  →  That's ______ ______."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "often / How / you / do / exercise / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "three / I / a / times / exercise / week / .",
+                  "label": "→"
+                },
+                {
+                  "text": "your / do / How / brush / often / you / teeth / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "often",
+                "exercise",
+                "times",
+                "good",
+                "brush"
+              ],
+              "items": [
+                "A: How ______ do you ______?",
+                "B: I exercise three ______ a week.",
+                "A: That's ______.",
+                "B: How often do you ______ your teeth?",
+                "A: Once a week.    B: That's not good."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "얼마나 자주 하는지 물을 때:  How ______ do you + 동사원형?",
+                "현재 습관을 물을 때:  ____ you + 동사의 ( 원형 / 과거형 )?",
+                "횟수를 말할 때:  일주일에 3번 = three ______ a week",
+                "짧은 평가:  That's ______. (좋다) / That's ____ good. (좋지 않다)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '얼마나 자주' 또는 '횟수'를 나타내는 말을 찾아 ○표 하세요.",
+              "items": [
+                "How often do you exercise?",
+                "I exercise three times a week.",
+                "I exercise once a month.",
+                "I brush my teeth once a week."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "How ( often / long ) do you exercise?",
+                "( Do / Does ) you brush your teeth?",
+                "Do you ( exercise / exercises )?",
+                "I exercise three ( time / times ) a week.",
+                "I exercise ( once / one ) a month.",
+                "That's ( not / no ) good."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 이용하여 우리말에 맞는 영어 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( exercise )  너는 얼마나 자주 운동하니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( three times, a week )  나는 일주일에 3번 운동해.",
+                  "label": "→"
+                },
+                {
+                  "text": "( brush, your teeth )  너는 얼마나 자주 이를 닦니?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "How often",
+                "Do",
+                "times"
+              ],
+              "items": [
+                {
+                  "text": "How do you often exercise?  (너는 얼마나 자주 운동하니?)",
+                  "label": "→"
+                },
+                {
+                  "text": "Does you brush your teeth?  (너는 이를 닦니?)",
+                  "label": "→"
+                },
+                {
+                  "text": "I exercise three time a week.  (나는 주에 3번 운동해.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표의 빈칸에 횟수를 나타내는 영어 표현을 쓰세요.",
+              "columns": [
+                "번호",
+                "활동",
+                "횟수 (우리말)",
+                "영어 표현"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "exercise",
+                  "일주일에 3번",
+                  ""
+                ],
+                [
+                  "⑵",
+                  "brush my teeth",
+                  "한 달에 한 번",
+                  ""
+                ],
+                [
+                  "⑶",
+                  "exercise",
+                  "일주일에 한 번",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "표를 보고 묻고 답하는 두 문장을 쓰세요. (How often do you ~? / I ~.)",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: How ______ do you exercise?    B: ______ a week. (한 번)",
+                "A: ____ you brush your teeth?    B: Yes, I ____.",
+                "A: I exercise three times a week.    B: That's ______."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "'얼마나 자주 ~하니?' 하고 묻고, 횟수를 넣어 답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "How often do you ~? 로 물을 수 있다.",
+            "three times a week 처럼 횟수를 말할 수 있다.",
+            "Do you 뒤에 동사원형을 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

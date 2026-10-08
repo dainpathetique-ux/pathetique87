@@ -1,0 +1,487 @@
+{
+  "slug": "영어천재6-2_10단원_Who_Painted_the_Picture",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 6-2 · 10단원",
+  "title": "Who Painted the Picture?",
+  "subtitle": "(누가 이 그림을 그렸니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "choose",
+            "선택하다"
+          ],
+          [
+            "goal",
+            "목표"
+          ],
+          [
+            "hard",
+            "어려운"
+          ],
+          [
+            "over",
+            "~너머"
+          ],
+          [
+            "poor",
+            "가난한"
+          ],
+          [
+            "score",
+            "점수"
+          ],
+          [
+            "win",
+            "이기다"
+          ],
+          [
+            "first",
+            "첫 번째의"
+          ],
+          [
+            "made",
+            "만들었다"
+          ],
+          [
+            "at first",
+            "처음에"
+          ],
+          [
+            "who",
+            "누구"
+          ],
+          [
+            "say",
+            "말하다"
+          ],
+          [
+            "airplane",
+            "비행기"
+          ],
+          [
+            "great",
+            "대단한, 멋진"
+          ],
+          [
+            "paint",
+            "칠하다"
+          ],
+          [
+            "picture",
+            "그림"
+          ]
+        ],
+        "sentences": [
+          [
+            "Who painted the picture?",
+            "누가 이 그림을 그렸니?"
+          ],
+          [
+            "Sin Saimdang did.",
+            "신사임당이 그렸어요."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "choose",
+                  "",
+                  "만들었다",
+                  ""
+                ],
+                [
+                  "goal",
+                  "",
+                  "처음에",
+                  ""
+                ],
+                [
+                  "hard",
+                  "",
+                  "누구",
+                  ""
+                ],
+                [
+                  "over",
+                  "",
+                  "말하다",
+                  ""
+                ],
+                [
+                  "poor",
+                  "",
+                  "비행기",
+                  ""
+                ],
+                [
+                  "score",
+                  "",
+                  "대단한, 멋진",
+                  ""
+                ],
+                [
+                  "win",
+                  "",
+                  "칠하다",
+                  ""
+                ],
+                [
+                  "first",
+                  "",
+                  "그림",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "ch _ ose  (선택하다)",
+                "sc _ re  (점수)",
+                "f _ rst  (첫 번째의)",
+                "airpl _ ne  (비행기)",
+                "gr _ at  (대단한)",
+                "p _ cture  (그림)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '사람·사물 이름(명사)'과 '움직임을 나타내는 말(동사)'로 나누어 쓰세요.",
+              "box": [
+                "goal",
+                "choose",
+                "score",
+                "win",
+                "airplane",
+                "say",
+                "picture",
+                "paint"
+              ],
+              "columns": [
+                "사람·사물 이름 (명사)",
+                "움직임을 나타내는 말 (동사)"
+              ],
+              "rows": 1
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "airplane",
+                "picture",
+                "choose"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Who painted the picture?",
+                "Sin Saimdang did.",
+                "Did you say Sin Saimdang?",
+                "Who made the airplane?",
+                "Can I go in?"
+              ],
+              "right": [
+                "누가 비행기를 만들었니?",
+                "들어가 봐도 될까요?",
+                "신사임당이 그렸어요.",
+                "누가 이 그림을 그렸니?",
+                "신사임당이라고 하셨나요?"
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(신사임당) Who painted the picture?  →  Sin Saimdang ______.",
+                "(라이트 형제) Who made the airplane?  →  The Wright ______ did.",
+                "(다시 확인하기) ______ you say Sin Saimdang?",
+                "(허락 구하기) ______ I go in?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "painted / Who / the picture / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "made / the airplane / Who / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "say / Did / Sin Saimdang / you / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "Who",
+                "did",
+                "say",
+                "Can",
+                "made"
+              ],
+              "items": [
+                "A: ______ painted the picture?",
+                "B: Sin Saimdang ______.",
+                "A: Did you ______ Sin Saimdang?",
+                "B: Yes. ______ I go in?",
+                "A: Who ______ the airplane?    B: The Wright brothers did."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "누가 했는지 물을 때:  ______ + 동사의 ( 과거형 / 현재형 ) + 대상?",
+                "대답할 때:  사람 이름 + ______.  (예: Sin Saimdang did.)",
+                "다시 확인할 때:  ______ you say + 확인하고 싶은 말?",
+                "과거형 만들기:  대부분 -d, -ed 를 붙임.  make → ____,  go → ____"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '동사의 과거형'을 찾아 ○표 하세요.",
+              "items": [
+                "Who painted the picture?",
+                "Who made the airplane?",
+                "The Wright brothers did.",
+                "They were great people."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "Who ( painted / paint ) the picture?",
+                "Who ( made / make ) the airplane?",
+                "Sin Saimdang ( did / do ).",
+                "( Did / Do ) you say Sin Saimdang?",
+                "( Can / Do ) I go in?",
+                "They ( were / are ) great people.  (과거)"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 동사를 알맞은 형태로 바꾸어 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( paint, the picture )  누가 이 그림을 그렸니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( make, the airplane )  누가 비행기를 만들었니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( go in )  들어가 봐도 될까요?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "painted",
+                "did",
+                "Did"
+              ],
+              "items": [
+                {
+                  "text": "Who paint the picture?  (누가 이 그림을 그렸니?)",
+                  "label": "→"
+                },
+                {
+                  "text": "Sin Saimdang do.  (신사임당이 그렸어요.)",
+                  "label": "→"
+                },
+                {
+                  "text": "Do you say Sin Saimdang?  (신사임당이라고 하셨나요?)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표의 빈칸에 동사의 과거형을 쓰세요.",
+              "columns": [
+                "번호",
+                "동사",
+                "과거형",
+                "대상",
+                "사람"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "paint",
+                  "",
+                  "the picture",
+                  "Sin Saimdang"
+                ],
+                [
+                  "⑵",
+                  "make",
+                  "",
+                  "the airplane",
+                  "the Wright brothers"
+                ],
+                [
+                  "⑶",
+                  "choose",
+                  "",
+                  "the picture",
+                  "Sin Saimdang"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "표를 보고 묻고 답하는 두 문장을 쓰세요. (Who ~? / ~ did.)",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: Who ______ the picture?    B: Sin Saimdang ______.",
+                "A: Did you ______ Sin Saimdang?    B: Yes, I ____.",
+                "A: ______ made the airplane?    B: The Wright brothers ____."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "'누가 ~했니?' 하고 묻고 '~ did.' 로 답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "Who + 과거형 ~? 으로 물을 수 있다.",
+            "'~ did.' 로 짧게 답할 수 있다.",
+            "Did you say ~? 로 되물을 수 있다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

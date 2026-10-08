@@ -1,0 +1,469 @@
+{
+  "slug": "영어천재6-2_9단원_How_Can_I_Get_to_the_Market",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 6-2 · 9단원",
+  "title": "How Can I Get to the Market?",
+  "subtitle": "(시장에 어떻게 가니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "center",
+            "중앙"
+          ],
+          [
+            "get off",
+            "내리다"
+          ],
+          [
+            "hospital",
+            "병원"
+          ],
+          [
+            "miss",
+            "놓치다"
+          ],
+          [
+            "near",
+            "근처의"
+          ],
+          [
+            "number",
+            "숫자"
+          ],
+          [
+            "restaurant",
+            "식당"
+          ],
+          [
+            "come",
+            "오다"
+          ],
+          [
+            "flower shop",
+            "꽃 가게"
+          ],
+          [
+            "want",
+            "원하다"
+          ],
+          [
+            "museum",
+            "박물관"
+          ],
+          [
+            "start",
+            "시작하다"
+          ],
+          [
+            "subway",
+            "지하철"
+          ],
+          [
+            "train",
+            "기차"
+          ]
+        ],
+        "sentences": [
+          [
+            "How can I get to the market?",
+            "시장에 가려면 어떻게 해야 하니?"
+          ],
+          [
+            "Take Bus Number 8 and get off at the hospital.",
+            "8번 버스를 타고, 병원에서 내리렴."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "center",
+                  "",
+                  "오다",
+                  ""
+                ],
+                [
+                  "get off",
+                  "",
+                  "꽃 가게",
+                  ""
+                ],
+                [
+                  "hospital",
+                  "",
+                  "원하다",
+                  ""
+                ],
+                [
+                  "miss",
+                  "",
+                  "박물관",
+                  ""
+                ],
+                [
+                  "near",
+                  "",
+                  "시작하다",
+                  ""
+                ],
+                [
+                  "number",
+                  "",
+                  "지하철",
+                  ""
+                ],
+                [
+                  "restaurant",
+                  "",
+                  "기차",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "c _ nter  (중앙)",
+                "hosp _ tal  (병원)",
+                "n _ ar  (근처의)",
+                "n _ mber  (숫자)",
+                "rest _ urant  (식당)",
+                "mus _ um  (박물관)",
+                "s _ bway  (지하철)",
+                "tr _ in  (기차)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '장소를 나타내는 말'과 '움직임을 나타내는 말(동사)'로 나누어 쓰세요.",
+              "box": [
+                "hospital",
+                "miss",
+                "restaurant",
+                "come",
+                "museum",
+                "want",
+                "flower shop",
+                "start"
+              ],
+              "columns": [
+                "장소를 나타내는 말",
+                "움직임을 나타내는 말 (동사)"
+              ],
+              "rows": 1
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "restaurant",
+                "hospital",
+                "museum"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "How can I get to the market?",
+                "Get off at the hospital.",
+                "It's near the hospital.",
+                "Take Subway Line 3.",
+                "How can I get to the museum?"
+              ],
+              "right": [
+                "3호선 지하철을 타렴.",
+                "박물관에 가려면 어떻게 해야 하니?",
+                "병원에서 내리렴.",
+                "시장에 가려면 어떻게 해야 하니?",
+                "그것은 병원 근처에 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(8번 버스) Take ______ Number ____ and get off at the hospital.",
+                "(3호선 지하철) Take ______ Line ____.",
+                "(병원 근처) The market?  →  It's ______ the hospital.",
+                "(병원에서 내리기) ______ ______ at the hospital."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "can / How / get / I / to / the market / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "near / It's / the hospital / .",
+                  "label": "→"
+                },
+                {
+                  "text": "Bus / Take / Number 8 / and / get off / at the hospital / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "get",
+                "Take",
+                "off",
+                "near"
+              ],
+              "items": [
+                "A: How can I ______ to the market?",
+                "B: ______ Bus Number 8.",
+                "B: Get ______ at the hospital.",
+                "B: It's ______ the hospital."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "길을 물을 때:  How can I ______ to + 장소?  (~에 어떻게 가면 되나요?)",
+                "명령문:  주어를 ( 생략하고 / 쓰고 ) 동사의 ______ 으로 시작합니다.",
+                "위치를 말할 때:  It's ______ + 장소.  (~ 가까운 곳에)",
+                "타다 / 내리다:  ______ + 교통수단 / Get ____ at + 장소"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "명령문에서 맨 앞에 오는 동사(동사원형)를 찾아 ○표 하세요.",
+              "items": [
+                "Take Bus Number 8.",
+                "Get off at the hospital.",
+                "Take Subway Line 3.",
+                "Get off at the museum."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "How ( can / do ) I get to the market?",
+                "How can I get ( to / at ) the museum?",
+                "( Take / Taking ) Bus Number 8.",
+                "( Get off / Get ) at the hospital.  (내리렴)",
+                "It's ( near / on ) the hospital.  (근처에)",
+                "Take Bus ( Number / Line ) 8."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 이용하여 우리말에 맞는 영어 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( get to, the market )  시장에 가려면 어떻게 해야 하니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( take, Bus Number 8 )  8번 버스를 타렴.",
+                  "label": "→"
+                },
+                {
+                  "text": "( near, the hospital )  그것은 병원 근처에 있어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "can I",
+                "Take",
+                "get off"
+              ],
+              "items": [
+                {
+                  "text": "How I can get to the market?  (시장에 가려면 어떻게 해야 하니?)",
+                  "label": "→"
+                },
+                {
+                  "text": "Taking Bus Number 8.  (8번 버스를 타렴.)",
+                  "label": "→"
+                },
+                {
+                  "text": "Get on at the hospital.  (병원에서 내리렴.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 아래에 길을 묻고 안내하는 문장을 쓰세요.",
+              "columns": [
+                "번호",
+                "가고 싶은 곳",
+                "타는 것",
+                "내리는 곳"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "the market",
+                  "Bus Number 8",
+                  "the hospital"
+                ],
+                [
+                  "⑵",
+                  "the museum",
+                  "Subway Line 3",
+                  "the shopping center"
+                ],
+                [
+                  "⑶",
+                  "the flower shop",
+                  "Bus Number 3",
+                  "the restaurant"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "표를 보고 두 문장을 쓰세요. (How can I get to ~? / Take ~ and get off at ~.)",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: How ______ I get to the market?    B: Take Bus ______ 8.",
+                "A: Is the market near the hospital?    B: Yes. It's ______ the hospital.",
+                "A: Take Subway Line 3.    B: And get ______ at the museum?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "가고 싶은 곳을 넣어 길을 묻고, Take ~ 로 안내하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "How can I get to ~? 로 길을 물을 수 있다.",
+            "Take ~ / Get off at ~ 로 길을 안내할 수 있다.",
+            "명령문을 동사원형으로 시작했다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

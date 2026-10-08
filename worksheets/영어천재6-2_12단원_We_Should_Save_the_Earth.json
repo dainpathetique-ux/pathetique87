@@ -1,0 +1,482 @@
+{
+  "slug": "영어천재6-2_12단원_We_Should_Save_the_Earth",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 6-2 · 12단원",
+  "title": "We Should Save the Earth.",
+  "subtitle": "(우리는 지구를 지켜야 해.) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "campaign",
+            "캠페인"
+          ],
+          [
+            "climbing",
+            "오르다"
+          ],
+          [
+            "energy",
+            "에너지"
+          ],
+          [
+            "face",
+            "얼굴, 마주하다"
+          ],
+          [
+            "should",
+            "~해야 한다"
+          ],
+          [
+            "stairs",
+            "계단"
+          ],
+          [
+            "way",
+            "방법"
+          ],
+          [
+            "save",
+            "절약하다"
+          ],
+          [
+            "stop",
+            "멈추다"
+          ],
+          [
+            "turn off",
+            "끄다"
+          ],
+          [
+            "plastic",
+            "플라스틱"
+          ],
+          [
+            "earth",
+            "지구"
+          ],
+          [
+            "light",
+            "빛, 전등"
+          ],
+          [
+            "water",
+            "물"
+          ],
+          [
+            "off",
+            "작동이 안 되는"
+          ],
+          [
+            "recycle",
+            "재활용하다"
+          ]
+        ],
+        "sentences": [
+          [
+            "We should save energy.",
+            "우리는 에너지를 절약해야 해."
+          ],
+          [
+            "How about using the stairs?",
+            "계단을 이용하는 게 어때?"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "campaign",
+                  "",
+                  "멈추다",
+                  ""
+                ],
+                [
+                  "climbing",
+                  "",
+                  "끄다",
+                  ""
+                ],
+                [
+                  "energy",
+                  "",
+                  "플라스틱",
+                  ""
+                ],
+                [
+                  "face",
+                  "",
+                  "지구",
+                  ""
+                ],
+                [
+                  "should",
+                  "",
+                  "빛, 전등",
+                  ""
+                ],
+                [
+                  "stairs",
+                  "",
+                  "물",
+                  ""
+                ],
+                [
+                  "way",
+                  "",
+                  "작동이 안 되는",
+                  ""
+                ],
+                [
+                  "save",
+                  "",
+                  "재활용하다",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "en _ rgy  (에너지)",
+                "pl _ stic  (플라스틱)",
+                "e _ rth  (지구)",
+                "l _ ght  (빛, 전등)",
+                "w _ ter  (물)",
+                "rec _ cle  (재활용하다)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '사물 이름(명사)'과 '움직임을 나타내는 말(동사)'로 나누어 쓰세요.",
+              "box": [
+                "energy",
+                "save",
+                "water",
+                "stop",
+                "plastic",
+                "recycle",
+                "earth",
+                "turn off"
+              ],
+              "columns": [
+                "사물 이름 (명사)",
+                "움직임을 나타내는 말 (동사)"
+              ],
+              "rows": 1
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "campaign",
+                "recycle",
+                "energy"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "We should save energy.",
+                "That's a good idea.",
+                "How about using the stairs?",
+                "We should save water.",
+                "We should save the earth."
+              ],
+              "right": [
+                "우리는 물을 절약해야 해.",
+                "계단을 이용하는 게 어때?",
+                "우리는 지구를 구해야 해.",
+                "우리는 에너지를 절약해야 해.",
+                "좋은 생각이야."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황에 맞게 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(에너지 절약, 의무) We ______ save energy.",
+                "(계단 이용, 권유) How about ______ the stairs?",
+                "(불 끄기, 권유) How about ______ off the lights?",
+                "(동의하기) That's a good ______."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "should / We / energy / save / .",
+                  "label": "→"
+                },
+                {
+                  "text": "about / How / the stairs / using / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "save / should / We / the earth / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "should",
+                "about",
+                "idea",
+                "turning"
+              ],
+              "items": [
+                "A: We ______ save energy.",
+                "B: How ______ using the stairs?",
+                "A: That's a good ______.",
+                "B: How about ______ off the lights?",
+                "A: Good idea. We should save the earth."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "의무를 말할 때:  주어 + ______ + 동사의 ( 원형 / ~ing형 )  (~해야 한다)",
+                "권유할 때:  How ______ + 동사의 ______ 형?  (~하는 게 어때?)",
+                "동사의 ~ing형:  use → ______,  turn → ______",
+                "동의할 때:  That's a good ______.  (좋은 생각이야.)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '동사의 ~ing형'을 찾아 ○표 하세요.",
+              "items": [
+                "How about using the stairs?",
+                "How about saving water?",
+                "How about recycling plastic?",
+                "How about saving energy?"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 것을 골라 ○표 하세요.",
+              "items": [
+                "We should ( save / saving ) energy.",
+                "How about ( use / using ) the stairs?",
+                "How ( about / are ) saving water?",
+                "We ( should / can ) save the earth.  (해야 해)",
+                "That's a good ( idea / ideas ).",
+                "How about ( recycling / recycle )?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 이용하여 우리말에 맞는 영어 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( save, energy )  우리는 에너지를 절약해야 해.",
+                  "label": "→"
+                },
+                {
+                  "text": "( use, the stairs )  계단을 이용하는 게 어때?",
+                  "label": "→"
+                },
+                {
+                  "text": "( turn off, the lights )  불을 끄는 게 어때요?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "save",
+                "using",
+                "turning"
+              ],
+              "items": [
+                {
+                  "text": "We should saving energy.  (우리는 에너지를 절약해야 해.)",
+                  "label": "→"
+                },
+                {
+                  "text": "How about use the stairs?  (계단을 이용하는 게 어때?)",
+                  "label": "→"
+                },
+                {
+                  "text": "How about turn off the lights?  (불을 끄는 게 어때요?)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표의 빈칸에 동사의 ~ing형을 쓰세요.",
+              "columns": [
+                "번호",
+                "동사",
+                "~ing형",
+                "대상"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "use",
+                  "",
+                  "the stairs"
+                ],
+                [
+                  "⑵",
+                  "turn off",
+                  "",
+                  "the lights"
+                ],
+                [
+                  "⑶",
+                  "save",
+                  "",
+                  "water"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "표를 보고 How about ~? 으로 권유하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: We ______ save energy.    B: ______ a good idea.",
+                "A: How about ______ off the lights?    B: OK.",
+                "A: ______ about using the stairs?    B: OK. Good ______."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "해야 할 일(We should ~.)을 말하고 How about ~ing? 로 권유하세요.",
+              "items": [
+                {
+                  "pre": "A:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "B:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "should 뒤에 동사원형을 썼다.",
+            "How about 뒤에 동사의 ~ing형을 썼다.",
+            "That's a good idea. 로 동의할 수 있다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}
