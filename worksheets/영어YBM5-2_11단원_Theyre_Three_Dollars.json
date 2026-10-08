@@ -1,0 +1,482 @@
+{
+  "slug": "영어YBM5-2_11단원_Theyre_Three_Dollars",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 5-2 · 11단원",
+  "title": "They're Three Dollars.",
+  "subtitle": "(3달러예요.) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "band",
+            "팔찌"
+          ],
+          [
+            "buy",
+            "사다"
+          ],
+          [
+            "cup",
+            "컵"
+          ],
+          [
+            "dollar",
+            "달러"
+          ],
+          [
+            "gift",
+            "선물"
+          ],
+          [
+            "may",
+            "~해도 좋다"
+          ],
+          [
+            "orange",
+            "오렌지"
+          ],
+          [
+            "pants",
+            "바지"
+          ],
+          [
+            "shoes",
+            "신발"
+          ],
+          [
+            "socks",
+            "양말"
+          ],
+          [
+            "stand",
+            "가판대"
+          ],
+          [
+            "ticket",
+            "표"
+          ],
+          [
+            "try on",
+            "착용해 보다"
+          ],
+          [
+            "turn",
+            "돌다, 변하다"
+          ],
+          [
+            "rock",
+            "돌"
+          ],
+          [
+            "sale",
+            "판매"
+          ]
+        ],
+        "sentences": [
+          [
+            "How much are these pants?",
+            "이 바지는 얼마인가요?"
+          ],
+          [
+            "They're ten dollars.",
+            "10달러예요."
+          ],
+          [
+            "May I try on these pants?",
+            "이 바지를 입어 봐도 되나요?"
+          ],
+          [
+            "Here you are.",
+            "여기 있어요."
+          ],
+          [
+            "Sure.",
+            "물론이죠."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "band",
+                  "",
+                  "사다",
+                  ""
+                ],
+                [
+                  "cup",
+                  "",
+                  "달러",
+                  ""
+                ],
+                [
+                  "gift",
+                  "",
+                  "~해도 좋다",
+                  ""
+                ],
+                [
+                  "orange",
+                  "",
+                  "바지",
+                  ""
+                ],
+                [
+                  "shoes",
+                  "",
+                  "양말",
+                  ""
+                ],
+                [
+                  "stand",
+                  "",
+                  "표",
+                  ""
+                ],
+                [
+                  "try on",
+                  "",
+                  "돌다, 변하다",
+                  ""
+                ],
+                [
+                  "rock",
+                  "",
+                  "판매",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "b _ nd  (팔찌)",
+                "d _ llar  (달러)",
+                "g _ ft  (선물)",
+                "sh _ es  (신발)",
+                "s _ cks  (양말)",
+                "t _ cket  (표)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 여러 개(복수)를 나타내는 말에 ○표 하세요.",
+              "items": [
+                "( cup / pants )",
+                "( shoes / ticket )",
+                "( socks / band )",
+                "( gift / shoes )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "dollar",
+                "ticket",
+                "orange"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "How much are these pants?",
+                "They're ten dollars.",
+                "May I try on these pants?",
+                "Here you are.",
+                "Sure."
+              ],
+              "right": [
+                "여기 있어요.",
+                "이 바지를 입어 봐도 되나요?",
+                "물론이죠.",
+                "이 바지는 얼마인가요?",
+                "10달러예요."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 가격을 보고 대답을 완성하세요. 숫자는 영어로 쓰세요.",
+              "items": [
+                "(10달러) A: How much are these pants?    B: They're ______ dollars.",
+                "(3달러) A: How much are these socks?    B: ______ three dollars.",
+                "(2달러) A: How much is this cup?    B: ______ two dollars.",
+                "(5달러) A: How much is this ticket?    B: It's __________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "much / How / these pants / are / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "ten / They're / dollars / .",
+                  "label": "→"
+                },
+                {
+                  "text": "I / May / try on / these pants / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "much",
+                "May",
+                "Here",
+                "Sure"
+              ],
+              "items": [
+                "A: How __________ are these shoes?",
+                "B: They're ten dollars.    A: __________ I try on these shoes?",
+                "B: __________.  (물론이죠.)",
+                "B: __________ you are.  (여기 있어요.)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "가격·양 묻기: How _____    개수 묻기: How _____",
+                "한 개의 가격 묻기: How much ____ this cup?",
+                "대답 (한 개): _____ two dollars.",
+                "여러 개의 가격 묻기: How much ____ these pants?",
+                "대답 (여러 개): _____ ten dollars.",
+                "허락 구하기: _____ I try on these pants?"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 여러 개를 나타내는 말(복수 명사)을 찾아 ○표 하세요.",
+              "items": [
+                "How much are these pants?",
+                "They're ten dollars.",
+                "May I try on these shoes?",
+                "These socks are three dollars."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "How ( much / many ) is a cup?",
+                "How ( much / many ) cups?",
+                "How much ( is / are ) a cup?",
+                "How much ( is / are ) these?",
+                "( This / These ) is a cup.",
+                "( This / These ) are socks."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 써서 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( this cup )  이 컵은 얼마인가요?",
+                  "label": "→"
+                },
+                {
+                  "text": "( these shoes )  이 신발은 얼마인가요?",
+                  "label": "→"
+                },
+                {
+                  "text": "( pants, ten dollars )  (이 바지는) 10달러예요.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "is / are",
+                "It's / They're",
+                "much / many"
+              ],
+              "items": [
+                {
+                  "text": "How much is these pants?",
+                  "label": "→"
+                },
+                {
+                  "text": "It's ten dollars.  (바지 가격)",
+                  "label": "→"
+                },
+                {
+                  "text": "How many is this cup?",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 가격을 말하는 문장을 쓰세요.  보기: (this band, 5) → It's five dollars.",
+              "columns": [
+                "번호",
+                "물건",
+                "가격"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "this cup",
+                  "2 dollars"
+                ],
+                [
+                  "⑵",
+                  "these socks",
+                  "3 dollars"
+                ],
+                [
+                  "⑶",
+                  "these shoes",
+                  "10 dollars"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: How ______ are these pants?    B: ______ ten dollars.",
+                "A: May I ______ on these pants?    B: ______.  Here you are.",
+                "A: How much ______ this cup?    B: ______ two dollars."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "사고 싶은 물건의 가격을 묻고 답하는 대화를 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "How much is / are ~? 를 구분해 쓸 수 있다.",
+            "It's / They're 로 가격을 말할 수 있다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

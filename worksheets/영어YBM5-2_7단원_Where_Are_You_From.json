@@ -1,0 +1,493 @@
+{
+  "slug": "영어YBM5-2_7단원_Where_Are_You_From",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 5-2 · 7단원",
+  "title": "Where Are You From?",
+  "subtitle": "(너는 어디에서 왔니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "Australia",
+            "오스트레일리아"
+          ],
+          [
+            "Canada",
+            "캐나다"
+          ],
+          [
+            "city",
+            "도시"
+          ],
+          [
+            "country",
+            "나라(국가)"
+          ],
+          [
+            "cousin",
+            "사촌"
+          ],
+          [
+            "drink",
+            "마시다"
+          ],
+          [
+            "France",
+            "프랑스"
+          ],
+          [
+            "from",
+            "~로부터"
+          ],
+          [
+            "live",
+            "살다"
+          ],
+          [
+            "tea",
+            "차"
+          ],
+          [
+            "the U.S.",
+            "미국"
+          ],
+          [
+            "travel",
+            "여행하다"
+          ],
+          [
+            "Vietnam",
+            "베트남"
+          ],
+          [
+            "world",
+            "세계"
+          ],
+          [
+            "India",
+            "인도"
+          ],
+          [
+            "Korea",
+            "한국"
+          ]
+        ],
+        "sentences": [
+          [
+            "Where are you from?",
+            "너는 어디에서 왔니?"
+          ],
+          [
+            "I'm from India.",
+            "나는 인도에서 왔어."
+          ],
+          [
+            "Have a good day.",
+            "좋은 하루 보내."
+          ],
+          [
+            "You, too.",
+            "너도."
+          ],
+          [
+            "She's from Canada.",
+            "그녀는 캐나다에서 왔어."
+          ],
+          [
+            "This is my friend Emma.",
+            "이 아이는 내 친구 엠마야."
+          ],
+          [
+            "I'm from Australia.",
+            "나는 호주에서 왔어."
+          ],
+          [
+            "I'm from the U.S.",
+            "나는 미국에서 왔어."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "Australia",
+                  "",
+                  "캐나다",
+                  ""
+                ],
+                [
+                  "city",
+                  "",
+                  "나라(국가)",
+                  ""
+                ],
+                [
+                  "cousin",
+                  "",
+                  "마시다",
+                  ""
+                ],
+                [
+                  "France",
+                  "",
+                  "~로부터",
+                  ""
+                ],
+                [
+                  "live",
+                  "",
+                  "차",
+                  ""
+                ],
+                [
+                  "the U.S.",
+                  "",
+                  "여행하다",
+                  ""
+                ],
+                [
+                  "Vietnam",
+                  "",
+                  "세계",
+                  ""
+                ],
+                [
+                  "India",
+                  "",
+                  "한국",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "C _ nada  (캐나다)",
+                "c _ ty  (도시)",
+                "co _ ntry  (나라)",
+                "dr _ nk  (마시다)",
+                "Fr _ nce  (프랑스)",
+                "w _ rld  (세계)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 나라 이름에 ○표 하세요.",
+              "items": [
+                "( city / Canada )",
+                "( France / cousin )",
+                "( travel / India )",
+                "( Korea / tea )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "Australia",
+                "country",
+                "cousin"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Where are you from?",
+                "I'm from India.",
+                "Have a good day.",
+                "She's from Canada.",
+                "You, too."
+              ],
+              "right": [
+                "그녀는 캐나다에서 왔어.",
+                "너도.",
+                "너는 어디에서 왔니?",
+                "좋은 하루 보내.",
+                "나는 인도에서 왔어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 나라를 보고 대답을 완성하세요.",
+              "items": [
+                "(인도) A: Where are you from?    B: I'm from ______.",
+                "(캐나다) A: Where is she from?    B: She's from ______.",
+                "(미국) A: Where are you from?    B: I'm from __________.",
+                "(호주) A: Where is he from?    B: __________ from Australia."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "are / you / Where / from / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "from / I'm / Australia / .",
+                  "label": "→"
+                },
+                {
+                  "text": "a / day / Have / good / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "Where",
+                "from",
+                "too",
+                "friend"
+              ],
+              "items": [
+                "A: This is my __________, Emma.",
+                "B: Hi, Emma. __________ are you from?",
+                "C: I'm __________ the U.S.",
+                "A: Have a good day.    C: You, __________."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "______ 은 '~로부터, ~출신의'라는 뜻이에요.",
+                "출신지 묻기: Where ____ you from?    대답: I ____ from Korea.",
+                "다른 사람의 출신지: Where ____ he/she from?",
+                "대답: He/She ____ from Canada.",
+                "축약형: I am → _____   He is → _____   She is → _____"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 be동사(am, are, is)를 찾아 ○표 하세요.",
+              "items": [
+                "Where are you from?",
+                "I am from Korea.",
+                "She is from Canada.",
+                "He is from France."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "Where ( are / is ) you from?",
+                "I ( am / is ) from India.",
+                "She ( am / is ) from Canada.",
+                "Where ( are / is ) he from?",
+                "( I'm / Im ) from the U.S.",
+                "He ( are / is ) from Vietnam."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 써서 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( I, Korea )  나는 한국에서 왔어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( she, Australia )  그녀는 호주에서 왔어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( he, France )  그는 프랑스에서 왔어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "am / are / is",
+                "나라 이름은 대문자",
+                "축약형"
+              ],
+              "items": [
+                {
+                  "text": "Where is you from?",
+                  "label": "→"
+                },
+                {
+                  "text": "I'm from india.",
+                  "label": "→"
+                },
+                {
+                  "text": "She am from Canada.",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 축약형을 써서 문장을 쓰세요.  보기: (I, Korea) → I'm from Korea.",
+              "columns": [
+                "번호",
+                "누구",
+                "나라"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "I",
+                  "India"
+                ],
+                [
+                  "⑵",
+                  "she",
+                  "Vietnam"
+                ],
+                [
+                  "⑶",
+                  "he",
+                  "the U.S."
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: Where ______ you from?    B: ______ from Australia.",
+                "A: Where ______ she from?    B: ______ from Canada.",
+                "A: Have a good day.    B: You, ______."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "출신지를 묻고 답하는 대화를 쓰세요. 대답에는 축약형을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "나라 이름 7개를 보지 않고 쓸 수 있다.",
+            "I'm from ~ 으로 출신지를 말할 수 있다.",
+            "He's / She's 축약형을 쓸 수 있다.",
+            "나라 이름 첫 글자를 대문자로 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

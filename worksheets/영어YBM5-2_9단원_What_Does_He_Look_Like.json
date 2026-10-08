@@ -1,0 +1,481 @@
+{
+  "slug": "영어YBM5-2_9단원_What_Does_He_Look_Like",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 5-2 · 9단원",
+  "title": "What Does He Look Like?",
+  "subtitle": "(그는 어떻게 생겼니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "black",
+            "검은색(의)"
+          ],
+          [
+            "brown",
+            "갈색(의)"
+          ],
+          [
+            "coat",
+            "코트"
+          ],
+          [
+            "curly",
+            "곱슬곱슬한"
+          ],
+          [
+            "ear",
+            "귀"
+          ],
+          [
+            "eye",
+            "눈"
+          ],
+          [
+            "hair",
+            "머리카락, 털"
+          ],
+          [
+            "leg",
+            "다리"
+          ],
+          [
+            "prince",
+            "왕자"
+          ],
+          [
+            "shirt",
+            "셔츠"
+          ],
+          [
+            "short",
+            "짧은"
+          ],
+          [
+            "straight",
+            "곧은"
+          ],
+          [
+            "tall",
+            "키가 큰"
+          ],
+          [
+            "wear",
+            "입고 있다"
+          ],
+          [
+            "little",
+            "작은, 어린"
+          ],
+          [
+            "long",
+            "긴"
+          ]
+        ],
+        "sentences": [
+          [
+            "What does he look like?",
+            "그는 어떻게 생겼어?"
+          ],
+          [
+            "He has short hair.",
+            "그는 머리가 짧아."
+          ],
+          [
+            "I'm looking for my sister, Mina.",
+            "제 여동생 미나를 찾고 있어요."
+          ],
+          [
+            "She has blue eyes and long curly hair.",
+            "그녀는 눈이 파랗고 긴 곱슬머리를 가지고 있어."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "black",
+                  "",
+                  "갈색(의)",
+                  ""
+                ],
+                [
+                  "coat",
+                  "",
+                  "곱슬곱슬한",
+                  ""
+                ],
+                [
+                  "ear",
+                  "",
+                  "눈",
+                  ""
+                ],
+                [
+                  "hair",
+                  "",
+                  "다리",
+                  ""
+                ],
+                [
+                  "prince",
+                  "",
+                  "셔츠",
+                  ""
+                ],
+                [
+                  "short",
+                  "",
+                  "곧은",
+                  ""
+                ],
+                [
+                  "tall",
+                  "",
+                  "입고 있다",
+                  ""
+                ],
+                [
+                  "little",
+                  "",
+                  "긴",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "bl _ ck  (검은색)",
+                "br _ wn  (갈색)",
+                "c _ rly  (곱슬곱슬한)",
+                "sh _ rt  (짧은)",
+                "str _ ight  (곧은)",
+                "w _ ar  (입고 있다)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 몸의 부분을 나타내는 말에 ○표 하세요.",
+              "items": [
+                "( ear / coat )",
+                "( shirt / eye )",
+                "( hair / tall )",
+                "( long / leg )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "straight",
+                "curly",
+                "prince"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What does he look like?",
+                "He has short hair.",
+                "I'm looking for my sister.",
+                "She has blue eyes.",
+                "She has long curly hair."
+              ],
+              "right": [
+                "그녀는 눈이 파래.",
+                "그는 머리가 짧아.",
+                "그녀는 긴 곱슬머리를 가지고 있어.",
+                "그는 어떻게 생겼어?",
+                "나는 내 여동생을 찾고 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 말을 보고 대답을 완성하세요.",
+              "items": [
+                "(짧은 머리) A: What does he look like?    B: He ______ short hair.",
+                "(긴 곱슬머리) A: What does she look like?    B: She has long ______ hair.",
+                "(파란 눈) A: What does Mina look like?    B: She has ______ eyes.",
+                "(키가 큼) A: What does the prince look like?    B: He is ______."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "does / What / he / look like / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "has / He / hair / short / .",
+                  "label": "→"
+                },
+                {
+                  "text": "looking / I'm / my sister / for / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "look",
+                "has",
+                "looking",
+                "eyes"
+              ],
+              "items": [
+                "A: I'm __________ for my sister, Mina.",
+                "B: What does she __________ like?",
+                "A: She __________ long curly hair.",
+                "A: And she has blue __________."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "'가지다, 있다'라는 뜻으로 동사 ______ 를 써요.",
+                "주어가 he, she일 때는 have 대신 ______ 를 써요.",
+                "생김새 묻기: What ______ he look like?",
+                "have는 진행형(-ing)으로 쓰지 ( 않아요 / 써요 ).",
+                "tall, short, pretty, cute처럼 사람을 묘사하는 말을 ( ______ )라고 해요."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 have 또는 has를 찾아 ○표 하세요.",
+              "items": [
+                "He has short hair.",
+                "I have a brown coat.",
+                "She has blue eyes.",
+                "They have long legs."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "He ( have / has ) short hair.",
+                "I ( have / has ) long hair.",
+                "She ( is / has ) blue eyes.",
+                "He ( is / has ) tall.",
+                "She ( is / has ) little.",
+                "He ( wear / wears ) a coat."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 써서 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( he, short hair )  그는 머리가 짧아.",
+                  "label": "→"
+                },
+                {
+                  "text": "( she, blue eyes )  그녀는 눈이 파래.",
+                  "label": "→"
+                },
+                {
+                  "text": "( I, a brown coat )  나는 갈색 코트를 가지고 있어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "have / has",
+                "do / does",
+                "is / has"
+              ],
+              "items": [
+                {
+                  "text": "He have short hair.",
+                  "label": "→"
+                },
+                {
+                  "text": "What do he look like?",
+                  "label": "→"
+                },
+                {
+                  "text": "She has tall.  (그녀는 키가 커.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 문장을 쓰세요.  보기: (he, long, blue) → He has long hair and blue eyes.",
+              "columns": [
+                "번호",
+                "누구",
+                "머리카락",
+                "눈"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "he",
+                  "short",
+                  "brown"
+                ],
+                [
+                  "⑵",
+                  "she",
+                  "long curly",
+                  "blue"
+                ],
+                [
+                  "⑶",
+                  "the prince",
+                  "straight black",
+                  "brown"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What ______ he look like?    B: He ______ short hair.",
+                "A: What does she look like?    B: She ______ long curly hair.",
+                "A: What does she look ______?    B: She ______ blue eyes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "친구나 가족의 생김새를 묻고 답하는 대화를 쓰세요. 대답에는 has를 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "What does he look like? 에 답할 수 있다.",
+            "he, she 뒤에는 has 를 쓸 수 있다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

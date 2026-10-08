@@ -1,0 +1,481 @@
+{
+  "slug": "영어YBM5-2_12단원_Where_Is_the_Gift_Shop",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 5-2 · 12단원",
+  "title": "Where Is the Gift Shop?",
+  "subtitle": "(선물 가게는 어디에 있나요?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "behind",
+            "~ 뒤에"
+          ],
+          [
+            "between",
+            "~ 사이에"
+          ],
+          [
+            "flower shop",
+            "꽃 가게"
+          ],
+          [
+            "gift shop",
+            "선물 가게"
+          ],
+          [
+            "in front of",
+            "~ 앞에"
+          ],
+          [
+            "map",
+            "지도"
+          ],
+          [
+            "next to",
+            "~ 옆에"
+          ],
+          [
+            "restaurant",
+            "식당"
+          ],
+          [
+            "science",
+            "과학"
+          ],
+          [
+            "shopping center",
+            "쇼핑센터"
+          ],
+          [
+            "town",
+            "(소)도시, 읍, 번화가"
+          ],
+          [
+            "of",
+            "~의"
+          ],
+          [
+            "park",
+            "공원"
+          ],
+          [
+            "problem",
+            "문제"
+          ]
+        ],
+        "sentences": [
+          [
+            "Where is the restaurant?",
+            "식당이 어디에 있니?"
+          ],
+          [
+            "It's next to the gift shop.",
+            "선물 가게 옆에 있어."
+          ],
+          [
+            "Thank you.",
+            "고마워."
+          ],
+          [
+            "No problem.",
+            "천만에."
+          ],
+          [
+            "Have a good time.",
+            "즐거운 시간 보내세요."
+          ],
+          [
+            "Let's go shopping.",
+            "쇼핑하러 가자."
+          ],
+          [
+            "It's next to the cookie shop.",
+            "그것은 쿠키 가게 옆에 있어요."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "behind",
+                  "",
+                  "~ 사이에",
+                  ""
+                ],
+                [
+                  "flower shop",
+                  "",
+                  "선물 가게",
+                  ""
+                ],
+                [
+                  "in front of",
+                  "",
+                  "지도",
+                  ""
+                ],
+                [
+                  "next to",
+                  "",
+                  "식당",
+                  ""
+                ],
+                [
+                  "science",
+                  "",
+                  "쇼핑센터",
+                  ""
+                ],
+                [
+                  "town",
+                  "",
+                  "~의",
+                  ""
+                ],
+                [
+                  "park",
+                  "",
+                  "문제",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "beh _ nd  (~ 뒤에)",
+                "betw _ en  (~ 사이에)",
+                "m _ p  (지도)",
+                "p _ rk  (공원)",
+                "t _ wn  (도시)",
+                "sc _ ence  (과학)",
+                "pr _ blem  (문제)",
+                "restaur _ nt  (식당)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 위치를 나타내는 말(전치사)에 ○표 하세요.",
+              "items": [
+                "( behind / map )",
+                "( park / between )",
+                "( next to / town )",
+                "( science / in front of )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "restaurant",
+                "between",
+                "problem"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Where is the restaurant?",
+                "It's next to the gift shop.",
+                "No problem.",
+                "Have a good time.",
+                "Let's go shopping."
+              ],
+              "right": [
+                "쇼핑하러 가자.",
+                "천만에.",
+                "식당이 어디에 있니?",
+                "즐거운 시간 보내세요.",
+                "선물 가게 옆에 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 위치를 보고 대답을 완성하세요.",
+              "items": [
+                "(선물 가게 옆) A: Where is the restaurant?    B: It's ______ the gift shop.",
+                "(공원 뒤) A: Where is the flower shop?    B: It's ______ the park.",
+                "(식당 앞) A: Where is the gift shop?    B: It's ________ the restaurant.",
+                "(지도와 공원 사이) B: It's __________ the map and the park."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "is / Where / the restaurant / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "next to / It's / the gift shop / .",
+                  "label": "→"
+                },
+                {
+                  "text": "go / Let's / shopping / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "Where",
+                "next",
+                "problem",
+                "good"
+              ],
+              "items": [
+                "A: __________ is the gift shop?",
+                "B: It's __________ to the restaurant.",
+                "A: Thank you.    B: No __________.",
+                "B: Have a __________ time."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "'~ 앞에, ~ 옆에'처럼 위치를 나타내는 말을 ( ______ )라고 해요.",
+                "~ 옆에: ______ to    ~ 뒤에: ______    ~ 사이에: ______",
+                "Have a good time.의 good 대신 ______, nice, wonderful을 쓸 수 있어요.",
+                "No problem. = You're ______. = My pleasure.",
+                "~하러 가자: Let's go + 동사-______  (Let's go shopping.)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 위치를 나타내는 말(전치사)을 찾아 ○표 하세요.",
+              "items": [
+                "It's next to the gift shop.",
+                "It's behind the park.",
+                "It's in front of the park.",
+                "It's between the shops."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "알맞은 말을 골라 ○표 하세요.",
+              "items": [
+                "~ 옆에: ( next to / behind )",
+                "~ 사이에: ( between / behind )",
+                "Where ( is / are ) the park?",
+                "Have a ( good / goods ) time.",
+                "Let's go ( shop / shopping ).",
+                "May I ( go / went ) shopping?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 써서 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( restaurant )  식당이 어디에 있니?",
+                  "label": "→"
+                },
+                {
+                  "text": "( behind, the park )  그것은 공원 뒤에 있어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( shopping )  쇼핑하러 가자.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "next to",
+                "go + -ing",
+                "대문자"
+              ],
+              "items": [
+                {
+                  "text": "It's next the gift shop.",
+                  "label": "→"
+                },
+                {
+                  "text": "Let's go shop.",
+                  "label": "→"
+                },
+                {
+                  "text": "where is the park?",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 문장을 쓰세요.  보기: (park, behind, map) → It's behind the map.",
+              "columns": [
+                "번호",
+                "장소",
+                "위치",
+                "기준"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "the restaurant",
+                  "next to",
+                  "the gift shop"
+                ],
+                [
+                  "⑵",
+                  "the park",
+                  "behind",
+                  "the flower shop"
+                ],
+                [
+                  "⑶",
+                  "the gift shop",
+                  "in front of",
+                  "the shopping center"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: ______ is the restaurant?    B: It's ______ to the gift shop.",
+                "A: Thank you.    B: No ______.",
+                "A: Let's go ______.    B: OK. Have a ______ time."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "우리 동네 장소의 위치를 묻고 답하는 대화를 쓰세요. 대답에는 전치사를 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "Where is ~? 에 It's + 전치사로 답할 수 있다.",
+            "next to, behind, between 을 구분할 수 있다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}
