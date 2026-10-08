@@ -1,0 +1,488 @@
+{
+  "slug": "영어YBM4-2_7단원_What_Time_Is_It",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 4-2 · 7단원",
+  "title": "What Time Is It?",
+  "subtitle": "(몇 시야?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "breakfast",
+            "아침 식사"
+          ],
+          [
+            "dinner",
+            "저녁 식사"
+          ],
+          [
+            "drone",
+            "드론"
+          ],
+          [
+            "lunch",
+            "점심 식사"
+          ],
+          [
+            "ride",
+            "타다"
+          ],
+          [
+            "school",
+            "학교"
+          ],
+          [
+            "time",
+            "시간"
+          ],
+          [
+            "wake",
+            "일어나다"
+          ],
+          [
+            "o'clock",
+            "~시"
+          ],
+          [
+            "hungry",
+            "배고픈"
+          ],
+          [
+            "twelve",
+            "12, 열둘"
+          ],
+          [
+            "thirty",
+            "30, 서른"
+          ],
+          [
+            "wait",
+            "기다리다"
+          ],
+          [
+            "at",
+            "~(시각)에"
+          ],
+          [
+            "know",
+            "알다"
+          ],
+          [
+            "eleven",
+            "11, 열하나"
+          ]
+        ],
+        "sentences": [
+          [
+            "What time is it?",
+            "몇 시야?"
+          ],
+          [
+            "It's eleven o'clock.",
+            "11시야."
+          ],
+          [
+            "It's two forty.",
+            "2시 40분이야."
+          ],
+          [
+            "It's ten twenty.",
+            "10시 20분이야."
+          ],
+          [
+            "It's time for dinner.",
+            "저녁 먹을 시간이야."
+          ],
+          [
+            "It's time for school.",
+            "학교 갈 시간이야."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "영어를 보고 뜻을, 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어",
+                "단어",
+                "뜻"
+              ],
+              "rows": [
+                [
+                  "breakfast",
+                  "",
+                  "시간",
+                  "",
+                  "wait",
+                  ""
+                ],
+                [
+                  "dinner",
+                  "",
+                  "일어나다",
+                  "",
+                  "at",
+                  ""
+                ],
+                [
+                  "drone",
+                  "",
+                  "~시",
+                  "",
+                  "know",
+                  ""
+                ],
+                [
+                  "lunch",
+                  "",
+                  "배고픈",
+                  "",
+                  "eleven",
+                  ""
+                ],
+                [
+                  "ride",
+                  "",
+                  "12, 열둘",
+                  "",
+                  "forty",
+                  ""
+                ],
+                [
+                  "school",
+                  "",
+                  "30, 서른",
+                  "",
+                  "twenty",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "br _ _ kfast  (아침 식사)",
+                "d _ nner  (저녁 식사)",
+                "l _ nch  (점심 식사)",
+                "sch _ _ l  (학교)",
+                "h _ ngry  (배고픈)",
+                "tw _ lve  (12, 열둘)",
+                "th _ rty  (30, 서른)",
+                "w _ _ t  (기다리다)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 '동작을 나타내는 말(동사)'에 ○표 하세요.",
+              "items": [
+                "( ride / lunch )",
+                "( dinner / wake )",
+                "( wait / school )",
+                "( know / time )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "breakfast",
+                "o'clock",
+                "hungry"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What time is it?",
+                "It's eleven o'clock.",
+                "It's two forty.",
+                "It's time for dinner.",
+                "It's time for school."
+              ],
+              "right": [
+                "학교 갈 시간이야.",
+                "2시 40분이야.",
+                "몇 시야?",
+                "저녁 먹을 시간이야.",
+                "11시야."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "시계의 시각을 보고 대답을 영어로 쓰세요.",
+              "items": [
+                "(11:00) What time is it?  →  It's __________.",
+                "(2:40) What time is it?  →  It's __________.",
+                "(10:20) What time is it?  →  It's __________.",
+                "(12:00) What time is it?  →  It's __________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "time / What / it / is / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "eleven / It's / o'clock / .",
+                  "label": "→"
+                },
+                {
+                  "text": "for / time / It's / dinner / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "What",
+                "It's",
+                "time",
+                "hungry"
+              ],
+              "items": [
+                "A: __________ time is it?",
+                "B: __________ two forty.",
+                "A: It's __________ for lunch.",
+                "B: Yes! I'm __________."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "몇 시인지 물을 때:  ______ time is it?",
+                "'What + 명사'의 What은 '어떤, 무슨, ______'의 뜻이에요.",
+                "시각을 말할 때:  ______ + 숫자  (시와 분을 함께: It's + 시 + 분)",
+                "'~할 시간이야':  It's ______ ______ + 일과 (dinner, school)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 시각을 나타내는 말(숫자)을 찾아 ○표 하세요.",
+              "items": [
+                "It's eleven o'clock.",
+                "It's two forty.",
+                "It's ten twenty.",
+                "It's twelve thirty."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "( What / It's ) time is it?  몇 시야?",
+                "( It's / Is ) eleven o'clock.  11시야.",
+                "It's ( two forty / forty two ).  2시 40분이야.",
+                "It's ten ( twenty / twelve ).  10시 20분이야.",
+                "It's ( time / at ) for school.  학교 갈 시간이야.",
+                "It's time ( for / at ) dinner.  저녁 먹을 시간이야."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 보고 우리말에 맞는 영어 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( 11:00 )  11시야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( 10:20 )  10시 20분이야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( dinner )  저녁 먹을 시간이야.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "대문자",
+                "It's",
+                "for"
+              ],
+              "items": [
+                {
+                  "text": "what time is it?",
+                  "label": "→"
+                },
+                {
+                  "text": "It eleven o'clock.  (11시야.)",
+                  "label": "→"
+                },
+                {
+                  "text": "It's time to school.  (학교 갈 시간이야.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기: (2:40, dinner) → It's two forty. It's time for dinner.",
+              "columns": [
+                "번호",
+                "시각",
+                "할 일"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "11:00",
+                  "school"
+                ],
+                [
+                  "⑵",
+                  "12:30",
+                  "lunch"
+                ],
+                [
+                  "⑶",
+                  "10:20",
+                  "breakfast"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "표의 ⑴~⑶을 보기처럼 두 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What ______ is it?    B: It's ______ o'clock.  (11시)",
+                "A: What time ______ it?    B: ______ two forty.",
+                "A: It's ______ for dinner.    B: Good! I'm ______.  (배고픈)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "지금 몇 시인지 묻고, 시계를 보고 대답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 16개를 보지 않고 쓸 수 있다.",
+            "It's + 숫자로 시각을 말할 수 있다.",
+            "It's time for ~ 를 쓸 수 있다.",
+            "문장 첫 글자를 대문자로 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

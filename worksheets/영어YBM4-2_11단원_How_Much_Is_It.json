@@ -1,0 +1,481 @@
+{
+  "slug": "영어YBM4-2_11단원_How_Much_Is_It",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 4-2 · 11단원",
+  "title": "How Much Is It?",
+  "subtitle": "(이것은 얼마인가요?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "comic book",
+            "만화책"
+          ],
+          [
+            "hat",
+            "모자"
+          ],
+          [
+            "hundred",
+            "100, 백"
+          ],
+          [
+            "jacket",
+            "재킷"
+          ],
+          [
+            "key ring",
+            "열쇠고리"
+          ],
+          [
+            "pencil case",
+            "필통"
+          ],
+          [
+            "thirteen",
+            "13, 십삼"
+          ],
+          [
+            "buy",
+            "사다"
+          ],
+          [
+            "dollar",
+            "달러"
+          ],
+          [
+            "pretty",
+            "예쁜"
+          ],
+          [
+            "cup",
+            "컵"
+          ],
+          [
+            "thousand",
+            "1000, 천"
+          ],
+          [
+            "want",
+            "원하다"
+          ],
+          [
+            "help",
+            "돕다"
+          ]
+        ],
+        "sentences": [
+          [
+            "How much is it?",
+            "이것은 얼마인가요?"
+          ],
+          [
+            "How much are these / they?",
+            "이것들은 얼마인가요?"
+          ],
+          [
+            "How much is this pencil?",
+            "이 연필은 얼마인가요?"
+          ],
+          [
+            "It's nine hundred won.",
+            "900원입니다."
+          ],
+          [
+            "It's one dollar.",
+            "1달러입니다."
+          ],
+          [
+            "Can I help you?",
+            "도와드릴까요?"
+          ],
+          [
+            "Six key rings, please.",
+            "열쇠고리 6개 주세요."
+          ],
+          [
+            "Here you are.",
+            "여기 있어요."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "영어를 보고 뜻을, 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어",
+                "단어",
+                "뜻"
+              ],
+              "rows": [
+                [
+                  "comic book",
+                  "",
+                  "필통",
+                  "",
+                  "cup",
+                  ""
+                ],
+                [
+                  "hat",
+                  "",
+                  "13, 십삼",
+                  "",
+                  "thousand",
+                  ""
+                ],
+                [
+                  "hundred",
+                  "",
+                  "사다",
+                  "",
+                  "want",
+                  ""
+                ],
+                [
+                  "jacket",
+                  "",
+                  "달러",
+                  "",
+                  "help",
+                  ""
+                ],
+                [
+                  "key ring",
+                  "",
+                  "예쁜",
+                  "",
+                  "won",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "h _ t  (모자)",
+                "c _ p  (컵)",
+                "b _ y  (사다)",
+                "w _ nt  (원하다)",
+                "h _ lp  (돕다)",
+                "j _ cket  (재킷)",
+                "pr _ tty  (예쁜)",
+                "d _ llar  (달러)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 '물건 이름'에 ○표 하세요.",
+              "items": [
+                "( hat / hundred )",
+                "( thirteen / jacket )",
+                "( cup / thousand )",
+                "( buy / comic book )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "thousand",
+                "pencil case",
+                "jacket"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "How much is it?",
+                "It's one dollar.",
+                "Can I help you?",
+                "Six key rings, please.",
+                "Here you are."
+              ],
+              "right": [
+                "여기 있어요.",
+                "열쇠고리 6개 주세요.",
+                "이것은 얼마인가요?",
+                "도와드릴까요?",
+                "1달러입니다."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 가격을 보고 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(900원) How much is it?  →  It's nine __________ won.",
+                "(1달러) How much is this cup?  →  It's one __________.",
+                "(1,000원) How much is this pencil?  →  It's one __________ won.",
+                "(도와드릴까요?) __________ I help you?  →  Yes, please."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "much / How / it / is / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "one / It's / dollar / .",
+                  "label": "→"
+                },
+                {
+                  "text": "help / Can / you / I / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "How much",
+                "It's",
+                "help",
+                "Here"
+              ],
+              "items": [
+                "A: Can I __________ you?    B: Yes, please.",
+                "B: __________ is this hat?",
+                "A: __________ nine hundred won.",
+                "A: __________ you are."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "가격을 물을 때:  How ______ is it?",
+                "it 대신 물건 이름을 넣어 물을 수 있어요:  How much is ______ pencil?",
+                "물건이 여러 개(복수)일 때:  How much are ______ / they?",
+                "가격을 말할 때:  It's + ______ + 화폐단위 (won, dollar)",
+                "'도와드릴까요?':  ______ I help you?  →  Yes, ______."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 가격(숫자 + 화폐단위)을 나타내는 말을 찾아 ○표 하세요.",
+              "items": [
+                "It's nine hundred won.",
+                "It's one dollar.",
+                "It's one thousand won.",
+                "These are one hundred won."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "( How / What ) much is it?  이것은 얼마인가요?",
+                "How much ( is / are ) it?  이것은 얼마인가요?",
+                "How much ( is / are ) these?  이것들은 얼마인가요?",
+                "It's nine ( hundred / thousand ) won.  900원입니다.",
+                "( Can / Here ) I help you?  도와드릴까요?",
+                "Six key ( ring / rings ), please.  열쇠고리 6개 주세요."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 보고 우리말에 맞는 영어 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( this hat )  이 모자는 얼마인가요?",
+                  "label": "→"
+                },
+                {
+                  "text": "( 1,000원 )  1,000원입니다.",
+                  "label": "→"
+                },
+                {
+                  "text": "( these )  이것들은 얼마인가요?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "is / are",
+                "won",
+                "please"
+              ],
+              "items": [
+                {
+                  "text": "How much are it?  (이것은 얼마인가요?)",
+                  "label": "→"
+                },
+                {
+                  "text": "It's nine hundred dollar.  (900원입니다.)",
+                  "label": "→"
+                },
+                {
+                  "text": "Yes, help.  (네, 좋아요.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기: (hat, 1달러) → How much is this hat? It's one dollar.",
+              "columns": [
+                "번호",
+                "물건",
+                "가격"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "cup",
+                  "900원"
+                ],
+                [
+                  "⑵",
+                  "pencil case",
+                  "1,000원"
+                ],
+                [
+                  "⑶",
+                  "comic book",
+                  "1달러"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "표의 ⑴~⑶을 보기처럼 묻고 답하는 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: Can I ______ you?    B: Yes, ______.",
+                "A: How ______ is this cup?    B: ______ one dollar.",
+                "A: Six key rings, ______.    B: ______ you are."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "사고 싶은 물건의 가격을 묻고, 가격으로 대답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 14개를 보지 않고 쓸 수 있다.",
+            "It's + 가격으로 대답할 수 있다.",
+            "여러 개일 때 are these 를 썼다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "slug": "영어YBM4-2_10단원_Im_a_Farmer",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 4-2 · 10단원",
+  "title": "I'm a Farmer.",
+  "subtitle": "(나는 농부야.) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "artist",
+            "예술가"
+          ],
+          [
+            "cook",
+            "요리사"
+          ],
+          [
+            "doctor",
+            "의사"
+          ],
+          [
+            "farmer",
+            "농부"
+          ],
+          [
+            "firefighter",
+            "소방관"
+          ],
+          [
+            "pilot",
+            "조종사"
+          ],
+          [
+            "scientist",
+            "과학자"
+          ],
+          [
+            "warm",
+            "따듯한"
+          ],
+          [
+            "try",
+            "시도해보다"
+          ],
+          [
+            "song",
+            "노래"
+          ],
+          [
+            "flower",
+            "꽃"
+          ],
+          [
+            "singer",
+            "가수"
+          ],
+          [
+            "what",
+            "무엇, 무슨"
+          ],
+          [
+            "do",
+            "~을 하다"
+          ]
+        ],
+        "sentences": [
+          [
+            "What do you do?",
+            "무슨 일을 하세요?"
+          ],
+          [
+            "I'm a farmer.",
+            "저는 농부예요."
+          ],
+          [
+            "You look great!",
+            "멋져 보인다!"
+          ],
+          [
+            "What does he / she do?",
+            "그 / 그녀는 무슨 일을 하니?"
+          ],
+          [
+            "She's a firefighter.",
+            "그녀는 소방관이야."
+          ],
+          [
+            "He's a pilot.",
+            "그는 조종사야."
+          ],
+          [
+            "I like your song.",
+            "저는 당신의 노래가 좋아요."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "영어를 보고 뜻을, 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어",
+                "단어",
+                "뜻"
+              ],
+              "rows": [
+                [
+                  "artist",
+                  "",
+                  "조종사",
+                  "",
+                  "flower",
+                  ""
+                ],
+                [
+                  "cook",
+                  "",
+                  "과학자",
+                  "",
+                  "singer",
+                  ""
+                ],
+                [
+                  "doctor",
+                  "",
+                  "따듯한",
+                  "",
+                  "what",
+                  ""
+                ],
+                [
+                  "farmer",
+                  "",
+                  "시도해보다",
+                  "",
+                  "do",
+                  ""
+                ],
+                [
+                  "firefighter",
+                  "",
+                  "노래",
+                  "",
+                  "great",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "c _ _ k  (요리사)",
+                "d _ ctor  (의사)",
+                "f _ rmer  (농부)",
+                "p _ lot  (조종사)",
+                "s _ ng  (노래)",
+                "s _ nger  (가수)",
+                "w _ rm  (따듯한)",
+                "art _ st  (예술가)",
+                "sci _ ntist  (과학자)",
+                "fl _ wer  (꽃)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 '직업 이름'에 ○표 하세요.",
+              "items": [
+                "( artist / warm )",
+                "( song / cook )",
+                "( doctor / flower )",
+                "( try / singer )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "firefighter",
+                "scientist",
+                "farmer"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What do you do?",
+                "I'm a farmer.",
+                "What does she do?",
+                "He's a pilot.",
+                "You look great!"
+              ],
+              "right": [
+                "그는 조종사야.",
+                "무슨 일을 하세요?",
+                "멋져 보인다!",
+                "저는 농부예요.",
+                "그녀는 무슨 일을 하니?"
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 직업을 보고 대답을 영어로 쓰세요.",
+              "items": [
+                "(농부) What do you do?  →  I'm __________.",
+                "(의사) What do you do?  →  I'm __________.",
+                "(조종사) What does he do?  →  He's __________.",
+                "(소방관) What does she do?  →  She's __________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "do / What / you / do / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "a / I'm / farmer / .",
+                  "label": "→"
+                },
+                {
+                  "text": "pilot / He's / a / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "What",
+                "I'm",
+                "does",
+                "great"
+              ],
+              "items": [
+                "A: __________ do you do?",
+                "B: __________ a cook.",
+                "A: What __________ she do?    B: She's a doctor.",
+                "A: You look __________!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "직업을 물을 때:  What ______ you do?",
+                "내 직업을 말할 때:  I'm ______ + 직업 이름  (I'm a farmer.)",
+                "그 / 그녀의 직업을 물을 때:  What ______ he / she do?",
+                "He, She가 주어일 때는 do 대신 ______ 를 써요."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 직업 이름을 찾아 ○표 하세요.",
+              "items": [
+                "I'm a farmer.",
+                "She's a firefighter.",
+                "He's a pilot.",
+                "I'm a scientist."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "What ( do / does ) you do?  무슨 일을 하세요?",
+                "I'm ( a / an ) artist.  나는 예술가야.",
+                "What ( do / does ) he do?  그는 무슨 일을 하니?",
+                "( She's / He's ) a firefighter.  그녀는 소방관이야.",
+                "I ( like / look ) your song.  당신의 노래가 좋아요.",
+                "You look ( great / warm )!  멋져 보인다!"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 보고 우리말에 맞는 영어 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( cook )  나는 요리사야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( he, pilot )  그는 조종사야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( she, doctor )  그녀는 의사야.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "a / an",
+                "do / does",
+                "She's"
+              ],
+              "items": [
+                {
+                  "text": "I'm a artist.  (나는 예술가야.)",
+                  "label": "→"
+                },
+                {
+                  "text": "What do she do?  (그녀는 무슨 일을 하니?)",
+                  "label": "→"
+                },
+                {
+                  "text": "She a singer.  (그녀는 가수야.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기: (she, cook) → She's a cook.",
+              "columns": [
+                "번호",
+                "사람",
+                "직업"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "I",
+                  "farmer"
+                ],
+                [
+                  "⑵",
+                  "he",
+                  "doctor"
+                ],
+                [
+                  "⑶",
+                  "she",
+                  "artist"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "표의 ⑴~⑶을 보기처럼 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What do you ______?    B: I'm a ______.  (과학자)",
+                "A: What ______ he do?    B: ______ a pilot.",
+                "A: What does ______ do?    B: She's a ______.  (가수)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "무슨 일을 하는지 묻고, 내가 되고 싶은 직업으로 대답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "직업 이름 8개를 쓸 수 있다.",
+            "I'm a ~ 로 직업을 말할 수 있다.",
+            "He / She 뒤에 does 를 썼다.",
+            "a 와 an 을 알맞게 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

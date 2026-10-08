@@ -1,0 +1,504 @@
+{
+  "slug": "영어YBM4-2_8단원_What_Are_You_Doing",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "YBM 4-2 · 8단원",
+  "title": "What Are You Doing?",
+  "subtitle": "(무엇을 하고 있니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "bake",
+            "굽다"
+          ],
+          [
+            "computer",
+            "컴퓨터"
+          ],
+          [
+            "draw",
+            "그리다"
+          ],
+          [
+            "house",
+            "집"
+          ],
+          [
+            "listen",
+            "듣다"
+          ],
+          [
+            "music",
+            "음악"
+          ],
+          [
+            "picture",
+            "그림, 사진"
+          ],
+          [
+            "water",
+            "물을 주다"
+          ],
+          [
+            "flower",
+            "꽃"
+          ],
+          [
+            "cookie",
+            "쿠키"
+          ],
+          [
+            "pretty",
+            "예쁜"
+          ],
+          [
+            "read",
+            "읽다"
+          ],
+          [
+            "book",
+            "책"
+          ],
+          [
+            "who",
+            "누구"
+          ],
+          [
+            "make",
+            "만들다"
+          ],
+          [
+            "robot",
+            "로봇"
+          ],
+          [
+            "together",
+            "함께"
+          ],
+          [
+            "help",
+            "도와주다"
+          ]
+        ],
+        "sentences": [
+          [
+            "What are you doing?",
+            "무엇을 하고 있니?"
+          ],
+          [
+            "I'm watering the flowers.",
+            "저는 꽃에 물을 주고 있어요."
+          ],
+          [
+            "What is he doing?",
+            "그는 무엇을 하고 있니?"
+          ],
+          [
+            "He's reading a book.",
+            "그는 책을 읽고 있어요."
+          ],
+          [
+            "I'm playing on the computer.",
+            "나는 컴퓨터를 하고 있어."
+          ],
+          [
+            "What is she doing?",
+            "그녀는 무엇을 하고 있니?"
+          ],
+          [
+            "She's listening to music.",
+            "그녀는 음악을 듣고 있어."
+          ],
+          [
+            "Good job!",
+            "잘했어!"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "영어를 보고 뜻을, 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어",
+                "단어",
+                "뜻"
+              ],
+              "rows": [
+                [
+                  "bake",
+                  "",
+                  "그림, 사진",
+                  "",
+                  "book",
+                  ""
+                ],
+                [
+                  "computer",
+                  "",
+                  "물을 주다",
+                  "",
+                  "who",
+                  ""
+                ],
+                [
+                  "draw",
+                  "",
+                  "꽃",
+                  "",
+                  "make",
+                  ""
+                ],
+                [
+                  "house",
+                  "",
+                  "쿠키",
+                  "",
+                  "robot",
+                  ""
+                ],
+                [
+                  "listen",
+                  "",
+                  "예쁜",
+                  "",
+                  "together",
+                  ""
+                ],
+                [
+                  "music",
+                  "",
+                  "읽다",
+                  "",
+                  "help",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "b _ ke  (굽다)",
+                "dr _ w  (그리다)",
+                "h _ _ se  (집)",
+                "m _ sic  (음악)",
+                "fl _ wer  (꽃)",
+                "c _ _ kie  (쿠키)",
+                "r _ _ d  (읽다)",
+                "r _ bot  (로봇)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "두 단어 중 '동작을 나타내는 말(동사)'에 ○표 하세요.",
+              "items": [
+                "( bake / book )",
+                "( draw / flower )",
+                "( read / robot )",
+                "( make / cookie )"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "together",
+                "picture",
+                "listen"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What are you doing?",
+                "I'm watering the flowers.",
+                "What is he doing?",
+                "She's listening to music.",
+                "Good job!"
+              ],
+              "right": [
+                "그녀는 음악을 듣고 있어.",
+                "잘했어!",
+                "무엇을 하고 있니?",
+                "그는 무엇을 하고 있니?",
+                "저는 꽃에 물을 주고 있어요."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 상황을 보고 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(꽃에 물 주기) What are you doing?  →  I'm __________ the flowers.",
+                "(책 읽기) What is he doing?  →  He's __________ a book.",
+                "(음악 듣기) What is she doing?  →  She's __________ to music.",
+                "(컴퓨터) What are you doing?  →  I'm __________ on the computer."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "are / What / you / doing / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "reading / He's / book / a / .",
+                  "label": "→"
+                },
+                {
+                  "text": "to / listening / She's / music / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "What",
+                "I'm",
+                "doing",
+                "Good"
+              ],
+              "items": [
+                "A: __________ are you doing?",
+                "B: __________ watering the flowers.",
+                "A: What is he __________?    B: He's reading a book.",
+                "A: __________ job!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "상대방이 하는 일을 물을 때:  What ______ you doing?",
+                "내가 하는 일을 말할 때:  ______ + 동사ing  (I'm reading.)",
+                "다른 사람이 하는 일을 물을 때:  What ______ he / she doing?",
+                "그 / 그녀가 하는 일을 말할 때:  He's / ______ + 동사ing"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 '~하고 있다'를 나타내는 말(동사 + ing)을 찾아 ○표 하세요.",
+              "items": [
+                "I'm watering the flowers.",
+                "He's reading a book.",
+                "She's listening to music.",
+                "I'm playing on the computer."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "( What / Who ) are you doing?  무엇을 하고 있니?",
+                "I'm ( read / reading ) a book.  나는 책을 읽고 있어.",
+                "What ( is / are ) he doing?  그는 무엇을 하고 있니?",
+                "( He's / She's ) listening to music.  그녀는 음악을 듣고 있어.",
+                "I'm ( water / watering ) the flowers.  꽃에 물을 주고 있어요.",
+                "What ( is / are ) you doing?  무엇을 하고 있니?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 보고 우리말에 맞는 영어 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( he, read a book )  그는 책을 읽고 있어요.",
+                  "label": "→"
+                },
+                {
+                  "text": "( she, listen to music )  그녀는 음악을 듣고 있어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( I, play on the computer )  나는 컴퓨터를 하고 있어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "대문자",
+                "ing",
+                "is / are"
+              ],
+              "items": [
+                {
+                  "text": "what are you doing?",
+                  "label": "→"
+                },
+                {
+                  "text": "He's read a book.  (그는 책을 읽고 있어요.)",
+                  "label": "→"
+                },
+                {
+                  "text": "What are she doing?  (그녀는 무엇을 하고 있니?)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기: (he, bake cookies) → He's baking cookies.",
+              "columns": [
+                "번호",
+                "사람",
+                "하는 일"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "she",
+                  "read a book"
+                ],
+                [
+                  "⑵",
+                  "he",
+                  "water the flowers"
+                ],
+                [
+                  "⑶",
+                  "I",
+                  "play on the computer"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "표의 ⑴~⑶을 보기처럼 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What ______ you doing?    B: I'm ______ a book.",
+                "A: What is ______ doing?    B: She's listening to ______.",
+                "A: What is he doing?    B: ______ playing on the ______."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "무엇을 하고 있는지 묻고, 내가 지금 하는 일로 대답하는 문장을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 18개를 보지 않고 쓸 수 있다.",
+            "I'm ~ing 로 대답할 수 있다.",
+            "He's / She's ~ing 를 쓸 수 있다.",
+            "동사 뒤에 ing 를 붙여 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}
