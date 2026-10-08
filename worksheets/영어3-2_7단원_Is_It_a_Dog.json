@@ -1,0 +1,364 @@
+{
+  "slug": "영어3-2_7단원_Is_It_a_Dog",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 3-2 · 7단원",
+  "title": "Is It a Dog?",
+  "subtitle": "(그것은 개니?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 10분",
+    "문장 익히기 15분",
+    "문법·쓰기 10분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "dog",
+            "개"
+          ],
+          [
+            "cat",
+            "고양이"
+          ],
+          [
+            "bird",
+            "새"
+          ],
+          [
+            "fox",
+            "여우"
+          ],
+          [
+            "bear",
+            "곰"
+          ],
+          [
+            "zebra",
+            "얼룩말"
+          ],
+          [
+            "zoo",
+            "동물원"
+          ],
+          [
+            "big",
+            "큰"
+          ],
+          [
+            "small",
+            "작은"
+          ],
+          [
+            "cute",
+            "귀여운"
+          ]
+        ],
+        "sentences": [
+          [
+            "Is it a zebra?",
+            "그것은 얼룩말이니?"
+          ],
+          [
+            "Yes, it is.",
+            "응, 그래."
+          ],
+          [
+            "No, it isn't. It's a cat.",
+            "아니, 그렇지 않아. 그것은 고양이야."
+          ],
+          [
+            "It's big.",
+            "그것은 크다."
+          ],
+          [
+            "What's that?",
+            "저것은 무엇이니?"
+          ],
+          [
+            "Wow, it's very small!",
+            "와, 그것은 매우 작아!"
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "dog",
+                  "",
+                  "고양이",
+                  ""
+                ],
+                [
+                  "bird",
+                  "",
+                  "여우",
+                  ""
+                ],
+                [
+                  "bear",
+                  "",
+                  "얼룩말",
+                  ""
+                ],
+                [
+                  "zoo",
+                  "",
+                  "큰",
+                  ""
+                ],
+                [
+                  "small",
+                  "",
+                  "귀여운",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "d _ g  (개)",
+                "c _ t  (고양이)",
+                "b _ rd  (새)",
+                "f _ x  (여우)",
+                "b _ _ r  (곰)",
+                "z _ bra  (얼룩말)",
+                "z _ _  (동물원)",
+                "b _ g  (큰)",
+                "sm _ ll  (작은)",
+                "c _ te  (귀여운)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '동물 이름'과 '크기·생김새를 나타내는 말'로 나누어 쓰세요.",
+              "box": [
+                "dog",
+                "big",
+                "cat",
+                "small",
+                "bird",
+                "cute",
+                "fox",
+                "bear",
+                "zebra"
+              ],
+              "columns": [
+                "동물 이름",
+                "크기·생김새를 나타내는 말 (형용사)"
+              ],
+              "rows": 2
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "zebra",
+                "bear",
+                "cute"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Is it a zebra?",
+                "Yes, it is.",
+                "What's that?",
+                "It's big.",
+                "No, it isn't."
+              ],
+              "right": [
+                "저것은 무엇이니?",
+                "그것은 크다.",
+                "그것은 얼룩말이니?",
+                "아니, 그렇지 않아.",
+                "응, 그래."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 동물을 보고, Yes, it is. 또는 No, it isn't. 로 대답을 쓰세요.",
+              "items": [
+                "(개) Is it a dog?  →  __________",
+                "(고양이) Is it a bird?  →  __________",
+                "(얼룩말) Is it a zebra?  →  __________",
+                "(여우) Is it a bear?  →  __________  It's a ______."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "it / Is / zebra / a / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "big / It's / .",
+                  "label": "→"
+                },
+                {
+                  "text": "that / What's / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "What's",
+                "Is",
+                "isn't",
+                "cute"
+              ],
+              "items": [
+                "A: __________ that?",
+                "B: __________ it a cat?",
+                "A: No, it __________.  It's a fox.",
+                "B: Wow, it's very __________!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "3. 문법 다지기",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "어떤 동물인지 물을 때:  ________ it a + 동물 이름?",
+                "맞으면  Yes, it ______.    아니면  No, it ________.",
+                "It's 뒤에 big, small, cute 같은 말을 넣어요. 이런 말을 ( ______ )라고 해요."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 크기·생김새를 나타내는 말(형용사)을 찾아 ○표 하세요.",
+              "items": [
+                "It's big.",
+                "It's a cute cat.",
+                "Wow, it's very small!",
+                "It's a yellow bird."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "( Is / Are ) it a dog?  그것은 개니?",
+                "Yes, it ( is / isn't ).  응, 그래.",
+                "( It's / Is ) small.  그것은 작다.",
+                "No, it ( is / isn't ).  아니, 그렇지 않아."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "좋아하는 동물 두 가지를 골라 묻고 답하는 문장을 쓰세요. 대답에는 크기·생김새를 나타내는 말을 넣으세요.",
+              "box": [
+                "Is it a ___?",
+                "Yes, it is.",
+                "It's ___."
+              ],
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                },
+                {
+                  "pre": "Q:",
+                  "label": "⑵"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 잘 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "단어 10개를 보지 않고 쓸 수 있다.",
+            "Is it a ~? 에 Yes / No 로 대답할 수 있다.",
+            "문장 첫 글자를 대문자로 썼다.",
+            "문장 끝에 ? 나 . 를 붙였다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}
