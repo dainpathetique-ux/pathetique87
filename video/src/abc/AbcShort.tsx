@@ -4,15 +4,29 @@ import {CLAMP, COLORS, FONT_FAMILY, HEIGHT, SCENE_FADE, WIDTH} from '../constant
 import {loadFonts} from '../fonts';
 import {sparklePath} from '../util';
 import DATA from './data.json';
+import VOWELS from './vowels.json';
 import {ABC_VOICE} from './voiceCues';
+import {VOWEL_VOICE} from './voiceCuesVowel';
 
 loadFonts();
 
 type Word = {word: string; ipa: string; reading: string; meaning: string; emoji: string};
-type Letter = {letter: string; nameKo: string; words: Word[]};
+type Letter = {
+  letter: string; // 컴포지션 id 겸 키 (A~Z, short-a, long-a …)
+  words: Word[];
+  nameKo?: string;
+  big?: string[]; // 인트로에 크게 그릴 글자들 (기본: 대문자·소문자)
+  label?: string; // 인트로 자막 (기본: '오늘의 알파벳: Aa')
+  highlight?: string[]; // 단어에서 강조할 글자들 (기본: 해당 글자)
+  kind?: string;
+  name?: string;
+  intro2?: string;
+};
 export type AbcShortProps = {letter: string};
 
 export const LETTERS: Letter[] = DATA as Letter[];
+export const VOWEL_ITEMS: Letter[] = VOWELS as Letter[];
+export const ALL_ITEMS: Letter[] = [...LETTERS, ...VOWEL_ITEMS];
 
 // 파스텔 테마 (인트로 + 단어 3개에 순환 적용, 글자마다 시작점이 다르다)
 const THEMES = [
@@ -36,10 +50,10 @@ const SCENES = [
 const fadeIn = (f: number) => interpolate(f, [0, SCENE_FADE], [0, 1], CLAMP);
 
 /** 대상 글자를 코랄색으로 강조 */
-const Hi: React.FC<{text: string; letter: string}> = ({text, letter}) => (
+const Hi: React.FC<{text: string; letters: string[]}> = ({text, letters}) => (
   <>
     {text.split('').map((ch, i) =>
-      ch.toUpperCase() === letter ? (
+      letters.includes(ch.toUpperCase()) ? (
         <span key={i} style={{color: COLORS.coral}}>{ch}</span>
       ) : (
         <React.Fragment key={i}>{ch}</React.Fragment>
@@ -76,7 +90,10 @@ const SPARKS = Array.from({length: 18}, (_, i) => ({
   s: 12 + random(`as${i}`) * 20, ph: random(`ap${i}`) * 6.28, delay: 10 + i * 2,
 }));
 
-const IntroScene: React.FC<{letter: string; theme: {a: string; b: string}}> = ({letter, theme}) => {
+const IntroScene: React.FC<{item: Letter; theme: {a: string; b: string}}> = ({item, theme}) => {
+  const letter = item.letter;
+  const glyphs = item.big ?? [letter, letter.toLowerCase()];
+  const [labelHead, labelTail] = item.label ? [item.label.split(': ')[0] + ': ', item.label.split(': ').slice(1).join(': ')] : ['오늘의 알파벳: ', `${letter}${letter.toLowerCase()}`];
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const up = spring({frame: frame - 4, fps, config: {damping: 10, stiffness: 110}});
@@ -96,11 +113,17 @@ const IntroScene: React.FC<{letter: string; theme: {a: string; b: string}}> = ({
           return <path key={i} d={sparklePath(s.s)} fill="#FFD93D" stroke="#F0B429" strokeWidth={1.5} opacity={tw * a} transform={`translate(${s.x} ${s.y}) rotate(${frame * 0.6 + i * 20}) scale(${0.7 + 0.5 * tw})`} />;
         })}
         <g transform={`translate(0 ${bob})`}>
-          <text x={330} y={1120} textAnchor="middle" style={textStyle} transform={`scale(${up}) `} transform-origin="330 980">{letter}</text>
-          <text x={760} y={1120} textAnchor="middle" style={{...textStyle, fontSize: 440}} transform={`scale(${low})`} transform-origin="760 980">{letter.toLowerCase()}</text>
+          {glyphs.length === 2 ? (
+            <>
+              <text x={330} y={1120} textAnchor="middle" style={textStyle} transform={`scale(${up}) `} transform-origin="330 980">{glyphs[0]}</text>
+              <text x={760} y={1120} textAnchor="middle" style={{...textStyle, fontSize: 440}} transform={`scale(${low})`} transform-origin="760 980">{glyphs[1]}</text>
+            </>
+          ) : (
+            <text x={540} y={1100} textAnchor="middle" style={{...textStyle, fontSize: 400, letterSpacing: 6}} transform={`scale(${up})`} transform-origin="540 980">{glyphs[0]}</text>
+          )}
         </g>
       </svg>
-      <Box top={190} frame={frame} size={64}>오늘의 알파벳: <span style={{color: COLORS.coral}}>{letter}{letter.toLowerCase()}</span></Box>
+      <Box top={190} frame={frame} size={item.label && item.label.length > 22 ? 54 : 64}>{labelHead}<span style={{color: COLORS.coral}}>{labelTail}</span></Box>
     </AbsoluteFill>
   );
 };
@@ -111,7 +134,7 @@ const BURST = Array.from({length: 16}, (_, i) => ({
   size: 10 + random(`bs${i}`) * 12, color: CONFETTI[i % CONFETTI.length], star: i % 3 === 0, delay: random(`bt${i}`) * 5,
 }));
 
-const WordScene: React.FC<{letter: string; w: Word; theme: {a: string; b: string}}> = ({letter, w, theme}) => {
+const WordScene: React.FC<{letters: string[]; w: Word; theme: {a: string; b: string}}> = ({letters, w, theme}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const pop = spring({frame: frame - 6, fps, config: {damping: 8, stiffness: 120, mass: 0.9}});
@@ -139,7 +162,7 @@ const WordScene: React.FC<{letter: string; w: Word; theme: {a: string; b: string
       </svg>
       {/* 단어 (대상 글자 강조) */}
       <div style={{position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', fontFamily: FONT_FAMILY, fontWeight: 700, fontSize, color: COLORS.ink, letterSpacing: -1, opacity: wordIn, transform: `translateY(${(1 - wordIn) * 30}px)`, textShadow: '0 4px 24px rgba(255,255,255,0.9)'}}>
-        <Hi text={w.word} letter={letter} />
+        <Hi text={w.word} letters={letters} />
       </div>
       {/* 이모지 카드 */}
       <div style={{position: 'absolute', left: 540 - 300, top: 1010 - 300 + bob, width: 600, height: 600, borderRadius: 72, background: '#FFFFFF', boxShadow: '0 30px 70px rgba(31,42,68,0.16)', display: 'flex', alignItems: 'center', justifyContent: 'center', transform: `scale(${pop}) rotate(${tilt}deg)`}}>
@@ -184,18 +207,19 @@ const BGM_LEVEL = 0.5, DUCK_DEPTH = 0.65, DUCK_RAMP = 6;
 
 export const AbcShort: React.FC<AbcShortProps> = ({letter}) => {
   const frame = useCurrentFrame();
-  const item = LETTERS.find((l) => l.letter === letter)!;
-  const idx = letter.charCodeAt(0) - 65;
+  const item = ALL_ITEMS.find((l) => l.letter === letter)!;
+  const idx = ALL_ITEMS.indexOf(item);
   const theme = (k: number) => THEMES[(idx + k) % THEMES.length];
-  const cues = ABC_VOICE[letter] ?? [];
+  const cues = ABC_VOICE[letter] ?? VOWEL_VOICE[letter] ?? [];
+  const hl = item.highlight ?? [letter];
   const duck = Math.max(0, ...cues.map((c) => interpolate(frame, [c.from - DUCK_RAMP, c.from, c.from + c.durationInFrames, c.from + c.durationInFrames + DUCK_RAMP], [0, 1, 1, 0], CLAMP)));
   const bgm = BGM_LEVEL * (1 - DUCK_DEPTH * duck) * interpolate(frame, [840, 900], [1, 0], CLAMP);
   return (
     <AbsoluteFill style={{fontFamily: FONT_FAMILY, backgroundColor: '#fff'}}>
-      <Sequence name="인트로" from={SCENES[0].from} durationInFrames={150 + SCENE_FADE}><IntroScene letter={letter} theme={theme(0)} /></Sequence>
+      <Sequence name="인트로" from={SCENES[0].from} durationInFrames={150 + SCENE_FADE}><IntroScene item={item} theme={theme(0)} /></Sequence>
       {item.words.map((w, i) => (
         <Sequence key={w.word} name={w.word} from={SCENES[i + 1].from} durationInFrames={SCENES[i + 1].to - SCENES[i + 1].from + SCENE_FADE}>
-          <WordScene letter={letter} w={w} theme={theme(i + 1)} />
+          <WordScene letters={hl} w={w} theme={theme(i + 1)} />
         </Sequence>
       ))}
       <Sequence name="아웃트로" from={750} durationInFrames={150}><OutroScene item={item} /></Sequence>

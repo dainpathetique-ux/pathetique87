@@ -1,0 +1,335 @@
+[
+ {
+  "letter": "short-a",
+  "kind": "단모음",
+  "big": [
+   "A",
+   "a"
+  ],
+  "label": "오늘의 단모음: a /æ/",
+  "highlight": [
+   "A"
+  ],
+  "name": "Short A",
+  "intro2": "Short A, like in cat.",
+  "words": [
+   {
+    "word": "Cat",
+    "ipa": "/kæt/",
+    "reading": "캣",
+    "meaning": "고양이",
+    "emoji": "1f431"
+   },
+   {
+    "word": "Bag",
+    "ipa": "/bæɡ/",
+    "reading": "백",
+    "meaning": "가방",
+    "emoji": "1f45c"
+   },
+   {
+    "word": "Hat",
+    "ipa": "/hæt/",
+    "reading": "햇",
+    "meaning": "모자",
+    "emoji": "1f3a9"
+   }
+  ]
+ },
+ {
+  "letter": "short-e",
+  "kind": "단모음",
+  "big": [
+   "E",
+   "e"
+  ],
+  "label": "오늘의 단모음: e /e/",
+  "highlight": [
+   "E"
+  ],
+  "name": "Short E",
+  "intro2": "Short E, like in bed.",
+  "words": [
+   {
+    "word": "Bed",
+    "ipa": "/bed/",
+    "reading": "베드",
+    "meaning": "침대",
+    "emoji": "1f6cf"
+   },
+   {
+    "word": "Pen",
+    "ipa": "/pen/",
+    "reading": "펜",
+    "meaning": "펜",
+    "emoji": "1f58a"
+   },
+   {
+    "word": "Hen",
+    "ipa": "/hen/",
+    "reading": "헨",
+    "meaning": "암탉",
+    "emoji": "1f414"
+   }
+  ]
+ },
+ {
+  "letter": "short-i",
+  "kind": "단모음",
+  "big": [
+   "I",
+   "i"
+  ],
+  "label": "오늘의 단모음: i /ɪ/",
+  "highlight": [
+   "I"
+  ],
+  "name": "Short I",
+  "intro2": "Short I, like in pig.",
+  "words": [
+   {
+    "word": "Pig",
+    "ipa": "/pɪɡ/",
+    "reading": "피그",
+    "meaning": "돼지",
+    "emoji": "1f437"
+   },
+   {
+    "word": "Fish",
+    "ipa": "/fɪʃ/",
+    "reading": "피시",
+    "meaning": "물고기",
+    "emoji": "1f41f"
+   },
+   {
+    "word": "Milk",
+    "ipa": "/mɪlk/",
+    "reading": "밀크",
+    "meaning": "우유",
+    "emoji": "1f95b"
+   }
+  ]
+ },
+ {
+  "letter": "short-o",
+  "kind": "단모음",
+  "big": [
+   "O",
+   "o"
+  ],
+  "label": "오늘의 단모음: o /ɑ/",
+  "highlight": [
+   "O"
+  ],
+  "name": "Short O",
+  "intro2": "Short O, like in fox.",
+  "words": [
+   {
+    "word": "Fox",
+    "ipa": "/fɑːks/",
+    "reading": "폭스",
+    "meaning": "여우",
+    "emoji": "1f98a"
+   },
+   {
+    "word": "Box",
+    "ipa": "/bɑːks/",
+    "reading": "박스",
+    "meaning": "상자",
+    "emoji": "1f4e6"
+   },
+   {
+    "word": "Clock",
+    "ipa": "/klɑːk/",
+    "reading": "클락",
+    "meaning": "시계",
+    "emoji": "23f0"
+   }
+  ]
+ },
+ {
+  "letter": "short-u",
+  "kind": "단모음",
+  "big": [
+   "U",
+   "u"
+  ],
+  "label": "오늘의 단모음: u /ʌ/",
+  "highlight": [
+   "U"
+  ],
+  "name": "Short U",
+  "intro2": "Short U, like in sun.",
+  "words": [
+   {
+    "word": "Sun",
+    "ipa": "/sʌn/",
+    "reading": "선",
+    "meaning": "해",
+    "emoji": "2600"
+   },
+   {
+    "word": "Bus",
+    "ipa": "/bʌs/",
+    "reading": "버스",
+    "meaning": "버스",
+    "emoji": "1f68c"
+   },
+   {
+    "word": "Duck",
+    "ipa": "/dʌk/",
+    "reading": "덕",
+    "meaning": "오리",
+    "emoji": "1f986"
+   }
+  ]
+ },
+ {
+  "letter": "long-a",
+  "kind": "장모음",
+  "big": [
+   "a_e"
+  ],
+  "label": "오늘의 장모음: a_e /eɪ/ (매직 e)",
+  "highlight": [
+   "A",
+   "E"
+  ],
+  "name": "Long A",
+  "intro2": "Long A with the magic E, like in cake.",
+  "words": [
+   {
+    "word": "Cake",
+    "ipa": "/keɪk/",
+    "reading": "케이크",
+    "meaning": "케이크",
+    "emoji": "1f382"
+   },
+   {
+    "word": "Snake",
+    "ipa": "/sneɪk/",
+    "reading": "스네이크",
+    "meaning": "뱀",
+    "emoji": "1f40d"
+   },
+   {
+    "word": "Whale",
+    "ipa": "/weɪl/",
+    "reading": "웨일",
+    "meaning": "고래",
+    "emoji": "1f433"
+   }
+  ]
+ },
+ {
+  "letter": "long-i",
+  "kind": "장모음",
+  "big": [
+   "i_e"
+  ],
+  "label": "오늘의 장모음: i_e /aɪ/ (매직 e)",
+  "highlight": [
+   "I",
+   "E"
+  ],
+  "name": "Long I",
+  "intro2": "Long I with the magic E, like in kite.",
+  "words": [
+   {
+    "word": "Kite",
+    "ipa": "/kaɪt/",
+    "reading": "카이트",
+    "meaning": "연",
+    "emoji": "1fa81"
+   },
+   {
+    "word": "Bike",
+    "ipa": "/baɪk/",
+    "reading": "바이크",
+    "meaning": "자전거",
+    "emoji": "1f6b2"
+   },
+   {
+    "word": "Five",
+    "ipa": "/faɪv/",
+    "reading": "파이브",
+    "meaning": "다섯",
+    "emoji": "35-20e3"
+   }
+  ]
+ },
+ {
+  "letter": "long-o",
+  "kind": "장모음",
+  "big": [
+   "o_e"
+  ],
+  "label": "오늘의 장모음: o_e /oʊ/ (매직 e)",
+  "highlight": [
+   "O",
+   "E"
+  ],
+  "name": "Long O",
+  "intro2": "Long O with the magic E, like in rose.",
+  "words": [
+   {
+    "word": "Rose",
+    "ipa": "/roʊz/",
+    "reading": "로즈",
+    "meaning": "장미",
+    "emoji": "1f339"
+   },
+   {
+    "word": "Bone",
+    "ipa": "/boʊn/",
+    "reading": "본",
+    "meaning": "뼈",
+    "emoji": "1f9b4"
+   },
+   {
+    "word": "Home",
+    "ipa": "/hoʊm/",
+    "reading": "홈",
+    "meaning": "집",
+    "emoji": "1f3e0"
+   }
+  ]
+ },
+ {
+  "letter": "long-u",
+  "kind": "장모음",
+  "big": [
+   "u_e"
+  ],
+  "label": "오늘의 장모음: u_e /juː/ (매직 e)",
+  "highlight": [
+   "U",
+   "E"
+  ],
+  "name": "Long U",
+  "intro2": "Long U with the magic E, like in cube.",
+  "words": [
+   {
+    "word": "Cube",
+    "ipa": "/kjuːb/",
+    "reading": "큐브",
+    "meaning": "정육면체",
+    "emoji": "1f9ca"
+   },
+   {
+    "word": "Cute",
+    "ipa": "/kjuːt/",
+    "reading": "큐트",
+    "meaning": "귀여운",
+    "emoji": "1f970"
+   },
+   {
+    "word": "Tune",
+    "ipa": "/tuːn/",
+    "reading": "튠",
+    "meaning": "곡조",
+    "emoji": "1f3b5"
+   }
+  ]
+ }
+]

@@ -7,11 +7,13 @@
 | `SmShorts` | 이중자음 `sm` 교육 숏폼 30초 (내레이션 + BGM) | `npm run render` | `output.mp4` |
 | `GiftTeaser` | '빙그레의 영역 / 김소연' 북 티저 23초 (수채화 창가 책상 일러스트, 돌리인·팬 카메라, 피아노·첼로 왈츠 BGM, 로고 아웃트로) | `npm run render:gift` | `output-gift.mp4` |
 | `ABC-A` … `ABC-Z` | 알파벳 26편 숏폼 30초 (글자 그리기 인트로 → 단어 3개 이모지 카드 → 로고 아웃트로, 영어 내레이션 + BGM) | `npm run render:abc` (`node scripts/render-abc.mjs A B` 로 일부만) | `output-abc/Aa_alphabet.mp4` … |
+| `VOWEL-short-a` … `VOWEL-long-u` | 단모음 5편(a e i o u) + 장모음 4편(a_e i_e o_e u_e, 매직 e), 알파벳과 같은 템플릿 | `npm run render:vowel` | `output-vowel/short-a_vowel.mp4` … |
 
 ### 알파벳 시리즈 (ABC-*)
 
-- 단어·IPA·한글 읽기·뜻·이모지 코드는 `src/abc/data.json` 한 곳에서 관리한다. 단어를 바꾸면
-  `audio-gen/abc_tts_gen.py` 로 내레이션(`public/abc/voice/`, `src/abc/voiceCues.ts`)을 다시 만들고 렌더한다.
+- 단어·IPA·한글 읽기·뜻·이모지 코드는 `src/abc/data.json`(알파벳), `src/abc/vowels.json`(모음)에서 관리한다. 단어를 바꾸면
+  `audio-gen/abc_tts_gen.py` / `vowel_tts_gen.py` 로 내레이션(`public/abc/voice/`, `src/abc/voiceCues*.ts`)을 다시 만들고 렌더한다.
+- 모음 항목은 `big`(크게 그릴 글자), `label`(인트로 자막), `highlight`(단어에서 강조할 글자), `name`/`intro2`(내레이션)를 추가로 가진다.
 - 그림은 Twemoji SVG(`public/emoji/`, npm `@twemoji/svg`)를 쓴다. 그래픽 라이선스는 **CC-BY 4.0** 이므로
   영상 설명란 등에 "Emoji graphics: Twemoji (CC-BY 4.0)" 한 줄을 적어 두는 것이 안전하다.
 - 템플릿은 `src/abc/AbcShort.tsx`, 글자별 컴포지션은 `src/Root.tsx` 에서 `LETTERS` 로 자동 등록된다.
