@@ -1,0 +1,489 @@
+{
+  "slug": "영어천재4-2_7단원_What_Day_Is_It_Today",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 4-2 · 7단원",
+  "title": "What Day Is It Today?",
+  "subtitle": "(오늘은 무슨 요일이지?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "Sunday",
+            "일요일"
+          ],
+          [
+            "Monday",
+            "월요일"
+          ],
+          [
+            "Tuesday",
+            "화요일"
+          ],
+          [
+            "Wednesday",
+            "수요일"
+          ],
+          [
+            "Thursday",
+            "목요일"
+          ],
+          [
+            "Friday",
+            "금요일"
+          ],
+          [
+            "Saturday",
+            "토요일"
+          ],
+          [
+            "today",
+            "오늘"
+          ],
+          [
+            "magic show",
+            "마술 쇼"
+          ],
+          [
+            "cookie",
+            "쿠키"
+          ],
+          [
+            "well",
+            "잘, 좋게"
+          ],
+          [
+            "computer",
+            "컴퓨터"
+          ],
+          [
+            "art",
+            "미술"
+          ],
+          [
+            "swimming",
+            "수영"
+          ],
+          [
+            "cooking",
+            "요리"
+          ],
+          [
+            "soccer",
+            "축구"
+          ],
+          [
+            "parade",
+            "퍼레이드, 행진"
+          ],
+          [
+            "class",
+            "수업"
+          ]
+        ],
+        "sentences": [
+          [
+            "What day is it today?",
+            "오늘은 무슨 요일이니?"
+          ],
+          [
+            "It's Monday.",
+            "월요일이야."
+          ],
+          [
+            "It's Wednesday.",
+            "수요일이야."
+          ],
+          [
+            "I have a dance class.",
+            "나는 댄스 수업이 있어."
+          ],
+          [
+            "I have a cooking class.",
+            "나는 요리 수업이 있어."
+          ],
+          [
+            "I can make cookies.",
+            "나는 쿠키를 만들 수 있어."
+          ],
+          [
+            "Can you dance well?",
+            "너는 춤을 잘 추니?"
+          ],
+          [
+            "Yes, I can. Look at me.",
+            "응, 잘 춰. 나를 봐."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "Sunday",
+                  "",
+                  "월요일",
+                  ""
+                ],
+                [
+                  "Tuesday",
+                  "",
+                  "수요일",
+                  ""
+                ],
+                [
+                  "Thursday",
+                  "",
+                  "금요일",
+                  ""
+                ],
+                [
+                  "Saturday",
+                  "",
+                  "미술",
+                  ""
+                ],
+                [
+                  "today",
+                  "",
+                  "축구",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "W _ dnesday  (수요일)",
+                "Th _ rsday  (목요일)",
+                "c _ _ kie  (쿠키)",
+                "w _ ll  (잘)",
+                "sw _ mming  (수영)",
+                "c _ mputer  (컴퓨터)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '요일'과 '활동'으로 나누어 쓰세요.",
+              "box": [
+                "Monday",
+                "art",
+                "Friday",
+                "cooking",
+                "Sunday",
+                "soccer",
+                "Tuesday"
+              ],
+              "columns": [
+                "요일",
+                "활동"
+              ],
+              "rows": 1.5
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "Wednesday",
+                "Thursday",
+                "Saturday"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What day is it today?",
+                "It's Monday.",
+                "I have a dance class.",
+                "Can you dance well?",
+                "I can make cookies."
+              ],
+              "right": [
+                "나는 쿠키를 만들 수 있어.",
+                "오늘은 무슨 요일이니?",
+                "너는 춤을 잘 추니?",
+                "월요일이야.",
+                "나는 댄스 수업이 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 요일을 보고 대답을 쓰세요. 첫 글자는 대문자로 쓰세요.",
+              "items": [
+                "(월요일) What day is it today?  →  It's __________.",
+                "(수요일) What day is it today?  →  It's __________.",
+                "(금요일) What day is it today?  →  It's __________.",
+                "(일요일) What day is it today?  →  It's __________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "day / What / it / is / today / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "have / I / class / a / dance / .",
+                  "label": "→"
+                },
+                {
+                  "text": "you / Can / well / dance / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "day",
+                "Wednesday",
+                "have",
+                "make"
+              ],
+              "items": [
+                "A: What __________ is it today?",
+                "B: It's __________.",
+                "A: I __________ a cooking class.",
+                "B: I can __________ cookies."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "오늘이 무슨 요일인지 물을 때:  What ______ is it today?",
+                "요일을 말할 때:  ______ + 요일.   요일의 첫 글자는 ( ______ )로 써요.",
+                "활동이 있다고 말할 때:  I ______ a / an + 활동.  (art 앞에는 ______)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 요일을 나타내는 말을 찾아 ○표 하세요.",
+              "items": [
+                "It's Monday.",
+                "It's Wednesday.",
+                "It's Friday.",
+                "It's Saturday."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "What ( day / today ) is it today?  오늘은 무슨 요일이니?",
+                "( It's / Is ) Monday.  월요일이야.",
+                "It's ( tuesday / Tuesday ).  화요일이야.",
+                "I ( have / can ) a dance class.  나는 댄스 수업이 있어.",
+                "I have ( a / an ) art class.  나는 미술 수업이 있어.",
+                "( Can / Is ) you dance well?  너는 춤을 잘 추니?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 넣어 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( Thursday )  목요일이야.",
+                  "label": "→"
+                },
+                {
+                  "text": "( cooking )  나는 요리 수업이 있어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( art )  나는 미술 수업이 있어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "대문자",
+                "a / an",
+                "It's"
+              ],
+              "items": [
+                {
+                  "text": "It's friday.  (금요일이야.)",
+                  "label": "→"
+                },
+                {
+                  "text": "I have a art class.  (나는 미술 수업이 있어.)",
+                  "label": "→"
+                },
+                {
+                  "text": "It Monday.  (월요일이야.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "표를 보고 보기처럼 쓰세요. 보기: (Sunday, dance) → It's Sunday. I have a dance class.",
+              "columns": [
+                "번호",
+                "요일",
+                "활동"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "Monday",
+                  "art"
+                ],
+                [
+                  "⑵",
+                  "Wednesday",
+                  "cooking"
+                ],
+                [
+                  "⑶",
+                  "Friday",
+                  "soccer"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 두 문장으로 쓰세요. a 와 an 에 주의하세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What day ______ it today?    B: ______ Monday.",
+                "A: I have ______ art class.    B: I have a ______ class.  (요리)",
+                "A: Can you ______ well?    B: Yes, I ______.  Look at me."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "오늘 요일을 묻고, 요일과 내가 있는 수업을 넣어 대답을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "요일 7개를 보지 않고 쓸 수 있다.",
+            "What day is it today? 에 대답할 수 있다.",
+            "요일의 첫 글자를 대문자로 썼다.",
+            "a 와 an 을 바르게 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

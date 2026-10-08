@@ -1,0 +1,467 @@
+{
+  "slug": "영어천재4-2_9단원_How_Much_Is_It",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 4-2 · 9단원",
+  "title": "How Much Is It?",
+  "subtitle": "(이것은 얼마인가요?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "scarf",
+            "목도리"
+          ],
+          [
+            "sweater",
+            "스웨터"
+          ],
+          [
+            "T-shirt",
+            "티셔츠"
+          ],
+          [
+            "toy car",
+            "장난감 자동차"
+          ],
+          [
+            "jump rope",
+            "줄넘기"
+          ],
+          [
+            "pencil case",
+            "필통"
+          ],
+          [
+            "hundred",
+            "100, 백"
+          ],
+          [
+            "want",
+            "원하다"
+          ],
+          [
+            "too",
+            "너무"
+          ],
+          [
+            "small",
+            "작은"
+          ],
+          [
+            "help",
+            "돕다"
+          ],
+          [
+            "nice",
+            "멋진"
+          ],
+          [
+            "won",
+            "(돈을 세는 단위) 원"
+          ],
+          [
+            "thousand",
+            "1000, 천"
+          ]
+        ],
+        "sentences": [
+          [
+            "How much is this scarf?",
+            "이 목도리는 얼마인가요?"
+          ],
+          [
+            "It's seven hundred won.",
+            "700원이에요."
+          ],
+          [
+            "I want this toy car.",
+            "저는 이 장난감 자동차를 원해요."
+          ],
+          [
+            "How much is it?",
+            "이것은 얼마인가요?"
+          ],
+          [
+            "It's nine hundred won.",
+            "900원입니다."
+          ],
+          [
+            "I want this jump rope.",
+            "저는 이 줄넘기를 원해요."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "scarf",
+                  "",
+                  "스웨터",
+                  ""
+                ],
+                [
+                  "T-shirt",
+                  "",
+                  "장난감 자동차",
+                  ""
+                ],
+                [
+                  "jump rope",
+                  "",
+                  "필통",
+                  ""
+                ],
+                [
+                  "hundred",
+                  "",
+                  "1000, 천",
+                  ""
+                ],
+                [
+                  "want",
+                  "",
+                  "너무",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "sc _ rf  (목도리)",
+                "sw _ _ ter  (스웨터)",
+                "T-sh _ rt  (티셔츠)",
+                "j _ mp rope  (줄넘기)",
+                "p _ ncil case  (필통)",
+                "h _ ndred  (100)",
+                "w _ nt  (원하다)",
+                "n _ ce  (멋진)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '물건 이름'과 '물건이 아닌 말'로 나누어 쓰세요.",
+              "box": [
+                "scarf",
+                "want",
+                "sweater",
+                "too",
+                "toy car",
+                "small",
+                "jump rope"
+              ],
+              "columns": [
+                "물건 이름",
+                "물건이 아닌 말"
+              ],
+              "rows": 2
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "sweater",
+                "thousand",
+                "pencil case"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "How much is this scarf?",
+                "It's seven hundred won.",
+                "I want this toy car.",
+                "How much is it?",
+                "It's nine hundred won."
+              ],
+              "right": [
+                "이것은 얼마인가요?",
+                "900원입니다.",
+                "이 목도리는 얼마인가요?",
+                "저는 이 장난감 자동차를 원해요.",
+                "700원이에요."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 말을 보고 빈칸에 알맞은 영어를 쓰세요.",
+              "items": [
+                "(700원) How much is it?  →  It's ________ hundred won.",
+                "(900원) How much is this scarf?  →  It's ________ hundred won.",
+                "(줄넘기) I want this __________.  저는 이 줄넘기를 원해요.",
+                "(목도리) How much is this __________?  이 목도리는 얼마인가요?"
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "much / How / it / is / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "want / I / toy car / this / .",
+                  "label": "→"
+                },
+                {
+                  "text": "seven / It's / hundred / won / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "want",
+                "much",
+                "It's",
+                "hundred"
+              ],
+              "items": [
+                "A: I __________ this jump rope.",
+                "A: How __________ is it?",
+                "B: __________ seven hundred won.",
+                "A: I want this scarf.    B: It's nine __________ won."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "가까이 있는 물건의 가격을 물을 때:  How ______ is this + 물건 이름?",
+                "앞에서 말한 물건의 가격을 물을 때:  How much is ______?",
+                "원할 때:  I ____ this + 물건 이름.    가격을 말할 때:  ____ + 숫자 + won."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 물건 이름을 찾아 ○표 하세요.",
+              "items": [
+                "How much is this scarf?",
+                "I want this toy car.",
+                "I want this jump rope.",
+                "How much is this sweater?"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "How much ( is / it ) this scarf?  이 목도리는 얼마인가요?",
+                "How ( much / small ) is it?  이것은 얼마인가요?",
+                "I ( want / help ) this toy car.  저는 이 장난감 자동차를 원해요.",
+                "I want ( this / it ) jump rope.  저는 이 줄넘기를 원해요.",
+                "It's seven ( hundred / thousand ) won.  700원이에요.",
+                "( It's / Is ) nine hundred won.  900원입니다."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 넣어 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( scarf )  이 목도리는 얼마인가요?",
+                  "label": "→"
+                },
+                {
+                  "text": "( toy car )  저는 이 장난감 자동차를 원해요.",
+                  "label": "→"
+                },
+                {
+                  "text": "( 900 )  900원입니다.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "is it",
+                "want",
+                "won"
+              ],
+              "items": [
+                {
+                  "text": "How much it is?  (이것은 얼마인가요?)",
+                  "label": "→"
+                },
+                {
+                  "text": "I wont this scarf.  (저는 이 목도리를 원해요.)",
+                  "label": "→"
+                },
+                {
+                  "text": "It's seven hundred.  (700원이에요.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기: (sweater, 900원) → How much is this sweater? It's nine hundred won.",
+              "columns": [
+                "번호",
+                "물건",
+                "가격"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "scarf",
+                  "700원"
+                ],
+                [
+                  "⑵",
+                  "toy car",
+                  "900원"
+                ],
+                [
+                  "⑶",
+                  "jump rope",
+                  "700원"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 보기처럼 두 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: How ______ is this T-shirt?    B: It's nine ______ won.",
+                "A: I ______ this pencil case.  How much is ______?",
+                "B: ______ seven hundred ______.  (700원)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "원하는 물건을 골라 가격을 묻고, 대답을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "물건 이름 6개를 보지 않고 쓸 수 있다.",
+            "How much is it? 으로 가격을 물을 수 있다.",
+            "It's ~ won. 으로 가격을 말할 수 있다.",
+            "문장 첫 글자를 대문자로 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

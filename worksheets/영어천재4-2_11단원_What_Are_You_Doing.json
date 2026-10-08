@@ -1,0 +1,481 @@
+{
+  "slug": "영어천재4-2_11단원_What_Are_You_Doing",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 4-2 · 11단원",
+  "title": "What Are You Doing?",
+  "subtitle": "(너는 뭐 하고 있어?) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "cook",
+            "요리하다"
+          ],
+          [
+            "clean",
+            "청소하다"
+          ],
+          [
+            "read",
+            "읽다"
+          ],
+          [
+            "make",
+            "만들다"
+          ],
+          [
+            "picture",
+            "그림"
+          ],
+          [
+            "hungry",
+            "배고픈"
+          ],
+          [
+            "room",
+            "방"
+          ],
+          [
+            "watch",
+            "보다"
+          ],
+          [
+            "watching TV",
+            "텔레비전 보기"
+          ],
+          [
+            "making a robot",
+            "로봇 만들기"
+          ],
+          [
+            "reading a book",
+            "책 읽기"
+          ],
+          [
+            "drawing a picture",
+            "그림 그리기"
+          ],
+          [
+            "cleaning the room",
+            "방 청소하기"
+          ],
+          [
+            "cooking",
+            "요리하기"
+          ],
+          [
+            "draw",
+            "그리다"
+          ],
+          [
+            "help",
+            "돕다"
+          ]
+        ],
+        "sentences": [
+          [
+            "What are you doing?",
+            "너는 뭐 하고 있어?"
+          ],
+          [
+            "I'm cooking.",
+            "나는 요리하고 있어."
+          ],
+          [
+            "I'm reading a book.",
+            "나는 책을 읽고 있어."
+          ],
+          [
+            "Jake, what are you doing?",
+            "제이크, 뭐 하고 있어?"
+          ],
+          [
+            "I'm making a robot.",
+            "나는 로봇을 만들고 있어."
+          ],
+          [
+            "Can you help me?",
+            "나 좀 도와줄래?"
+          ],
+          [
+            "Sure, I can.",
+            "물론이지."
+          ],
+          [
+            "Sorry, I can't.",
+            "미안하지만 안 돼."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "cook",
+                  "",
+                  "청소하다",
+                  ""
+                ],
+                [
+                  "read",
+                  "",
+                  "만들다",
+                  ""
+                ],
+                [
+                  "picture",
+                  "",
+                  "배고픈",
+                  ""
+                ],
+                [
+                  "room",
+                  "",
+                  "보다",
+                  ""
+                ],
+                [
+                  "draw",
+                  "",
+                  "돕다",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "c _ _ k  (요리하다)",
+                "cl _ an  (청소하다)",
+                "r _ _ d  (읽다)",
+                "p _ cture  (그림)",
+                "h _ ngry  (배고픈)",
+                "w _ tch  (보다)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 말을 '동사(~하다)'와 '-ing 형(~하기)'으로 나누어 쓰세요.",
+              "box": [
+                "cook",
+                "cooking",
+                "read",
+                "reading a book",
+                "make",
+                "making a robot",
+                "draw"
+              ],
+              "columns": [
+                "동사 (~하다)",
+                "-ing 형 (~하기)"
+              ],
+              "rows": 1.5
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "hungry",
+                "picture",
+                "watching TV"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "What are you doing?",
+                "I'm cooking.",
+                "I'm making a robot.",
+                "Can you help me?",
+                "Sure, I can."
+              ],
+              "right": [
+                "나 좀 도와줄래?",
+                "나는 로봇을 만들고 있어.",
+                "물론이지.",
+                "너는 뭐 하고 있어?",
+                "나는 요리하고 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 말을 보고 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(요리) What are you doing?  →  I'm __________.",
+                "(책 읽기) What are you doing?  →  I'm __________ a book.",
+                "(로봇 만들기) What are you doing?  →  I'm __________ a robot.",
+                "(도와줄 수 있어) Can you help me?  →  __________, I can."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "are / What / doing / you / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "reading / I'm / book / a / .",
+                  "label": "→"
+                },
+                {
+                  "text": "you / Can / me / help / ?",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "doing",
+                "making",
+                "help",
+                "Sorry"
+              ],
+              "items": [
+                "A: Jake, what are you __________?",
+                "B: I'm __________ a robot.",
+                "A: Can you __________ me?",
+                "B: __________, I can't."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "지금 하는 동작을 물을 때:  What are you ______?",
+                "동작을 말할 때:  I'm + 동사 ____ 형.    make → ____  (e 빼기)",
+                "도움 요청:  Can you ____ me?    대답:  ____, I can. / Sorry, I ____."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 -ing 형(하고 있는 동작)을 찾아 ○표 하세요.",
+              "items": [
+                "I'm cooking.",
+                "I'm reading a book.",
+                "I'm making a robot.",
+                "I'm drawing a picture."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "What ( are / is ) you doing?  너는 뭐 하고 있어?",
+                "I'm ( cook / cooking ).  나는 요리하고 있어.",
+                "I'm ( makeing / making ) a robot.  나는 로봇을 만들고 있어.",
+                "I'm ( reading / read ) a book.  나는 책을 읽고 있어.",
+                "Can you ( help / helping ) me?  나 좀 도와줄래?",
+                "( Sure / Sorry ), I can.  물론이지."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 동사를 -ing 형으로 바꾸어 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( clean, the room )  나는 방을 청소하고 있어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( draw, a picture )  나는 그림을 그리고 있어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( watch, TV )  나는 텔레비전을 보고 있어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "-ing",
+                "e 빼기",
+                "Sure"
+              ],
+              "items": [
+                {
+                  "text": "I'm cook.  (나는 요리하고 있어.)",
+                  "label": "→"
+                },
+                {
+                  "text": "I'm makeing a robot.  (나는 로봇을 만들고 있어.)",
+                  "label": "→"
+                },
+                {
+                  "text": "Sorry, I can.  (물론이지.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기: (draw, a picture) → What are you doing? I'm drawing a picture.",
+              "columns": [
+                "번호",
+                "동사",
+                "무엇을"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "read",
+                  "a book"
+                ],
+                [
+                  "⑵",
+                  "make",
+                  "a robot"
+                ],
+                [
+                  "⑶",
+                  "clean",
+                  "the room"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 보기처럼 묻고 답하는 두 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: What are you ______?    B: I'm ______ a book.  (읽기)",
+                "A: Jake, what are you doing?    B: I'm ______.  (요리)",
+                "A: Can you ______ me?    B: ______, I can."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "지금 하고 있는 일을 묻고, 나의 대답을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "동사에 -ing를 붙일 수 있다.",
+            "What are you doing? 에 대답할 수 있다.",
+            "make → making 처럼 e를 뺐다.",
+            "문장 첫 글자를 대문자로 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}

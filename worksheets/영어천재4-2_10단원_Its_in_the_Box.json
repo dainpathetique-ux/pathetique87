@@ -1,0 +1,473 @@
+{
+  "slug": "영어천재4-2_10단원_Its_in_the_Box",
+  "logo": false,
+  "academy": "윤선생 IGSE 성당어학원",
+  "course": "초등영어 평가 대비",
+  "grade": "천재교육 4-2 · 10단원",
+  "title": "It's in the Box.",
+  "subtitle": "(상자 안에 있어.) 단원 연습 워크시트",
+  "plan": [
+    "단어 익히기 8분",
+    "문장 익히기 12분",
+    "문법 다지기 15분",
+    "받아쓰기·점검 5분"
+  ],
+  "pages": [
+    {
+      "spacing": "tight",
+      "intro": {
+        "note": "이번 단원 단어와 문장",
+        "words": [
+          [
+            "on the desk",
+            "책상 위에"
+          ],
+          [
+            "on the sofa",
+            "소파 위에"
+          ],
+          [
+            "in the box",
+            "상자 안에"
+          ],
+          [
+            "in the bag",
+            "가방 안에"
+          ],
+          [
+            "under the table",
+            "탁자 아래에"
+          ],
+          [
+            "under the chair",
+            "의자 아래에"
+          ],
+          [
+            "where",
+            "어디에"
+          ],
+          [
+            "desk",
+            "책상"
+          ],
+          [
+            "in",
+            "~안에"
+          ],
+          [
+            "shoe",
+            "신발 한 짝"
+          ],
+          [
+            "on",
+            "~위에"
+          ],
+          [
+            "my",
+            "나의"
+          ],
+          [
+            "under",
+            "~아래에"
+          ],
+          [
+            "sock",
+            "양말 한 짝"
+          ]
+        ],
+        "sentences": [
+          [
+            "Where is my hat?",
+            "내 모자가 어디에 있지?"
+          ],
+          [
+            "It's in the box.",
+            "상자 안에 있어."
+          ],
+          [
+            "Where is my pencil case?",
+            "내 필통이 어디에 있지?"
+          ],
+          [
+            "I don't know.",
+            "모르겠어."
+          ],
+          [
+            "Where is my sock?",
+            "내 양말 한 짝이 어디에 있지?"
+          ],
+          [
+            "It's on the sofa.",
+            "소파 위에 있어."
+          ],
+          [
+            "What's this? Is it a hat?",
+            "이게 뭐지? 모자인가?"
+          ],
+          [
+            "No, it isn't. It's a sock.",
+            "아니, 그렇지 않아. 그건 양말 한 짝이야."
+          ]
+        ]
+      },
+      "sections": [
+        {
+          "title": "1. 단어 익히기",
+          "color": "teal",
+          "items": [
+            {
+              "type": "table",
+              "q": "왼쪽은 영어를 보고 뜻을, 오른쪽은 뜻을 보고 영어 단어를 쓰세요.",
+              "columns": [
+                "단어",
+                "뜻",
+                "뜻",
+                "단어"
+              ],
+              "rows": [
+                [
+                  "on the desk",
+                  "",
+                  "소파 위에",
+                  ""
+                ],
+                [
+                  "in the box",
+                  "",
+                  "가방 안에",
+                  ""
+                ],
+                [
+                  "under the table",
+                  "",
+                  "의자 아래에",
+                  ""
+                ],
+                [
+                  "where",
+                  "",
+                  "나의",
+                  ""
+                ],
+                [
+                  "shoe",
+                  "",
+                  "양말 한 짝",
+                  ""
+                ]
+              ]
+            },
+            {
+              "type": "spell",
+              "q": "빠진 글자를 상자에 써서 단어를 완성하세요.",
+              "items": [
+                "d _ sk  (책상)",
+                "b _ x  (상자)",
+                "b _ g  (가방)",
+                "ch _ ir  (의자)",
+                "s _ ck  (양말 한 짝)",
+                "sh _ _  (신발 한 짝)"
+              ]
+            },
+            {
+              "type": "sort",
+              "q": "보기의 단어를 '위치를 나타내는 말'과 '물건 이름'으로 나누어 쓰세요.",
+              "box": [
+                "in",
+                "desk",
+                "on",
+                "sock",
+                "under",
+                "shoe",
+                "box"
+              ],
+              "columns": [
+                "위치를 나타내는 말",
+                "물건 이름"
+              ],
+              "rows": 1.5
+            },
+            {
+              "type": "fourlines",
+              "q": "회색 글자를 따라 쓰고, 옆에 한 번 더 쓰세요. 쓰면서 소리 내어 읽으세요.",
+              "items": [
+                "under",
+                "where",
+                "sock"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "loose",
+      "sections": [
+        {
+          "title": "2. 문장 익히기",
+          "color": "blue",
+          "items": [
+            {
+              "type": "match",
+              "q": "영어 문장과 알맞은 우리말 뜻을 선으로 이으세요.",
+              "left": [
+                "Where is my hat?",
+                "It's in the box.",
+                "I don't know.",
+                "It's on the sofa.",
+                "Is it a hat?"
+              ],
+              "right": [
+                "소파 위에 있어.",
+                "모자인가?",
+                "내 모자가 어디에 있지?",
+                "모르겠어.",
+                "상자 안에 있어."
+              ]
+            },
+            {
+              "type": "list",
+              "q": "괄호 안의 위치를 보고 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "(상자 안) Where is my hat?  →  It's ______ the box.",
+                "(소파 위) Where is my sock?  →  It's ______ the sofa.",
+                "(탁자 아래) Where is my shoe?  →  It's ______ the table.",
+                "(모르겠어) Where is my pencil case?  →  I don't __________."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "낱말을 순서대로 배열하여 문장을 쓰세요. 첫 글자는 대문자로, 끝에는 ? 나 . 를 붙이세요.",
+              "items": [
+                {
+                  "text": "is / Where / hat / my / ?",
+                  "label": "→"
+                },
+                {
+                  "text": "in / It's / box / the / .",
+                  "label": "→"
+                },
+                {
+                  "text": "don't / I / know / .",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 보기에서 골라 쓰세요.",
+              "box": [
+                "Where",
+                "in",
+                "know",
+                "isn't"
+              ],
+              "items": [
+                "A: __________ is my hat?",
+                "B: It's __________ the box.",
+                "A: Where is my sock?    B: I don't __________.",
+                "A: Is it a hat?    B: No, it __________.  It's a sock."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "normal",
+      "sections": [
+        {
+          "title": "3. 문법 다지기 ①",
+          "color": "violet",
+          "items": [
+            {
+              "type": "list",
+              "q": "문법 정리의 빈칸을 채우세요.",
+              "items": [
+                "물건이 어디에 있는지 물을 때:  ______ is my + 물건 이름?",
+                "위치를 말할 때:  ______ + 위치 어구.    모를 때:  I ______ know.",
+                "위치를 나타내는 말:  ____ (~안에),  ____ (~위에),  ____ (~아래에)"
+              ]
+            },
+            {
+              "type": "select",
+              "q": "문장에서 위치를 나타내는 말(in, on, under)을 찾아 ○표 하세요.",
+              "items": [
+                "It's in the box.",
+                "It's on the sofa.",
+                "It's under the chair.",
+                "It's in the bag."
+              ]
+            },
+            {
+              "type": "select",
+              "q": "우리말에 맞는 것을 골라 ○표 하세요.",
+              "items": [
+                "( Where / What ) is my hat?  내 모자가 어디에 있지?",
+                "Where is ( my / I ) sock?  내 양말 한 짝이 어디에 있지?",
+                "It's ( in / on ) the box.  상자 안에 있어.",
+                "It's ( on / under ) the sofa.  소파 위에 있어.",
+                "It's ( in / under ) the table.  탁자 아래에 있어.",
+                "I ( don't / isn't ) know.  모르겠어."
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "괄호 안의 말을 넣어 우리말에 맞는 문장을 쓰세요.",
+              "items": [
+                {
+                  "text": "( pencil case )  내 필통이 어디에 있지?",
+                  "label": "→"
+                },
+                {
+                  "text": "( under, chair )  의자 아래에 있어.",
+                  "label": "→"
+                },
+                {
+                  "text": "( on, desk )  책상 위에 있어.",
+                  "label": "→"
+                }
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+              "box": [
+                "Where",
+                "in / on / under",
+                "don't"
+              ],
+              "items": [
+                {
+                  "text": "Were is my hat?  (내 모자가 어디에 있지?)",
+                  "label": "→"
+                },
+                {
+                  "text": "It's on the box.  (상자 안에 있어.)",
+                  "label": "→"
+                },
+                {
+                  "text": "I not know.  (모르겠어.)",
+                  "label": "→"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "spacing": "tight",
+      "sections": [
+        {
+          "title": "4. 문법 다지기 ②",
+          "color": "violet",
+          "items": [
+            {
+              "type": "table",
+              "q": "보기: (bag, under the table) → Where is my bag? It's under the table.",
+              "columns": [
+                "번호",
+                "물건",
+                "위치"
+              ],
+              "rows": [
+                [
+                  "⑴",
+                  "hat",
+                  "in the box"
+                ],
+                [
+                  "⑵",
+                  "sock",
+                  "on the sofa"
+                ],
+                [
+                  "⑶",
+                  "shoe",
+                  "under the chair"
+                ]
+              ]
+            },
+            {
+              "type": "fourlines",
+              "q": "위 표의 ⑴~⑶을 보기처럼 두 문장으로 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "q": "대화의 빈칸에 알맞은 말을 쓰세요.",
+              "items": [
+                "A: ______ is my hat?    B: It's ______ the box.  (안)",
+                "A: Where is my ______?  (양말)    B: It's ______ the sofa.  (위)",
+                "A: Where is my shoe?    B: I ______ know."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. 나만의 문장 쓰기",
+          "color": "orange",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "내 물건 하나를 골라 어디에 있는지 묻고, 대답을 쓰세요.",
+              "items": [
+                {
+                  "pre": "Q:",
+                  "label": "⑴"
+                },
+                {
+                  "pre": "A:",
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. 받아쓰기",
+          "color": "green",
+          "items": [
+            {
+              "type": "fourlines",
+              "q": "선생님이 읽어 주는 문장을 듣고 쓰세요.",
+              "items": [
+                {
+                  "label": "⑴"
+                },
+                {
+                  "label": "⑵"
+                },
+                {
+                  "label": "⑶"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. 스스로 점검",
+          "color": "green",
+          "checklist": [
+            "in, on, under 의 뜻을 안다.",
+            "Where is my ~? 로 물을 수 있다.",
+            "It's ~. 로 위치를 말할 수 있다.",
+            "문장 첫 글자를 대문자로 썼다."
+          ],
+          "stamp": "선생님 한마디"
+        }
+      ]
+    }
+  ]
+}
