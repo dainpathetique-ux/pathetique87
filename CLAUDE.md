@@ -21,3 +21,8 @@
 - 한글 글꼴: `tool/kr400.woff2`, `tool/kr700.woff2` (Noto Sans KR). 빌드 시 output 폴더로 복사된다.
 - 실제 제작 예: `worksheets/4학년_1일차_색의무게감.json` (교재 10쪽, 설명문)
 - 참고 샘플: `worksheets/샘플_4학년_급식잔반.json` → `output/샘플_4학년_급식잔반/`
+
+## 영문법 산책 블로그 (요청이 "문법 포인트 / 학년 / DNA" 형식이면)
+1. `prompts/영문법_산책_블로그_프롬프트.md` 를 그대로 따른다. 산출물은 블로그 글, 정리본 PNG 2~3장, 30초 무음 영상 MP4 세 가지뿐이다.
+2. 결과는 `blog/<학년>_<문법명>/` 에 둔다 (`본문.md`, `정리본_N.png`, `영상.mp4`, `src/*.html`).
+3. 렌더링: `node tool/blog_render.js png <html...>` / `node tool/blog_render.js mp4 <html> <out.mp4>`. PNG와 영상 검수 화면을 직접 확인한 뒤 SendUserFile로 보내고 커밋·푸시한다.
