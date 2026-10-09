@@ -21,3 +21,10 @@
 - 한글 글꼴: `tool/kr400.woff2`, `tool/kr700.woff2` (Noto Sans KR). 빌드 시 output 폴더로 복사된다.
 - 실제 제작 예: `worksheets/4학년_1일차_색의무게감.json` (교재 10쪽, 설명문)
 - 참고 샘플: `worksheets/샘플_4학년_급식잔반.json` → `output/샘플_4학년_급식잔반/`
+
+## 영어 단어 '소리로 외우기' 워크북 (철자 암기 없음)
+- 데이터: `vocab/<교재>_Day<n>.json`. 단어마다 `en`(단어), `chunks`(글자 조각과 한글 소리 쌍, 묵음은 소리를 `""`로), `sound`(합친 소리 한글), `ko`(뜻).
+- 빌드: `node tool/build_voca.js vocab/<파일>.json` → `output/<slug>/` 에 PNG 4쪽 + PDF. 넘침 표시가 나오면 뜻을 짧게 줄인다.
+- 구성(고정 4쪽): ①학습 카드(단어·소리 조각·합친 소리·뜻·읽기 체크) ②소리 합치기 연습 ③짝 맞추기 + 뜻 보고 소리 쓰기 ④미니 테스트 + 말하기 확인.
+- 소리 조각 원칙: 한 글자(또는 ea·ch·aigh 같은 한 덩어리)에 한글 소리 하나. 학생은 영어 발음(한글)과 뜻만 외운다.
+- 실제 제작 예: `vocab/VOCA_Starter2_Day25.json` (주니어 능률 VOCA Starter 2, DAY 25)
