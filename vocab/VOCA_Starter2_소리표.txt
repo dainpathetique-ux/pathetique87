@@ -1,0 +1,523 @@
+# 주니어 능률 VOCA Starter 2 — 소리 조각표 (철자 암기 없이 소리·뜻만 외우기)
+# 형식: 단어 | 글자:소리 글자:소리 ... (소리 없는 글자는 "-") | 합친 소리 | 뜻
+# tool/gen_voca.js 가 이 파일을 읽어 vocab/VOCA_Starter2_DayNN.json 을 만든다.
+[DAY 01]
+space | s:스 p:프 a:에이 c:스 e:- | 스페이스 | 공간; 우주
+across | a:어 c:크 r:르 o:오 ss:스 | 어크로스 | ~을 가로질러, 건너편에
+quickly | qu:쿠 i:이 ck:크 l:르 y:이 | 퀴클리 | 빨리
+lesson | l:르 e:에 ss:스 o:어 n:느 | 레슨 | 수업
+grade | g:그 r:르 a:에이 d:드 e:- | 그레이드 | 성적; 학년
+hard | h:흐 ar:아 d:드 | 하드 | 단단한; 어려운
+person | p:프 er:어 s:스 o:어 n:느 | 퍼슨 | 사람
+live | l:르 i:이 v:브 e:- | 리브 | 살다
+calm | c:크 a:아 l:- m:므 | 캄 | 침착한, 차분한
+decide | d:드 e:이 c:스 i:아이 d:드 e:- | 디사이드 | 결정하다
+think | th:쓰 i:이 n:느 k:크 | 씽크 | 생각하다
+floor | f:프 l:르 oor:오어 | 플로어 | 바닥; 층
+[DAY 02]
+free | f:프 r:르 ee:이 | 프리 | 자유로운; 무료의
+use | u:유 s:즈 e:- | 유즈 | 쓰다, 사용하다
+calendar | c:크 a:애 l:을 e:이 n:느 d:드 ar:어 | 캘린더 | 달력
+take | t:트 a:에이 k:크 e:- | 테이크 | 잡다; 가져가다
+turn | t:트 ur:어 n:느 | 턴 | 돌다; 차례
+often | o:오 f:프 t:- e:어 n:느 | 오픈 | 자주, 종종
+lazy | l:르 a:에이 z:즈 y:이 | 레이지 | 게으른
+museum | m:므 u:유 s:즈 e:이 u:어 m:므 | 뮤지엄 | 박물관
+country | c:크 ou:어 n:느 t:트 r:르 y:이 | 컨트리 | 나라
+bright | b:브 r:르 igh:아이 t:트 | 브라이트 | 밝은
+perfect | p:프 er:어 f:프 e:에 c:크 t:트 | 퍼펙트 | 완벽한
+habit | h:흐 a:애 b:브 i:이 t:트 | 해빗 | 습관, 버릇
+[DAY 03]
+sand | s:스 a:애 n:느 d:드 | 샌드 | 모래
+bookstore | b:브 oo:우 k:크 s:스 t:트 ore:오어 | 북스토어 | 서점
+thank | th:쓰 a:애 n:느 k:크 | 쌩크 | 감사하다
+show | sh:쉬 ow:오우 | 쇼우 | 보여주다; 쇼
+fun | f:프 u:어 n:느 | 펀 | 재미; 재미있는
+catch | c:크 a:애 tch:츠 | 캐치 | 잡다
+idea | i:아이 d:드 e:이 a:어 | 아이디어 | 생각
+easily | ea:이 s:즈 i:이 l:르 y:이 | 이질리 | 쉽게
+front | f:프 r:르 o:어 n:느 t:트 | 프런트 | 앞쪽
+bored | b:브 or:오어 e:- d:드 | 보어드 | 지루해하는
+curious | c:크 u:유 r:르 i:이 ou:어 s:스 | 큐리어스 | 궁금한
+fashion | f:프 a:애 sh:쉬 io:어 n:느 | 패션 | 유행; 패션
+[DAY 04]
+popular | p:프 o:아 p:프 u:유 l:을 ar:어 | 파퓰러 | 인기 있는
+because | b:브 e:이 c:크 au:오 s:즈 e:- | 비코즈 | ~ 때문에
+win | w:우 i:이 n:느 | 윈 | 이기다
+ocean | o:오 c:쉬 ea:어 n:느 | 오션 | 바다
+climb | c:크 l:을 i:아이 m:므 b:- | 클라임 | 오르다
+camp | c:크 a:애 m:므 p:프 | 캠프 | 야영, 캠프
+neighbor | n:느 eigh:에이 b:브 or:어 | 네이버 | 이웃
+god | g:그 o:아 d:드 | 갓 | 신, 하느님
+expensive | e:이 x:크스 p:프 e:에 n:느 s:스 i:이 v:브 e:- | 익스펜시브 | 비싼
+honest | h:- o:아 n:느 e:이 s:스 t:트 | 아니스트 | 정직한
+break | b:브 r:르 ea:에이 k:크 | 브레이크 | 깨다, 부수다
+match | m:므 a:애 tch:츠 | 매치 | 경기, 시합
+[DAY 05]
+sell | s:스 e:에 ll:을 | 셀 | 팔다
+hundred | h:흐 u:어 n:느 d:드 r:르 e:에 d:드 | 헌드레드 | 100, 백
+engineer | e:에 n:느 g:즈 i:이 n:느 eer:이어 | 엔지니어 | 기술자
+island | i:아이 s:- l:을 a:애 n:느 d:드 | 아일랜드 | 섬
+wear | w:우 ear:에어 | 웨어 | 입다, 신다
+funny | f:프 u:어 nn:느 y:이 | 퍼니 | 우스운, 재미있는
+address | a:어 dd:드 r:르 e:에 ss:스 | 어드레스 | 주소
+bill | b:브 i:이 ll:을 | 빌 | 청구서, 계산서
+plan | p:프 l:을 a:애 n:느 | 플랜 | 계획하다
+around | a:어 r:르 ou:아우 n:느 d:드 | 어라운드 | ~ 주위에
+cry | c:크 r:르 y:아이 | 크라이 | 울다
+fat | f:프 a:애 t:트 | 팻 | 뚱뚱한
+[DAY 06]
+mistake | m:므 i:이 s:스 t:트 a:에이 k:크 e:- | 미스테이크 | 실수
+without | w:우 i:이 th:드 ou:아우 t:트 | 위다웃 | ~ 없이
+cash | c:크 a:애 sh:쉬 | 캐시 | 현금
+create | c:크 r:르 e:이 a:에이 t:트 e:- | 크리에이트 | 만들다, 창조하다
+scary | s:스 c:크 a:에어 r:르 y:이 | 스케어리 | 무서운
+bug | b:브 u:어 g:그 | 버그 | 벌레
+borrow | b:브 o:아 rr:르 ow:오우 | 바로우 | 빌리다
+lovely | l:르 o:어 v:브 e:- l:르 y:이 | 러블리 | 사랑스러운
+memory | m:므 e:에 m:므 o:어 r:르 y:이 | 메머리 | 기억
+forest | f:프 or:오 e:이 s:스 t:트 | 포리스트 | 숲
+sit | s:스 i:이 t:트 | 싯 | 앉다
+theater | th:쓰 ea:이어 t:트 er:어 | 씨어터 | 극장
+[DAY 07]
+try | t:트 r:르 y:아이 | 트라이 | 노력하다; 시도하다
+example | e:이 x:그즈 a:애 m:므 p:프 l:을 e:- | 이그잼플 | 예시, 보기
+fall | f:프 a:오 ll:을 | 폴 | 떨어지다; 가을
+beach | b:브 ea:이 ch:츠 | 비치 | 해변
+brush | b:브 r:르 u:어 sh:쉬 | 브러시 | 붓, 솔; 닦다
+hear | h:흐 ear:이어 | 히어 | 듣다
+problem | p:프 r:르 o:아 b:브 l:을 e:어 m:므 | 프라블럼 | 문제
+past | p:프 a:애 s:스 t:트 | 패스트 | 과거의; 과거
+tail | t:트 ai:에이 l:을 | 테일 | 꼬리
+cage | c:크 a:에이 g:즈 e:- | 케이지 | 우리, 새장
+early | ear:어 l:르 y:이 | 얼리 | 이른, 빠른
+next | n:느 e:에 x:크스 t:트 | 넥스트 | 다음
+[DAY 08]
+loud | l:르 ou:아우 d:드 | 라우드 | 시끄러운
+until | u:어 n:느 t:트 i:이 l:을 | 언틸 | ~까지
+laugh | l:르 au:애 gh:프 | 래프 | 웃다
+stick | s:스 t:트 i:이 ck:크 | 스틱 | 막대기; 붙다
+life | l:르 i:아이 f:프 e:- | 라이프 | 생명; 인생
+ride | r:르 i:아이 d:드 e:- | 라이드 | 타다
+serious | s:스 e:이 r:르 i:이 ou:어 s:스 | 시리어스 | 심각한
+build | b:브 ui:이 l:을 d:드 | 빌드 | 짓다
+pumpkin | p:프 u:어 m:므 p:프 k:크 i:이 n:느 | 펌프킨 | 호박
+weak | w:우 ea:이 k:크 | 위크 | 약한
+pool | p:프 oo:우 l:을 | 풀 | 수영장
+office | o:오 ff:프 i:이 c:스 e:- | 오피스 | 사무실
+[DAY 09]
+join | j:즈 oi:오이 n:느 | 조인 | 가입하다; 연결하다
+strange | s:스 t:트 r:르 a:에이 n:느 g:즈 e:- | 스트레인지 | 이상한; 낯선
+thing | th:쓰 i:이 ng:응 | 씽 | 물건, 것
+sure | s:쉬 ure:우어 | 슈어 | 확실한
+festival | f:프 e:에 s:스 t:트 i:이 v:브 a:어 l:을 | 페스티벌 | 축제
+keep | k:크 ee:이 p:프 | 킵 | 유지하다; 계속하다
+die | d:드 ie:아이 | 다이 | 죽다
+church | ch:츠 ur:어 ch:츠 | 처치 | 교회
+heart | h:흐 ear:아 t:트 | 하트 | 심장; 마음
+weight | w:우 eigh:에이 t:트 | 웨이트 | 무게
+first | f:프 ir:어 s:스 t:트 | 퍼스트 | 첫 번째의
+mad | m:므 a:애 d:드 | 매드 | 화가 난
+[DAY 10]
+fantastic | f:프 a:애 n:느 t:트 a:애 s:스 t:트 i:이 c:크 | 팬태스틱 | 환상적인, 멋진
+let | l:르 e:에 t:트 | 렛 | ~하게 하다
+garbage | g:그 ar:아 b:브 a:이 g:즈 e:- | 가비지 | 쓰레기
+race | r:르 a:에이 c:스 e:- | 레이스 | 경주
+pick | p:프 i:이 ck:크 | 픽 | 고르다; 따다
+above | a:어 b:브 o:어 v:브 e:- | 어버브 | ~보다 위에
+nail | n:느 ai:에이 l:을 | 네일 | 손톱, 발톱
+palace | p:프 a:애 l:을 a:이 c:스 e:- | 팰리스 | 궁전
+ghost | gh:그 o:오우 s:스 t:트 | 고스트 | 유령
+station | s:스 t:트 a:에이 ti:쉬 o:어 n:느 | 스테이션 | 역, 정거장
+robot | r:르 o:오 b:브 o:아 t:트 | 로봇 | 로봇
+lonely | l:르 o:오 n:느 e:- l:르 y:이 | 론리 | 외로운
+[DAY 11]
+hero | h:흐 e:이어 r:르 o:오 | 히어로 | 영웅; 주인공
+copy | c:크 o:아 p:프 y:이 | 카피 | 복사; 베끼다
+speak | s:스 p:프 ea:이 k:크 | 스피크 | 말하다
+wood | w:우 oo:우 d:드 | 우드 | 나무, 목재
+rest | r:르 e:에 s:스 t:트 | 레스트 | 휴식; 쉬다
+fence | f:프 e:에 n:느 c:스 e:- | 펜스 | 울타리
+follow | f:프 o:아 ll:을 ow:오우 | 팔로우 | 따라가다
+careful | c:크 are:에어 f:프 u:어 l:을 | 케어풀 | 조심하는
+worry | w:우 o:어 rr:르 y:이 | 워리 | 걱정하다
+score | s:스 c:크 ore:오어 | 스코어 | 점수
+top | t:트 o:아 p:프 | 탑 | 맨 위, 꼭대기
+beef | b:브 ee:이 f:프 | 비프 | 소고기
+[DAY 12]
+almost | a:오 l:을 m:므 o:오우 s:스 t:트 | 올모스트 | 거의
+upset | u:어 p:프 s:스 e:에 t:트 | 업셋 | 속상한, 화난
+difficult | d:드 i:이 ff:프 i:이 c:크 u:어 l:을 t:트 | 디피컬트 | 어려운
+safe | s:스 a:에이 f:프 e:- | 세이프 | 안전한
+hate | h:흐 a:에이 t:트 e:- | 헤이트 | 싫어하다
+salt | s:스 a:오 l:을 t:트 | 솔트 | 소금
+contest | c:크 o:아 n:느 t:트 e:에 s:스 t:트 | 칸테스트 | 대회, 시합
+push | p:프 u:우 sh:쉬 | 푸시 | 밀다
+badminton | b:브 a:애 d:드 m:므 i:이 n:느 t:트 o:어 n:느 | 배드민턴 | 배드민턴
+fix | f:프 i:이 x:크스 | 픽스 | 고치다
+fan | f:프 a:애 n:느 | 팬 | 팬
+home | h:흐 o:오우 m:므 e:- | 홈 | 집
+[DAY 13]
+role | r:르 o:오우 l:을 e:- | 롤 | 역할
+background | b:브 a:애 ck:크 g:그 r:르 ou:아우 n:느 d:드 | 백그라운드 | 배경
+jeans | j:즈 ea:이 n:느 s:즈 | 진스 | 청바지
+fact | f:프 a:애 c:크 t:트 | 팩트 | 사실
+talk | t:트 a:오 l:- k:크 | 토크 | 말하다
+bottle | b:브 o:아 tt:트 l:을 e:- | 바틀 | 병
+artist | ar:아 t:트 i:이 s:스 t:트 | 아티스트 | 예술가, 화가
+health | h:흐 ea:에 l:을 th:쓰 | 헬쓰 | 건강
+cover | c:크 o:어 v:브 er:어 | 커버 | 덮다
+special | s:스 p:프 e:에 ci:쉬 a:어 l:을 | 스페셜 | 특별한
+hang | h:흐 a:애 ng:응 | 행 | 걸다, 매달다
+wife | w:우 i:아이 f:프 e:- | 와이프 | 아내
+[DAY 14]
+by | b:브 y:아이 | 바이 | ~ 옆에; ~에 의해
+grape | g:그 r:르 a:에이 p:프 e:- | 그레이프 | 포도
+guess | g:그 u:- e:에 ss:스 | 게스 | 추측하다
+ready | r:르 ea:에 d:드 y:이 | 레디 | 준비가 된
+bring | b:브 r:르 i:이 ng:응 | 브링 | 가져오다
+backpack | b:브 a:애 ck:크 p:프 a:애 ck:크 | 백팩 | 배낭
+rule | r:르 u:우 l:을 e:- | 룰 | 규칙
+desert | d:드 e:에 s:즈 er:어 t:트 | 데저트 | 사막
+crowd | c:크 r:르 ow:아우 d:드 | 크라우드 | 군중
+couple | c:크 ou:어 p:프 l:을 e:- | 커플 | 두 사람, 두 개
+curly | c:크 ur:어 l:르 y:이 | 컬리 | 곱슬곱슬한
+stair | s:스 t:트 air:에어 | 스테어 | 계단
+[DAY 15]
+cross | c:크 r:르 o:오 ss:스 | 크로스 | 건너다
+rice | r:르 i:아이 c:스 e:- | 라이스 | 밥, 쌀
+return | r:르 e:이 t:트 ur:어 n:느 | 리턴 | 돌아오다; 돌려주다
+must | m:므 u:어 s:스 t:트 | 머스트 | ~해야 한다
+death | d:드 ea:에 th:쓰 | 데쓰 | 죽음
+battery | b:브 a:애 tt:트 e:어 r:르 y:이 | 배터리 | 건전지
+business | b:브 u:이 s:즈 i:- n:느 e:이 ss:스 | 비즈니스 | 사업
+coin | c:크 oi:오이 n:느 | 코인 | 동전
+nervous | n:느 er:어 v:브 ou:어 s:스 | 너버스 | 긴장한
+colorful | c:크 o:어 l:을 or:어 f:프 u:어 l:을 | 컬러풀 | 알록달록한
+shower | sh:쉬 ow:아우 er:어 | 샤워 | 샤워; 소나기
+human | h:흐 u:유 m:므 a:어 n:느 | 휴먼 | 인간, 사람
+[DAY 16]
+sentence | s:스 e:에 n:느 t:트 e:어 n:느 c:스 e:- | 센텐스 | 문장
+traditional | t:트 r:르 a:어 d:드 i:이 ti:쉬 o:어 n:느 a:어 l:을 | 트러디셔널 | 전통의
+away | a:어 w:우 ay:에이 | 어웨이 | 떨어져, 멀리
+enjoy | e:이 n:느 j:즈 oy:오이 | 인조이 | 즐기다
+may | m:므 ay:에이 | 메이 | ~일지도 모른다
+village | v:브 i:이 ll:을 a:이 g:즈 e:- | 빌리지 | 마을
+writer | w:- r:르 i:아이 t:트 er:어 | 라이터 | 작가
+base | b:브 a:에이 s:스 e:- | 베이스 | 기초, 토대
+against | a:어 g:그 ai:에 n:느 s:스 t:트 | 어겐스트 | ~에 맞서
+information | i:이 n:느 f:프 or:어 m:므 a:에이 ti:쉬 o:어 n:느 | 인포메이션 | 정보
+mind | m:므 i:아이 n:느 d:드 | 마인드 | 마음
+strong | s:스 t:트 r:르 o:오 ng:응 | 스트롱 | 힘센, 강한
+[DAY 17]
+heat | h:흐 ea:이 t:트 | 히트 | 열; 데우다
+travel | t:트 r:르 a:애 v:브 e:어 l:을 | 트래블 | 여행하다
+file | f:프 i:아이 l:을 e:- | 파일 | 파일, 서류철
+newspaper | n:느 ew:유 s:즈 p:프 a:에이 p:프 er:어 | 뉴스페이퍼 | 신문
+wonderful | w:우 o:어 n:느 d:드 er:어 f:프 u:어 l:을 | 원더풀 | 아주 멋진
+nothing | n:느 o:어 th:쓰 i:이 ng:응 | 나씽 | 아무것도 아니다
+center | c:스 e:에 n:느 t:트 er:어 | 센터 | 중심
+boss | b:브 o:오 ss:스 | 보스 | 상사
+stadium | s:스 t:트 a:에이 d:드 i:이 u:어 m:므 | 스테이디엄 | 경기장
+need | n:느 ee:이 d:드 | 니드 | 필요하다
+last | l:르 a:애 s:스 t:트 | 래스트 | 마지막의; 지난
+prize | p:프 r:르 i:아이 z:즈 e:- | 프라이즈 | 상, 상품
+[DAY 18]
+large | l:르 ar:아 g:즈 e:- | 라지 | 큰, 넓은
+forget | f:프 or:어 g:그 e:에 t:트 | 퍼겟 | 잊다
+along | a:어 l:을 o:오 ng:응 | 어롱 | ~을 따라서
+bomb | b:브 o:아 m:므 b:- | 밤 | 폭탄
+however | h:흐 ow:아우 e:에 v:브 er:어 | 하우에버 | 그러나
+tell | t:트 e:에 ll:을 | 텔 | 말하다
+reporter | r:르 e:이 p:프 or:오 t:트 er:어 | 리포터 | 기자
+fry | f:프 r:르 y:아이 | 프라이 | 튀기다, 볶다
+ticket | t:트 i:이 ck:크 e:이 t:트 | 티킷 | 표, 입장권
+form | f:프 or:오 m:므 | 폼 | 만들다; 형태
+sweet | s:스 w:우 ee:이 t:트 | 스위트 | 달콤한
+shake | sh:쉬 a:에이 k:크 e:- | 셰이크 | 흔들다
+[DAY 19]
+mathematics | m:므 a:애 th:쓰 e:어 m:므 a:애 t:트 i:이 c:크 s:스 | 매써매틱스 | 수학
+lady | l:르 a:에이 d:드 y:이 | 레이디 | 여자분, 숙녀
+fill | f:프 i:이 ll:을 | 필 | 채우다
+control | c:크 o:어 n:느 t:트 r:르 o:오우 l:을 | 컨트롤 | 통제하다
+vegetable | v:브 e:에 g:즈 e:- t:트 a:어 b:브 l:을 e:- | 베지터블 | 채소
+same | s:스 a:에이 m:므 e:- | 세임 | 같은
+oil | oi:오이 l:을 | 오일 | 기름
+blood | b:브 l:을 oo:어 d:드 | 블러드 | 피
+club | c:크 l:을 u:어 b:브 | 클럽 | 동아리, 클럽
+subway | s:스 u:어 b:브 w:우 ay:에이 | 서브웨이 | 지하철
+real | r:르 ea:이 l:을 | 리얼 | 진짜의
+hurry | h:흐 u:어 rr:르 y:이 | 허리 | 서두르다
+[DAY 20]
+terrible | t:트 e:에 rr:르 i:이 b:브 l:을 e:- | 테러블 | 끔찍한
+spicy | s:스 p:프 i:아이 c:스 y:이 | 스파이시 | 매운
+congratulate | c:크 o:어 n:느 g:그 r:르 a:애 tu:츄 l:을 a:에이 t:트 e:- | 컨그래츄레이트 | 축하하다
+bottom | b:브 o:아 tt:트 o:어 m:므 | 바텀 | 맨 아래, 바닥
+wall | w:우 a:오 ll:을 | 월 | 벽; 담
+danger | d:드 a:에이 n:느 g:즈 er:어 | 데인저 | 위험
+carry | c:크 a:애 rr:르 y:이 | 캐리 | 나르다
+nature | n:느 a:에이 t:츠 ure:어 | 네이처 | 자연
+giant | g:즈 i:아이 a:어 n:느 t:트 | 자이언트 | 거대한
+enough | e:이 n:느 ou:어 gh:프 | 이너프 | 충분히
+gentleman | g:즈 e:에 n:느 t:트 l:을 e:- m:므 a:어 n:느 | 젠틀먼 | 신사
+order | or:오 d:드 er:어 | 오더 | 순서; 명령하다
+[DAY 21]
+accent | a:애 cc:크스 e:에 n:느 t:트 | 액센트 | 억양, 말투
+noodle | n:느 oo:우 d:드 l:을 e:- | 누들 | 국수
+empty | e:에 m:므 p:프 t:트 y:이 | 엠프티 | 비어 있는
+salty | s:스 a:오 l:을 t:트 y:이 | 솔티 | 짠
+main | m:므 ai:에이 n:느 | 메인 | 주된, 주요한
+speed | s:스 p:프 ee:이 d:드 | 스피드 | 속도
+fever | f:프 e:이 v:브 er:어 | 피버 | 열
+design | d:드 e:이 s:즈 i:아이 g:- n:느 | 디자인 | 디자인하다
+lose | l:르 o:우 s:즈 e:- | 루즈 | 잃어버리다
+twice | t:트 w:우 i:아이 c:스 e:- | 트와이스 | 두 번
+fresh | f:프 r:르 e:에 sh:쉬 | 프레시 | 신선한
+elementary | e:에 l:을 e:어 m:므 e:에 n:느 t:트 a:어 r:르 y:이 | 엘러멘터리 | 초급의
+[DAY 22]
+mix | m:므 i:이 x:크스 | 믹스 | 섞다
+face | f:프 a:에이 c:스 e:- | 페이스 | 얼굴
+below | b:브 e:이 l:을 ow:오우 | 빌로우 | ~보다 아래에
+kid | k:크 i:이 d:드 | 키드 | 아이
+future | f:프 u:유 t:츠 ure:어 | 퓨처 | 미래
+gesture | g:즈 e:에 s:스 t:츠 ure:어 | 제스처 | 몸짓
+brake | b:브 r:르 a:에이 k:크 e:- | 브레이크 | 브레이크
+excited | e:이 x:크 c:스 i:아이 t:트 e:이 d:드 | 익사이티드 | 신이 난
+invite | i:이 n:느 v:브 i:아이 t:트 e:- | 인바이트 | 초대하다
+east | ea:이 s:스 t:트 | 이스트 | 동쪽
+type | t:트 y:아이 p:프 e:- | 타입 | 종류, 유형
+thousand | th:쓰 ou:아우 s:즈 a:어 n:느 d:드 | 싸우전드 | 1000, 천
+[DAY 23]
+field | f:프 ie:이 l:을 d:드 | 필드 | 들판, 밭
+throw | th:쓰 r:르 ow:오우 | 쓰로우 | 던지다
+brand | b:브 r:르 a:애 n:느 d:드 | 브랜드 | 상표
+bakery | b:브 a:에이 k:크 e:어 r:르 y:이 | 베이커리 | 빵집
+north | n:느 or:오 th:쓰 | 노쓰 | 북쪽
+middle | m:므 i:이 dd:드 l:을 e:- | 미들 | 가운데
+cycle | c:스 y:아이 c:크 l:을 e:- | 사이클 | 순환, 주기
+medicine | m:므 e:에 d:드 i:이 c:스 i:이 n:느 e:- | 메디신 | 약
+far | f:프 ar:아 | 파 | 멀리; 먼
+present | p:프 r:르 e:에 s:즈 e:어 n:느 t:트 | 프레전트 | 현재의; 출석한
+shout | sh:쉬 ou:아우 t:트 | 샤우트 | 소리치다
+gate | g:그 a:에이 t:트 e:- | 게이트 | 문, 출입문
+[DAY 24]
+reason | r:르 ea:이 s:즈 o:어 n:느 | 리즌 | 이유
+amazing | a:어 m:므 a:에이 z:즈 i:이 ng:응 | 어메이징 | 놀라운
+leaf | l:르 ea:이 f:프 | 리프 | 잎
+if | i:이 f:프 | 이프 | 만약 ~라면
+castle | c:크 a:애 s:스 t:- l:을 e:- | 캐슬 | 성
+power | p:프 ow:아우 er:어 | 파워 | 힘
+grandparent | g:그 r:르 a:애 n:느 d:드 p:프 a:에어 r:르 e:어 n:느 t:트 | 그랜드페어런트 | 조부모
+protect | p:프 r:르 o:어 t:트 e:에 c:크 t:트 | 프러텍트 | 보호하다
+wild | w:우 i:아이 l:을 d:드 | 와일드 | 야생의
+bat | b:브 a:애 t:트 | 뱃 | 방망이, 배트
+become | b:브 e:이 c:크 o:어 m:므 e:- | 비컴 | ~이 되다
+west | w:우 e:에 s:스 t:트 | 웨스트 | 서쪽
+[DAY 25]
+spend | s:스 p:프 e:에 n:느 d:드 | 스펜드 | (돈을) 쓰다, (시간을) 보내다
+bite | b:브 i:아이 t:트 e:- | 바이트 | 물다; 한 입
+headache | h:흐 ea:에 d:드 a:에이 ch:크 e:- | 헤데이크 | 두통 (머리 아픔)
+adult | a:어 d:드 u:어 l:을 t:트 | 어덜트 | 어른, 성인
+straight | s:스 t:트 r:르 aigh:에이 t:트 | 스트레이트 | 똑바로, 곧장
+end | e:에 n:느 d:드 | 엔드 | 끝; 끝나다
+world | w:우 or:얼 l:을 d:드 | 월드 | 세계
+pear | p:프 ea:에 r:어 | 페어 | (과일) 배
+different | d:드 i:이 ff:프 e:어 r:르 e:어 n:느 t:트 | 디퍼런트 | 다른
+taste | t:트 a:에이 s:스 t:트 e:- | 테이스트 | 맛이 나다; 맛
+actor | a:애 c:크 t:트 or:어 | 액터 | 배우
+chance | ch:츠 a:애 n:느 c:스 e:- | 챈스 | 기회; 가능성
+[DAY 26]
+only | o:오우 n:느 l:르 y:이 | 온리 | 오직; 유일한
+add | a:애 dd:드 | 애드 | 더하다
+weather | w:우 ea:에 th:드 er:어 | 웨더 | 날씨
+teenager | t:트 ee:이 n:느 a:에이 g:즈 er:어 | 틴에이저 | 십 대
+accident | a:애 cc:크스 i:이 d:드 e:어 n:느 t:트 | 액시던트 | 사고
+during | d:드 u:유 r:르 i:이 ng:응 | 듀링 | ~ 동안
+toothache | t:트 oo:우 th:쓰 a:에이 ch:크 e:- | 투쓰에이크 | 치통
+roof | r:르 oo:우 f:프 | 루프 | 지붕
+exit | e:에 x:크스 i:이 t:트 | 엑시트 | 출구
+burn | b:브 ur:어 n:느 | 번 | 타다, 태우다
+cost | c:크 o:오 s:스 t:트 | 코스트 | (비용이) 들다
+huge | h:흐 u:유 g:즈 e:- | 휴지 | 거대한
+[DAY 27]
+guide | g:그 u:- i:아이 d:드 e:- | 가이드 | 안내인; 안내하다
+vacation | v:브 a:에이 c:크 a:에이 ti:쉬 o:어 n:느 | 베이케이션 | 휴가, 방학
+drop | d:드 r:르 o:아 p:프 | 드랍 | 떨어지다
+painting | p:프 ai:에이 n:느 t:트 i:이 ng:응 | 페인팅 | 그림
+rich | r:르 i:이 ch:츠 | 리치 | 부유한
+astronaut | a:애 s:스 t:트 r:르 o:어 n:느 au:오 t:트 | 애스트로넛 | 우주비행사
+agree | a:어 g:그 r:르 ee:이 | 어그리 | 동의하다
+side | s:스 i:아이 d:드 e:- | 사이드 | 옆면
+collect | c:크 o:어 ll:을 e:에 c:크 t:트 | 컬렉트 | 모으다
+clever | c:크 l:을 e:에 v:브 er:어 | 클레버 | 영리한
+cotton | c:크 o:아 tt:트 o:어 n:느 | 카튼 | 면, 목화
+bone | b:브 o:오우 n:느 e:- | 본 | 뼈
+[DAY 28]
+customer | c:크 u:어 s:스 t:트 o:어 m:므 er:어 | 커스터머 | 손님
+bowl | b:브 ow:오우 l:을 | 보울 | 그릇
+stomachache | s:스 t:트 o:어 m:므 a:어 ch:크 a:에이 ch:크 e:- | 스터머케이크 | 복통
+dangerous | d:드 a:에이 n:느 g:즈 er:어 ou:어 s:스 | 데인저러스 | 위험한
+dentist | d:드 e:에 n:느 t:트 i:이 s:스 t:트 | 덴티스트 | 치과 의사
+error | e:에 rr:르 or:어 | 에러 | 실수, 오류
+hunt | h:흐 u:어 n:느 t:트 | 헌트 | 사냥하다
+pay | p:프 ay:에이 | 페이 | 돈을 내다
+then | th:드 e:에 n:느 | 덴 | 그때; 그 다음에
+luck | l:르 u:어 ck:크 | 럭 | 행운
+other | o:어 th:드 er:어 | 아더 | 다른
+pond | p:프 o:아 n:느 d:드 | 판드 | 연못
+[DAY 29]
+wish | w:우 i:이 sh:쉬 | 위시 | 바라다; 소원
+lie | l:르 ie:아이 | 라이 | 눕다; 거짓말하다
+interest | i:이 n:느 t:트 e:어 r:르 e:에 s:스 t:트 | 인터레스트 | 관심, 흥미
+wake | w:우 a:에이 k:크 e:- | 웨이크 | 깨다, 일어나다
+humor | h:흐 u:유 m:므 or:어 | 휴머 | 유머
+company | c:크 o:어 m:므 p:프 a:어 n:느 y:이 | 컴퍼니 | 회사
+alone | a:어 l:을 o:오우 n:느 e:- | 얼론 | 혼자
+purple | p:프 ur:어 p:프 l:을 e:- | 퍼플 | 자주색
+gym | g:즈 y:이 m:므 | 짐 | 체육관
+minute | m:므 i:이 n:느 u:이 t:트 e:- | 미닛 | (시간) 분
+case | c:크 a:에이 s:스 e:- | 케이스 | 경우
+each | ea:이 ch:츠 | 이치 | 각각
+[DAY 30]
+earth | ear:어 th:쓰 | 어쓰 | 지구
+college | c:크 o:아 ll:을 e:이 g:즈 e:- | 칼리지 | 대학
+tie | t:트 ie:아이 | 타이 | 묶다; 넥타이
+choice | ch:츠 oi:오이 c:스 e:- | 초이스 | 선택
+brain | b:브 r:르 ai:에이 n:느 | 브레인 | 뇌
+double | d:드 ou:어 b:브 l:을 e:- | 더블 | 두 배의
+active | a:애 c:크 t:트 i:이 v:브 e:- | 액티브 | 활동적인
+recycle | r:르 e:이 c:스 y:아이 c:크 l:을 e:- | 리사이클 | 재활용하다
+meal | m:므 ea:이 l:을 | 밀 | 식사
+fog | f:프 o:아 g:그 | 포그 | 안개
+parade | p:프 a:어 r:르 a:에이 d:드 e:- | 퍼레이드 | 행렬, 퍼레이드
+save | s:스 a:에이 v:브 e:- | 세이브 | 구하다
+[DAY 31]
+step | s:스 t:트 e:에 p:프 | 스텝 | 걸음; 단계
+welcome | w:우 e:에 l:을 c:크 o:어 m:므 e:- | 웰컴 | 환영하다
+communicate | c:크 o:어 mm:므 u:유 n:느 i:이 c:크 a:에이 t:트 e:- | 커뮤니케이트 | 의사소통하다
+concert | c:크 o:아 n:느 c:스 er:어 t:트 | 콘서트 | 연주회
+secret | s:스 e:이 c:크 r:르 e:이 t:트 | 시크릿 | 비밀
+area | a:에어 r:르 e:이 a:어 | 에어리어 | 지역
+nickname | n:느 i:이 ck:크 n:느 a:에이 m:므 e:- | 닉네임 | 별명
+mask | m:므 a:애 s:스 k:크 | 매스크 | 가면, 마스크
+wet | w:우 e:에 t:트 | 웻 | 젖은
+pair | p:프 air:에어 | 페어 | 한 쌍
+heaven | h:흐 ea:에 v:브 e:어 n:느 | 헤븐 | 천국
+inside | i:이 n:느 s:스 i:아이 d:드 e:- | 인사이드 | ~의 안에
+[DAY 32]
+price | p:프 r:르 i:아이 c:스 e:- | 프라이스 | 값, 가격
+clear | c:크 l:을 ear:이어 | 클리어 | 분명한; 맑은
+tour | t:트 our:우어 | 투어 | 여행, 관광
+off | o:오 ff:프 | 오프 | ~에서 떨어져
+cloth | c:크 l:을 o:오 th:쓰 | 클로쓰 | 천, 옷감
+share | sh:쉬 are:에어 | 셰어 | 나누다, 공유하다
+history | h:흐 i:이 s:스 t:트 o:어 r:르 y:이 | 히스토리 | 역사
+lock | l:르 o:아 ck:크 | 락 | 잠그다
+experience | e:이 x:크스 p:프 e:이 r:르 i:이 e:어 n:느 c:스 e:- | 익스피리언스 | 경험
+serve | s:스 er:어 v:브 e:- | 서브 | (음식을) 내다
+bean | b:브 ea:이 n:느 | 빈 | 콩
+cartoon | c:크 ar:아 t:트 oo:우 n:느 | 카툰 | 만화
+[DAY 33]
+blank | b:브 l:을 a:애 n:느 k:크 | 블랭크 | 빈; 빈칸
+pants | p:프 a:애 n:느 t:트 s:스 | 팬츠 | 바지
+creative | c:크 r:르 e:이 a:에이 t:트 i:이 v:브 e:- | 크리에이티브 | 창의적인
+wonder | w:우 o:어 n:느 d:드 er:어 | 원더 | 궁금하다
+joy | j:즈 oy:오이 | 조이 | 기쁨
+stand | s:스 t:트 a:애 n:느 d:드 | 스탠드 | 서다
+cave | c:크 a:에이 v:브 e:- | 케이브 | 동굴
+focus | f:프 o:오우 c:크 u:어 s:스 | 포커스 | 집중하다
+birth | b:브 ir:어 th:쓰 | 버쓰 | 탄생, 출생
+musician | m:므 u:유 s:즈 i:이 ci:쉬 a:어 n:느 | 뮤지션 | 음악가
+plane | p:프 l:을 a:에이 n:느 e:- | 플레인 | 비행기
+lucky | l:르 u:어 ck:크 y:이 | 럭키 | 운이 좋은
+[DAY 34]
+divide | d:드 i:이 v:브 i:아이 d:드 e:- | 디바이드 | 나누다
+opinion | o:어 p:프 i:이 ni:니 o:어 n:느 | 어피니언 | 의견
+ahead | a:어 h:흐 ea:에 d:드 | 어헤드 | 앞으로, 앞에
+engine | e:에 n:느 g:즈 i:이 n:느 e:- | 엔진 | 엔진
+national | n:느 a:애 ti:쉬 o:어 n:느 a:어 l:을 | 내셔널 | 국가의
+into | i:이 n:느 t:트 o:우 | 인투 | ~ 안으로
+battle | b:브 a:애 tt:트 l:을 e:- | 배틀 | 전투
+weekly | w:우 ee:이 k:크 l:르 y:이 | 위클리 | 매주의
+piece | p:프 ie:이 c:스 e:- | 피스 | 조각
+boots | b:브 oo:우 t:트 s:스 | 부츠 | 장화, 부츠
+factory | f:프 a:애 c:크 t:트 o:어 r:르 y:이 | 팩토리 | 공장
+fail | f:프 ai:에이 l:을 | 페일 | 실패하다
+[DAY 35]
+language | l:르 a:애 n:느 gu:귀 a:이 g:즈 e:- | 랭귀지 | 언어
+peace | p:프 ea:이 c:스 e:- | 피스 | 평화
+afraid | a:어 f:프 r:르 ai:에이 d:드 | 어프레이드 | 무서워하는
+advise | a:어 d:드 v:브 i:아이 s:즈 e:- | 어드바이즈 | 조언하다
+than | th:드 a:애 n:느 | 댄 | ~보다
+discuss | d:드 i:이 s:스 c:크 u:어 ss:스 | 디스커스 | 논의하다
+plant | p:프 l:을 a:애 n:느 t:트 | 플랜트 | 식물
+shape | sh:쉬 a:에이 p:프 e:- | 셰이프 | 모양
+care | c:크 are:에어 | 케어 | 신경 쓰다; 돌보다
+online | o:온 n:- l:을 i:아이 n:느 e:- | 온라인 | 온라인의
+bicycle | b:브 i:아이 c:스 y:이 c:크 l:을 e:- | 바이시클 | 자전거
+mouse | m:므 ou:아우 s:스 e:- | 마우스 | 쥐
+[DAY 36]
+trash | t:트 r:르 a:애 sh:쉬 | 트래시 | 쓰레기
+south | s:스 ou:아우 th:쓰 | 사우쓰 | 남쪽
+forever | f:프 or:어 e:에 v:브 er:어 | 퍼레버 | 영원히
+friendly | f:프 r:르 ie:에 n:느 d:드 l:르 y:이 | 프렌들리 | 친절한
+machine | m:므 a:어 ch:쉬 i:이 n:느 e:- | 머신 | 기계
+board | b:브 oar:오 d:드 | 보드 | 판자; 게시판
+kill | k:크 i:이 ll:을 | 킬 | 죽이다
+please | p:프 l:을 ea:이 s:즈 e:- | 플리즈 | 부디, 제발
+practice | p:프 r:르 a:애 c:크 t:트 i:이 c:스 e:- | 프랙티스 | 연습하다
+video | v:브 i:이 d:드 e:이 o:오 | 비디오 | 영상, 비디오
+refrigerator | r:르 e:이 f:프 r:르 i:이 g:즈 e:어 r:르 a:에이 t:트 or:어 | 리프리저레이터 | 냉장고
+academy | a:어 c:크 a:애 d:드 e:어 m:므 y:이 | 어캐더미 | 학원
+[DAY 37]
+shock | sh:쉬 o:오 ck:크 | 쇼크 | 충격
+plate | p:프 l:을 a:에이 t:트 e:- | 플레이트 | 접시
+useful | u:유 s:스 e:- f:프 u:어 l:을 | 유스풀 | 유용한
+dolphin | d:드 o:아 l:을 ph:프 i:이 n:느 | 돌핀 | 돌고래
+age | a:에이 g:즈 e:- | 에이지 | 나이
+onion | o:어 ni:니 o:어 n:느 | 어니언 | 양파
+cafeteria | c:크 a:애 f:프 e:에 t:트 e:이 r:르 i:이 a:어 | 카페테리아 | 구내식당
+daily | d:드 ai:에이 l:르 y:이 | 데일리 | 매일의
+own | ow:오우 n:느 | 오운 | 자기 자신의
+stay | s:스 t:트 ay:에이 | 스테이 | 머무르다
+century | c:스 e:에 n:느 tu:츄 r:르 y:이 | 센츄리 | 세기, 100년
+sour | s:스 our:아워 | 사워 | 신, 시큼한
+[DAY 38]
+playground | p:프 l:을 ay:에이 g:그 r:르 ou:아우 n:느 d:드 | 플레이그라운드 | 운동장, 놀이터
+basic | b:브 a:에이 s:스 i:이 c:크 | 베이식 | 기본적인
+textbook | t:트 e:에 x:크스 t:트 b:브 oo:우 k:크 | 텍스트북 | 교과서
+connect | c:크 o:어 nn:느 e:에 c:크 t:트 | 커넥트 | 연결하다
+outside | ou:아우 t:트 s:스 i:아이 d:드 e:- | 아웃사이드 | 밖에
+character | ch:크 a:애 r:르 a:어 c:크 t:트 er:어 | 캐릭터 | 성격; 등장인물
+block | b:브 l:을 o:아 ck:크 | 블락 | 막다
+war | w:우 ar:오 | 워 | 전쟁
+over | o:오우 v:브 er:어 | 오버 | ~ 위에
+invent | i:이 n:느 v:브 e:에 n:느 t:트 | 인벤트 | 발명하다
+healthy | h:흐 ea:에 l:을 th:쓰 y:이 | 헬씨 | 건강한
+skate | s:스 k:크 a:에이 t:트 e:- | 스케이트 | 스케이트를 타다
+[DAY 39]
+tonight | t:트 o:우 n:느 igh:아이 t:트 | 투나잇 | 오늘 밤
+print | p:프 r:르 i:이 n:느 t:트 | 프린트 | 인쇄하다
+condition | c:크 o:어 n:느 d:드 i:이 ti:쉬 o:어 n:느 | 컨디션 | 상태; 조건
+bubble | b:브 u:어 bb:브 l:을 e:- | 버블 | 거품
+true | t:트 r:르 ue:우 | 트루 | 사실인; 진짜의
+culture | c:크 u:어 l:을 t:츠 ure:어 | 컬처 | 문화
+miss | m:므 i:이 ss:스 | 미스 | 놓치다
+corner | c:크 or:오 n:느 er:어 | 코너 | 구석, 모서리
+dead | d:드 ea:에 d:드 | 데드 | 죽은
+farmer | f:프 ar:아 m:므 er:어 | 파머 | 농부
+solve | s:스 o:아 l:을 v:브 e:- | 살브 | 풀다, 해결하다
+stress | s:스 t:트 r:르 e:에 ss:스 | 스트레스 | 스트레스
+[DAY 40]
+countryside | c:크 ou:어 n:느 t:트 r:르 y:이 s:스 i:아이 d:드 e:- | 컨트리사이드 | 시골
+dialogue | d:드 i:아이 a:어 l:을 o:오 gue:그 | 다이얼로그 | 대화
+rough | r:르 ou:어 gh:프 | 러프 | 거친
+certain | c:스 er:어 t:트 ai:어 n:느 | 서튼 | 확신하는
+celebrate | c:스 e:에 l:을 e:어 b:브 r:르 a:에이 t:트 e:- | 셀러브레이트 | 축하하다
+feed | f:프 ee:이 d:드 | 피드 | 먹이를 주다
+point | p:프 oi:오이 n:느 t:트 | 포인트 | 요점; 점수
+message | m:므 e:에 ss:스 a:이 g:즈 e:- | 메시지 | 메시지
+enemy | e:에 n:느 e:어 m:므 y:이 | 에너미 | 적
+toe | t:트 oe:오우 | 토우 | 발가락
+adventure | a:어 d:드 v:브 e:에 n:느 t:츠 ure:어 | 어드벤처 | 모험
+beauty | b:브 eau:유 t:트 y:이 | 뷰티 | 아름다움

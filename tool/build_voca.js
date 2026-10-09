@@ -55,16 +55,19 @@ h2{font-size:13pt;margin:6px 0 6px;padding:3px 12px;color:#fff;display:inline-bl
 .cards{display:grid;grid-template-columns:1fr 1fr;gap:2.4mm 4mm}
 .card{border:1.5px solid #cfd9e6;border-radius:8px;padding:3px 8px 4px;position:relative;background:#fff}
 .card .no{position:absolute;left:-1px;top:-1px;background:var(--blue);color:#fff;font-weight:700;font-size:10pt;border-radius:8px 0 8px 0;padding:1px 8px}
-.card .en{font-size:18pt;font-weight:700;color:#1d3f7a;letter-spacing:.02em;margin:7px 0 0 0;line-height:1.1;text-align:center;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif}
-.ph{display:flex;justify-content:center;gap:2px;margin:3px 0 1px;flex-wrap:wrap}
-.ph div{text-align:center;min-width:8mm;padding:1px 3px;border-radius:5px;background:#f3f6fa}
+.card .en{font-size:18pt;padding:0 4mm;font-weight:700;color:#1d3f7a;letter-spacing:.02em;margin:7px 0 0 0;line-height:1.1;text-align:center;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif}
+.card .en.long{font-size:16pt;padding:0 14mm 0 4mm;letter-spacing:0}
+.ph{display:flex;justify-content:center;gap:2px;margin:3px 0 1px;flex-wrap:nowrap}
+.ph.long{gap:1.5px;margin-left:-5px;margin-right:-5px}.ph.long div{min-width:0;padding:1px 2px}.ph.long b{font-size:11pt}.ph.long i{font-size:10pt}
+.ph.xlong{gap:1px}.ph.xlong div{padding:1px 1.5px}.ph.xlong b{font-size:10pt}.ph.xlong i{font-size:9.5pt}
+.ph div{text-align:center;min-width:8mm;padding:1px 3px;border-radius:5px;background:#f3f6fa;white-space:nowrap}
 .ph b{display:block;font-size:12pt;color:#1d3f7a;line-height:1.15;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif}
 .ph i{display:block;font-style:normal;font-size:10.5pt;color:var(--teal);font-weight:700;line-height:1.2}
-.ph div.sil{background:#f6f6f6}.ph div.sil b{color:#b0b7c3}.ph div.sil i{color:#b0b7c3;font-weight:400;font-size:9pt}
+.ph div.sil{background:#f6f6f6}.ph div.sil b{color:#b0b7c3}.ph div.sil i{color:#b0b7c3;font-weight:400}
 .card .sd{text-align:center;font-size:13pt;color:var(--rose);font-weight:700;margin-top:0;line-height:1.35}
 .card .sd small{font-size:9pt;color:#8a97ab;font-weight:400;margin-right:4px}
 .card .ko{text-align:center;font-size:12pt;font-weight:700;color:var(--orange);margin-top:0;line-height:1.35;word-break:keep-all}
-.card .rd{position:absolute;right:7px;top:4px;font-size:9pt;color:#8a97ab}
+.card .rd{position:absolute;right:7px;top:5px;font-size:9pt;color:#8a97ab}
 .card .rd span{display:inline-block;width:4.2mm;height:4.2mm;border:1.2px solid #9fb3c8;border-radius:50%;vertical-align:middle;margin-left:2px}
 /* 표 공통 */
 table{border-collapse:collapse;width:100%;font-size:11.5pt}
@@ -74,7 +77,7 @@ td.n{text-align:center;font-weight:700;color:var(--blue);width:7mm}
 td.en{font-size:16pt;font-weight:700;color:#1d3f7a;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif;text-align:center;white-space:nowrap}
 td.ko{font-size:12pt;font-weight:700;color:var(--orange);word-break:keep-all}
 td.w{background:#fff}
-td.chunk .ph{justify-content:flex-start;margin:0}
+td.chunk .ph{justify-content:flex-start;margin:0}td.chunk .ph.long{margin:0 -4px}
 td.chunk .ph div{min-width:6.5mm;padding:0 2px}
 td.chunk .ph b{font-size:11pt}td.chunk .ph i{font-size:10pt}
 .h17 td{height:17.2mm}.h14 td{height:14mm}.h12 td{height:12.2mm}
@@ -97,8 +100,10 @@ td.chunk .ph b{font-size:11pt}td.chunk .ph i{font-size:10pt}
 function phonics(w, opt = {}) {
   const cells = w.chunks.map(([l, s]) => s
     ? `<div><b>${esc(l)}</b><i>${esc(s)}</i></div>`
-    : `<div class="sil"><b>${esc(l)}</b><i>(소리 없음)</i></div>`).join('');
-  return `<div class="ph">${cells}</div>`;
+    : `<div class="sil"><b>${esc(l)}</b><i>×</i></div>`).join('');
+  const n = w.chunks.length;
+  const cls = n >= 10 ? 'ph long xlong' : n >= 8 ? 'ph long' : 'ph';
+  return `<div class="${cls}">${cells}</div>`;
 }
 
 function hdr(spec, i, logo) {
@@ -108,12 +113,12 @@ function hdr(spec, i, logo) {
 
 // 1쪽: 학습 카드
 function page1(W) {
-  const cards = W.map((w, i) => `<div class="card"><div class="no">${i+1}</div><div class="rd">읽기 <span></span><span></span><span></span></div>
-    <div class="en">${esc(w.en)}</div>${phonics(w)}
+  const cards = W.map((w, i) => `<div class="card"><div class="no">${i+1}</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en${w.en.length >= 10 ? ' long' : ''}">${esc(w.en)}</div>${phonics(w)}
     <div class="sd"><small>합치면</small>${esc(w.sound)}</div><div class="ko">${esc(w.ko)}</div></div>`).join('');
   return `<div class="c-blue"><h2>1. 오늘의 단어 — 소리로 읽고 뜻 외우기</h2>
   <div class="tip">💡 글자 아래 <b style="color:var(--teal)">초록 소리</b>를 차례로 읽고, 빨리 이어 읽으면 <b style="color:var(--rose)">분홍 소리</b>가 돼요. 한 번 읽을 때마다 ○에 색칠하세요. 철자는 안 외워도 돼요.</div>
-  <div class="legend"><span class="sil">회색 글자</span>는 소리가 나지 않는 글자예요. &nbsp; 소리 → 뜻 순서로 외우세요.</div>
+  <div class="legend"><span class="sil">회색 글자(×)</span>는 소리가 나지 않는 글자예요. &nbsp; 오른쪽 위 ○○○은 읽기 체크예요.</div>
   <div class="cards">${cards}</div></div>`;
 }
 
@@ -122,7 +127,7 @@ function page2(W) {
   const rows = W.map((w, i) => `<tr><td class="n">${i+1}</td><td class="en">${esc(w.en)}</td><td class="chunk">${phonics(w)}</td><td class="w"></td><td class="w"></td></tr>`).join('');
   return `<div class="c-teal"><h2>2. 소리 합치기 연습</h2>
   <div class="tip">💡 소리 조각을 보고 입으로 세 번 읽은 다음, <b>합친 소리를 한글로</b> 쓰고 <b>뜻</b>을 쓰세요. 1쪽을 보고 써도 괜찮아요.</div>
-  <table class="h17"><tr><th></th><th style="width:30mm">단어</th><th>소리 조각</th><th style="width:34mm">합친 소리 (한글)</th><th style="width:40mm">뜻</th></tr>${rows}</table></div>`;
+  <table class="h17"><tr><th></th><th style="width:29mm">단어</th><th>소리 조각</th><th style="width:31mm">합친 소리(한글)</th><th style="width:34mm">뜻</th></tr>${rows}</table></div>`;
 }
 
 // 3쪽: 짝 맞추기 + 뜻 보고 소리 쓰기

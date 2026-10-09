@@ -1,0 +1,116 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>VOCA Starter 2 — DAY 18</title><style>
+@font-face{font-family:"NKR";src:url(kr400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"NKR";src:url(kr700.woff2) format("woff2");font-weight:700}
+:root{--ink:#2b2f3a;--line:#9fb3c8;--teal:#1f8a86;--blue:#2f6fcb;--violet:#7a57c9;--orange:#e07b2a;--green:#3f9a48;--rose:#c9507a;
+--teal-l:#e3f4f3;--blue-l:#e6eefb;--violet-l:#eee8fa;--orange-l:#fdeee0;--green-l:#e7f4e8;--rose-l:#fbe7ee;--cream:#fff8e8}
+*{box-sizing:border-box}
+body{margin:0;background:#888;font-family:"NKR",sans-serif;color:var(--ink);font-size:12pt;line-height:1.5}
+.page{width:210mm;height:297mm;background:#fff;padding:13mm 15mm 12mm;margin:0 auto 10px;position:relative;overflow:hidden}
+@page{size:A4;margin:0}
+@media print{body{background:none}.page{margin:0;page-break-after:always;break-after:page}}
+.hdr{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px solid var(--blue);padding-bottom:5px;margin-bottom:9px}
+.hdr .hl{display:flex;align-items:center;gap:4mm}
+.hdr .logo{width:45mm;height:13mm;overflow:hidden;flex:none}
+.hdr .logo img{width:56mm;margin:-6.2mm 0 0 -5.6mm;display:block}
+.hdr .l{font-size:9.5pt;color:#5a6b85}.hdr .t{font-size:15pt;font-weight:700;line-height:1.25;color:#1d3f7a;white-space:nowrap}
+.hdr .r{font-size:10.5pt;text-align:right;color:#3a4a66;white-space:nowrap}
+.hdr .r span{display:inline-block;border-bottom:1px solid #3a4a66;min-width:34mm;margin-left:4px}
+.pg{position:absolute;bottom:7mm;left:0;right:0;text-align:center;font-size:8.5pt;color:#8a97ab}
+h2{font-size:13pt;margin:6px 0 6px;padding:3px 12px;color:#fff;display:inline-block;border-radius:14px}
+.c-teal h2{background:var(--teal)}.c-blue h2{background:var(--blue)}.c-violet h2{background:var(--violet)}.c-orange h2{background:var(--orange)}.c-green h2{background:var(--green)}.c-rose h2{background:var(--rose)}
+.c-teal .tip{background:var(--teal-l)}.c-blue .tip{background:var(--blue-l)}.c-violet .tip{background:var(--violet-l)}.c-orange .tip{background:var(--orange-l)}.c-green .tip{background:var(--green-l)}.c-rose .tip{background:var(--rose-l)}
+.c-teal th{background:var(--teal-l)}.c-blue th{background:var(--blue-l)}.c-violet th{background:var(--violet-l)}.c-orange th{background:var(--orange-l)}.c-green th{background:var(--green-l)}.c-rose th{background:var(--rose-l)}
+.tip{border-radius:6px;padding:5px 10px;font-size:10.5pt;color:#4a3a7a;margin:0 0 8px 0;word-break:keep-all}
+.legend{font-size:9.5pt;color:#5a6b85;margin:0 0 6px 2px}
+.legend .sil{color:#b0b7c3}
+/* 1쪽 학습 카드 */
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:2.4mm 4mm}
+.card{border:1.5px solid #cfd9e6;border-radius:8px;padding:3px 8px 4px;position:relative;background:#fff}
+.card .no{position:absolute;left:-1px;top:-1px;background:var(--blue);color:#fff;font-weight:700;font-size:10pt;border-radius:8px 0 8px 0;padding:1px 8px}
+.card .en{font-size:18pt;padding:0 4mm;font-weight:700;color:#1d3f7a;letter-spacing:.02em;margin:7px 0 0 0;line-height:1.1;text-align:center;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif}
+.card .en.long{font-size:16pt;padding:0 14mm 0 4mm;letter-spacing:0}
+.ph{display:flex;justify-content:center;gap:2px;margin:3px 0 1px;flex-wrap:nowrap}
+.ph.long{gap:1.5px;margin-left:-5px;margin-right:-5px}.ph.long div{min-width:0;padding:1px 2px}.ph.long b{font-size:11pt}.ph.long i{font-size:10pt}
+.ph.xlong{gap:1px}.ph.xlong div{padding:1px 1.5px}.ph.xlong b{font-size:10pt}.ph.xlong i{font-size:9.5pt}
+.ph div{text-align:center;min-width:8mm;padding:1px 3px;border-radius:5px;background:#f3f6fa;white-space:nowrap}
+.ph b{display:block;font-size:12pt;color:#1d3f7a;line-height:1.15;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif}
+.ph i{display:block;font-style:normal;font-size:10.5pt;color:var(--teal);font-weight:700;line-height:1.2}
+.ph div.sil{background:#f6f6f6}.ph div.sil b{color:#b0b7c3}.ph div.sil i{color:#b0b7c3;font-weight:400}
+.card .sd{text-align:center;font-size:13pt;color:var(--rose);font-weight:700;margin-top:0;line-height:1.35}
+.card .sd small{font-size:9pt;color:#8a97ab;font-weight:400;margin-right:4px}
+.card .ko{text-align:center;font-size:12pt;font-weight:700;color:var(--orange);margin-top:0;line-height:1.35;word-break:keep-all}
+.card .rd{position:absolute;right:7px;top:5px;font-size:9pt;color:#8a97ab}
+.card .rd span{display:inline-block;width:4.2mm;height:4.2mm;border:1.2px solid #9fb3c8;border-radius:50%;vertical-align:middle;margin-left:2px}
+/* 표 공통 */
+table{border-collapse:collapse;width:100%;font-size:11.5pt}
+td,th{border:1px solid var(--line);padding:3px 6px;vertical-align:middle}
+th{font-weight:700;text-align:center;font-size:10.5pt}
+td.n{text-align:center;font-weight:700;color:var(--blue);width:7mm}
+td.en{font-size:16pt;font-weight:700;color:#1d3f7a;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif;text-align:center;white-space:nowrap}
+td.ko{font-size:12pt;font-weight:700;color:var(--orange);word-break:keep-all}
+td.w{background:#fff}
+td.chunk .ph{justify-content:flex-start;margin:0}td.chunk .ph.long{margin:0 -4px}
+td.chunk .ph div{min-width:6.5mm;padding:0 2px}
+td.chunk .ph b{font-size:11pt}td.chunk .ph i{font-size:10pt}
+.h17 td{height:17.2mm}.h14 td{height:14mm}.h12 td{height:12.2mm}
+/* 짝 맞추기 */
+.match{display:grid;grid-template-columns:1fr 1fr;gap:0 8mm;margin:2px 0 6px}
+.match .col{display:grid;grid-template-columns:1fr 14mm 1fr;align-items:center;row-gap:3.3mm}
+.match .w{font-size:15pt;font-weight:700;color:#1d3f7a;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif;border:1.5px solid #cfd9e6;border-radius:6px;padding:2px 6px;text-align:center}
+.match .d{font-size:10.5pt;text-align:center;color:#8a97ab}
+.match .k{font-size:11.5pt;font-weight:700;color:var(--orange);border:1.5px solid #f3d4b8;background:#fff8f1;border-radius:6px;padding:3px 6px;text-align:center;word-break:keep-all;line-height:1.3}
+/* 보기 상자 */
+.bank{border:1.5px solid #e2c98a;background:var(--cream);border-radius:6px;padding:5px 10px;margin:0 0 6px;font-size:14pt;font-weight:700;color:#5c4511;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif;display:flex;flex-wrap:wrap;gap:2px 14px;justify-content:center}
+.bank small{font-family:"NKR";font-size:9.5pt;font-weight:400;color:#8a6d2b;width:100%;text-align:left}
+/* 테스트 쪽 */
+.score{display:flex;gap:4mm;margin-top:6px}
+.score div{flex:1;border:1.5px dashed var(--green);border-radius:6px;padding:5px 10px;font-size:10.5pt;color:#3a4a66;min-height:16mm}
+.score b{color:var(--green)}
+.score .ck span{display:inline-block;width:5mm;height:5mm;border:1.2px solid #9fb3c8;border-radius:50%;vertical-align:middle;margin:0 1px}
+</style></head><body><div class="page"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">영어 단어 · 주니어 능률 VOCA · 초2 수준 · 소리로 외우기</div><div class="t">VOCA Starter 2 — DAY 18</div></div></div>
+   <div class="r">이름<span></span><br>날짜 <span style="min-width:40mm"></span></div></div><div class="c-blue"><h2>1. 오늘의 단어 — 소리로 읽고 뜻 외우기</h2>
+  <div class="tip">💡 글자 아래 <b style="color:var(--teal)">초록 소리</b>를 차례로 읽고, 빨리 이어 읽으면 <b style="color:var(--rose)">분홍 소리</b>가 돼요. 한 번 읽을 때마다 ○에 색칠하세요. 철자는 안 외워도 돼요.</div>
+  <div class="legend"><span class="sil">회색 글자(×)</span>는 소리가 나지 않는 글자예요. &nbsp; 오른쪽 위 ○○○은 읽기 체크예요.</div>
+  <div class="cards"><div class="card"><div class="no">1</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">large</div><div class="ph"><div><b>l</b><i>르</i></div><div><b>ar</b><i>아</i></div><div><b>g</b><i>즈</i></div><div class="sil"><b>e</b><i>×</i></div></div>
+    <div class="sd"><small>합치면</small>라지</div><div class="ko">큰, 넓은</div></div><div class="card"><div class="no">2</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">forget</div><div class="ph"><div><b>f</b><i>프</i></div><div><b>or</b><i>어</i></div><div><b>g</b><i>그</i></div><div><b>e</b><i>에</i></div><div><b>t</b><i>트</i></div></div>
+    <div class="sd"><small>합치면</small>퍼겟</div><div class="ko">잊다</div></div><div class="card"><div class="no">3</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">along</div><div class="ph"><div><b>a</b><i>어</i></div><div><b>l</b><i>을</i></div><div><b>o</b><i>오</i></div><div><b>ng</b><i>응</i></div></div>
+    <div class="sd"><small>합치면</small>어롱</div><div class="ko">~을 따라서</div></div><div class="card"><div class="no">4</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">bomb</div><div class="ph"><div><b>b</b><i>브</i></div><div><b>o</b><i>아</i></div><div><b>m</b><i>므</i></div><div class="sil"><b>b</b><i>×</i></div></div>
+    <div class="sd"><small>합치면</small>밤</div><div class="ko">폭탄</div></div><div class="card"><div class="no">5</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">however</div><div class="ph"><div><b>h</b><i>흐</i></div><div><b>ow</b><i>아우</i></div><div><b>e</b><i>에</i></div><div><b>v</b><i>브</i></div><div><b>er</b><i>어</i></div></div>
+    <div class="sd"><small>합치면</small>하우에버</div><div class="ko">그러나</div></div><div class="card"><div class="no">6</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">tell</div><div class="ph"><div><b>t</b><i>트</i></div><div><b>e</b><i>에</i></div><div><b>ll</b><i>을</i></div></div>
+    <div class="sd"><small>합치면</small>텔</div><div class="ko">말하다</div></div><div class="card"><div class="no">7</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">reporter</div><div class="ph"><div><b>r</b><i>르</i></div><div><b>e</b><i>이</i></div><div><b>p</b><i>프</i></div><div><b>or</b><i>오</i></div><div><b>t</b><i>트</i></div><div><b>er</b><i>어</i></div></div>
+    <div class="sd"><small>합치면</small>리포터</div><div class="ko">기자</div></div><div class="card"><div class="no">8</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">fry</div><div class="ph"><div><b>f</b><i>프</i></div><div><b>r</b><i>르</i></div><div><b>y</b><i>아이</i></div></div>
+    <div class="sd"><small>합치면</small>프라이</div><div class="ko">튀기다, 볶다</div></div><div class="card"><div class="no">9</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">ticket</div><div class="ph"><div><b>t</b><i>트</i></div><div><b>i</b><i>이</i></div><div><b>ck</b><i>크</i></div><div><b>e</b><i>이</i></div><div><b>t</b><i>트</i></div></div>
+    <div class="sd"><small>합치면</small>티킷</div><div class="ko">표, 입장권</div></div><div class="card"><div class="no">10</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">form</div><div class="ph"><div><b>f</b><i>프</i></div><div><b>or</b><i>오</i></div><div><b>m</b><i>므</i></div></div>
+    <div class="sd"><small>합치면</small>폼</div><div class="ko">만들다; 형태</div></div><div class="card"><div class="no">11</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">sweet</div><div class="ph"><div><b>s</b><i>스</i></div><div><b>w</b><i>우</i></div><div><b>ee</b><i>이</i></div><div><b>t</b><i>트</i></div></div>
+    <div class="sd"><small>합치면</small>스위트</div><div class="ko">달콤한</div></div><div class="card"><div class="no">12</div><div class="rd"><span></span><span></span><span></span></div>
+    <div class="en">shake</div><div class="ph"><div><b>sh</b><i>쉬</i></div><div><b>a</b><i>에이</i></div><div><b>k</b><i>크</i></div><div class="sil"><b>e</b><i>×</i></div></div>
+    <div class="sd"><small>합치면</small>셰이크</div><div class="ko">흔들다</div></div></div></div><div class="pg">1 / 4</div></div>
+<div class="page"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">영어 단어 · 주니어 능률 VOCA · 초2 수준 · 소리로 외우기</div><div class="t">VOCA Starter 2 — DAY 18</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-teal"><h2>2. 소리 합치기 연습</h2>
+  <div class="tip">💡 소리 조각을 보고 입으로 세 번 읽은 다음, <b>합친 소리를 한글로</b> 쓰고 <b>뜻</b>을 쓰세요. 1쪽을 보고 써도 괜찮아요.</div>
+  <table class="h17"><tr><th></th><th style="width:29mm">단어</th><th>소리 조각</th><th style="width:31mm">합친 소리(한글)</th><th style="width:34mm">뜻</th></tr><tr><td class="n">1</td><td class="en">large</td><td class="chunk"><div class="ph"><div><b>l</b><i>르</i></div><div><b>ar</b><i>아</i></div><div><b>g</b><i>즈</i></div><div class="sil"><b>e</b><i>×</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">2</td><td class="en">forget</td><td class="chunk"><div class="ph"><div><b>f</b><i>프</i></div><div><b>or</b><i>어</i></div><div><b>g</b><i>그</i></div><div><b>e</b><i>에</i></div><div><b>t</b><i>트</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">3</td><td class="en">along</td><td class="chunk"><div class="ph"><div><b>a</b><i>어</i></div><div><b>l</b><i>을</i></div><div><b>o</b><i>오</i></div><div><b>ng</b><i>응</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">4</td><td class="en">bomb</td><td class="chunk"><div class="ph"><div><b>b</b><i>브</i></div><div><b>o</b><i>아</i></div><div><b>m</b><i>므</i></div><div class="sil"><b>b</b><i>×</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">5</td><td class="en">however</td><td class="chunk"><div class="ph"><div><b>h</b><i>흐</i></div><div><b>ow</b><i>아우</i></div><div><b>e</b><i>에</i></div><div><b>v</b><i>브</i></div><div><b>er</b><i>어</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">6</td><td class="en">tell</td><td class="chunk"><div class="ph"><div><b>t</b><i>트</i></div><div><b>e</b><i>에</i></div><div><b>ll</b><i>을</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">7</td><td class="en">reporter</td><td class="chunk"><div class="ph"><div><b>r</b><i>르</i></div><div><b>e</b><i>이</i></div><div><b>p</b><i>프</i></div><div><b>or</b><i>오</i></div><div><b>t</b><i>트</i></div><div><b>er</b><i>어</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">8</td><td class="en">fry</td><td class="chunk"><div class="ph"><div><b>f</b><i>프</i></div><div><b>r</b><i>르</i></div><div><b>y</b><i>아이</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">9</td><td class="en">ticket</td><td class="chunk"><div class="ph"><div><b>t</b><i>트</i></div><div><b>i</b><i>이</i></div><div><b>ck</b><i>크</i></div><div><b>e</b><i>이</i></div><div><b>t</b><i>트</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">10</td><td class="en">form</td><td class="chunk"><div class="ph"><div><b>f</b><i>프</i></div><div><b>or</b><i>오</i></div><div><b>m</b><i>므</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">11</td><td class="en">sweet</td><td class="chunk"><div class="ph"><div><b>s</b><i>스</i></div><div><b>w</b><i>우</i></div><div><b>ee</b><i>이</i></div><div><b>t</b><i>트</i></div></div></td><td class="w"></td><td class="w"></td></tr><tr><td class="n">12</td><td class="en">shake</td><td class="chunk"><div class="ph"><div><b>sh</b><i>쉬</i></div><div><b>a</b><i>에이</i></div><div><b>k</b><i>크</i></div><div class="sil"><b>e</b><i>×</i></div></div></td><td class="w"></td><td class="w"></td></tr></table></div><div class="pg">2 / 4</div></div>
+<div class="page"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">영어 단어 · 주니어 능률 VOCA · 초2 수준 · 소리로 외우기</div><div class="t">VOCA Starter 2 — DAY 18</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-violet"><h2>3. 짝 맞추기 — 단어와 뜻을 선으로 이으세요</h2>
+  <div class="tip">💡 단어를 먼저 소리 내어 읽은 다음, 뜻과 이어 보세요.</div><div class="match"><div class="col"><div class="w">large</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">그러나</div><div class="w">forget</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">큰, 넓은</div><div class="w">along</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">말하다</div><div class="w">bomb</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">폭탄</div><div class="w">however</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">~을 따라서</div><div class="w">tell</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">잊다</div></div><div class="col"><div class="w">reporter</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">표, 입장권</div><div class="w">fry</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">기자</div><div class="w">ticket</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">만들다; 형태</div><div class="w">form</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">흔들다</div><div class="w">sweet</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">달콤한</div><div class="w">shake</div><div class="d">•&nbsp;&nbsp;&nbsp;&nbsp;•</div><div class="k">튀기다, 볶다</div></div></div></div>
+  <div class="c-orange"><h2>4. 뜻 보고 소리 쓰기</h2>
+  <div class="tip">💡 뜻을 보고 영어 소리를 <b>한글로</b> 쓰세요. 그다음 보기에서 그 단어를 찾아 ○ 하세요.</div><div class="bank"><small>보기 · 뜻에 맞는 단어에 ○ 하세요</small><span>shake</span><span>bomb</span><span>fry</span><span>however</span><span>form</span><span>forget</span></div>
+  <table class="h14"><tr><th></th><th>뜻</th><th style="width:62mm">영어 소리 (한글로)</th></tr><tr><td class="n">1</td><td class="ko">폭탄</td><td class="w"></td></tr><tr><td class="n">2</td><td class="ko">잊다</td><td class="w"></td></tr><tr><td class="n">3</td><td class="ko">만들다; 형태</td><td class="w"></td></tr><tr><td class="n">4</td><td class="ko">그러나</td><td class="w"></td></tr><tr><td class="n">5</td><td class="ko">튀기다, 볶다</td><td class="w"></td></tr><tr><td class="n">6</td><td class="ko">흔들다</td><td class="w"></td></tr></table></div><div class="pg">3 / 4</div></div>
+<div class="page"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">영어 단어 · 주니어 능률 VOCA · 초2 수준 · 소리로 외우기</div><div class="t">VOCA Starter 2 — DAY 18</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-rose"><h2>5. 미니 테스트 ① — 단어를 보고 소리와 뜻 쓰기</h2>
+  <table class="h14"><tr><th></th><th style="width:34mm">단어</th><th>영어 소리 (한글로)</th><th>뜻</th></tr><tr><td class="n">1</td><td class="en">shake</td><td class="w"></td><td class="w"></td></tr><tr><td class="n">2</td><td class="en">forget</td><td class="w"></td><td class="w"></td></tr><tr><td class="n">3</td><td class="en">however</td><td class="w"></td><td class="w"></td></tr><tr><td class="n">4</td><td class="en">reporter</td><td class="w"></td><td class="w"></td></tr><tr><td class="n">5</td><td class="en">form</td><td class="w"></td><td class="w"></td></tr><tr><td class="n">6</td><td class="en">ticket</td><td class="w"></td><td class="w"></td></tr></table></div>
+  <div class="c-rose"><h2 style="margin-top:10px">6. 미니 테스트 ② — 뜻을 보고 소리 쓰기</h2><div class="bank"><small>보기 · 소리를 쓴 뒤, 맞는 단어에 ○ 하세요</small><span>sweet</span><span>bomb</span><span>fry</span><span>tell</span><span>large</span><span>along</span></div>
+  <table class="h14"><tr><th></th><th>뜻</th><th style="width:62mm">영어 소리 (한글로)</th></tr><tr><td class="n">7</td><td class="ko">큰, 넓은</td><td class="w"></td></tr><tr><td class="n">8</td><td class="ko">~을 따라서</td><td class="w"></td></tr><tr><td class="n">9</td><td class="ko">폭탄</td><td class="w"></td></tr><tr><td class="n">10</td><td class="ko">말하다</td><td class="w"></td></tr><tr><td class="n">11</td><td class="ko">튀기다, 볶다</td><td class="w"></td></tr><tr><td class="n">12</td><td class="ko">달콤한</td><td class="w"></td></tr></table></div>
+  <div class="c-green"><div class="score"><div><b>점수</b> &nbsp; ____ / 12</div>
+  <div class="ck"><b>말하기 확인</b> 선생님 앞에서 읽기<br><span></span><span></span><span></span> 3번 통과하면 끝!</div>
+  <div><b>선생님 한마디</b></div></div></div><div class="pg">4 / 4</div></div></body></html>
