@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // 초등논술 워크시트 빌더: JSON 내용 → HTML → PNG(쪽별) + PDF
-// 사용: node tool/build.js worksheets/<이름>.json  [--no-pdf]
+// 사용: node tool/build.js worksheets/<이름>.json  [--no-pdf] [--answers]
+// --answers : 문항의 answer/example 필드를 빨간 글씨로 채운 답지(<slug>_답지.pdf)를 만든다.
 const fs = require('fs');
 const path = require('path');
 
@@ -13,6 +14,7 @@ function requirePlaywright() {
 
 const ROOT = path.resolve(__dirname, '..');
 const A4_PX = 1123; // 297mm @ 96dpi
+const ANS = process.argv.includes('--answers'); // 답지 모드
 
 const esc = s => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 // 텍스트 안의 ___ (3개 이상) 는 답 빈칸으로 변환. 밑줄 개수 × 6mm
@@ -82,43 +84,60 @@ td.h{height:var(--td)}
 .note{border:1.5px dashed var(--green);border-radius:6px;padding:6px 10px;margin-top:8px;font-size:10.5pt;min-height:19mm;color:#3a4a66}
 .note b{color:var(--green)}
 .tip{border-radius:6px;padding:5px 10px;font-size:10.5pt;color:#4a3a7a;margin:0 0 8px 1.8em}
+.ans{color:#d0312d;font-weight:700}
+.ex{display:inline-block;font-size:8.5pt;font-weight:700;color:#fff;background:#e8838a;border-radius:8px;padding:0 6px;margin-right:5px;line-height:1.5;vertical-align:1px}
+.la{margin:0 0 0 1.8em;height:calc(var(--ln) * var(--n));line-height:var(--ln);overflow:visible;
+background:repeating-linear-gradient(to bottom,transparent 0,transparent calc(var(--ln) - 1px),var(--line) calc(var(--ln) - 1px),var(--line) var(--ln));
+color:#d0312d;font-weight:700;font-size:11pt;word-break:keep-all}
+.ch .ok{color:#d0312d;font-weight:700;border:2px solid #d0312d;border-radius:12px;padding:0 6px;margin:-2px -8px}
+.flow .c .ans,td .ans{font-size:10.5pt}
+.grid i.ch1{display:flex;align-items:center;justify-content:center;color:#d0312d;font-size:12pt;font-weight:700}
+.stamp{display:inline-block;color:#d0312d;border:2px solid #d0312d;border-radius:6px;padding:2px 10px;font-weight:700;font-size:12pt;transform:rotate(-4deg)}
+.rub{display:grid;grid-template-columns:1fr 1fr;gap:1px 12px;font-size:9.5pt;line-height:1.45;margin-top:2px}.rub b{color:var(--green)}
 `;
 
 let qn = 0; // 문항 번호 (영역을 넘어 이어짐)
 const lines = n => '<div class="ln"></div>'.repeat(n || 1);
+// 답지 모드: 답 쓰는 줄 위에 빨간 답을 얹는다 (길면 줄이 늘어남)
+const exTag = it => it.example ? '<span class="ex">예시</span>' : '';
+const aLines = (n, text, it) => `<div class="la" style="--n:${n||1}">${exTag(it)}${txt(text??'')}</div>`;
+const L = (n, it, text) => ANS && text != null ? aLines(n, text, it) : lines(n);
 
 function renderItem(it) {
   const n = ++qn;
   const q = `<p class="q"><span class="n">${n}</span>${txt(it.q)}</p>`;
-  const choices = c => `<div class="ch">${c.map((s,i)=>`<span>${'①②③④⑤⑥'[i]} ${txt(s)}</span>`).join('')}</div>`;
+  const choices = c => `<div class="ch">${c.map((s,i)=>`<span${ANS && it.answer===i+1?' class="ok"':''}>${'①②③④⑤⑥'[i]} ${txt(s)}</span>`).join('')}</div>`;
+  const A = it.answer; const arr = (k) => Array.isArray(A) ? A[k] : undefined;
   switch (it.type) {
     case 'choice':
       return q + choices(it.choices).replace('class="ch"','class="ch sp"');
     case 'choice_lines':
-      return q + choices(it.choices) + lines(it.lines||1) + `<div class="sp"></div>`;
+      return q + choices(it.choices) + L(it.lines||1, {example: it.whyExample!==false}, it.why) + `<div class="sp"></div>`;
     case 'lines':
-      return q + lines(it.lines||2) + `<div class="sp"></div>`;
+      return q + L(it.lines||2, it, A) + `<div class="sp"></div>`;
     case 'label_lines': { // 라벨 + 줄 (예: 반대말: ____ 그 뒤 줄)
-      return q + `<div class="wr">${txt(it.label)}</div>` + lines(it.lines||2) + `<div class="sp"></div>`;
+      const lab = ANS && arr(0) != null ? txt(it.label).replace(/<span class="bl"[^>]*><\/span>/, `<span class="bl ans" style="min-width:28mm;padding:0 6px">${esc(arr(0))}</span>`) : txt(it.label);
+      return q + `<div class="wr">${lab}</div>` + L(it.lines||2, it, arr(1)) + `<div class="sp"></div>`;
     }
     case 'fill': { // 보기 상자 + 문장 빈칸
       const box = it.box ? `<table><tr><th style="width:14%">보기</th><td>${it.box.map(esc).join(' &nbsp;·&nbsp; ')}</td></tr></table>` : '';
-      const its = it.items.map((s,i)=>`${'⑴⑵⑶⑷⑸⑹'[i]} ${txt(s)}`).join('<br>');
+      const its = it.items.map((s,i)=>{ let h = txt(s); if (ANS && arr(i) != null) h = h.replace(/<span class="bl"[^>]*><\/span>/, m => m.replace('></span>', ` ><b class="ans">&nbsp;${esc(arr(i))}&nbsp;</b></span>`)); return `${'⑴⑵⑶⑷⑸⑹'[i]} ${h}`; }).join('<br>');
       return q + box + `<div class="wr sp">${its}</div>`;
     }
     case 'table': { // 행 라벨 표
-      const rows = it.rows.map(r=>`<tr><th style="width:${it.labelWidth||14}%">${esc(r)}</th><td class="h"></td></tr>`).join('');
+      const rows = it.rows.map((r,i)=>`<tr><th style="width:${it.labelWidth||14}%">${esc(r)}</th><td class="h">${ANS && arr(i)!=null ? `<span class="ans">${exTag(it)}${txt(arr(i))}</span>` : ''}</td></tr>`).join('');
       return q + `<table class="sp">${rows}</table>`;
     }
     case 'numbered_lines': // ①, ② 각각 줄
-      return q + (it.labels||['①','②']).map(l=>`<div class="wr">${esc(l)}</div>`+lines(1)).join('') + `<div class="sp"></div>`;
+      return q + (it.labels||['①','②']).map((l,i)=>`<div class="wr">${esc(l)}</div>`+L(1, it, arr(i))).join('') + `<div class="sp"></div>`;
     case 'flow': {
-      const boxes = it.boxes.map(b=>`<div class="c"><b>${esc(b)}</b></div>`).join('<div class="a">▶</div>');
+      const boxes = it.boxes.map((b,i)=>`<div class="c"><b>${esc(b)}</b>${ANS && arr(i)!=null ? `<span class="ans">${txt(arr(i))}</span>` : ''}</div>`).join('<div class="a">▶</div>');
       return q + `<div class="flow">${boxes}</div>`;
     }
     case 'yesno': { // 찬성/반대 + 이유 줄
-      const opts = (it.options||['찬성','반대']).map(o=>`☐ ${esc(o)}`).join(' &nbsp;&nbsp; ');
-      const ls = (it.labels||['이유 ①','이유 ②']).map(l=>`<div class="wr">${esc(l)}</div>`+lines(1)).join('');
+      const y = ANS && A && typeof A === 'object' && !Array.isArray(A) ? A : null; // {pick, reasons[]}
+      const opts = (it.options||['찬성','반대']).map(o=> y && y.pick===o ? `<span class="ans">☑ ${esc(o)}</span>` : `☐ ${esc(o)}`).join(' &nbsp;&nbsp; ');
+      const ls = (it.labels||['이유 ①','이유 ②']).map((l,i)=>`<div class="wr">${esc(l)}</div>`+L(1, {example:true}, y && y.reasons ? y.reasons[i] : null)).join('');
       return q + `<div class="wr">${opts}</div>` + ls + `<div class="sp"></div>`;
     }
     default:
@@ -143,17 +162,37 @@ function renderPassage(p) {
 
 function renderWriting(w) {
   const n = ++qn;
-  const outline = w.outline ? `<table>${w.outline.map(([k,v])=>`<tr><th style="width:16%">${esc(k)}</th><td style="height:10mm">${txt(v||'')}</td></tr>`).join('')}</table>` : '';
+  const ex = ANS ? (w.example || {}) : {};
+  const oa = (i) => ex.outline && ex.outline[i] ? ` <span class="ans"><span class="ex">예시</span>${txt(ex.outline[i])}</span>` : '';
+  const outline = w.outline ? `<table>${w.outline.map(([k,v],i)=>`<tr><th style="width:16%">${esc(k)}</th><td style="height:10mm">${txt(v||'')}${oa(i)}</td></tr>`).join('')}</table>` : '';
   let body;
   if (w.lines) {
-    body = `<div class="wlines">${'<div class="ln"></div>'.repeat(w.lines)}</div>`;
+    body = ANS && ex.text ? `<div class="wlines" style="--ln:10mm">${aLines(w.lines, ex.text, {example:true})}</div>` : `<div class="wlines">${'<div class="ln"></div>'.repeat(w.lines)}</div>`;
   } else {
     const rows = Math.ceil((w.cells||300)/20);
-    body = `<div class="grid">${('<div class="r">'+'<i></i>'.repeat(20)+'</div>').repeat(rows)}</div>
-    <div class="gcap">한 줄 20자 · 다섯 줄마다 100자 (굵은 선)</div>`;
+    let cells = null;
+    if (ANS && ex.text) { // 원고지에 한 칸 한 글자, 문단 첫 칸 들여쓰기
+      cells = [];
+      for (const para of String(ex.text).split('\n')) {
+        const row0 = cells.length; cells.push('');
+        for (const c of para.trim()) cells.push(c);
+        while (cells.length % 20) cells.push('');
+      }
+      if (cells.length > rows*20) console.error(`⚠ 예시 글이 원고지(${rows*20}칸)보다 깁니다: ${cells.length}칸`);
+    }
+    let grid = '';
+    for (let r = 0; r < rows; r++) {
+      grid += '<div class="r">';
+      for (let c = 0; c < 20; c++) { const ch = cells ? (cells[r*20+c]||'') : ''; grid += ch && ch !== ' ' ? `<i class="ch1">${esc(ch)}</i>` : '<i></i>'; }
+      grid += '</div>';
+    }
+    body = `<div class="grid">${grid}</div>
+    <div class="gcap">${ANS && ex.text ? '<span class="ex">예시</span>예시 답안 · ' : ''}한 줄 20자 · 다섯 줄마다 100자 (굵은 선)</div>`;
   }
   const chk = w.checklist ? `<h2 style="margin-top:8px">${esc(w.checklistTitle||'스스로 점검')}</h2><ul class="chk">${w.checklist.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>` : '';
-  const note = w.teacherNote===false ? '' : `<div class="note"><b>${esc(w.teacherNoteLabel||'선생님 한마디')}</b></div>`;
+  const RUB = w.rubric || [['내용','주제에 맞는 생각과 까닭(근거)이 분명한가'],['조직','개요표의 순서대로 처음·가운데·끝이 이어지는가'],['표현','글 속 낱말을 알맞게 쓰고 문장이 자연스러운가'],['맞춤법','맞춤법·띄어쓰기·문장 부호가 바른가']];
+  const note = ANS ? `<div class="note" style="min-height:0"><b>채점 기준</b> <span style="font-size:9pt">(영역마다 상·중·하로 평가)</span><div class="rub">${RUB.map(([k,v])=>`<div><b>${esc(k)}</b> ${esc(v)}</div>`).join('')}</div></div>`
+    : (w.teacherNote===false ? '' : `<div class="note"><b>${esc(w.teacherNoteLabel||'선생님 한마디')}</b></div>`);
   return `<div class="c-green"><h2>${esc(w.title)}</h2><p class="q"><span class="n">${n}</span>${txt(w.instruction)}</p>${outline}${body}${chk}${note}</div>`;
 }
 
@@ -164,7 +203,7 @@ function build(spec) {
   const logo = logoSrc ? `<div class="logo"><img src="logo.jpg"></div>` : '';
   const acad = logoSrc ? '' : esc(spec.academy||'[학원명]')+' ';
   const hdr = (i) => `<div class="hdr"><div class="hl">${logo}<div><div class="l">${acad}${esc(spec.course||'초등논술')} · ${esc(spec.grade||'')}</div><div class="t">${esc(spec.title)}</div></div></div>
-   <div class="r">이름<span></span>${i===0?'<br>날짜 <span style="min-width:40mm"></span>':''}</div></div>`;
+   <div class="r">${ANS ? '<b class="stamp">답 지</b>' : `이름<span></span>${i===0?'<br>날짜 <span style="min-width:40mm"></span>':''}`}</div></div>`;
   const pages = spec.pages.map((pg, i) => {
     const sp = SPACING[pg.spacing||'normal'] || SPACING.normal;
     const style = `--ln:${sp.ln};--sp:${sp.sp};--qm:${sp.qm};--td:${sp.td};--flow:${sp.flow};--h2:${sp.h2}`;
@@ -174,7 +213,7 @@ function build(spec) {
     if (pg.writing) inner += renderWriting(pg.writing);
     return `<div class="page" style="${style}">${hdr(i)}${inner}<div class="pg">${i+1} / ${total}</div></div>`;
   }).join('\n');
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>${esc(spec.title)}</title><style>${CSS}</style></head><body>${pages}</body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>${ANS?'[답지] ':''}${esc(spec.title)}</title><style>${CSS}</style></head><body>${pages}</body></html>`;
 }
 
 async function main() {
@@ -182,12 +221,13 @@ async function main() {
   if (!file) { console.error('사용: node tool/build.js worksheets/<이름>.json [--no-pdf]'); process.exit(1); }
   const spec = JSON.parse(fs.readFileSync(file, 'utf8'));
   const slug = spec.slug || path.basename(file, '.json');
-  const out = path.join(ROOT, 'output', slug);
+  const out = path.join(ROOT, 'output', spec.group || '', slug);
+  const base = ANS ? `${slug}_답지` : slug;
   fs.mkdirSync(out, { recursive: true });
   for (const f of ['kr400.woff2','kr700.woff2']) fs.copyFileSync(path.join(__dirname, f), path.join(out, f));
   if (spec.logo !== false) { const lp = spec.logo ? path.resolve(ROOT, spec.logo) : path.join(__dirname,'logo.jpg'); if (fs.existsSync(lp)) fs.copyFileSync(lp, path.join(out,'logo.jpg')); }
   const html = build(spec);
-  const htmlPath = path.join(out, 'worksheet.html');
+  const htmlPath = path.join(out, ANS ? 'answers.html' : 'worksheet.html');
   fs.writeFileSync(htmlPath, html);
 
   const { chromium } = requirePlaywright();
@@ -199,9 +239,13 @@ async function main() {
   const pages = p.locator('.page');
   const n = await pages.count();
   let overflow = false;
+  if (ANS) { // 답이 답 칸보다 길면 경고
+    const bad = await p.evaluate(() => [...document.querySelectorAll('.la,.flow .c,td.h')].filter(e => e.scrollHeight > e.clientHeight + 2).map(e => e.textContent.slice(0, 30)));
+    for (const t of bad) { console.log(`  ⚠ 답이 칸을 넘침: "${t}…" (답을 줄이세요)`); overflow = true; }
+  }
   for (let i = 0; i < n; i++) {
     const h = await pages.nth(i).evaluate(e => e.scrollHeight);
-    const png = path.join(out, `${slug}_${i+1}쪽.png`);
+    const png = path.join(out, `${base}_${i+1}쪽.png`);
     await pages.nth(i).screenshot({ path: png });
     const flag = h > A4_PX ? `  ⚠ 넘침 ${h-A4_PX}px (spacing을 tight로 낮추거나 문항·줄을 줄이세요)` : '';
     if (h > A4_PX) overflow = true;
@@ -209,7 +253,7 @@ async function main() {
   }
   if (!process.argv.includes('--no-pdf')) {
     await p.emulateMedia({ media: 'print' });
-    const pdf = path.join(out, `${slug}.pdf`);
+    const pdf = path.join(out, `${base}.pdf`);
     await p.pdf({ path: pdf, format: 'A4', printBackground: true, preferCSSPageSize: true });
     console.log(`PDF: ${path.relative(ROOT, pdf)}`);
   }
