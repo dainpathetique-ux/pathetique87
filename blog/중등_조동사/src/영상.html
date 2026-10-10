@@ -1,0 +1,53 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>
+@font-face{font-family:"NKR";src:url(kr400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"NKR";src:url(kr700.woff2) format("woff2");font-weight:700}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:1080px;height:1920px;overflow:hidden}
+body{background:#FAF6EC;font-family:"NKR",sans-serif;color:#2B2B2B;word-break:keep-all;line-height:1.45}
+.scene{position:absolute;inset:0;padding:0 80px 160px;display:flex;flex-direction:column;justify-content:center;opacity:0;animation:in .25s linear both}
+.wrap{animation:out .25s linear forwards}
+@keyframes in{from{opacity:0}to{opacity:1}}
+@keyframes out{from{opacity:1}to{opacity:0}}
+.rise{opacity:0;animation:rise .5s ease-out both}
+@keyframes rise{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+.cut{animation:light .4s linear both}
+@keyframes light{from{color:#2B2B2B}to{color:#E07A5F}}
+.brand{position:absolute;left:0;right:0;bottom:100px;display:flex;justify-content:center;animation:out .25s linear 26.75s forwards}
+.brand img{height:72px;display:block}
+.q{font-size:56px;font-weight:700;color:#1F4D3A;text-align:center;line-height:1.5}
+.title{font-size:64px;font-weight:700;color:#1F4D3A;text-align:center;line-height:1.25}
+.pill{display:inline-block;margin:24px auto 0;font-size:44px;font-weight:700;color:#fff;background:#1F4D3A;border-radius:999px;padding:8px 36px}
+.def{font-size:48px;background:#E6EFE9;border-radius:20px;padding:32px 40px;margin-top:48px;text-align:center}
+.ex{font-size:56px;font-weight:700;line-height:1.45;margin:0 0 40px}
+.step{display:flex;align-items:flex-start;gap:20px;font-size:44px;line-height:1.45;margin-top:24px}
+.badge{flex:none;width:56px;height:56px;border-radius:50%;background:#1F4D3A;color:#fff;font-size:44px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:4px}
+.var{background:#FBF0D6;border-left:8px solid #E07A5F;border-radius:0 20px 20px 0;padding:36px 40px;font-size:48px;line-height:1.5}
+.var .label{display:block;font-size:44px;font-weight:700;color:#1F4D3A;margin-bottom:12px}
+.quote{font-size:48px;font-weight:700;color:#1F4D3A;text-align:center;line-height:1.6}
+.logo{width:760px;margin:0 auto}
+.logo img{display:block;width:760px}
+.outro{font-size:44px;font-weight:700;color:#1F4D3A;text-align:center;margin-top:48px}
+/* 장면 시각: #sN 의 delay = 시작 시각, .wrap 의 delay = 끝 시각 - 0.25s */
+#s1{animation-delay:0s}    #s1 .wrap{animation-delay:2.75s}
+#s2{animation-delay:3s}    #s2 .wrap{animation-delay:6.75s}
+#s3{animation-delay:7s}    #s3 .wrap{animation-delay:18.75s}
+#s4{animation-delay:19s}   #s4 .wrap{animation-delay:22.75s}
+#s5{animation-delay:23s}   #s5 .wrap{animation-delay:26.75s}
+#s6{animation-delay:27s}   #s6 .wrap{animation:none}
+</style></head><body>
+<section class="scene" id="s1"><div class="wrap"><p class="q rise" style="animation-delay:.2s">단어는 다 아는데,<br>must 하나에서 해석이<br>어색해진 적 있나요?</p></div></section>
+<section class="scene" id="s2"><div class="wrap">
+  <div class="title rise" style="animation-delay:3.2s">조동사<br><span class="pill">중등</span></div>
+  <div class="def rise" style="animation-delay:3.9s">동사 앞에서 능력·의무·추측의<br>뜻을 더하는 말</div>
+</div></section>
+<section class="scene" id="s3"><div class="wrap">
+  <p class="ex rise" style="animation-delay:7s">Sora studied all night, <span class="cut" style="animation-delay:8s">/</span><br>so she must be <span class="cut" style="animation-delay:8.4s">/</span><br>very tired today.</p>
+  <div class="step rise" style="animation-delay:9.5s"><span class="badge">1</span><span>첫 덩어리는 근거 '밤새 공부했다'</span></div>
+  <div class="step rise" style="animation-delay:12s"><span class="badge">2</span><span>must be는 근거로 짐작한 추측</span></div>
+  <div class="step rise" style="animation-delay:14.5s"><span class="badge">3</span><span>상태라서 '무척 피곤한 게 틀림없다'</span></div>
+</div></section>
+<section class="scene" id="s4"><div class="wrap"><div class="var rise" style="animation-delay:19.2s"><span class="label">여기서 헷갈려요</span>must를 '~해야 한다'로만 읽는 순간</div></div></section>
+<section class="scene" id="s5"><div class="wrap"><p class="quote rise" style="animation-delay:23.2s">"조동사 하나를 바르게 읽으면,<br>문장 전체의 방향이 보입니다."</p></div></section>
+<section class="scene" id="s6"><div class="wrap"><div class="logo rise" style="animation-delay:27.2s"><img src="logo.png" alt=""></div><p class="outro rise" style="animation-delay:27.6s">자세한 내용은 블로그에서 확인하세요</p></div></section>
+<div class="brand"><img src="logo.png" alt="ON글터"></div>
+</body></html>
