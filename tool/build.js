@@ -216,4 +216,5 @@ async function main() {
   await b.close();
   if (overflow) { console.error('일부 쪽이 A4를 넘었습니다. JSON을 고친 뒤 다시 빌드하세요.'); process.exit(2); }
 }
-main().catch(e => { console.error(e); process.exit(1); });
+module.exports = { CSS, SPACING, esc, txt, requirePlaywright, ROOT, A4_PX };
+if (require.main === module) main().catch(e => { console.error(e); process.exit(1); });

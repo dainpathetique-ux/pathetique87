@@ -59,3 +59,15 @@ color: `teal`(어휘) `blue`(내용 확인) `violet`(생각 넓히기) `orange`(
 
 ## 쪽 넘침
 빌드가 `⚠ 넘침` 을 표시하면 그 쪽의 spacing을 한 단계 낮추거나 줄 수를 줄인 뒤 다시 빌드합니다. 넘침이 없을 때까지 반복하고, 반대로 쪽 아래가 많이 비면 spacing을 올립니다.
+
+## 답지 (정답지를 요청받았을 때만)
+같은 JSON에 답을 적고 `node tool/build_answers.js worksheets/<이름>.json` 으로 빌드합니다.
+결과: `output/<slug>/<slug>_답지.pdf` + `<slug>_답지_N쪽.png` (같은 머리글·색, 쪽은 자동으로 나뉨).
+
+| 위치 | 키 | 설명 |
+|---|---|---|
+| item | answer | 문자열 또는 배열. choice는 `"②"`(선택지 글이 자동으로 붙음), choice_lines는 `["②", "까닭"]`, fill·table·flow·numbered_lines는 칸 순서대로 배열 |
+| item | example | `true`면 `예시 답안` 꼬리표 (생각을 묻는 열린 문항) |
+| writing | answerOutline | 개요표 예시 `[["주장","…"], …]` |
+| writing | answer | 예시 글 (문단은 `\n`) |
+| writing | rubric | 채점 기준 `[["내용","…"], …]`. 생략하면 내용·조직·표현·맞춤법 기본표 |
