@@ -60,14 +60,25 @@ color: `teal`(어휘) `blue`(내용 확인) `violet`(생각 넓히기) `orange`(
 ## 쪽 넘침
 빌드가 `⚠ 넘침` 을 표시하면 그 쪽의 spacing을 한 단계 낮추거나 줄 수를 줄인 뒤 다시 빌드합니다. 넘침이 없을 때까지 반복하고, 반대로 쪽 아래가 많이 비면 spacing을 올립니다.
 
-## 답지 (정답지를 요청받았을 때만)
-같은 JSON에 답을 적고 `node tool/build_answers.js worksheets/<이름>.json` 으로 빌드합니다.
-결과: `output/<slug>/<slug>_답지.pdf` + `<slug>_답지_N쪽.png` (같은 머리글·색, 쪽은 자동으로 나뉨).
+## 답지 (정답지) — `--answers`
+원장이 정답지를 요청하면 각 문항에 답을 적고 `node tool/build.js <파일>.json --answers` 로 빌드합니다.
+학생용과 같은 서식에 답이 빨간 글씨로 들어간 `<slug>_답지.pdf` (+ 쪽별 PNG)가 같은 폴더에 생깁니다.
+학생용 빌드에서는 아래 필드가 무시됩니다.
 
-| 위치 | 키 | 설명 |
+| type | answer 형식 | 비고 |
 |---|---|---|
-| item | answer | 문자열 또는 배열. choice는 `"②"`(선택지 글이 자동으로 붙음), choice_lines는 `["②", "까닭"]`, fill·table·flow·numbered_lines는 칸 순서대로 배열 |
-| item | example | `true`면 `예시 답안` 꼬리표 (생각을 묻는 열린 문항) |
-| writing | answerOutline | 개요표 예시 `[["주장","…"], …]` |
-| writing | answer | 예시 글 (문단은 `\n`) |
-| writing | rubric | 채점 기준 `[["내용","…"], …]`. 생략하면 내용·조직·표현·맞춤법 기본표 |
+| choice | 정답 번호 (1~4) | 해당 보기에 빨간 동그라미 |
+| choice_lines | 정답 번호 + `why`(까닭 예시 문장) | why 앞에 '예시' 표시 (`whyExample:false`로 끔) |
+| lines | 문자열 | |
+| label_lines | `[라벨 빈칸 답, 줄에 쓸 답]` | |
+| fill | `[빈칸1 답, 빈칸2 답, …]` | items 순서 |
+| table | `[행1 답, 행2 답, …]` | rows 순서 |
+| numbered_lines | `[① 답, ② 답, …]` | labels 순서 |
+| flow | `[상자1 답, 상자2 답, 상자3 답]` | |
+| yesno | `{"pick":"찬성","reasons":["…","…"]}` | 항상 '예시' 표시 |
+
+- 열린 문항(정답이 하나가 아닌 문항)은 `"example": true` 를 붙여 '예시' 표시를 단다.
+- 답은 학생 답 칸 안에 들어갈 만큼만 쓴다. 칸을 넘으면 빌드가 `⚠ 답이 칸을 넘침` 을 표시한다.
+- writing: `"example": {"outline": [개요표 각 행의 예시 (행 수와 같게)], "text": "예시 글 (원고지에 한 칸 한 글자, 줄바꿈 \n 은 새 문단)"}`.
+  답지의 선생님 한마디 칸은 채점 기준(내용·조직·표현·맞춤법)으로 바뀐다. `rubric: [["내용","…"],…]` 로 바꿀 수 있다.
+- 최상위 `group` 을 쓰면 출력이 `output/<group>/<slug>/` 로 간다 (예: 교재 권 단위 묶음).

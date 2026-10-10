@@ -1,0 +1,77 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>설명문 읽기 — 겉은 달라도 속은 같아요</title><style>
+@font-face{font-family:"NKR";src:url(kr400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"NKR";src:url(kr700.woff2) format("woff2");font-weight:700}
+:root{--ink:#2b2f3a;--line:#9fb3c8;--teal:#1f8a86;--blue:#2f6fcb;--violet:#7a57c9;--orange:#e07b2a;--green:#3f9a48;--rose:#c9507a;
+--teal-l:#e3f4f3;--blue-l:#e6eefb;--violet-l:#eee8fa;--orange-l:#fdeee0;--green-l:#e7f4e8;--rose-l:#fbe7ee;--cream:#fff8e8}
+*{box-sizing:border-box}
+body{margin:0;background:#888;font-family:"NKR",sans-serif;color:var(--ink);font-size:12pt;line-height:1.55}
+.page{width:210mm;height:297mm;background:#fff;padding:13mm 15mm 12mm;margin:0 auto 10px;position:relative;overflow:hidden}
+@page{size:A4;margin:0}
+@media print{body{background:none}.page{margin:0;page-break-after:always;break-after:page}}
+.hdr{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px solid var(--blue);padding-bottom:5px;margin-bottom:10px}
+.hdr .hl{display:flex;align-items:center;gap:4mm}
+.hdr .logo{width:45mm;height:13mm;overflow:hidden;flex:none}
+.hdr .logo img{width:56mm;margin:-6.2mm 0 0 -5.6mm;display:block}
+.hdr .l{font-size:9.5pt;color:#5a6b85}.hdr .t{font-size:15pt;font-weight:700;line-height:1.25;color:#1d3f7a;word-break:keep-all}
+.hdr .r{font-size:10.5pt;text-align:right;color:#3a4a66;white-space:nowrap}
+.hdr .r span{display:inline-block;border-bottom:1px solid #3a4a66;min-width:34mm;margin-left:4px}
+.box{word-break:keep-all;border:1.5px solid #e2c98a;background:var(--cream);border-radius:6px;padding:8px 12px;margin-bottom:12px;font-size:11.5pt;line-height:1.7}
+.box .cap{font-size:9pt;color:#8a6d2b;margin-bottom:4px}
+.box .ttl{font-weight:700;text-align:center;margin-bottom:3px;color:#5c4511}
+.box .ref{font-weight:700;color:#5c4511}
+h2{font-size:13pt;margin:var(--h2);padding:3px 12px;color:#fff;display:inline-block;border-radius:14px}
+.c-teal h2{background:var(--teal)}.c-blue h2{background:var(--blue)}.c-violet h2{background:var(--violet)}.c-orange h2{background:var(--orange)}.c-green h2{background:var(--green)}.c-rose h2{background:var(--rose)}
+.c-teal .n{color:var(--teal)}.c-blue .n{color:var(--blue)}.c-violet .n{color:var(--violet)}.c-orange .n{color:var(--orange)}.c-green .n{color:var(--green)}.c-rose .n{color:var(--rose)}
+.c-teal th{background:var(--teal-l)}.c-blue th{background:var(--blue-l)}.c-violet th{background:var(--violet-l)}.c-orange th{background:var(--orange-l)}.c-green th{background:var(--green-l)}.c-rose th{background:var(--rose-l)}
+.c-teal .flow .c,.c-teal .flow .a{border-color:var(--teal);color:var(--teal)}.c-blue .flow .c,.c-blue .flow .a{border-color:var(--blue);color:var(--blue)}
+.c-violet .flow .c,.c-violet .flow .a{border-color:var(--violet);color:var(--violet)}.c-orange .flow .c,.c-orange .flow .a{border-color:var(--orange);color:var(--orange)}
+.c-green .flow .c,.c-green .flow .a{border-color:var(--green);color:var(--green)}.c-rose .flow .c,.c-rose .flow .a{border-color:var(--rose);color:var(--rose)}
+.c-teal .tip{background:var(--teal-l)}.c-blue .tip{background:var(--blue-l)}.c-violet .tip{background:var(--violet-l)}.c-orange .tip{background:var(--orange-l)}.c-green .tip{background:var(--green-l)}.c-rose .tip{background:var(--rose-l)}
+.q{margin:0 0 var(--qm) 0;padding-left:1.8em;text-indent:-1.8em;word-break:keep-all}
+.q .n{font-weight:700;display:inline-block;width:1.8em;text-indent:0}
+.ch{margin:2px 0 0 1.8em;text-indent:0;display:flex;flex-wrap:wrap;gap:2px 18px}
+.bl{display:inline-block;border-bottom:1px solid var(--ink);min-width:28mm;height:1.1em;vertical-align:bottom}
+.ln{border-bottom:1px solid var(--line);height:var(--ln);margin:0 0 0 1.8em}
+.sp{margin-bottom:var(--sp)}
+table{border-collapse:collapse;width:calc(100% - 1.8em);margin:4px 0 8px 1.8em;font-size:11pt}
+td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top}
+th{font-weight:700;text-align:center}
+td.h{height:var(--td)}
+.wr{margin-left:1.8em}
+.grid{margin:6px 0 0 0;border:1.5px solid var(--green)}
+.grid .r{display:grid;grid-template-columns:repeat(20,1fr);border-bottom:1px solid #b9d9bc}
+.grid .r:nth-child(5n){border-bottom:1.5px solid var(--green)}
+.grid .r:last-child{border-bottom:none}
+.grid i{display:block;border-right:1px solid #b9d9bc;height:8mm}
+.grid i:last-child{border-right:none}
+.gcap{text-align:right;font-size:9pt;color:#5a7a5e;margin-top:2px}
+.wlines .ln{height:10mm;margin-left:0}
+.chk{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:3px 12px;font-size:11pt}
+.chk li::before{content:"☐ ";font-size:12pt;color:var(--green)}
+.pg{position:absolute;bottom:7mm;left:0;right:0;text-align:center;font-size:8.5pt;color:#8a97ab}
+.flow{display:flex;align-items:stretch;margin:4px 0 8px 1.8em}
+.flow .c{flex:1;border:1.5px solid;border-radius:6px;padding:4px 8px;min-height:var(--flow);font-size:10.5pt;color:var(--ink)!important}
+.flow .c b{display:block;font-size:10pt;margin-bottom:2px}
+.flow .a{align-self:center;padding:0 5px;font-size:16pt}
+.note{border:1.5px dashed var(--green);border-radius:6px;padding:6px 10px;margin-top:8px;font-size:10.5pt;min-height:19mm;color:#3a4a66}
+.note b{color:var(--green)}
+.tip{border-radius:6px;padding:5px 10px;font-size:10.5pt;color:#4a3a7a;margin:0 0 8px 1.8em}
+.ans{color:#d0312d;font-weight:700}
+.ex{display:inline-block;font-size:8.5pt;font-weight:700;color:#fff;background:#e8838a;border-radius:8px;padding:0 6px;margin-right:5px;line-height:1.5;vertical-align:1px}
+.la{margin:0 0 0 1.8em;height:calc(var(--ln) * var(--n));line-height:var(--ln);overflow:visible;
+background:repeating-linear-gradient(to bottom,transparent 0,transparent calc(var(--ln) - 1px),var(--line) calc(var(--ln) - 1px),var(--line) var(--ln));
+color:#d0312d;font-weight:700;font-size:11pt;word-break:keep-all}
+.ch .ok{color:#d0312d;font-weight:700;border:2px solid #d0312d;border-radius:12px;padding:0 6px;margin:-2px -8px}
+.flow .c .ans,td .ans{font-size:10.5pt}
+.grid i.ch1{display:flex;align-items:center;justify-content:center;color:#d0312d;font-size:12pt;font-weight:700}
+.stamp{display:inline-block;color:#d0312d;border:2px solid #d0312d;border-radius:6px;padding:2px 10px;font-weight:700;font-size:12pt;transform:rotate(-4deg)}
+.rub{display:grid;grid-template-columns:1fr 1fr;gap:1px 12px;font-size:9.5pt;line-height:1.45;margin-top:2px}.rub b{color:var(--green)}
+</style></head><body><div class="page" style="--ln:10.5mm;--sp:18px;--qm:9px;--td:14mm;--flow:34mm;--h2:14px 0 10px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 5학년 · 국어 5-2</div><div class="t">설명문 읽기 — 겉은 달라도 속은 같아요</div></div></div>
+   <div class="r">이름<span></span><br>날짜 <span style="min-width:40mm"></span></div></div><div class="box"><div class="ref">📖 교재 설명문 「겉은 달라도 속은 같아요」를 읽고 푸세요. 글 위에 표시된 '비교하는 대상', '공통점', '차이점'도 함께 살펴보세요.</div><div style="margin-top:4px">“종이책과 전자책은 다양한 주제에 대한 정보나 이야기를 담고 있다는 공통점이 있지만, 여러 가지 차이점도 있어요.”</div></div><div class="c-teal"><h2>1. 어휘 다지기</h2><p class="q"><span class="n">1</span>'휴대'의 뜻으로 가장 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 물건을 손에 들거나 몸에 지니고 다니는 것</span><span>② 물건을 새로 사는 것</span><span>③ 물건을 깨끗이 닦는 것</span><span>④ 물건을 남에게 빌려주는 것</span></div><p class="q"><span class="n">2</span>빈칸에 알맞은 낱말을 〈보기〉에서 골라 쓰세요.</p><table><tr><th style="width:14%">보기</th><td>저렴 &nbsp;·&nbsp; 저장 &nbsp;·&nbsp; 간편 &nbsp;·&nbsp; 번갈아</td></tr></table><div class="wr sp">⑴ 이 가게는 다른 곳보다 값이 ( <span class="bl" style="min-width:18mm"></span> )합니다.<br>⑵ 찍은 사진을 컴퓨터에 ( <span class="bl" style="min-width:18mm"></span> )해 두었습니다.<br>⑶ 이 도시락은 들고 다니기 ( <span class="bl" style="min-width:18mm"></span> )합니다.<br>⑷ 형과 나는 그네를 ( <span class="bl" style="min-width:18mm"></span> ) 탔습니다.</div><p class="q"><span class="n">3</span>'공통점'의 반대되는 뜻을 가진 말을 고르세요.</p><div class="ch sp"><span>① 장점</span><span>② 차이점</span><span>③ 출발점</span><span>④ 문제점</span></div><p class="q"><span class="n">4</span>'각각의 장점을 활용하는'에서 '활용'의 뜻으로 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 필요 없어서 버림</span><span>② 충분히 잘 이용함</span><span>③ 조용히 숨겨 둠</span><span>④ 다른 사람에게 자랑함</span></div><p class="q"><span class="n">5</span>'불편하다'의 반대되는 뜻을 가진 말을 쓰고, 그 말을 넣어 짧은 문장을 만들어 보세요.</p><div class="wr">반대되는 말: <span class="bl" style="min-width:30mm"></span></div><div class="ln"></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">6</span>'간편하다'라는 낱말을 넣어 내 생활과 관련된 문장을 한 개 만들어 보세요.</p><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="pg">1 / 4</div></div>
+<div class="page" style="--ln:9mm;--sp:12px;--qm:7px;--td:11mm;--flow:26mm;--h2:12px 0 8px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 5학년 · 국어 5-2</div><div class="t">설명문 읽기 — 겉은 달라도 속은 같아요</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-blue"><h2>2. 내용 확인</h2><p class="q"><span class="n">7</span>이 글에서 비교하는 두 대상은 무엇인가요?</p><div class="ch sp"><span>① 신문과 잡지</span><span>② 종이책과 전자책</span><span>③ 도서관과 서점</span><span>④ 공책과 연필</span></div><p class="q"><span class="n">8</span>요즘 전자책에 대한 관심이 높아지면서 생긴 변화로 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 종이책이 모두 사라졌다.</span><span>② 책을 읽는 사람이 줄었다.</span><span>③ 상황에 따라 두 책을 번갈아 보며 장점을 활용하는 사람이 늘었다.</span><span>④ 전자책 값이 크게 올랐다.</span></div><p class="q"><span class="n">9</span>종이책과 전자책의 공통점을 글에서 찾아 쓰세요.</p><div class="wr">공통점: <span class="bl" style="min-width:48mm"></span></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">10</span>글에서 찾아 두 책의 차이점을 표에 정리해 보세요.</p><table class="sp"><tr><th style="width:28%">종이책의 불편한 점 ①</th><td class="h"></td></tr><tr><th style="width:28%">종이책의 불편한 점 ②</th><td class="h"></td></tr><tr><th style="width:28%">전자책의 좋은 점 ①</th><td class="h"></td></tr><tr><th style="width:28%">전자책의 좋은 점 ②</th><td class="h"></td></tr></table><p class="q"><span class="n">11</span>이 글의 짜임을 간단히 정리해 보세요.</p><div class="flow"><div class="c"><b>요즘의 변화</b></div><div class="a">▶</div><div class="c"><b>공통점</b></div><div class="a">▶</div><div class="c"><b>차이점</b></div></div><p class="q"><span class="n">12</span>이 글의 갈래로 알맞은 것을 고르고, 그렇게 생각한 까닭을 쓰세요.</p><div class="ch"><span>① 동화</span><span>② 설명문</span><span>③ 논설문</span><span>④ 일기</span></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="pg">2 / 4</div></div>
+<div class="page" style="--ln:7.5mm;--sp:10px;--qm:5px;--td:9mm;--flow:22mm;--h2:10px 0 6px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 5학년 · 국어 5-2</div><div class="t">설명문 읽기 — 겉은 달라도 속은 같아요</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-violet"><h2>3. 생각 넓히기</h2><div class="tip">💡 "왜냐하면 ~ 때문이다."로 까닭을 쓰면 생각이 더 분명해져요.</div><p class="q"><span class="n">13</span>글의 제목 '겉은 달라도 속은 같아요'에서 '겉'과 '속'은 각각 무엇을 뜻할까요? 그렇게 생각한 까닭도 쓰세요.</p><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">14</span>전자책은 휴대가 간편한데, 왜 여전히 종이책을 읽는 사람이 많을까요? 내 생각을 쓰세요.</p><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">15</span>다음 상황에서는 어떤 책이 더 알맞을까요? 고르고 까닭을 쓰세요. "여행 가방이 작아서 책을 여러 권 넣을 수 없어요."</p><div class="wr">알맞은 책: <span class="bl" style="min-width:48mm"></span></div><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="c-orange"><h2>4. 나의 생각</h2><p class="q"><span class="n">16</span>"학교 수업에서는 종이 교과서 대신 전자책 교과서를 써야 한다."라는 의견에 찬성하나요, 반대하나요? 이유를 두 가지 쓰세요.</p><div class="wr">☐ 찬성 &nbsp;&nbsp; ☐ 반대</div><div class="wr">이유 ①</div><div class="ln"></div><div class="wr">이유 ②</div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">17</span>종이책이나 전자책으로 책을 읽었던 경험을 쓰고, 그때 좋았던 점이나 불편했던 점을 쓰세요.</p><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="pg">3 / 4</div></div>
+<div class="page" style="--ln:7.5mm;--sp:10px;--qm:5px;--td:9mm;--flow:22mm;--h2:10px 0 6px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 5학년 · 국어 5-2</div><div class="t">설명문 읽기 — 겉은 달라도 속은 같아요</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-green"><h2>5. 글쓰기 — "상황에 맞게 책을 골라 읽자"</h2><p class="q"><span class="n">18</span>두 책의 장점을 바탕으로, 언제 어떤 책을 읽으면 좋은지 두 문단(250~300자)으로 쓰세요.</p><table><tr><th style="width:16%">중심 생각</th><td style="height:10mm">상황에 맞게 종이책과 전자책을 골라 읽자. 왜냐하면 …</td></tr><tr><th style="width:16%">종이책이 좋은 때</th><td style="height:10mm"></td></tr><tr><th style="width:16%">전자책이 좋은 때</th><td style="height:10mm"></td></tr><tr><th style="width:16%">글 속 근거</th><td style="height:10mm"></td></tr><tr><th style="width:16%">마무리</th><td style="height:10mm"></td></tr></table><div class="grid"><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+    <div class="gcap">한 줄 20자 · 다섯 줄마다 100자 (굵은 선)</div><h2 style="margin-top:8px">6. 스스로 점검</h2><ul class="chk"><li>중심 생각이 첫 문장에 분명하게 드러난다.</li><li>'휴대', '저장' 같은 글 속 낱말을 썼다.</li><li>종이책과 전자책이 좋은 때를 문단을 나누어 썼다.</li><li>문장 끝마다 마침표를 찍었다.</li></ul><div class="note"><b>선생님 한마디</b></div></div><div class="pg">4 / 4</div></div></body></html>

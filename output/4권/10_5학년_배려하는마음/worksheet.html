@@ -1,0 +1,77 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>논설문 읽기 — 배려하는 마음</title><style>
+@font-face{font-family:"NKR";src:url(kr400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"NKR";src:url(kr700.woff2) format("woff2");font-weight:700}
+:root{--ink:#2b2f3a;--line:#9fb3c8;--teal:#1f8a86;--blue:#2f6fcb;--violet:#7a57c9;--orange:#e07b2a;--green:#3f9a48;--rose:#c9507a;
+--teal-l:#e3f4f3;--blue-l:#e6eefb;--violet-l:#eee8fa;--orange-l:#fdeee0;--green-l:#e7f4e8;--rose-l:#fbe7ee;--cream:#fff8e8}
+*{box-sizing:border-box}
+body{margin:0;background:#888;font-family:"NKR",sans-serif;color:var(--ink);font-size:12pt;line-height:1.55}
+.page{width:210mm;height:297mm;background:#fff;padding:13mm 15mm 12mm;margin:0 auto 10px;position:relative;overflow:hidden}
+@page{size:A4;margin:0}
+@media print{body{background:none}.page{margin:0;page-break-after:always;break-after:page}}
+.hdr{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px solid var(--blue);padding-bottom:5px;margin-bottom:10px}
+.hdr .hl{display:flex;align-items:center;gap:4mm}
+.hdr .logo{width:45mm;height:13mm;overflow:hidden;flex:none}
+.hdr .logo img{width:56mm;margin:-6.2mm 0 0 -5.6mm;display:block}
+.hdr .l{font-size:9.5pt;color:#5a6b85}.hdr .t{font-size:15pt;font-weight:700;line-height:1.25;color:#1d3f7a;word-break:keep-all}
+.hdr .r{font-size:10.5pt;text-align:right;color:#3a4a66;white-space:nowrap}
+.hdr .r span{display:inline-block;border-bottom:1px solid #3a4a66;min-width:34mm;margin-left:4px}
+.box{word-break:keep-all;border:1.5px solid #e2c98a;background:var(--cream);border-radius:6px;padding:8px 12px;margin-bottom:12px;font-size:11.5pt;line-height:1.7}
+.box .cap{font-size:9pt;color:#8a6d2b;margin-bottom:4px}
+.box .ttl{font-weight:700;text-align:center;margin-bottom:3px;color:#5c4511}
+.box .ref{font-weight:700;color:#5c4511}
+h2{font-size:13pt;margin:var(--h2);padding:3px 12px;color:#fff;display:inline-block;border-radius:14px}
+.c-teal h2{background:var(--teal)}.c-blue h2{background:var(--blue)}.c-violet h2{background:var(--violet)}.c-orange h2{background:var(--orange)}.c-green h2{background:var(--green)}.c-rose h2{background:var(--rose)}
+.c-teal .n{color:var(--teal)}.c-blue .n{color:var(--blue)}.c-violet .n{color:var(--violet)}.c-orange .n{color:var(--orange)}.c-green .n{color:var(--green)}.c-rose .n{color:var(--rose)}
+.c-teal th{background:var(--teal-l)}.c-blue th{background:var(--blue-l)}.c-violet th{background:var(--violet-l)}.c-orange th{background:var(--orange-l)}.c-green th{background:var(--green-l)}.c-rose th{background:var(--rose-l)}
+.c-teal .flow .c,.c-teal .flow .a{border-color:var(--teal);color:var(--teal)}.c-blue .flow .c,.c-blue .flow .a{border-color:var(--blue);color:var(--blue)}
+.c-violet .flow .c,.c-violet .flow .a{border-color:var(--violet);color:var(--violet)}.c-orange .flow .c,.c-orange .flow .a{border-color:var(--orange);color:var(--orange)}
+.c-green .flow .c,.c-green .flow .a{border-color:var(--green);color:var(--green)}.c-rose .flow .c,.c-rose .flow .a{border-color:var(--rose);color:var(--rose)}
+.c-teal .tip{background:var(--teal-l)}.c-blue .tip{background:var(--blue-l)}.c-violet .tip{background:var(--violet-l)}.c-orange .tip{background:var(--orange-l)}.c-green .tip{background:var(--green-l)}.c-rose .tip{background:var(--rose-l)}
+.q{margin:0 0 var(--qm) 0;padding-left:1.8em;text-indent:-1.8em;word-break:keep-all}
+.q .n{font-weight:700;display:inline-block;width:1.8em;text-indent:0}
+.ch{margin:2px 0 0 1.8em;text-indent:0;display:flex;flex-wrap:wrap;gap:2px 18px}
+.bl{display:inline-block;border-bottom:1px solid var(--ink);min-width:28mm;height:1.1em;vertical-align:bottom}
+.ln{border-bottom:1px solid var(--line);height:var(--ln);margin:0 0 0 1.8em}
+.sp{margin-bottom:var(--sp)}
+table{border-collapse:collapse;width:calc(100% - 1.8em);margin:4px 0 8px 1.8em;font-size:11pt}
+td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top}
+th{font-weight:700;text-align:center}
+td.h{height:var(--td)}
+.wr{margin-left:1.8em}
+.grid{margin:6px 0 0 0;border:1.5px solid var(--green)}
+.grid .r{display:grid;grid-template-columns:repeat(20,1fr);border-bottom:1px solid #b9d9bc}
+.grid .r:nth-child(5n){border-bottom:1.5px solid var(--green)}
+.grid .r:last-child{border-bottom:none}
+.grid i{display:block;border-right:1px solid #b9d9bc;height:8mm}
+.grid i:last-child{border-right:none}
+.gcap{text-align:right;font-size:9pt;color:#5a7a5e;margin-top:2px}
+.wlines .ln{height:10mm;margin-left:0}
+.chk{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:3px 12px;font-size:11pt}
+.chk li::before{content:"☐ ";font-size:12pt;color:var(--green)}
+.pg{position:absolute;bottom:7mm;left:0;right:0;text-align:center;font-size:8.5pt;color:#8a97ab}
+.flow{display:flex;align-items:stretch;margin:4px 0 8px 1.8em}
+.flow .c{flex:1;border:1.5px solid;border-radius:6px;padding:4px 8px;min-height:var(--flow);font-size:10.5pt;color:var(--ink)!important}
+.flow .c b{display:block;font-size:10pt;margin-bottom:2px}
+.flow .a{align-self:center;padding:0 5px;font-size:16pt}
+.note{border:1.5px dashed var(--green);border-radius:6px;padding:6px 10px;margin-top:8px;font-size:10.5pt;min-height:19mm;color:#3a4a66}
+.note b{color:var(--green)}
+.tip{border-radius:6px;padding:5px 10px;font-size:10.5pt;color:#4a3a7a;margin:0 0 8px 1.8em}
+.ans{color:#d0312d;font-weight:700}
+.ex{display:inline-block;font-size:8.5pt;font-weight:700;color:#fff;background:#e8838a;border-radius:8px;padding:0 6px;margin-right:5px;line-height:1.5;vertical-align:1px}
+.la{margin:0 0 0 1.8em;height:calc(var(--ln) * var(--n));line-height:var(--ln);overflow:visible;
+background:repeating-linear-gradient(to bottom,transparent 0,transparent calc(var(--ln) - 1px),var(--line) calc(var(--ln) - 1px),var(--line) var(--ln));
+color:#d0312d;font-weight:700;font-size:11pt;word-break:keep-all}
+.ch .ok{color:#d0312d;font-weight:700;border:2px solid #d0312d;border-radius:12px;padding:0 6px;margin:-2px -8px}
+.flow .c .ans,td .ans{font-size:10.5pt}
+.grid i.ch1{display:flex;align-items:center;justify-content:center;color:#d0312d;font-size:12pt;font-weight:700}
+.stamp{display:inline-block;color:#d0312d;border:2px solid #d0312d;border-radius:6px;padding:2px 10px;font-weight:700;font-size:12pt;transform:rotate(-4deg)}
+.rub{display:grid;grid-template-columns:1fr 1fr;gap:1px 12px;font-size:9.5pt;line-height:1.45;margin-top:2px}.rub b{color:var(--green)}
+</style></head><body><div class="page" style="--ln:10.5mm;--sp:18px;--qm:9px;--td:14mm;--flow:34mm;--h2:14px 0 10px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 5학년 · 국어 5-1</div><div class="t">논설문 읽기 — 배려하는 마음</div></div></div>
+   <div class="r">이름<span></span><br>날짜 <span style="min-width:40mm"></span></div></div><div class="box"><div class="ref">📖 교재 논설문 「배려하는 마음」을 읽고 푸세요. 글쓴이가 무엇을 겪었고, 읽는 사람에게 무엇을 제안하는지 생각하며 읽어 보세요.</div><div style="margin-top:4px">“여러분의 작은 배려가 택배 기사님들께 큰 힘이 될 수 있습니다.”</div></div><div class="c-teal"><h2>1. 어휘 다지기</h2><p class="q"><span class="n">1</span>'과로'의 뜻으로 가장 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 몸이 피곤하지 않게 푹 쉬는 것</span><span>② 지나치게 일을 많이 하여 몸이 지치는 것</span><span>③ 맡은 일을 빨리 끝내는 것</span><span>④ 여러 사람이 함께 일하는 것</span></div><p class="q"><span class="n">2</span>빈칸에 알맞은 낱말을 〈보기〉에서 골라 쓰세요.</p><table><tr><th style="width:14%">보기</th><td>안타까운 &nbsp;·&nbsp; 수레 &nbsp;·&nbsp; 마주칠 &nbsp;·&nbsp; 배려</td></tr></table><div class="wr sp">⑴ 친구가 다쳐서 시합에 나가지 못한 것은 ( <span class="bl" style="min-width:18mm"></span> ) 일이었습니다.<br>⑵ 할아버지께서 ( <span class="bl" style="min-width:18mm"></span> )에 짐을 싣고 밭으로 가셨습니다.<br>⑶ 복도에서 선생님과 ( <span class="bl" style="min-width:18mm"></span> ) 때 웃으며 인사를 드립니다.<br>⑷ 몸이 불편한 친구를 ( <span class="bl" style="min-width:18mm"></span> )해서 자리를 양보했습니다.</div><p class="q"><span class="n">3</span>'문득 우리 동네에서 ~ 모습이 떠올랐습니다'에서 '문득'의 뜻으로 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 아주 천천히</span><span>② 생각이나 느낌이 갑자기 떠오르는 모양</span><span>③ 여러 번 되풀이하는 모양</span><span>④ 조금도 없이</span></div><p class="q"><span class="n">4</span>'배려'와 뜻이 가장 비슷한 말을 고르세요.</p><div class="ch sp"><span>① 무시</span><span>② 보살핌</span><span>③ 다툼</span><span>④ 욕심</span></div><p class="q"><span class="n">5</span>'작은'의 반대되는 뜻을 가진 말을 쓰고, 그 말을 넣어 짧은 문장을 만들어 보세요.</p><div class="wr">반대되는 말: <span class="bl" style="min-width:30mm"></span></div><div class="ln"></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">6</span>'감사'라는 낱말을 넣어 내 생활과 관련된 문장을 한 개 만들어 보세요.</p><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="pg">1 / 4</div></div>
+<div class="page" style="--ln:9mm;--sp:12px;--qm:7px;--td:11mm;--flow:26mm;--h2:12px 0 8px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 5학년 · 국어 5-1</div><div class="t">논설문 읽기 — 배려하는 마음</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-blue"><h2>2. 내용 확인</h2><p class="q"><span class="n">7</span>글쓴이가 이 글을 쓰게 된 계기로 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 택배를 잘못 받은 일</span><span>② TV에서 과로로 쓰러진 택배 기사님 이야기를 들은 일</span><span>③ 택배 기사님께 편지를 받은 일</span><span>④ 동네에 택배 회사가 새로 생긴 일</span></div><p class="q"><span class="n">8</span>글에서 찾아 표에 정리해 보세요.</p><table class="sp"><tr><th style="width:28%">글쓴이가 들은 이야기</th><td class="h"></td></tr><tr><th style="width:28%">글쓴이에게 떠오른 모습</th><td class="h"></td></tr><tr><th style="width:28%">작은 배려의 결과</th><td class="h"></td></tr></table><p class="q"><span class="n">9</span>글쓴이가 택배 기사님께 감사 인사를 전하자고 한 때를 두 가지 찾아 쓰세요.</p><div class="wr">①</div><div class="ln"></div><div class="wr">②</div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">10</span>이 글에서 '작은 배려'가 가리키는 것으로 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 택배 기사님께 선물 드리기</span><span>② 감사하다는 인사 전하기</span><span>③ 택배 상자 대신 버려 드리기</span><span>④ 물건을 대신 배달해 드리기</span></div><p class="q"><span class="n">11</span>이 글의 짜임을 간단히 정리해 보세요.</p><div class="flow"><div class="c"><b>겪은 일(문제 상황)</b></div><div class="a">▶</div><div class="c"><b>제안(주장)</b></div><div class="a">▶</div><div class="c"><b>기대하는 결과</b></div></div><p class="q"><span class="n">12</span>이 글의 갈래로 알맞은 것을 고르고, 그렇게 생각한 까닭을 쓰세요.</p><div class="ch"><span>① 동화</span><span>② 설명문</span><span>③ 논설문</span><span>④ 일기</span></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="pg">2 / 4</div></div>
+<div class="page" style="--ln:7.5mm;--sp:10px;--qm:5px;--td:9mm;--flow:22mm;--h2:10px 0 6px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 5학년 · 국어 5-1</div><div class="t">논설문 읽기 — 배려하는 마음</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-violet"><h2>3. 생각 넓히기</h2><div class="tip">💡 "왜냐하면 ~ 때문이다."로 까닭을 쓰면 생각이 더 분명해져요.</div><p class="q"><span class="n">13</span>택배 기사님이 과로로 쓰러지신 까닭은 무엇일까요? 글 속 기사님의 모습을 떠올려 짐작해 보세요.</p><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">14</span>글쓴이는 "인사를 해야 합니다." 대신 "인사를 전하면 어떨까요?"라고 물었습니다. 이렇게 쓴 까닭은 무엇일까요?</p><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">15</span>감사 인사 말고도 택배 기사님을 배려하는 방법을 한 가지 쓰고, 까닭도 쓰세요.</p><div class="wr">배려하는 방법: <span class="bl" style="min-width:48mm"></span></div><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="c-orange"><h2>4. 나의 생각</h2><p class="q"><span class="n">16</span>"인사 한마디는 택배 기사님께 큰 힘이 될 수 있다."라는 글쓴이의 생각에 찬성하나요, 반대하나요? 이유를 두 가지 쓰세요.</p><div class="wr">☐ 찬성 &nbsp;&nbsp; ☐ 반대</div><div class="wr">이유 ①</div><div class="ln"></div><div class="wr">이유 ②</div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">17</span>다른 사람의 작은 배려 덕분에 힘이 났던 경험을 쓰고, 그때 어떤 마음이 들었는지 쓰세요.</p><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="pg">3 / 4</div></div>
+<div class="page" style="--ln:7.5mm;--sp:10px;--qm:5px;--td:9mm;--flow:22mm;--h2:10px 0 6px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 5학년 · 국어 5-1</div><div class="t">논설문 읽기 — 배려하는 마음</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-green"><h2>5. 글쓰기 — "고마운 분들께 감사를 전하자"</h2><p class="q"><span class="n">18</span>우리 주변에서 애쓰시는 분들께 감사를 전하자는 주장하는 글을 두 문단(250~300자)으로 쓰세요.</p><table><tr><th style="width:16%">주장</th><td style="height:10mm">우리 주변의 고마운 분들께 감사를 전하자. 왜냐하면 …</td></tr><tr><th style="width:16%">까닭 ①</th><td style="height:10mm"></td></tr><tr><th style="width:16%">까닭 ②</th><td style="height:10mm"></td></tr><tr><th style="width:16%">실천 방법</th><td style="height:10mm"></td></tr><tr><th style="width:16%">마무리</th><td style="height:10mm"></td></tr></table><div class="grid"><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+    <div class="gcap">한 줄 20자 · 다섯 줄마다 100자 (굵은 선)</div><h2 style="margin-top:8px">6. 스스로 점검</h2><ul class="chk"><li>주장이 첫 문장에 분명하게 드러난다.</li><li>'배려'나 '감사' 같은 글 속 낱말을 썼다.</li><li>까닭을 두 가지 이상 들고, 문단을 나누어 썼다.</li><li>문장 끝마다 마침표를 찍었다.</li></ul><div class="note"><b>선생님 한마디</b></div></div><div class="pg">4 / 4</div></div></body></html>
