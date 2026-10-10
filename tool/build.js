@@ -85,6 +85,7 @@ td.h{height:var(--td)}
 .note b{color:var(--green)}
 .tip{border-radius:6px;padding:5px 10px;font-size:10.5pt;color:#4a3a7a;margin:0 0 8px 1.8em}
 .ans{color:#d0312d;font-weight:700}
+.bl:has(.ans){height:auto;line-height:1.3;text-align:center}
 .ex{display:inline-block;font-size:8.5pt;font-weight:700;color:#fff;background:#e8838a;border-radius:8px;padding:0 6px;margin-right:5px;line-height:1.5;vertical-align:1px}
 .la{margin:0 0 0 1.8em;height:calc(var(--ln) * var(--n));line-height:var(--ln);overflow:visible;
 background:repeating-linear-gradient(to bottom,transparent 0,transparent calc(var(--ln) - 1px),var(--line) calc(var(--ln) - 1px),var(--line) var(--ln));
@@ -116,7 +117,7 @@ function renderItem(it) {
     case 'lines':
       return q + L(it.lines||2, it, A) + `<div class="sp"></div>`;
     case 'label_lines': { // 라벨 + 줄 (예: 반대말: ____ 그 뒤 줄)
-      const lab = ANS && arr(0) != null ? txt(it.label).replace(/<span class="bl"[^>]*><\/span>/, `<span class="bl ans" style="min-width:28mm;padding:0 6px">${esc(arr(0))}</span>`) : txt(it.label);
+      const lab = ANS && arr(0) != null ? txt(it.label).replace(/<span class="bl"[^>]*><\/span>/, `<span class="bl ans" style="min-width:28mm;padding:0 6px;height:auto;line-height:1.3">${esc(arr(0))}</span>`) : txt(it.label);
       return q + `<div class="wr">${lab}</div>` + L(it.lines||2, it, arr(1)) + `<div class="sp"></div>`;
     }
     case 'fill': { // 보기 상자 + 문장 빈칸

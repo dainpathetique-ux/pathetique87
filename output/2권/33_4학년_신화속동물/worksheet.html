@@ -1,0 +1,78 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>설명문 읽기 — 신비롭고 기이한 신화 속 동물</title><style>
+@font-face{font-family:"NKR";src:url(kr400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"NKR";src:url(kr700.woff2) format("woff2");font-weight:700}
+:root{--ink:#2b2f3a;--line:#9fb3c8;--teal:#1f8a86;--blue:#2f6fcb;--violet:#7a57c9;--orange:#e07b2a;--green:#3f9a48;--rose:#c9507a;
+--teal-l:#e3f4f3;--blue-l:#e6eefb;--violet-l:#eee8fa;--orange-l:#fdeee0;--green-l:#e7f4e8;--rose-l:#fbe7ee;--cream:#fff8e8}
+*{box-sizing:border-box}
+body{margin:0;background:#888;font-family:"NKR",sans-serif;color:var(--ink);font-size:12pt;line-height:1.55}
+.page{width:210mm;height:297mm;background:#fff;padding:13mm 15mm 12mm;margin:0 auto 10px;position:relative;overflow:hidden}
+@page{size:A4;margin:0}
+@media print{body{background:none}.page{margin:0;page-break-after:always;break-after:page}}
+.hdr{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px solid var(--blue);padding-bottom:5px;margin-bottom:10px}
+.hdr .hl{display:flex;align-items:center;gap:4mm}
+.hdr .logo{width:45mm;height:13mm;overflow:hidden;flex:none}
+.hdr .logo img{width:56mm;margin:-6.2mm 0 0 -5.6mm;display:block}
+.hdr .l{font-size:9.5pt;color:#5a6b85}.hdr .t{font-size:15pt;font-weight:700;line-height:1.25;color:#1d3f7a;word-break:keep-all}
+.hdr .r{font-size:10.5pt;text-align:right;color:#3a4a66;white-space:nowrap}
+.hdr .r span{display:inline-block;border-bottom:1px solid #3a4a66;min-width:34mm;margin-left:4px}
+.box{word-break:keep-all;border:1.5px solid #e2c98a;background:var(--cream);border-radius:6px;padding:8px 12px;margin-bottom:12px;font-size:11.5pt;line-height:1.7}
+.box .cap{font-size:9pt;color:#8a6d2b;margin-bottom:4px}
+.box .ttl{font-weight:700;text-align:center;margin-bottom:3px;color:#5c4511}
+.box .ref{font-weight:700;color:#5c4511}
+h2{font-size:13pt;margin:var(--h2);padding:3px 12px;color:#fff;display:inline-block;border-radius:14px}
+.c-teal h2{background:var(--teal)}.c-blue h2{background:var(--blue)}.c-violet h2{background:var(--violet)}.c-orange h2{background:var(--orange)}.c-green h2{background:var(--green)}.c-rose h2{background:var(--rose)}
+.c-teal .n{color:var(--teal)}.c-blue .n{color:var(--blue)}.c-violet .n{color:var(--violet)}.c-orange .n{color:var(--orange)}.c-green .n{color:var(--green)}.c-rose .n{color:var(--rose)}
+.c-teal th{background:var(--teal-l)}.c-blue th{background:var(--blue-l)}.c-violet th{background:var(--violet-l)}.c-orange th{background:var(--orange-l)}.c-green th{background:var(--green-l)}.c-rose th{background:var(--rose-l)}
+.c-teal .flow .c,.c-teal .flow .a{border-color:var(--teal);color:var(--teal)}.c-blue .flow .c,.c-blue .flow .a{border-color:var(--blue);color:var(--blue)}
+.c-violet .flow .c,.c-violet .flow .a{border-color:var(--violet);color:var(--violet)}.c-orange .flow .c,.c-orange .flow .a{border-color:var(--orange);color:var(--orange)}
+.c-green .flow .c,.c-green .flow .a{border-color:var(--green);color:var(--green)}.c-rose .flow .c,.c-rose .flow .a{border-color:var(--rose);color:var(--rose)}
+.c-teal .tip{background:var(--teal-l)}.c-blue .tip{background:var(--blue-l)}.c-violet .tip{background:var(--violet-l)}.c-orange .tip{background:var(--orange-l)}.c-green .tip{background:var(--green-l)}.c-rose .tip{background:var(--rose-l)}
+.q{margin:0 0 var(--qm) 0;padding-left:1.8em;text-indent:-1.8em;word-break:keep-all}
+.q .n{font-weight:700;display:inline-block;width:1.8em;text-indent:0}
+.ch{margin:2px 0 0 1.8em;text-indent:0;display:flex;flex-wrap:wrap;gap:2px 18px}
+.bl{display:inline-block;border-bottom:1px solid var(--ink);min-width:28mm;height:1.1em;vertical-align:bottom}
+.ln{border-bottom:1px solid var(--line);height:var(--ln);margin:0 0 0 1.8em}
+.sp{margin-bottom:var(--sp)}
+table{border-collapse:collapse;width:calc(100% - 1.8em);margin:4px 0 8px 1.8em;font-size:11pt}
+td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top}
+th{font-weight:700;text-align:center}
+td.h{height:var(--td)}
+.wr{margin-left:1.8em}
+.grid{margin:6px 0 0 0;border:1.5px solid var(--green)}
+.grid .r{display:grid;grid-template-columns:repeat(20,1fr);border-bottom:1px solid #b9d9bc}
+.grid .r:nth-child(5n){border-bottom:1.5px solid var(--green)}
+.grid .r:last-child{border-bottom:none}
+.grid i{display:block;border-right:1px solid #b9d9bc;height:8mm}
+.grid i:last-child{border-right:none}
+.gcap{text-align:right;font-size:9pt;color:#5a7a5e;margin-top:2px}
+.wlines .ln{height:10mm;margin-left:0}
+.chk{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:3px 12px;font-size:11pt}
+.chk li::before{content:"☐ ";font-size:12pt;color:var(--green)}
+.pg{position:absolute;bottom:7mm;left:0;right:0;text-align:center;font-size:8.5pt;color:#8a97ab}
+.flow{display:flex;align-items:stretch;margin:4px 0 8px 1.8em}
+.flow .c{flex:1;border:1.5px solid;border-radius:6px;padding:4px 8px;min-height:var(--flow);font-size:10.5pt;color:var(--ink)!important}
+.flow .c b{display:block;font-size:10pt;margin-bottom:2px}
+.flow .a{align-self:center;padding:0 5px;font-size:16pt}
+.note{border:1.5px dashed var(--green);border-radius:6px;padding:6px 10px;margin-top:8px;font-size:10.5pt;min-height:19mm;color:#3a4a66}
+.note b{color:var(--green)}
+.tip{border-radius:6px;padding:5px 10px;font-size:10.5pt;color:#4a3a7a;margin:0 0 8px 1.8em}
+.ans{color:#d0312d;font-weight:700}
+.bl:has(.ans){height:auto;line-height:1.3;text-align:center}
+.ex{display:inline-block;font-size:8.5pt;font-weight:700;color:#fff;background:#e8838a;border-radius:8px;padding:0 6px;margin-right:5px;line-height:1.5;vertical-align:1px}
+.la{margin:0 0 0 1.8em;height:calc(var(--ln) * var(--n));line-height:var(--ln);overflow:visible;
+background:repeating-linear-gradient(to bottom,transparent 0,transparent calc(var(--ln) - 1px),var(--line) calc(var(--ln) - 1px),var(--line) var(--ln));
+color:#d0312d;font-weight:700;font-size:11pt;word-break:keep-all}
+.ch .ok{color:#d0312d;font-weight:700;border:2px solid #d0312d;border-radius:12px;padding:0 6px;margin:-2px -8px}
+.flow .c .ans,td .ans{font-size:10.5pt}
+.grid i.ch1{display:flex;align-items:center;justify-content:center;color:#d0312d;font-size:12pt;font-weight:700}
+.stamp{display:inline-block;color:#d0312d;border:2px solid #d0312d;border-radius:6px;padding:2px 10px;font-weight:700;font-size:12pt;transform:rotate(-4deg)}
+.rub{display:grid;grid-template-columns:1fr 1fr;gap:1px 12px;font-size:9.5pt;line-height:1.45;margin-top:2px}.rub b{color:var(--green)}
+</style></head><body><div class="page" style="--ln:10.5mm;--sp:18px;--qm:9px;--td:14mm;--flow:34mm;--h2:14px 0 10px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 4학년 · 국어 4-2</div><div class="t">설명문 읽기 — 신비롭고 기이한 신화 속 동물</div></div></div>
+   <div class="r">이름<span></span><br>날짜 <span style="min-width:40mm"></span></div></div><div class="box"><div class="ref">📖 교재 설명문 「신비롭고 기이한 신화 속 동물」(국어 4-2)을 읽고 푸세요. 별표(*) 낱말도 살펴보세요: 신화 · 기이한 · 암수 · 상징</div><div style="margin-top:4px">“신화 속 동물에는 옛사람들의 소망과 생각이 담겨 있어요.”</div></div><div class="c-teal"><h2>1. 어휘 다지기</h2><p class="q"><span class="n">1</span>'기이한'의 뜻으로 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 평범하고 흔한</span><span>② 이상하고 신기한</span><span>③ 작고 약한</span><span>④ 무섭고 사나운</span></div><p class="q"><span class="n">2</span>"태양을 상징하지요"에서 '상징'의 뜻으로 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 무엇을 그대로 베껴 그림</span><span>② 보이지 않는 뜻을 어떤 모양이나 물건으로 나타냄</span><span>③ 새로운 물건을 만듦</span><span>④ 물건을 서로 바꿈</span></div><p class="q"><span class="n">3</span>빈칸에 알맞은 낱말을 〈보기〉에서 골라 쓰세요.</p><table><tr><th style="width:14%">보기</th><td>암수 &nbsp;·&nbsp; 소망 &nbsp;·&nbsp; 신화 &nbsp;·&nbsp; 기운</td></tr></table><div class="wr sp">⑴ 닭장 안에 닭 ( <span class="bl" style="min-width:18mm"></span> ) 한 쌍이 살고 있습니다.<br>⑵ 새해 첫날 해를 보며 ( <span class="bl" style="min-width:18mm"></span> )을 빌었습니다.<br>⑶ 옛날 사람들이 신이나 영웅을 두고 지은 이야기를 ( <span class="bl" style="min-width:18mm"></span> )라고 합니다.<br>⑷ 봄이 되니 따뜻한 ( <span class="bl" style="min-width:18mm"></span> )이 느껴집니다.</div><p class="q"><span class="n">4</span>"악한 사람들을 혼내기도"에서 '악한'과 뜻이 반대인 낱말을 고르세요.</p><div class="ch sp"><span>① 착한</span><span>② 나쁜</span><span>③ 무서운</span><span>④ 약한</span></div><p class="q"><span class="n">5</span>'신비롭다'와 뜻이 비슷한 낱말을 쓰고, 그 낱말을 넣어 짧은 문장을 만들어 보세요.</p><div class="wr">비슷한 말: <span class="bl" style="min-width:42mm"></span></div><div class="ln"></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">6</span>'상징'이라는 낱말을 넣어 내 생활과 관련된 문장을 한 개 만들어 보세요.</p><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="pg">1 / 4</div></div>
+<div class="page" style="--ln:10.5mm;--sp:18px;--qm:9px;--td:14mm;--flow:34mm;--h2:14px 0 10px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 4학년 · 국어 4-2</div><div class="t">설명문 읽기 — 신비롭고 기이한 신화 속 동물</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-blue"><h2>2. 내용 확인</h2><p class="q"><span class="n">7</span>신화 속 동물에 대한 설명으로 알맞지 않은 것을 고르세요.</p><div class="ch sp"><span>① 하늘을 날기도 한다.</span><span>② 물속에 살기도 한다.</span><span>③ 사람을 돕기도 한다.</span><span>④ 동물원에 가면 볼 수 있다.</span></div><p class="q"><span class="n">8</span>글에 나온 신화 속 동물의 특징을 표에 정리해 보세요.</p><table class="sp"><tr><th style="width:30%">① 비익조</th><td class="h"></td></tr><tr><th style="width:30%">② 삼족오</th><td class="h"></td></tr><tr><th style="width:30%">③ 불가사리</th><td class="h"></td></tr><tr><th style="width:30%">④ 기린</th><td class="h"></td></tr></table><p class="q"><span class="n">9</span>비익조가 하늘을 날려면 어떻게 해야 하나요?</p><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">10</span>불가사리의 생김새로 알맞은 것을 고르세요.</p><div class="ch sp"><span>① 사자 머리에 코끼리 코</span><span>② 이마에 난 뿔</span><span>③ 세 개의 발</span><span>④ 하나뿐인 눈과 날개</span></div><p class="q"><span class="n">11</span>이 글의 짜임을 문단별로 간단히 정리해 보세요.</p><div class="flow"><div class="c"><b>1문단: 신화 속 동물에 담긴 것</b></div><div class="a">▶</div><div class="c"><b>2문단: 하늘을 나는 동물</b></div><div class="a">▶</div><div class="c"><b>3문단: 땅 위에 사는 동물</b></div></div><p class="q"><span class="n">12</span>이 글의 갈래로 알맞은 것을 고르고, 그렇게 생각한 까닭을 쓰세요.</p><div class="ch"><span>① 동화</span><span>② 설명문</span><span>③ 편지</span><span>④ 일기</span></div><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="pg">2 / 4</div></div>
+<div class="page" style="--ln:9mm;--sp:12px;--qm:7px;--td:11mm;--flow:26mm;--h2:12px 0 8px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 4학년 · 국어 4-2</div><div class="t">설명문 읽기 — 신비롭고 기이한 신화 속 동물</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-violet"><h2>3. 생각 넓히기</h2><div class="tip">💡 "왜냐하면 ~ 때문이다."로 까닭을 쓰면 생각이 더 분명해져요.</div><p class="q"><span class="n">13</span>옛사람들이 불가사리 그림을 걸어 둔 것으로 보아, 그들에게는 어떤 소망이 있었을까요?</p><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">14</span>비익조가 부부의 아름다운 사랑을 뜻하게 된 까닭을 내 말로 풀어 쓰세요.</p><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">15</span>옛사람들은 왜 좋은 일이 생길 때 기린이 나타난다고 믿었을까요?</p><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="c-orange"><h2>4. 나의 생각</h2><p class="q"><span class="n">16</span>"신화 속 동물 이야기는 지어낸 것이니 배울 필요가 없다."라는 의견에 찬성하나요, 반대하나요? 이유를 두 가지 쓰세요.</p><div class="wr">☐ 찬성 &nbsp;&nbsp; ☐ 반대</div><div class="wr">이유 ①</div><div class="ln"></div><div class="wr">이유 ②</div><div class="ln"></div><div class="sp"></div><p class="q"><span class="n">17</span>글에 나온 신화 속 동물 가운데 가장 마음에 드는 동물은 무엇인가요? 그 까닭도 쓰세요.</p><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="sp"></div></div><div class="pg">3 / 4</div></div>
+<div class="page" style="--ln:9mm;--sp:12px;--qm:7px;--td:11mm;--flow:26mm;--h2:12px 0 8px"><div class="hdr"><div class="hl"><div class="logo"><img src="logo.jpg"></div><div><div class="l">초등논술 · 4학년 · 국어 4-2</div><div class="t">설명문 읽기 — 신비롭고 기이한 신화 속 동물</div></div></div>
+   <div class="r">이름<span></span></div></div><div class="c-green"><h2>5. 글쓰기 — "내가 만든 신화 속 동물"</h2><p class="q"><span class="n">18</span>소망을 담은 나만의 신화 속 동물을 만들어 소개하는 글을 한 문단(150~200자)으로 쓰세요. 개요표부터 채우세요.</p><table><tr><th style="width:16%">동물 이름</th><td style="height:10mm">제가 만든 동물은 ○○입니다. …</td></tr><tr><th style="width:16%">사는 곳</th><td style="height:10mm"></td></tr><tr><th style="width:16%">생김새</th><td style="height:10mm"></td></tr><tr><th style="width:16%">하는 일</th><td style="height:10mm"></td></tr><tr><th style="width:16%">담긴 소망</th><td style="height:10mm"></td></tr></table><div class="grid"><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+    <div class="gcap">한 줄 20자 · 다섯 줄마다 100자 (굵은 선)</div><h2 style="margin-top:8px">6. 스스로 점검</h2><ul class="chk"><li>동물의 이름이 첫머리에 분명하게 드러난다.</li><li>생김새와 하는 일을 자세히 썼다.</li><li>'상징'이나 '소망' 같은 글 속 낱말을 썼다.</li><li>문장 끝마다 마침표를 찍었다.</li></ul><div class="note"><b>선생님 한마디</b></div></div><div class="pg">4 / 4</div></div></body></html>
