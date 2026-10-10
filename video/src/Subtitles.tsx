@@ -2,7 +2,7 @@ import React from 'react';
 import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {CLAMP, COLORS, SCENE} from './constants';
 
-type Cue = {
+export type Cue = {
   from: number;
   to: number;
   text: string; // "라벨: Word (/ipa/) - 한글 (뜻)" 형식이면 ' - ' 앞뒤를 두 줄로 나눈다.
@@ -20,13 +20,14 @@ const CUES: Cue[] = [
   {from: 750, to: 900, text: '언어의 깊이를 더하는 배움터 | ON글터영어국어학원', position: 'bottom', size: 46},
 ];
 
-/** 로마자 구간의 'sm' 을 코랄 오렌지로 강조한다 (대소문자 무관). */
-const Highlight: React.FC<{text: string}> = ({text}) => {
-  const parts = text.split(/(sm)/gi);
+/** 로마자 구간의 강조 철자(기본 'sm')를 코랄 오렌지로 강조한다 (대소문자 무관). */
+const Highlight: React.FC<{text: string; mark: string}> = ({text, mark}) => {
+  const parts = text.split(new RegExp(`(${mark})`, 'gi'));
+  const isMark = new RegExp(`^${mark}$`, 'i');
   return (
     <>
       {parts.map((p, i) =>
-        /^sm$/i.test(p) ? (
+        isMark.test(p) ? (
           <span key={i} style={{color: COLORS.coral}}>
             {p}
           </span>
@@ -38,7 +39,7 @@ const Highlight: React.FC<{text: string}> = ({text}) => {
   );
 };
 
-const SubtitleBox: React.FC<{cue: Cue; frame: number}> = ({cue, frame}) => {
+const SubtitleBox: React.FC<{cue: Cue; frame: number; mark: string}> = ({cue, frame, mark}) => {
   const {fps} = useVideoConfig();
   const local = frame - cue.from;
   const remaining = cue.to - frame;
@@ -86,12 +87,12 @@ const SubtitleBox: React.FC<{cue: Cue; frame: number}> = ({cue, frame}) => {
         }}
       >
         <div style={{fontSize: headSize, fontWeight: 700, letterSpacing: -0.5}}>
-          <Highlight text={word} />
+          <Highlight text={word} mark={mark} />
           {ipa ? (
             <>
               {' '}
               <span style={{whiteSpace: 'nowrap'}}>
-                <Highlight text={ipa} />
+                <Highlight text={ipa} mark={mark} />
               </span>
             </>
           ) : null}
@@ -106,13 +107,17 @@ const SubtitleBox: React.FC<{cue: Cue; frame: number}> = ({cue, frame}) => {
   );
 };
 
-export const Subtitles: React.FC = () => {
+/** 자막 트랙. cues 는 절대 프레임 기준, mark 는 코랄로 강조할 철자. */
+export const SubtitleTrack: React.FC<{cues: Cue[]; mark: string}> = ({cues, mark}) => {
   const frame = useCurrentFrame();
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
-      {CUES.filter((c) => frame >= c.from && frame < c.to).map((c) => (
-        <SubtitleBox key={c.from} cue={c} frame={frame} />
+      {cues.filter((c) => frame >= c.from && frame < c.to).map((c) => (
+        <SubtitleBox key={c.from} cue={c} frame={frame} mark={mark} />
       ))}
     </AbsoluteFill>
   );
 };
+
+/** 이중자음 sm 숏폼 자막 */
+export const Subtitles: React.FC = () => <SubtitleTrack cues={CUES} mark="sm" />;

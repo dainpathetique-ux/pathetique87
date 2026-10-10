@@ -1,13 +1,22 @@
 # ON글터 숏폼 영상 (Remotion)
 
-한 프로젝트에 두 개의 컴포지션이 있다. 모두 1080x1920 세로형, 30fps.
+한 프로젝트에 여러 컴포지션이 있다. 모두 1080x1920 세로형, 30fps.
 
 | 컴포지션 | 내용 | 렌더 명령 | 결과 |
 |---|---|---|---|
 | `SmShorts` | 이중자음 `sm` 교육 숏폼 30초 (내레이션 + BGM) | `npm run render` | `output.mp4` |
+| `SnShorts` | 이중자음 `sn` 교육 숏폼 30초 (sm 과 같은 틀: 눈사람 인트로 → 첫소리 Snake·Snail → 중간소리 Parsnip·Gingersnap → 끝소리 없음 타일 → 로고) | `npm run render:sn` | `output-blend/sn_blend.mp4` |
 | `GiftTeaser` | '빙그레의 영역 / 김소연' 북 티저 23초 (수채화 창가 책상 일러스트, 돌리인·팬 카메라, 피아노·첼로 왈츠 BGM, 로고 아웃트로) | `npm run render:gift` | `output-gift.mp4` |
 | `ABC-A` … `ABC-Z` | 알파벳 26편 숏폼 30초 (글자 그리기 인트로 → 단어 3개 이모지 카드 → 로고 아웃트로, 영어 내레이션 + BGM) | `npm run render:abc` (`node scripts/render-abc.mjs A B` 로 일부만) | `output-abc/Aa_alphabet.mp4` … |
 | `VOWEL-short-a` … `VOWEL-long-u` | 단모음 5편(a e i o u) + 장모음 4편(a_e i_e o_e u_e, 매직 e), 알파벳과 같은 템플릿 | `npm run render:vowel` | `output-vowel/short-a_vowel.mp4` … |
+
+### 이중자음 sn (SnShorts)
+
+- 장면은 `src/sn/scenes/`, 자막 큐는 `src/sn/SnShorts.tsx` 의 `CUES`, 내레이션 타임라인은 `src/sn/voiceCues.ts`(자동 생성).
+- sn 은 영어 단어 끝에 오지 않으므로 끝소리 자리(19~25초)는 글자 타일 `snake ✓ / parsnip ✓ / ___sn ✗` 로 "없다"는 것을 보여 준다.
+- 내레이션: `python3 audio-gen/sn_tts_gen.py <models> public/sn/voice src/sn/voiceCues.ts` (대본·타이밍은 스크립트의 `GROUPS`).
+- 자막 컴포넌트는 `SubtitleTrack`(`src/Subtitles.tsx`)을 함께 쓴다. `mark` 로 코랄 강조 철자를 정한다.
+- 그림은 모두 SVG 로 직접 그렸고 외부 그래픽(Twemoji 등)은 쓰지 않는다.
 
 ### 알파벳 시리즈 (ABC-*)
 

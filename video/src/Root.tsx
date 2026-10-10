@@ -2,6 +2,7 @@ import React from 'react';
 import {Composition, staticFile} from 'remotion';
 import {FPS, HEIGHT, TOTAL_FRAMES, WIDTH} from './constants';
 import {SmShorts, type SmShortsProps} from './SmShorts';
+import {SnShorts} from './sn/SnShorts';
 import {GiftTeaser, type GiftTeaserProps} from './gift/GiftTeaser';
 import {GIFT_FRAMES} from './gift/constants';
 import {AbcShort, LETTERS, VOWEL_ITEMS, type AbcShortProps} from './abc/AbcShort';
@@ -26,6 +27,19 @@ export const Root: React.FC = () => {
     <Composition
       id="SmShorts"
       component={SmShorts}
+      durationInFrames={TOTAL_FRAMES}
+      fps={FPS}
+      width={WIDTH}
+      height={HEIGHT}
+      defaultProps={{hasBgm: false, hasLogo: true}}
+      calculateMetadata={async () => {
+        const [hasBgm, hasLogo] = await Promise.all([exists('bgm.mp3'), exists('로고.jpg')]);
+        return {props: {hasBgm, hasLogo}};
+      }}
+    />
+    <Composition
+      id="SnShorts"
+      component={SnShorts}
       durationInFrames={TOTAL_FRAMES}
       fps={FPS}
       width={WIDTH}

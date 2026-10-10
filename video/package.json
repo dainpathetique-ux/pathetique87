@@ -6,6 +6,7 @@
   "scripts": {
     "studio": "remotion studio",
     "render": "remotion render src/index.ts SmShorts output.mp4",
+    "render:sn": "remotion render src/index.ts SnShorts output-blend/sn_blend.mp4",
     "render:gift": "remotion render src/index.ts GiftTeaser output-gift.mp4",
     "render:abc": "node scripts/render-abc.mjs",
     "render:vowel": "node scripts/render-vowel.mjs",
