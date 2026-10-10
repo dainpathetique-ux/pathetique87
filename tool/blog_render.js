@@ -1,10 +1,11 @@
 #!/usr/bin/env node
-// 온글터 영문법 산책 블로그 렌더러 (정리본 PNG, 무음 영상 MP4).
+// 온글터 블로그 렌더러 (영문법 산책 정리본·파닉스 카드 PNG, 영상 MP4).
 //
-//   node tool/blog_render.js png [-o <출력폴더>] <a.html> [b.html ...]
-//       → 1080×1350 PNG. 출력 파일명은 HTML 과 같고, -o 가 없으면 HTML 옆에 쓴다.
-//   node tool/blog_render.js mp4 <영상.html> <out.mp4> [초=30] [fps=30] [검수초=1.5,5,9,11,13.5,17,21,25,29]
-//       → 1080×1920 무음 mp4. 검수초마다 정지 화면을 <out>_검수/ 에 저장하고 그 시각의 넘침도 검사한다.
+//   node tool/blog_render.js png [-o <출력폴더>] [--size 1080x1080] <a.html> [b.html ...]
+//       → PNG (기본 1080×1350). 출력 파일명은 HTML 과 같고, -o 가 없으면 HTML 옆에 쓴다.
+//   node tool/blog_render.js mp4 <영상.html> <out.mp4> [초=30] [fps=30] [검수초=1.5,5,9,11,13.5,17,21,25,29] [--audio 음성.wav]
+//       → 1080×1920 mp4. --audio 가 없으면 무음, 있으면 그 WAV 를 영상 길이에 맞춰 AAC 로 넣는다.
+//         검수초마다 정지 화면을 <out>_검수/ 에 저장하고 그 시각의 넘침도 검사한다.
 //         900프레임을 한 장씩 캡처하므로 약 2분 걸린다 (Bash timeout 600000 권장).
 //
 // 파일마다 문제가 없으면 "✓ <파일>", 있으면 "⚠ <파일> — …" 아래에 항목을 출력하고 종료 코드 2 로 끝난다.
@@ -13,8 +14,8 @@
 //   ⚠ 파일 없음  HTML 이 참조한 파일을 찾지 못함
 // 인자·환경 오류는 "실패: …" 한 줄과 종료 코드 1.
 //
-// HTML 은 글꼴을 url(kr400.woff2) / url(kr700.woff2), 로고를 logo.png(투명 배경) 또는 logo.jpg 로
-// HTML 과 같은 폴더 이름으로만 참조한다. 이 네 파일은 tool/ 에서 직접 응답하므로 복사본이 생기지 않는다
+// HTML 은 글꼴을 url(kr400.woff2) / url(kr700.woff2) (발음기호는 url(ipa400.woff2) / url(ipa700.woff2)),
+// 로고를 logo.png(투명 배경) 또는 logo.jpg 로 HTML 과 같은 폴더 이름으로만 참조한다. 이 파일들은 tool/ 에서 직접 응답하므로 복사본이 생기지 않는다
 // (브라우저로 HTML 을 직접 열면 글꼴이 안 보이는 것이 정상). 다른 폴더 경로로 참조하면 "⚠ 파일 없음" 이 된다.
 // 영상 HTML 의 움직임은 CSS animation 으로만 만든다 (렌더러가 애니메이션 시각을 직접 넘겨 프레임을 캡처한다).
 const fs = require('fs');
@@ -23,7 +24,8 @@ const path = require('path');
 const { pathToFileURL } = require('url');
 const { execFileSync } = require('child_process');
 
-const ASSETS = ['kr400.woff2', 'kr700.woff2', 'logo.jpg', 'logo.png'];
+const ASSETS = ['kr400.woff2', 'kr700.woff2', 'ipa400.woff2', 'ipa700.woff2', 'logo.jpg', 'logo.png'];
+const OUR_FONTS = /^(Noto Sans KR|ONGLTER IPA)/;  // 이 저장소 글꼴의 실제 family 이름
 const TMP_PREFIX = 'onblog-frames-';
 const DEFAULT_CHECKS = '1.5,5,9,11,13.5,17,21,25,29';
 
@@ -84,7 +86,7 @@ async function glyphFallback(page) {
     for (const id of nodeIds) {
       let fonts;
       try { ({ fonts } = await cdp.send('CSS.getPlatformFontsForNode', { nodeId: id })); } catch (e) { continue; }
-      const bad = fonts.filter(f => !/^Noto Sans KR/.test(f.familyName));
+      const bad = fonts.filter(f => !OUR_FONTS.test(f.familyName));
       if (!bad.length) continue;
       const { outerHTML } = await cdp.send('DOM.getOuterHTML', { nodeId: id });
       const txt = outerHTML.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().slice(0, 16);
@@ -100,6 +102,7 @@ const OVERFLOW_CHECK = ([W, H, doc]) => {
   const out = [];
   const nm = el => el.tagName.toLowerCase() + (el.id ? '#' + el.id : (el.classList && el.classList[0] ? '.' + el.classList[0] : ''));
   const txt = el => (el.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 14);
+  const maxFont = el => Math.max(parseFloat(getComputedStyle(el).fontSize), ...[...el.querySelectorAll('*')].map(c => parseFloat(getComputedStyle(c).fontSize) || 0));
   const vis = new Map();
   const visible = el => {
     if (!el || el === document.documentElement) return true;
@@ -122,7 +125,7 @@ const OVERFLOW_CHECK = ([W, H, doc]) => {
       // scrollWidth/Height 는 overflow:visible 이어도 넘친 자식·nowrap 글자 폭을 돌려준다
       const dh = el.scrollHeight - el.clientHeight, dw = el.scrollWidth - el.clientWidth;
       if (cs.overflowY !== 'visible' && dh > 8) out.push(`⚠ 넘침 ${nm(el)} "${txt(el)}" 안쪽 세로 ${dh}px 잘림`);
-      else if (doc && dh > 8) out.push(`⚠ 넘침 ${nm(el)} "${txt(el)}" 박스 아래로 ${dh}px`);
+      else if (doc && dh > Math.max(8, 0.35 * maxFont(el))) out.push(`⚠ 넘침 ${nm(el)} "${txt(el)}" 박스 아래로 ${dh}px`); // 줄 간격이 촘촘한 큰 글자의 글꼴 여백은 넘침으로 보지 않는다
       if (cs.overflowX !== 'visible' && dw > 1) out.push(`⚠ 넘침 ${nm(el)} "${txt(el)}" 안쪽 가로 ${dw}px 잘림`);
       else if (doc && dw > 2) out.push(`⚠ 넘침 ${nm(el)} "${txt(el)}" 박스 옆으로 ${dw}px (한 줄에 안 들어감. 가운데 정렬이면 왼쪽도 같은 만큼)`);
     }
@@ -146,7 +149,7 @@ function report(label, items) {
   return true;
 }
 
-async function png(files, outDir) {
+async function png(files, outDir, W = 1080, H = 1350) {
   const list = files.map(htmlPath);
   if (outDir) { // -o 는 한 폴더이므로 HTML 이름이 겹치면 PNG 가 서로 덮어쓴다
     const seen = new Map();
@@ -161,11 +164,11 @@ async function png(files, outDir) {
   let bad = false;
   try {
     for (const abs of list) {
-      const { page, warn } = await open(b, abs, 1080, 1350);
-      const over = await page.evaluate(OVERFLOW_CHECK, [1080, 1350, true]);
+      const { page, warn } = await open(b, abs, W, H);
+      const over = await page.evaluate(OVERFLOW_CHECK, [W, H, true]);
       const base = path.basename(abs).replace(/\.html?$/i, '') + '.png';
       const out = outDir ? path.join(path.resolve(outDir), base) : abs.replace(/\.html?$/i, '') + '.png';
-      await page.screenshot({ path: out, clip: { x: 0, y: 0, width: 1080, height: 1350 } });
+      await page.screenshot({ path: out, clip: { x: 0, y: 0, width: W, height: H } });
       if (report(out, [...warn, ...over])) bad = true;
       await page.close();
     }
@@ -173,8 +176,10 @@ async function png(files, outDir) {
   if (bad) process.exitCode = 2;
 }
 
-async function mp4(html, out, seconds, fps, checkSecs) {
+async function mp4(html, out, seconds, fps, checkSecs, audio) {
   const abs = htmlPath(html);                                         // 입력이 없으면 아무것도 지우지 않고 멈춘다
+  const audioAbs = audio ? path.resolve(audio) : null;
+  if (audioAbs && !fs.existsSync(audioAbs)) throw new Error('음성 파일이 없습니다: ' + audioAbs);
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), TMP_PREFIX));     // 실행마다 고유 폴더 (동시 실행 안전)
   const outAbs = path.resolve(out);
   const checkDir = outAbs.replace(/\.mp4$/i, '') + '_검수';
@@ -204,8 +209,11 @@ async function mp4(html, out, seconds, fps, checkSecs) {
     await b.close(); b = null;
     const part = outAbs + '.part.mp4';
     try {
+      const audioArgs = audioAbs
+        ? ['-i', audioAbs, '-map', '0:v', '-map', '1:a', '-af', 'apad', '-c:a', 'aac', '-b:a', '160k', '-ar', '44100', '-t', String(seconds)]
+        : ['-an'];
       execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', String(fps), '-i', path.join(tmp, 'f_%05d.png'),
-        '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-r', String(fps), '-movflags', '+faststart', '-an', part],
+        ...audioArgs, '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-r', String(fps), '-movflags', '+faststart', part],
         { stdio: ['ignore', 'inherit', 'inherit'] });
     } catch (e) {
       fs.rmSync(part, { force: true });
@@ -219,30 +227,36 @@ async function mp4(html, out, seconds, fps, checkSecs) {
     fs.rmSync(tmp, { recursive: true, force: true });
     fs.rmSync(checkNew, { recursive: true, force: true });
   }
-  console.log(`${bad ? '⚠ 경고 있음 — 위 항목을 고쳐 다시 렌더링' : '✓'} ${out} (${seconds}s, ${fps}fps, 무음) / 검수 화면: ${checkDir}`);
+  console.log(`${bad ? '⚠ 경고 있음 — 위 항목을 고쳐 다시 렌더링' : '✓'} ${out} (${seconds}s, ${fps}fps, ${audioAbs ? '음성 포함' : '무음'}) / 검수 화면: ${checkDir}`);
   if (bad) process.exitCode = 2;
 }
 
 (async () => {
-  const [mode, ...rest] = process.argv.slice(2);
+  const [mode, ...args] = process.argv.slice(2);
+  const flags = {}, rest = [];
+  for (let i = 0; i < args.length; i++) {
+    if (['-o', '--size', '--audio'].includes(args[i])) {
+      if (!args[i + 1]) throw new Error(args[i] + ' 뒤에 값을 적어야 합니다');
+      flags[args[i]] = args[++i];
+    } else rest.push(args[i]);
+  }
   if (mode === 'png' && rest.length) {
-    let outDir = null;
-    const files = [];
-    for (let i = 0; i < rest.length; i++) {
-      if (rest[i] === '-o') { outDir = rest[++i]; if (!outDir) throw new Error('-o 뒤에 출력 폴더를 적어야 합니다'); }
-      else files.push(rest[i]);
+    let W = 1080, H = 1350;
+    if (flags['--size']) {
+      const m = /^(\d+)x(\d+)$/.exec(flags['--size']);
+      if (!m) throw new Error('--size 는 1080x1080 형식이어야 합니다: ' + flags['--size']);
+      W = +m[1]; H = +m[2];
     }
-    if (!files.length) throw new Error('렌더링할 HTML 이 없습니다');
-    await png(files, outDir);
+    await png(rest, flags['-o'] || null, W, H);
   } else if (mode === 'mp4' && rest.length >= 2) {
     const sec = Number(rest[2] ?? 30), fps = Number(rest[3] ?? 30);
     if (!(Number.isFinite(sec) && sec > 0 && Number.isFinite(fps) && fps > 0)) throw new Error('초·fps 는 양수여야 합니다: ' + rest.slice(2, 4).join(' '));
     const checkSecs = (rest[4] || DEFAULT_CHECKS).split(',').map(s => (s.trim() === '' ? NaN : Number(s)));
     if (checkSecs.some(t => !Number.isFinite(t) || t < 0)) throw new Error('검수초는 쉼표로 나눈 0 이상의 숫자여야 합니다: ' + rest[4]);
     if (!checkSecs.some(t => t < sec)) throw new Error(`검수초가 전부 영상 길이(${sec}s) 밖입니다 (검수 화면 0장): ` + checkSecs.join(','));
-    await mp4(rest[0], rest[1], sec, fps, checkSecs);
+    await mp4(rest[0], rest[1], sec, fps, checkSecs, flags['--audio'] || null);
   } else {
-    console.error('사용법: blog_render.js png [-o 출력폴더] <html...> | mp4 <html> <out.mp4> [초] [fps] [검수초,...]');
+    console.error('사용법: blog_render.js png [-o 출력폴더] [--size WxH] <html...> | mp4 <html> <out.mp4> [초] [fps] [검수초,...] [--audio 음성.wav]');
     process.exit(1);
   }
 })().catch(e => { console.error('실패: ' + String(e && e.message || e).split('\n')[0]); process.exit(1); });
