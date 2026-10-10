@@ -1,0 +1,26 @@
+@font-face{font-family:"NKR";src:url(kr400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"NKR";src:url(kr700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:"IPA";src:url(ipa400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"IPA";src:url(ipa700.woff2) format("woff2");font-weight:700}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:1080px;height:1080px;overflow:hidden}
+body{background:#FAF6EC;font-family:"NKR",sans-serif;color:#2B2B2B;word-break:keep-all;line-height:1.3}
+.page{height:1080px;padding:64px 72px;display:flex;flex-direction:column}
+.head{display:flex;align-items:center;justify-content:space-between}
+.letter{font-family:"IPA";font-size:88px;font-weight:700;color:#1F4D3A;line-height:1}
+.tag{display:flex;align-items:center;gap:20px}
+.pill{font-size:34px;font-weight:700;color:#fff;background:#1F4D3A;border-radius:999px;padding:8px 30px}
+.snd{font-family:"IPA";font-size:52px;font-weight:700;color:#1F4D3A}
+.pic{flex:1;display:flex;align-items:center;justify-content:center;min-height:0}
+.pic img{height:400px;width:400px;object-fit:contain;display:block}
+.word{font-family:"IPA";font-size:132px;font-weight:700;text-align:center;line-height:1.1;letter-spacing:2px}
+.hl{color:#C4532F;text-decoration:underline;text-decoration-thickness:8px;text-underline-offset:14px;text-decoration-color:#E07A5F}
+.info{text-align:center;font-size:44px;margin-top:22px}
+.info .ipa{font-family:"IPA";color:#1F4D3A}
+.info .dot{color:#B8B2A2;margin:0 16px}
+.note{text-align:center;font-size:44px;font-weight:700;color:#1F4D3A;line-height:1.5;background:#FBF0D6;border-radius:24px;padding:40px 48px;margin:auto 0}
+.nopic .word{margin-top:auto;font-size:168px}
+.nopic .foot{margin-top:auto}
+.foot{position:relative;display:flex;align-items:center;justify-content:center;height:56px;margin-top:36px}
+.foot img{height:56px;display:block}
+.foot .pg{position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:28px;color:#1F4D3A}

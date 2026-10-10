@@ -33,6 +33,7 @@
 - 로고: `tool/logo.jpg` (흰 배경, 워크시트 머리글용) / `tool/logo.png` (배경 투명, 블로그 정리본 하단·영상 하단·아웃트로용). ON글터 영어 국어 전문학원 로고이며 자르거나 색을 바꾸지 않는다.
 - 한글 글꼴: `tool/kr400.woff2`, `tool/kr700.woff2` (Noto Sans KR 부분집합: KS X 1001 한글 + 라틴 + ①~⑳·화살표 등 기호). 워크시트 빌드 시 output 폴더로 복사되고, 블로그 렌더러는 복사 없이 직접 응답한다.
 - 영어·발음기호 글꼴: `tool/ipa400.woff2`, `tool/ipa700.woff2` (Noto Sans 부분집합, OFL: 라틴 + 라틴 확장 + IPA + θ). 파닉스 카드·영상용이며 블로그 렌더러가 직접 응답한다.
+- 블로그 템플릿: `tool/템플릿/영문법_산책/` (정리본.css·정리본_1.html·영상.html), `tool/템플릿/파닉스/` (카드.css·카드_1.html·음성.json·영상.html). 프롬프트가 `blog/<폴더>/src/` 로 복사해 글자만 바꿔 쓰게 한다. 템플릿 값은 원장이 서식 변경을 요청할 때만 수정한다.
 - 파닉스 도구: `tool/phonics.py` (setup / ipa / emoji / voice / samples). 음성은 Piper TTS + LibriTTS(CC BY 4.0, 출처 표기 필요, 기본 화자 46), 그림은 Noto Emoji SVG(Apache 2.0).
 - 실제 제작 예: `worksheets/4학년_1일차_색의무게감.json` (교재 10쪽, 설명문)
 - 참고 샘플: `worksheets/샘플_4학년_급식잔반.json` → `output/샘플_4학년_급식잔반/`

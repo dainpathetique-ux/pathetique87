@@ -1,0 +1,15 @@
+{"speaker": 46, "length": 30, "lines": [
+  {"t": 0.5,  "say": "The letter B."},
+  {"t": 2.0,  "say": "[[ bə ]]", "slow": 1.5},
+  {"t": 2.9,  "say": "[[ bə ]]", "slow": 1.5},
+  {"t": 4.5,  "say": "At the beginning."},
+  {"t": 6.2,  "say": "ball"},
+  {"t": 8.2,  "say": "ball"},
+  {"t": 11.5, "say": "In the middle."},
+  {"t": 13.2, "say": "rabbit"},
+  {"t": 15.2, "say": "rabbit"},
+  {"t": 18.5, "say": "At the end."},
+  {"t": 20.2, "say": "crab"},
+  {"t": 22.2, "say": "crab"},
+  {"t": 25.6, "say": "Great job!"}
+]}

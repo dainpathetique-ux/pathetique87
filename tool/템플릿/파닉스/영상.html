@@ -1,0 +1,70 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>
+@font-face{font-family:"NKR";src:url(kr400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"NKR";src:url(kr700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:"IPA";src:url(ipa400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"IPA";src:url(ipa700.woff2) format("woff2");font-weight:700}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:1080px;height:1920px;overflow:hidden}
+body{background:#FAF6EC;font-family:"NKR",sans-serif;color:#2B2B2B;word-break:keep-all;line-height:1.35}
+.scene{position:absolute;inset:0;padding:0 80px 200px;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;animation:in .25s linear both}
+.wrap{display:flex;flex-direction:column;align-items:center;animation:out .25s linear forwards}
+@keyframes in{from{opacity:0}to{opacity:1}}
+@keyframes out{from{opacity:1}to{opacity:0}}
+.rise{opacity:0;animation:rise .5s ease-out both}
+@keyframes rise{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+.pop{opacity:0;animation:pop .5s ease-out both}
+@keyframes pop{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:none}}
+.float{animation:float 1.6s ease-in-out infinite alternate}
+@keyframes float{from{transform:translateY(0)}to{transform:translateY(-14px)}}
+.hl{animation:hl .3s linear both;text-decoration:underline;text-decoration-thickness:10px;text-underline-offset:18px}
+@keyframes hl{from{color:#2B2B2B;text-decoration-color:transparent}to{color:#C4532F;text-decoration-color:#E07A5F}}
+.pill{font-size:48px;font-weight:700;color:#fff;background:#1F4D3A;border-radius:999px;padding:10px 40px}
+.big{font-family:"IPA";font-size:300px;font-weight:700;color:#1F4D3A;line-height:1.2;margin-top:40px}
+.snd{font-family:"IPA";font-size:140px;font-weight:700;color:#1F4D3A;line-height:1.3}
+.pic{width:600px;height:600px;margin:56px 0 40px}
+.pic img{width:600px;height:600px;display:block}
+.word{font-family:"IPA";font-size:180px;font-weight:700;line-height:1.3;letter-spacing:3px}
+.info{font-size:56px;margin-top:28px}
+.info .ipa{font-family:"IPA";color:#1F4D3A}
+.info .dot{color:#B8B2A2;margin:0 18px}
+.note{font-size:60px;font-weight:700;color:#1F4D3A;text-align:center;line-height:1.5;background:#FBF0D6;border-radius:32px;padding:56px 64px;margin-top:80px}
+.logo{width:760px}.logo img{display:block;width:760px}
+.outro{font-size:48px;font-weight:700;color:#1F4D3A;text-align:center;margin-top:56px}
+.brand{position:absolute;left:0;right:0;bottom:110px;display:flex;justify-content:center;animation:out .25s linear 24.75s forwards}
+.brand img{height:80px;display:block}
+/* 장면 시각: #sN delay = 시작, .wrap delay = 끝-0.25 */
+#s1{animation-delay:0s}  #s1 .wrap{animation-delay:3.75s}
+#s2{animation-delay:4s}  #s2 .wrap{animation-delay:10.75s}
+#s3{animation-delay:11s} #s3 .wrap{animation-delay:17.75s}
+#s4{animation-delay:18s} #s4 .wrap{animation-delay:24.75s}
+#s5{animation-delay:25s} #s5 .wrap{animation:none}
+</style></head><body>
+<section class="scene" id="s1"><div class="wrap">
+  <span class="pill rise" style="animation-delay:.2s">오늘의 소리</span>
+  <div class="big pop" style="animation-delay:.4s">Bb</div>
+  <div class="snd rise" style="animation-delay:1.9s">/b/</div>
+</div></section>
+<section class="scene" id="s2"><div class="wrap">
+  <span class="pill rise" style="animation-delay:4.2s">첫소리</span>
+  <div class="pic pop" style="animation-delay:4.4s"><img class="float" src="emoji_u26bd.svg" alt=""></div>
+  <div class="word rise" style="animation-delay:4.8s"><span class="hl" style="animation-delay:6.2s">b</span>all</div>
+  <div class="info rise" style="animation-delay:6.6s"><span class="ipa">/bɔl/</span><span class="dot">·</span>볼<span class="dot">·</span>공</div>
+</div></section>
+<section class="scene" id="s3"><div class="wrap">
+  <span class="pill rise" style="animation-delay:11.2s">중간소리</span>
+  <div class="pic pop" style="animation-delay:11.4s"><img class="float" src="emoji_u1f407.svg" alt=""></div>
+  <div class="word rise" style="animation-delay:11.8s">ra<span class="hl" style="animation-delay:13.2s">bb</span>it</div>
+  <div class="info rise" style="animation-delay:13.6s"><span class="ipa">/ˈræbɪt/</span><span class="dot">·</span>래빗<span class="dot">·</span>토끼</div>
+</div></section>
+<section class="scene" id="s4"><div class="wrap">
+  <span class="pill rise" style="animation-delay:18.2s">끝소리</span>
+  <div class="pic pop" style="animation-delay:18.4s"><img class="float" src="emoji_u1f980.svg" alt=""></div>
+  <div class="word rise" style="animation-delay:18.8s">cra<span class="hl" style="animation-delay:20.2s">b</span></div>
+  <div class="info rise" style="animation-delay:20.6s"><span class="ipa">/kræb/</span><span class="dot">·</span>크랩<span class="dot">·</span>게</div>
+</div></section>
+<section class="scene" id="s5"><div class="wrap">
+  <div class="logo rise" style="animation-delay:25.2s"><img src="logo.png" alt=""></div>
+  <p class="outro rise" style="animation-delay:25.6s">자세한 내용은 블로그에서 확인하세요</p>
+</div></section>
+<div class="brand"><img src="logo.png" alt="ON글터"></div>
+</body></html>
